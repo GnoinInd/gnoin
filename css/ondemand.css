@@ -1,0 +1,137 @@
+:root {
+  --thm-font: 'Open Sans';
+  --heading-font: 'Work Sans';
+  --thm-base-color: #005d89;
+  --thm-base-color-rgb: 32, 223, 227;
+  --thm-primary-color: #005d89;
+  --thm-primary-color-rgb: 85, 56, 244;
+  --thm-black-color: #2d2c2c;
+  --thm-black-color-rgb: 45, 44, 44;
+  --thm-gray-color: #f0f1f5;
+  --thm-text-color: #848484;
+  --thm-white-color: #fff;
+}
+
+
+#asp_net_cards h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  /* padding: 10px 5px; */
+  color: #000;
+} 
+ #asp_net_cards p{
+  /* padding: 10px 5px; */
+  text-align: justify;
+  
+}
+
+.aspCards h5{
+  color: #000;
+  text-align: center;
+  border-bottom: 2px solid var(--thm-base-color);
+}
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+section{
+  width: 100%;
+  height: 100%;
+}
+
+#asp_net_cards .card-col{
+  width: 22rem !important;
+  padding: 10px 10px !important;
+  height: 100% !important;
+   background: --thm-white-color !important; 
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+  margin: 10px 24px;
+  text-align: start;
+  
+} 
+
+.yyy{
+  margin-top: 100px;
+  color: black;
+  font-size: large;
+}
+
+/* frist */
+
+
+
+
+
+.t5{
+   text-align: center;
+   color: #000;
+   /* padding-top: 100px; */
+} 
+#asp_net_cards{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.aspCards:hover{
+  transition: all 0.5s ease 0s;
+  transform: scale(1.05);
+  box-shadow: rgb(0 0 0 / 30%) 10px 10px 15px;
+}
+
+#asp_net_cards .card{
+  max-width: 300px;
+   min-height: 250px;
+   background: #fff;
+   padding: 30px;
+    border-radius: 3px;
+   box-sizing: border-box;
+   color: #000;
+   margin:20px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+}
+
+/* .aspCards .card-content{
+  text-align: justify;
+   font-size: large;
+   letter-spacing: 0.5px;
+   line-height: 1.5;
+   color: #000;
+}
+.aspCards .card-btn{
+   all: unset;
+   display: block;
+   margin-left: auto;
+   border: 2px solid #FFF;
+   padding: 10px 15px;
+   border-radius: 25px;
+   font-size: large;
+   font-weight: 600;
+   transition: all 0.5s;
+   cursor: pointer;
+   letter-spacing: 1.2px;
+}
+.aspCards .card-btn:hover{
+  color:#02b875;
+  background: #FFF;
+}
+.aspCards .card:nth-child(2) .card-btn:hover{
+  color:#4181ee;
+  background: #FFF;
+}
+.aspCards .card:last-child .card-btn:hover{
+  color:#673ab7;
+   background: #FFF;
+}
+
+.aspCards .card_col_text{
+  color: #000;
+  font-size: large;
+  text-align: justify;
+} */

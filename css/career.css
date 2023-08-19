@@ -1,0 +1,95 @@
+.card-title {
+    text-align: center;
+    color: darkred;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    max-width: 300px;
+    min-height: 250px;
+    /* background: #20dfe3; */
+    /* background-image: linear-gradient(to right top, #4fb1a8, #45918d42, #3bafaf, #289799, #32afa2, #1ec7c9, #24e1ff, #34bcbf, #33e3ff, #6eebff, #23d0b8, #ddf7f305); */
+    padding: 30px;
+    box-sizing: border-box;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 8px 5px 0px rgb(0 0 0 / 29%);
+    -webkit-box-shadow: 7px 8px 5px 0px rgb(0 0 0 / 29%);
+    -moz-box-shadow: 7px 8px 5px 0px rgb(0 0 0 / 29%);
+    box-shadow: 7px 8px 5px 0px rgb(0 0 0 / 29%);
+}
+
+.card:nth-child(2) {
+     /* background: #20dfe3;  */
+    /* background-image: linear-gradient(to right top, #4fb1a8, #45918d42, #3bafaf, #289799, #32afa2, #1ec7c9, #24e1ff, #34bcbf, #33e3ff, #6eebff, #23d0b8, #ddf7f305); */
+    -webkit-box-shadow: 7px 8px 5px 0px rgb(0 0 0 / 29%);
+    -moz-box-shadow: 7px 8px 5px 0px rgb(0 0 0 / 29%);
+    box-shadow: 7px 8px 5px 0px rgb(0 0 0 / 29%);
+}
+
+
+
+.card-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.card-content {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.card-btn {
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 2px solid #343a40;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 800;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+
+}
+
+.card-btn:hover {
+    background: #343a40;
+
+}
+
+.card:nth-child(2) .card-btn:hover {
+    background: #343a40;
+}
+
+.card:last-child .card-btn:hover {
+    background: #343a40;
+}
+
+
+
+#location {
+
+    color: darkred;
+    font-weight: bold;
+    font-size: large;
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        flex-direction: column;
+    }
+}
