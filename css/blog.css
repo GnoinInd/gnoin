@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;700&display=swap');
+
+h1, 
+h2,
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    margin-top: 0;
+}
+h1{
+  font-size: 2rem;
+  margin: 0;
+}
+a {
+    color: #1792d2;
+}
+
+a:hover,
+a:focus {
+    color: #143774;
+}
+
+strong {
+    font-weight: 700;
+}
+.subtitle{
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin: 0;
+  color: #1792d2;
+  letter-spacing: 0.05em;
+  font-family: 'Ubuntu Bold', sans-serif;
+}
+.article-title {
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+    font-size: .875rem;
+}
+
+.article-read-more {
+    color: #1792d2;
+    text-decoration: none;
+    font-weight: 700;
+}
+.article-read-more:hover,
+.article-read-more:focus {
+    color: #143774;
+    text-decoration: underline;
+}
+.article-info {
+    margin: 2em 0;
+}
+
+.container-flex{
+  max-width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+
+img{
+  max-width: 100%;
+  display: block;
+}
+main{
+  max-width: 75%;
+}
+.article-body{
+  width: 100%;
+  text-align: justify;
+}
+.sidebar{
+  max-width: 23%;
+}
+
+@media (max-width:1050px){
+  .container-flex{
+    flex-direction: column;
+  }
+  .site-title, .subtitle{
+    width: 100%;
+  }
+  main{
+    max-width: 100%;
+  }
+  .sidebar{
+    max-width: 100%;
+  }
+  
+}
+
+
+/* articles */
+.article-featured {
+    border-bottom: #707070 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+.article-recent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.article-recent-main {
+    order: 2;
+}
+
+.article-recent-secondary {
+    order: 1;
+}
+
+@media (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .article-recent-main {
+        width: 68%;
+    }
+    
+    .article-recent-secondary {
+        width: 30%;
+    }
+}
+.n2{
+    margin-top: 150px;
+
+}
+
+
+
+/* second part start */
+
+.section-blog {
+	position: relative;
+	font-family: "Poppins", sans-serif;
+	margin-top: 20px;
+     background-color: #fff; 
+    color: #191919;
+}
+
+.section-blog:after {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	top: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 2px;
+	height: 50px;
+	/* background-color: #ec1d51; */
+}
+
+
+
+.section-blog .header-section {
+	margin-bottom: 55px;
+}
+
+.section-blog .header-section h2 {
+	font-family: "Fjalla One", sans-serif;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+
+
+ .section-blog .col,
+.section-blog [class*="col-"] {
+	padding-right: 7px;
+	padding-left: 7px;
+} 
+
+.section-blog .single-post {
+	margin-top: 20px;
+	padding: 25px;
+	background-color: #fff;
+}
+
+.section-blog .single-post .content {
+	padding-bottom: 40px;
+    border-bottom: 1px solid #000;
+}
+
+.section-blog .single-post .content .title {
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1.4em;
+}
+
+.section-blog .single-post .content .title a {
+	color: #000 !important;
+}
+
+.section-blog .single-post:hover .content .title a {
+	color: #ec1d51 !important;
+	text-decoration: underline;
+}
+
+
+
+.section-blog .single-post .infos {
+    padding-top: 20px;
+}
+
+.section-blog .single-post .infos .writer,
+.section-blog .single-post .infos .date {
+	display: block;
+    color: #000;
+    font-size: 15px;
+}
+
+
+
+@media (max-width: 575.99px) {
+	/* Extra Small Device */
+
+	.section-blog .header-section h2 {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+	/* Small Device */
+
+	.section-blog .header-section h2 {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+	/* Medium Device */
+
+	.section-blog .header-section h2 {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+	/* Large Device */
+
+	.section-blog .header-section h2 {
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 1200px) {
+	/* Extra Large Device */
+}
