@@ -83,7 +83,7 @@
                     <!-- TLOGO -->
 
                     <div class=" d-flex align-items-center  justify-content-start " id="logo-img">
-                        <a class="d-flex align-items-center justify-content-start" href="index.html">
+                        <a class="d-flex align-items-center justify-content-start" href="index">
                             <img id="logo" class="img-responsive" src="./images/new/gnoiin 1-2.png" alt="Logo">
 
                         </a>
@@ -138,7 +138,7 @@
                                                         class="list-group-item list-group-item-action">Web App
                                                         Development
                                                         <small>Development of Web Applications</small></a>
-                                                    <a href="mobile-web-design"
+                                                    <a href="mobile-app-development"
                                                         class="list-group-item list-group-item-action">Mobile
                                                         App
                                                         Development
@@ -183,12 +183,12 @@
                                                         Development & integration
                                                         <small>Third party & Custom API</small>
                                                     </a>
-                                                    <a href="#"
+                                                    <a href="open-source-development"
                                                         class="list-group-item list-group-item-action">Open
                                                         Source Development
                                                         <small>Customization to deployment services</small>
                                                     </a>
-                                                    <a href="ux-designer"
+                                                    <a href="ui-ux-designer"
                                                         class="list-group-item list-group-item-action">UI / UX
                                                         Design
                                                         <small>User-centric design services</small>
@@ -204,7 +204,7 @@
                                                         design
                                                         <small>Mobile only web solutions</small>
                                                     </a>
-                                                    <a href="/#"
+                                                    <a href="testing-qa-service.php"
                                                         class="list-group-item list-group-item-action">Testing
                                                         &
                                                         QA
@@ -406,7 +406,7 @@
                                                         class="list-group-item list-group-item-action">Education
                                                         & eLearning <small>School management & eLearning
                                                             applications</small></a>
-                                                    <a href="real-state"
+                                                    <a href="retail"
                                                         class="list-group-item list-group-item-action">Retail &
                                                         eCommerce <small>Solutions for Retail
                                                             ecommerce</small></a>
@@ -490,7 +490,7 @@
                                                     <a href="blog"
                                                         class="list-group-item list-group-item-action">Blog
                                                         <small>Our Knowledge & resource center</small></a>
-                                                    <a href="team"
+                                                    <a href="#"
                                                         class="list-group-item list-group-item-action">Our Team
                                                         <small>Our
                                                             Team Details</small></a>

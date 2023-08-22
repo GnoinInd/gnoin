@@ -106,7 +106,7 @@
         <!-- location part end -->
 
         <!-- form part start -->
-        <form id="my_form" action="<?php echo $baseUrl ?>contactus/" method="POST">
+        <form id="my_form" action="<?php echo $baseUrl ?>contactus" method="POST">
         <section class="container mt-5">
             <!--Contact heading-->
             <div class="row">

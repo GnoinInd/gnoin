@@ -66,7 +66,6 @@ include("header.php");
 
 
 
-
         <section class=" web_design_section_main">
             <div class="container">
                 <div class="row">
@@ -79,7 +78,7 @@ include("header.php");
      
                         </p>
 
-                        <a class="thm-btn" href="#">Request Quote</a>
+                        <a class="thm-btn" href="#">Let's connect your project</a>
 
                     </div>
                     <div class="col-md-5">
@@ -537,24 +536,7 @@ include("header.php");
 
 
 
-        <!-- Contact us start -->
 
-        <section class="zzz">
-            <div class="container">
-                <div class="cta-four">
-
-                    <div class="inner-container m-0">
-                        <div class="block-title">
-                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
-
-
-                        </div>
-                        <a href="contact.html" class="thm-btn cta-four__btn-two">Contact us</a>
-
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
 
