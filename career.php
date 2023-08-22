@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,12 +37,13 @@
     
 
 
+
 </head class="home-one">
 <body >
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
-    
-    <section class="inner-banner">
+    <?php include "header.php"; ?>
+        <section class="inner-banner">
         <div class="container">
             <div class="inner-banner__content-wrap">
                 <h2 class="text-light">CAREER</h2>
@@ -187,6 +191,7 @@
             </form>
         </div>
     </div>
+    <?php include "footer.php"; ?>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

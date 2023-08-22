@@ -1,4 +1,4 @@
  <?php 
-$baseUrl ="http://localhost:8000/api/";
+$baseUrl ="https://gnoin.com/admin/public/api/";
 
 ?>

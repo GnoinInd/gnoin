@@ -567,26 +567,6 @@
 
 
 
-        <!-- Contact us start -->
-
-        <section class="zzz">
-            <div class="container">
-                <div class="cta-four">
-
-                    <div class="inner-container m-0">
-                        <div class="block-title">
-                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
-
-
-                        </div>
-                        <a href="contact.html" class="thm-btn cta-four__btn-two">Contact us</a>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
