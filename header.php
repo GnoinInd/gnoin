@@ -124,7 +124,7 @@
                                           </div> -->
                                             <div class="col-md-6 col-lg-3  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="custom-software-development"
+                                                    <a href="/custom-software-development"
                                                         class="list-group-item list-group-item-action">Custom
                                                         Software Development
                                                         <small>Development of software</small>
