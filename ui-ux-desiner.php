@@ -46,9 +46,9 @@
         <section class="inner-banner">
             <div class="container">
                 <div class="inner-banner__content-wrap">
-                    <h2 class="text-light">Open Source Development
+                    <h2 class="text-light">Best UI / UX Design Services Company
                     </h2>
-                    <p>Develop the most challenging and latest web applications using the best open-source development platforms with highly advanced open-source development techniques.</p>
+                    <p>From concept to user experience, our designs deliver the best of everything.</p>
                     <ul class="thm-breadcrumb list-unstyled">
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="contact.html">Page</a></li>
@@ -66,10 +66,9 @@
                 <div class="row">
                     <div class="col-md-7  justify-content-center align-items-start">
 
-                        <h2 class="text-primary">Strategical Open Source Development</h2>
-                        <p><strong>Create the right application from the begnning.</strong></p>
-                        <p>Unlock new opportunities in web and mobile applications with our open-source development services. We have deep domain expertise in delivering open-source web and app development solutions with quality programmers, developers and coders to clients across the globe.
-                            We target to provide the highest quality of open source development services in every aspect of development. We emphasize on delivering high-quality open source solutions such as PHP Application Development, Joomla Development Services, WordPress Development, Drupal Solutions, and establishing long-term relationships with clients.
+                        <h2 class="text-primary">Innovative UI/UX Design Solutions</h2>
+                     <p>   <strong>Deliver pixel perfect screen.</strong></p>
+                        <p>Gnoin is one of the best UX/UI service providers globally, specializing in creating beautiful UI/UX designs that express our client's exact vision and goals. With the years of experience and updated knowledge, we provide user-friendly apps and sites to our clients with the intention of enriching the experience of our clients. We deeply investigate clients' markets, study their businesses and customer behavior to provide the best custom-tailored designs. Our creative UI/UX team is dedicated to delivering stunning looking and smooth running software, applications and websites.
                         
                             
                         </p>
@@ -79,7 +78,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/new/open-sorce.png" alt="Strategical Open Source Development"
+                            <img src="./images/EnterpriseBranding/Social-Media-Content.png" alt="Strategical Open Source Development"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -97,9 +96,10 @@
 
             <div class="container text-center justify-content-around pt-4">
                 <div class="row1">
-                    <h1>Flexible and adaptable open source solution</h1>
-                    <h5>Being an open source development company</h5>
-                    <p> As an open source development companies in India, we provide a range of open source development and customization services to our global clients.
+                    <h1>We Create Intuitive UI/UX Design</h1>
+                    <h5>It's our UI/UX Development Company To Ease Your Business</h5>
+                    <p> Having a persuasive UI does more than just grab the user's attention. It has the potential to create amazing UX and build a business brand. Therefore, every business needs to focus on creating an impressive UI design that enhances the UX.
+                        
                         </p>
                 </div>
                 <div class="row  pading">
@@ -109,9 +109,9 @@
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
                                     <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png" alt="">
-                                    <h3>Open source ecommerce development</h3>
-                                    <p class="para">We provide open-source eCommerce development solutions with complete control over online channels, the ability to build sites that deliver an end-to-end customer experience using search engine optimization, catalog management, and various other tools .
-                                        
+                                    <h3> UX Research</h3>
+                                    <p class="para">We understand the exact requirements and then analyze business goals as well as market trends to create a scope definition for the project.
+                                    
                                      
                                     </p>
                                 </div>
@@ -120,8 +120,9 @@
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
-                                    <h3>Open sorce CRM Solutions</h3>
-                                    <p class="para"> We create open source CRM (Customer Relationship Management) solutions that do more than just lead management, accelerate deal follow up, foster partnerships with other communication tools, and enable data updation, e-mail messaging, notification and reporting Automate daily processes like
+                                    <h3>UX Design</h3>
+                                    <p class="para"> UX design is a broad term that includes its visual layout, content, navigation, and features that come together to create an amazing experience for users.
+                                        
                                     
                                         
                                     </p>
@@ -131,8 +132,9 @@
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
-                                    <h3> Open Source Integration</h3>
-                                    <p class="para">  Our open source integration solutions allow customization of software integration and facilitate flawless integration of applications. Its modules are designed for readiness and critical production deployments, such as performance management, high availability, and security.
+                                    <h3> UI Design</h3>
+                                    <p class="para"> Our designing team excels in creating interactive yet eye-catching designs with the right mix of colors, typography and images keeping the user experience at the center.
+                                        
                                         
                                     </p>
                                 </div>
@@ -141,8 +143,9 @@
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <img src="./images/EnterpriseBranding/Launch.png" alt="">
-                                    <h3>Open Source CMS</h3>
-                                    <p class="para">Our open-source CMS (Content Management System) experts create solutions that support multi-site functionality and allow central supervision. It moderates current content, other integrated platforms, and third-party technologies, such as content monetization tools, that drive revenue and brand awareness in the marketplace.
+                                    <h3>Branding and Identity</h3>
+                                    <p class="para">The truth is this - every business is defined by its brand. We create designs that accurately replicate brands, their business and core values.
+                                        
                                      </p>
                                 </div>
                             </div>
@@ -150,9 +153,9 @@
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
-                                    <h3> Open Source Software Solutions</h3>
-                                    <p class="para">We develop custom open-source software solutions including websites, web applications, web services, databases, analytics, cloud platforms, networking, CRM, automation testing, and more. Our solutions are customizable as per the current industry and technology needs.
-                                    
+                                    <h3> Front-End Development</h3>
+                                    <p class="para">Our experts include skilled front-end developers who are highly skilled in creating pixel-perfect and responsive front-end solutions.
+                                        
                                         
                                      
                                 </p>
@@ -162,8 +165,8 @@
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
-                                    <h3>Open Source Software Development</h3>
-                                    <p class="para">Our expert developers provide open source software development for various verticals and industries with full-stack services including custom development, UI/UX design, integration, rapid prototyping, customization, migration and maintenance.
+                                    <h3>Usability Testing</h3>
+                                    <p class="para">We present well-tested UI/UX designs that have been validated by real-life users of the target industry using trusted testing tools.
                                     
                                         </p>
                                 </div>
@@ -186,142 +189,158 @@
     <div class="container" data-aos="fade-up">
       <div class="row">
         <div class="col-lg-7 col-md-8" data-aos="fade-up" data-aos-delay="100">
-          <h3>Wide-ranging Technology We Use</h3>
+          <h3>Our Proficiency</h3>
 
-          <h5>We deploy the latest development technologies and frameworks</h5>
+          <h5>That meets every business need</h5>
 
-          <p>Being an open source development service provider, we deploy the latest development technologies and frameworks using systematically defined agile approach to create your scalable custom business applications on time. Our development team has in-depth technical skilled and is fully equipped to handle your simple to complex project requirements with ease.
+          <p>We deploy postmodern development techniques and frameworks using a systematically defined agile approach to build your scalable custom business applications on time.
             
         </p>
 
+        <h4 class="text-danger border-bottom ">Tools</h4>
           <div class="row g-4">
-
             <div class="col-md-6 my-xl-1 m-md-0 ">
               <div class="icon-list d-flex">
                
                 <i class="fa fa-tags"  style="color: #f1db13;" aria-hidden="true"></i>
-                <span> Ameri Commerce</span>
+                <span> Adobe Flash</span>
               </div>
             </div><!-- End Icon List Item-->
 
             <div class="col-md-6 my-xl-1 m-md-0 ">
               <div class="icon-list d-flex">
                 <i class="fa fa-tags" style="color: #5578ff;"></i>
-                <span>WordPress</span>
+                <span>Adobe Illustrator</span>
               </div>
             </div><!-- End Icon List Item-->
 
             <div class="col-md-6 my-xl-1 m-md-0 ">
               <div class="icon-list d-flex">
                 <i class="fa fa-tags" style="color: #e80368;"></i>
-                <span>WooCommerce</span>
+                <span>Adobe Photoshop</span>
               </div>
             </div><!-- End Icon List Item-->
 
             <div class="col-md-6 my-xl-1 m-md-0 ">
               <div class="icon-list d-flex">
                 <i class="fa fa-tags" style="color: #e361ff;"></i>
-                <span>DotNetNuke</span>
+                <span>Axure</span>
               </div>
             </div><!-- End Icon List Item-->
 
             <div class="col-md-6 my-xl-1">
               <div class="icon-list d-flex">
                 <i class="fa fa-tags" style="color: #47aeff;"></i>
-                <span>Magneto</span>
+                <span>Corel Draw</span>
               </div>
             </div><!-- End Icon List Item-->
 
             <div class="col-md-6 my-xl-1 m-md-0 ">
               <div class="icon-list d-flex">
                 <i class="fa fa-tags" style="color: #ffa76e;"></i>
-                <span>PrestaShop</span>
+                <span>Zeplin</span>
               </div>
             </div><!-- End Icon List Item-->
             <div class="col-md-6 my-xl-1 m-md-0 ">
                 <div class="icon-list d-flex">
                   <i class="fa fa-tags" style="color: #6eff6e;"></i>
-                  <span>OpenCart</span>
+                  <span>Sketch</span>
                 </div>
               </div><!-- End Icon List Item-->
               <div class="col-md-6 my-xl-1 m-md-0 ">
                 <div class="icon-list d-flex">
                   <i class="fa fa-tags" style="color: #6effff;"></i>
-                  <span>OsCommerce</span>
+                  <span>DreamWeaver</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+          </div>
+          <h4 class="text-danger border-bottom mt-4">Technologies</h4>
+          <div class="row g-4">
+            <div class="col-md-6 my-xl-1 m-md-0 ">
+              <div class="icon-list d-flex">
+               
+                <i class="fa fa-tags"  style="color: #64f113;" aria-hidden="true"></i>
+                <span> HTML/HTML5</span>
+              </div>
+            </div><!-- End Icon List Item-->
+
+            <div class="col-md-6 my-xl-1 m-md-0 ">
+              <div class="icon-list d-flex">
+                <i class="fa fa-tags" style="color: #d755ff;"></i>
+                <span>Javasript/JQuery</span>
+              </div>
+            </div><!-- End Icon List Item-->
+
+            <div class="col-md-6 my-xl-1 m-md-0 ">
+              <div class="icon-list d-flex">
+                <i class="fa fa-tags" style="color: #e80303;"></i>
+                <span>CSS/CSS3</span>
+              </div>
+            </div><!-- End Icon List Item-->
+
+            <div class="col-md-6 my-xl-1 m-md-0 ">
+              <div class="icon-list d-flex">
+                <i class="fa fa-tags" style="color: #e361ff;"></i>
+                <span>Bootstrap</span>
+              </div>
+            </div><!-- End Icon List Item-->
+
+            <div class="col-md-6 my-xl-1">
+              <div class="icon-list d-flex">
+                <i class="fa fa-tags" style="color: #47aeff;"></i>
+                <span>AngularJS</span>
+              </div>
+            </div><!-- End Icon List Item-->
+
+            <div class="col-md-6 my-xl-1 m-md-0 ">
+              <div class="icon-list d-flex">
+                <i class="fa fa-tags" style="color: #ffa76e;"></i>
+                <span>ReactJS</span>
+              </div>
+            </div><!-- End Icon List Item-->
+            <div class="col-md-6 my-xl-1 m-md-0 ">
+                <div class="icon-list d-flex">
+                  <i class="fa fa-tags" style="color: #6eff6e;"></i>
+                  <span>SAAS</span>
+                </div>
+              </div><!-- End Icon List Item-->
+              <div class="col-md-6 my-xl-1 m-md-0 ">
+                <div class="icon-list d-flex">
+                  <i class="fa fa-tags" style="color: #6effff;"></i>
+                  <span>Vue.JS</span>
                 </div>
               </div><!-- End Icon List Item-->
 
           </div>
         </div>
         <div class="col-lg-5 col-md-4 position-relative" data-aos="fade-up" data-aos-delay="200">
-          <div class="phone-wrap">
-            <img src="/images/new/iphone.png" alt="Image" class="img-fluid">
+          <div class="w-75 d-none  d-lg-inline-block d-md-inline-block d-sm-none float-right ">
+            <img src="https://mms.businesswire.com/media/20200916005283/en/821757/5/%5BIN_FRAME%2BBG%5DZephyr_YouTab_UnderControl.jpg" alt="Image" class="img-fluid">
           </div>
         </div>
       </div>
 
     </div>
 
-    <div class="details">
-      <div class="container" data-aos="fade-up" data-aos-delay="300">
-        <div class="row">
-          <div class="col-md-6">
-            <h4>GET OPEN SOURCE DEVELOPER!</h4>
-            <p>Optimize and automate your business processes, grow your customer base, and maximize your ROI by hiring our dedicated open source developers to build your up-to-date cost-effective web applications.
-              </p>
-              
-            <a href="#" class="btn ">Get Started</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
+   
 
   </section><!-- End Section -->
 
 
-        <!-- software prosessss -->
-        <section class="zzz" id="prosesss-section">
-
-            <div class="container text-center justify-content-around pt-4">
-                <div class="row1">
-                    <h1>Strategical Process for Open Source Development</h1>
-
-                    <p>Our websites not only look great; They also perform excellently. We follow from the initial stage a strategic content approach, information architecture, user pathways and ways to market your site to your audience. </p>
-                </div>
-                <div class="row">  
-                <div class="col-lg-5 col-md-12 prosess-list">
-                    <p class="m-0 "><i class="fa fa-sign-out text-primary"></i> Understanding the Project</p>
-                    <p class="m-0 "><i class="fa fa-sign-out text-primary"></i> WireFraming & Planning
-                    </p>
-                    <p class="m-0 "><i class="fa fa-sign-out text-primary"></i> UI/UX Design</p>
-                    <p class="m-0 "><i class="fa fa-sign-out text-primary"></i> Drafts Layouts</p>
-                    <p class="m-0 "><i class="fa fa-sign-out text-primary"></i> Quality & Testing</p>
-                    <p class="m-0 "><i class="fa fa-sign-out text-primary"></i> Launch & Optimization</p>
 
 
 
-
-
-                </div>
-
-                <div class="col-7  d-none px-2 d-lg-inline-block d-md-none  me-3">
-                      <div class=" h-75 w-100">
-                        <img src="https://neilpatel.com/wp-content/uploads/2021/02/vrbo-successful-banner-advertising-example.png" alt="">
-                      </div>
-                    </div>
-                </div>
-                <div class="row1">
-                    <h3 class="text-muted">Start and Discover Phases</h3>
-
-                    <p class="text-start">Every open-source development project is exclusive. We want to know your brand, appreciate your requirements, and agree on a suitable timeline and project plan, modified as per your business.</p>
-                </div>
-            </div>
+        <!-- ___________Hire Now Box_________________ -->
+        <section  class="zzz hire-section">
+            <div class="container text-center">
+                <h2 class="text-light">GET UI/UX DESIGNER</h2>
+                <!-- /.cta-one__title -->
+                <p class="text-light">Optimize and automate your business processes, grow your customer base, and maximize your ROI by hiring our dedicated UX/UI designers for your up-to-date cost-effective web applications.
+                   </p><br>
+                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+            </div><!-- /.container -->
         </section>
-
-
-
-
 
 
 
@@ -338,11 +357,11 @@
                             <div class="banner-one__content">
                                 <!-- <p class="banner-one__tag-line banner-one__is-animated">Implementation Process</p> -->
                                 <!-- /.banner-one__tag-line -->
-                                <h1 class="text-light">In-House Open Source Development Services!
+                                <h1 class="text-light">Latest Trends In Mobile UI/UX Design!
                                 </h1><!-- /.banner-one__title -->
 
-                                <h5 class="text-light">Our experts team creates enjoyable and meaningful web experiences</h5>
-                                <p class="banner-one__text banner-one__is-animated">We always try to reduce the cost with better administration and integration.
+                                <h5 class="text-light">Prerequisites of success for every business</h5>
+                                <p class="banner-one__text banner-one__is-animated">Our development team emphasizes on in-depth technology expertise and is fully equipped to handle your simple-to-complex project requirements with ease.
                                 </p><!-- /.banner-one__text -->
                                 <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
                                     talk</a><!-- /.thm-btn -->
@@ -351,7 +370,7 @@
 
                             <div class="implation-img-box">
 
-                                <img src="https://d7nm3c5ruslmy.cloudfront.net/africanexponent-com-client/images/africanexponent.com/general/technology1567796470993_aspR_1.471_w625_h425_e400.jpg" alt="" class="">
+                                <img src="https://media.istockphoto.com/id/1295900106/photo/data-scientists-male-programmer-using-laptop-analyzing-and-developing-in-various-information.jpg?s=612x612&w=0&k=20&c=2z9VEOlF7mAgeZDEsnetqFMyQS6xqjmXDoryrQ_LeOc=" alt="" class="">
                             </div>
 
 
@@ -373,8 +392,9 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-primary">Design</h3>
-                                            <p> UI elements, typography and color schemes are selected based on branding needs and our design research and analysis. We believe in "the simpler, the better". A website should be small in size to work effectively.
+                                            <h3 class="text-primary">A Full-screen Video</h3>
+                                            <p> The main point of UI/UX design is to capture the users interest. And a full-screen video works great, as it allows you to tell the story of your products/services.
+                                            
                                                 </p>
                                         </div>
 
@@ -390,9 +410,9 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-primary"> Content</h3>
-                                            <p> Information published on the website should be as per the company requirements. Web pages should truly and accurately represent the picture of the organization.
-                                                </p>
+                                            <h3 class="text-primary">Long Form Content</h3>
+                                            <p> The execution of long content by no means goes out of fashion. This lets you stay on the user's screen for a comparatively longer period of time and hence increases your chances of conversion.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -406,9 +426,9 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-primary">Mobility</h3>
-                                            <p>Mobile devices are ruling the world, and in such a scenario, if a web page does not have a responsive format that can be read on mobiles in a user-friendly manner, it is most likely going to fail.
-                                                </p>
+                                            <h3 class="text-primary">Vivid Colors</h3>
+                                            <p>Using visually appealing colors is a great way to add vibrancy and energy to your brand. Therefore, choose colors that are pleasing to the user's eye while accurately reflecting the nature of your brand.
+                                                 </p>
                                         </div>
 
                                     </div>
@@ -422,9 +442,9 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-primary">Innovation</h3>
-                                            <p>Changes are one of the key elements to expose any company, formerly you have a web page you should not be left in the dark, the market is changing and so are the forms of communication.
-                                                </p>
+                                            <h3 class="text-primary">Surreal Design</h3>
+                                            <p>All the 3D & motion designs created using advanced technologies don’t mean anything if they fall short of leaving an emotional impact. Ideally, you do not require intricacy to make the most impact.
+                                                 </p>
                                         </div>
 
                                     </div>
@@ -438,8 +458,9 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-primary">Own domain</h3>
-                                            <p>Credibility and relevance are two key aspects of any industry. Once you have them, you can include them in Google to appear at the top of search engine results pages.
+                                            <h3 class="text-primary">Variable fonts</h3>
+                                            <p> Typefaces are professed as static entities with a small set of modifications. Designers enclose its legibility in the situation of x-height, stroke and letter width. Variable fonts can wrap any part of the design space left for the text.
+                                                
                                                 </p>
                                         </div>
 
@@ -454,8 +475,10 @@
                                         </div>
 
                                         <div>
-                                            <h3 class="text-primary">Feedback</h3>
-                                            <p> Prepare detailed questionnaires to obtain useful in-depth information on your services. If used properly, this information can be of immense benefit to the company.
+                                            <h3 class="text-primary">Gradient 2.0</h3>
+                                            <p> The new screen has an incredible rendition of colors. Still, they have to show it during the default wallpaper. Gradients are no longer for consideration but are now bringing depth and dimension to the interface.
+
+
                                                </p>
                                         </div>
 
@@ -465,7 +488,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="./images/new/development-4536630_1280.webp" alt="" class="">
+                                <img src="./images/new/why-us-bg.jpg" alt="" class="">
                             </div>
 
 
@@ -488,11 +511,13 @@
                 <div
                     class="align-self-center card p-2 p-md-3 p-lg-4 p-xl-5 col-lg-6 col-md-8 text-left pmd-card ">
                     <h1 class="card-title">
-                        Quality Assurance
+                        making simple 
+                        but significant visual experience
                     </h1>
-                    <h5 class="card-title">Benchmarking and Problem Solving</h5>
+                   
                     <p class="card-text">
-                        Our Quality Assurance team audits each project during and after development. This ensures that the end product meets our quality standards while ensuring the perfect security and ease of management for a winning website launch.
+                        Designing is simple, elegant and worthy at the same time as it is not only about the look or feel of a website or application but also about how it works.
+
                     </p>
                     <a href="javascript:void(0);"
                         class="btn pmd-ripple-effect pmd-btn-raised btn-primary">Let's Start Now</a>
@@ -591,8 +616,8 @@
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-<?php include "footer.php"; ?>
 
+<?php include "footer.php"; ?>
         <!-- footer end -->
 
 

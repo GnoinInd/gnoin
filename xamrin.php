@@ -39,7 +39,7 @@
     <div class="page-wrapper">
         <!-- header part start -->
 
-
+<?php include "header.php"; ?>
 
         
         <!-- header end -->
@@ -556,6 +556,7 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <?php include "footer.php"; ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo5.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo5.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo5.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Gnoin </title>
     <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
@@ -26,22 +26,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="./css/ondemand.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
 </head>
 
 <body class="home-one">
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
-        <!-- header part start -->
+<!-- header part start -->
 
-              <?php
 
-include("header.php");
-?>
+<?php include "header.php"; ?>
 
-        <!-- header end -->
-        <!-- header part end -->
+       
+<!-- header end -->
+<!-- header part end -->
         <!-- baner parts start -->
-     <!-- baner parts start -->
         <section class="inner-banner">
             <div class="container">
                 <div class="inner-banner__content-wrap">
@@ -64,11 +63,6 @@ include("header.php");
 
 
 
-
-
-
-
-      
 
 
 
@@ -547,14 +541,8 @@ include("header.php");
             </form>
         </div>
     </div>
-
-                <!--Footer start-->
-            <?php
-
-include("footer.php");
-?>
-<!--Footer end-->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <?php include "footer.php"; ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -569,6 +557,7 @@ include("footer.php");
     <script src="js/waypoints.min.js"></script>
     <script src="js/vegas.min.js"></script>
     <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
