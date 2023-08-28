@@ -124,7 +124,7 @@
                                           </div> -->
                                             <div class="col-md-6 col-lg-3  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="https://gnoin.com/Custom-Software-Development.php"
+                                                    <a href="/Custom-Software-Development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         Software Development
                                                         <small>Development of software</small>
