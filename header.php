@@ -129,7 +129,7 @@
                                                         Software Development
                                                         <small>Development of software</small>
                                                     </a>
-                                                    <a href="https://gnoin.com/custom-app-development.php"
+                                                    <a href="/custom-app-development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         App
                                                         Development
