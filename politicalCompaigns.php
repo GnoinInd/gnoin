@@ -7,15 +7,28 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Gnoin Pvt Ltd </title>
-    </head>
-     <?php include "footer.php"; ?>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    <link rel="stylesheet" href="css/maintness.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
         <!-- ---------------------header section----------------------------------------->
-
-
 <section class="zzz">
-
-
-    <div class="maintenance container">
+    <div class="maintenance container ">
         <div class="maintenance_contain">
           <img src="https://demo.wpbeaveraddons.com/wp-content/uploads/2018/02/main-vector.png" alt="maintenance">
           <span class="pp-infobox-title-prefix">WE ARE COMING SOON</span>
@@ -23,12 +36,10 @@
                 <h3 class="pp-infobox-title">The page under maintenance!</h3>
             </div> 
         <div class="pp-infobox-description">
-              <p>something hase issue our page . We are negotiation ransom and<br>will resolve this issue in 24/7 hours</p>			</div>    
-         
+              <p>something hase issue our page . We are negotiation ransom and<br>will resolve this issue in 24/7 hours</p></div>    
               <div class="text-center mt-4">
-                <a class="thm-btn" href="/"> Go back Home </a>
+                <a class="thm-btn" href="index.php"> Go back Home </a>
             </div>
-         
               <span class="title-text pp-primary-title">We are social</span>
           <div class="pp-social-icons pp-social-icons-center pp-responsive-center">
           <span class="pp-social-icon">
@@ -58,14 +69,9 @@
         </div>
       </div>
 </section>
-
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
 
         <!-- footer end -->
-
-
-
-
-    </div>
-        <?php include "footer.php"; ?>
+</div>
+  

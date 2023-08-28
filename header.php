@@ -124,21 +124,21 @@
                                           </div> -->
                                             <div class="col-md-6 col-lg-3  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="https://gnoin.com/Custom-Software-Development.php"
+                                                    <a href="Custom-Software-Development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         Software Development
                                                         <small>Development of software</small>
                                                     </a>
-                                                    <a href="https://gnoin.com/custom-app-development.php"
+                                                    <a href="custom-app-development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         App
                                                         Development
                                                         <small>Development of Application</small></a>
-                                                    <a href="https://gnoin.com/web-app-development.php"
+                                                    <a href="web-app-development.php"
                                                         class="list-group-item list-group-item-action">Web App
                                                         Development
                                                         <small>Development of Web Applications</small></a>
-                                                    <a href="https://gnoin.com/mobile-app-devlopment"
+                                                    <a href="mobile-app-devlopment.php"
                                                         class="list-group-item list-group-item-action">Mobile
                                                         App
                                                         Development
@@ -148,22 +148,22 @@
                                             </div>
                                             <div class="col-md-6 col-lg-3  mb-md-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="cross-platform-app-development"
+                                                    <a href="cross-platform-app-development.php"
                                                         class="list-group-item list-group-item-action">Cross
                                                         Platform App Development
                                                         <small>Development of Hybrid mobile apps</small>
                                                     </a>
-                                                    <a href="mac-app-development"
+                                                    <a href="mac-app-dev.php"
                                                         class="list-group-item list-group-item-action">Mac App
                                                         Development
                                                         <small>Custom Mac OS solutions</small>
                                                     </a>
-                                                    <a href="support-and-maintenace"
+                                                    <a href="support-and-maintenace.php"
                                                         class="list-group-item list-group-item-action">Support &
                                                         Maintenance
                                                         <small>Customer centric services</small>
                                                     </a>
-                                                    <a href="crm-development"
+                                                    <a href="crm-development.php"
                                                         class="list-group-item list-group-item-action">CRM
                                                         Development
                                                         <small>End to End CRM Application</small>
@@ -173,22 +173,22 @@
                                             </div>
                                             <div class="col-md-6 col-lg-3 mb-md-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="e-commerce-development"
+                                                    <a href="e-comerce-development.php"
                                                         class="list-group-item list-group-item-action">E-commerce
                                                         Development
                                                         <small>Full stack e-commerce solutions</small>
                                                     </a>
-                                                    <a href="api"
+                                                    <a href="api.php"
                                                         class="list-group-item list-group-item-action">API
                                                         Development & integration
                                                         <small>Third party & Custom API</small>
                                                     </a>
-                                                    <a href="open-source-development"
+                                                    <a href="Open-Source-Development.php"
                                                         class="list-group-item list-group-item-action">Open
                                                         Source Development
                                                         <small>Customization to deployment services</small>
                                                     </a>
-                                                    <a href="ui-ux-designer"
+                                                    <a href="ui-ux-desiner.php"
                                                         class="list-group-item list-group-item-action">UI / UX
                                                         Design
                                                         <small>User-centric design services</small>
@@ -198,7 +198,7 @@
                                             </div>
                                             <div class="col-md-6 col-lg-3">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="mobile-web-design"
+                                                    <a href="Mobile-Web-Design.php"
                                                         class="list-group-item list-group-item-action">Mobile
                                                         Web
                                                         design
@@ -210,12 +210,12 @@
                                                         QA
                                                         <small>Application Testing and QA ServicesI</small>
                                                     </a>
-                                                    <a href="IT-consulting-and-Strategy"
+                                                    <a href="IT-consulting-and-Strategy.php"
                                                         class="list-group-item list-group-item-action">IT
                                                         Consulting & Strategy
                                                         <small>Doing the right IT</small>
                                                     </a>
-                                                    <a href="request-a-quote"
+                                                    <a href="Request-A-Quote.php"
                                                         class="list-group-item list-group-item-action">Request a
                                                         Quote
                                                         <small>Will revert in 24 hrs Max</small>
@@ -243,18 +243,18 @@
 
                                             <div class="col-md-6 col-lg-3  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="seo-service"
+                                                    <a href="seo-service.php"
                                                         class="list-group-item list-group-item-action">SEO
                                                         Services <small>Build your online presence</small></a>
-                                                    <a href="sem-services"
+                                                    <a href="sem-services.php"
                                                         class="list-group-item list-group-item-action">SEM
                                                         Services <small>Paid marketing /Lead
                                                             generation</small></a>
-                                                    <a href="smo-services"
+                                                    <a href="smo-services.php"
                                                         class="list-group-item list-group-item-action">SMO
                                                         Services <small>Manage Social Media
                                                             platforms</small></a>
-                                                    <a href="smm-services"
+                                                    <a href="smm-services.php"
                                                         class="list-group-item list-group-item-action">SMM
                                                         Services <small> Manage Social media
                                                             marketing</small></a>
@@ -263,15 +263,15 @@
                                             </div>
                                             <div class="col-md-6 col-lg-3  mb-md-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="digital-marketing"
+                                                    <a href="digital-marketing-services.php"
                                                         class="list-group-item list-group-item-action">Digital
                                                         Marketing Services
                                                         <small>Complete promotional services</small></a>
-                                                    <a href="content-writing"
+                                                    <a href="content-writing-services.php"
                                                         class="list-group-item list-group-item-action">Content
                                                         Writing Services
                                                         <small>Stands you out of the crowd</small></a>
-                                                    <a href="link-building"
+                                                    <a href="link-building-services.php"
                                                         class="list-group-item list-group-item-action">Link
                                                         Building Services
                                                         <small>Ethical & High quality links</small></a>
@@ -279,14 +279,14 @@
                                             </div>
                                             <div class="col-md-6 col-lg-3 mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="brand-reputation-management"
+                                                    <a href="brand-reputation-management-services.php"
                                                         class="list-group-item list-group-item-action">Brand
                                                         Reputation Management
                                                         <small>Helping you gaining</small></a>
-                                                    <a href="seo-audit"
+                                                    <a href="seo-audit-services.php"
                                                         class="list-group-item list-group-item-action">SEO Audit
                                                         Services <small>Get your website audit now</small></a>
-                                                    <a href="e-commerce-catalog-management"
+                                                    <a href="e-commerce-catalog-management-services.php"
                                                         class="list-group-item list-group-item-action">E-commerce
                                                         Catalog Management
                                                         <small>For Increased Business Revenue</small></a>
@@ -319,19 +319,19 @@
 
                                             <div class="col-md-6 col-lg-4  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="asp-net"
+                                                    <a href="asp-net.php"
                                                         class="list-group-item list-group-item-action">.NET
                                                         <small>ASP.NET Developmen</small>
                                                     </a>
-                                                    <a href="php"
+                                                    <a href="php.php"
                                                         class="list-group-item list-group-item-action">PHP
                                                         <small>PHP Web
                                                             development Services</small></a>
-                                                    <a href="wordpress"
+                                                    <a href="wordpress.php"
                                                         class="list-group-item list-group-item-action">Wordpress
                                                         <small>Wordpress
                                                             Web Development</small></a>
-                                                    <a href="angular"
+                                                    <a href="angular.php"
                                                         class="list-group-item list-group-item-action">Angular
                                                         <small>Angular
                                                             Development Services</small></a>
@@ -340,19 +340,19 @@
                                             </div>
                                             <div class="col-md-6 col-lg-4  mb-md-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="laravel"
+                                                    <a href="laravel.php"
                                                         class="list-group-item list-group-item-action">Laravel
                                                         <small>Laravel
                                                             web development services</small></a>
-                                                    <a href="react"
+                                                    <a href="React.php"
                                                         class="list-group-item list-group-item-action">React JS
                                                         <small>React JS
                                                             Development Services</small></a>
-                                                    <a href="android"
+                                                    <a href="Android.php"
                                                         class="list-group-item list-group-item-action">Android
                                                         <small>Android
                                                             app development services</small></a>
-                                                    <a href="ios-development"
+                                                    <a href="ios-development.php"
                                                         class="list-group-item list-group-item-action">IOS
                                                         <small>IOS app
                                                             development services</small></a>
@@ -361,19 +361,19 @@
                                             </div>
                                             <div class="col-md-6 col-lg-4">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="xamrin"
+                                                    <a href="xamrin.php"
                                                         class="list-group-item list-group-item-action">Xamarin
                                                         <small>Xamarin
                                                             Hybrid app development</small></a>
-                                                    <a href="node"
+                                                    <a href="node.php"
                                                         class="list-group-item list-group-item-action">Node Js
                                                         <small>Node Js
                                                             Web development services</small></a>
-                                                    <a href="#"
-                                                        class="list-group-item list-group-item-action">Crypto
-                                                        <small>Crypto
+                                                    <a href="java.php"
+                                                        class="list-group-item list-group-item-action">Java
+                                                        <small>Java
                                                             Exchange Development</small></a>
-                                                    <a href="web-app-development"
+                                                    <a href="web-app-development.php"
                                                         class="list-group-item list-group-item-action">Web
                                                         <small>Web apps
                                                             and software development</small></a>
@@ -399,34 +399,34 @@
 
                                             <div class="col-md-6 col-lg-4  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="healthcare"
+                                                    <a href="healthcare.php"
                                                         class="list-group-item list-group-item-action">Healthcare
                                                         <small>Healthcare apps & Softwares</small></a>
-                                                    <a href="education-learning"
+                                                    <a href="eduction-learnig.php"
                                                         class="list-group-item list-group-item-action">Education
                                                         & eLearning <small>School management & eLearning
                                                             applications</small></a>
-                                                    <a href="retail"
+                                                    <a href="Retail.php"
                                                         class="list-group-item list-group-item-action">Retail &
                                                         eCommerce <small>Solutions for Retail
                                                             ecommerce</small></a>
-                                                    <a href="#"
-                                                        class="list-group-item list-group-item-action">Agricultural
-                                                        <small>Agricultural
-                                                            solution software</small></a>
+                                                    <a href="politicalCompaigns.php"
+                                                        class="list-group-item list-group-item-action">Political Campaigns
+                                                        <small>Political
+                                                            Campaigns</small></a>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-4  mb-md-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="#"
+                                                    <a href="travel.php"
                                                         class="list-group-item list-group-item-action">Travel &
                                                         Hospitality <small>Travel management
                                                             solutions</small></a>
-                                                    <a href="#"
+                                                    <a href="Real-state.php"
                                                         class="list-group-item list-group-item-action">Real
                                                         Estate
                                                         & Property <small>Applications & softwares</small></a>
-                                                    <a href="#"
+                                                    <a href="manufacturing.php"
                                                         class="list-group-item list-group-item-action">Manufacturing
                                                         &
                                                         Business <small>End to End Solutions</small></a>
@@ -434,17 +434,16 @@
                                             </div>
                                             <div class="col-md-6 col-lg-4 mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="#"
+                                                    <a href="textiles.php"
                                                         class="list-group-item list-group-item-action">Textiles
                                                         |
                                                         clothing | leather | footwear <small>Complete softweare
                                                             solutions</small></a>
 
-                                                    <a href="#"
-                                                        class="list-group-item list-group-item-action">Financial
-                                                        services and professional services <small>financialand
-                                                            professional application</small></a>
-                                                    <a href="#"
+                                                    <a href="Banking.php"
+                                                        class="list-group-item list-group-item-action">Banking <small>End to End Solution
+                                                            </small></a>
+                                                    <a href="media-Enternment.php"
                                                         class="list-group-item list-group-item-action">Media and
                                                         culture <small>Application and software</small></a>
 
@@ -481,20 +480,20 @@
                                         <div class="row ">
                                             <div class="col  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="about"
+                                                    <a href="about.php"
                                                         class="list-group-item list-group-item-action">About
                                                         Gnoin <small>Our Mission, vision & values</small></a>
-                                                    <a href="career"
+                                                    <a href="career.php"
                                                         class="list-group-item list-group-item-action">Careers
                                                         <small>Join us</small></a>
-                                                    <a href="blog"
+                                                    <a href="blog.php"
                                                         class="list-group-item list-group-item-action">Blog
                                                         <small>Our Knowledge & resource center</small></a>
-                                                    <a href="#"
+                                                    <a href="team.php"
                                                         class="list-group-item list-group-item-action">Our Team
                                                         <small>Our
                                                             Team Details</small></a>
-                                                                                                                <a href="ondemand-developer"
+                                                                                                                <a href="on-demand-developer.php"
                                                         class="list-group-item list-group-item-action">onDemand developers
                                                         <small>On demand developers</small></a>
                                                 </div>
@@ -506,7 +505,7 @@
                                 </div>
                             </li>
                             <li class="nav-item contact dropdown-hover position-static">
-                                <a class="ContactUs " id="ContactUs" href="contact" id="navbarDropdown" role="button"
+                                <a class="ContactUs " id="ContactUs" href="contact.php" id="navbarDropdown" role="button"
                                     aria-expanded="false">
                                     Contact Us
                                 </a>
