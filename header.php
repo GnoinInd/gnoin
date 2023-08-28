@@ -124,21 +124,21 @@
                                           </div> -->
                                             <div class="col-md-6 col-lg-3  mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="/Custom-Software-Development.php"
+                                                    <a href="Custom-Software-Development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         Software Development
                                                         <small>Development of software</small>
                                                     </a>
-                                                    <a href="/custom-app-development.php"
+                                                    <a href="custom-app-development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         App
                                                         Development
                                                         <small>Development of Application</small></a>
-                                                    <a href="https://gnoin.com/web-app-development.php"
+                                                    <a href="web-app-development.php"
                                                         class="list-group-item list-group-item-action">Web App
                                                         Development
                                                         <small>Development of Web Applications</small></a>
-                                                    <a href="https://gnoin.com/mobile-app-devlopment"
+                                                    <a href="mobile-app-devlopment"
                                                         class="list-group-item list-group-item-action">Mobile
                                                         App
                                                         Development
