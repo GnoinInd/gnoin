@@ -57,7 +57,7 @@
               <p>something hase issue our page . We are negotiation ransom and<br>will resolve this issue in 24/7 hours</p>			</div>    
          
               <div class="text-center mt-4">
-                <a class="thm-btn" href="/"> Go back Home </a>
+                <a class="thm-btn" href="index.php"> Go back Home </a>
             </div>
          
               <span class="title-text pp-primary-title">We are social</span>
