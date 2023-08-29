@@ -1,7 +1,42 @@
- <?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <title>Gnoin </title>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./css/ondemand.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
 <!-- header part start -->
 
 
+<?php include "header.php" ?>
 
 
 
@@ -42,12 +77,12 @@
     
                             </p>
     
-                            <a class="thm-btn" href="#">Let's connect your project</a>
+                            <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
                       
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/cws1.png" alt="content writing services" title="content writing services">
+                            <img src="images/contentwritingservice/contentwritingservicemain.png" alt="content writing services" title="content writing services">
                         </div>
                     </div>
                 </div>
@@ -72,67 +107,78 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Articles.png" alt="Articles/PR" title="Articles/PR">
+                                    <div class="box_shad p-3">
+                                        <img src="images/contentwritingservice/contentwritingserviceicon1.png" alt="Articles/PR" title="Articles/PR">
                                     <h3>Article/PR Writing</h3>
                                     <p>
                                         Articles/PR needs high value unique content which is SEO optimized and plagiarism free. Our articles/press releases are inspirational marketing tools to bring you attention.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Blogs.png" alt="Blogs" title="Blogs">
+                                    <div class="box_shad p-3">
+                                        <img src="images/contentwritingservice/contentwritingserviceicon2.png" alt="Blogs" title="Blogs">
                                     <h3>Blog Writing</h3>
                                     <p>
                                         Blog Delight, Bewitch, Connect! Build more engagement with our blog post writing services and keep your prospects waiting for more interesting content.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Content.png" alt="Website Content" title="Website Content">
+                                    <div class="box_shad p-3">
+                                        <img src="images/contentwritingservice/contentwritingserviceicon3.png" alt="Website Content" title="Website Content">
                                     <h3>Website On-Page Content</h3>
                                     <p>Give your website a complete makeover restructuring with top gush content with our professional yet creative website content writing service. </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Social-Media-Content.png" alt="Social Media Content" title="Social Media Content">
+                                    <div class="box_shad p-3">
+                                        <img src="images/contentwritingservice/contentwritingserviceicon4.png" alt="Social Media Content" title="Social Media Content">
                                     <h3>Social Media Content</h3>
                                     <p>Instant social media content is able to convert your followers into prospects. Create popping posts that drive likes and shares with our social media content writing service.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Product-Descriptions.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/contentwritingservice/contentwritingserviceicon5.png" alt="">
                                     <h3>Product Description & Review</h3>
                                     <p>Illustrate the factual value of your product or service and turn your visitors into customers with impactful product descriptions that are engaging and well-written.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/contentwritingservice/contentwritingserviceicon6.png" alt="">
                                     <h3>Custom Requirements</h3>
                                     <p>Avail our inspired content writing services to focus your unique business into an ultimate uniqueness that will take your brand to new heights.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
     
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's Order Now</a>
+                            <a class="thm-btn mt-5" href="#"><span>Let's Order Now</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
         <br>
         <section class="web_design_section_main">
             <div class="container">
@@ -140,7 +186,7 @@
     
                     <div class="col-md-5 col-sm-5 col-xs-12">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/blog-writing-services.png" alt="blog writing services" title="blog writing services">
+                            <img src="images/contentwritingservice/contentwritingservicehelp/blog-post/bro.png" alt="blog writing services" title="blog writing services">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-12">
@@ -160,7 +206,7 @@
                                 <i class="fa fa-hand-o-right text-primary" ></i> Relevant call-to-action with each<br>
                                 <p> Hiring content writers without content writing knowledge can harm your online presence and negatively affect your users. Always work with a professional content writing company in India and engage better with your online users. We at Rankon understand content writing very well and always follow the guidelines to write better SEO optimized content for the users.</p>
                             </p>
-                            <a class="thm-btn" href="">View our Content Writing Packages</a>
+                            <a class="thm-btn1" href=""><span>View our Content Writing Packages</span></a>
                         </div>
                     </div>
                 </div>
@@ -176,7 +222,7 @@
                             <h5>We have a skilled team of writers who will create comprehensive content which would be best fit for your business.</h5>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn mt-5" href="">Order Now</a>
+                            <a class="thm-btn1 mt-5" href=""><span>Order Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -194,47 +240,65 @@
                 </div>
                 <div class="row web_margin_top">
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Quality-Content.png" alt="Quality Content" title="Quality Content">
-                            <h3>Quality Content</h3>
-                            <p>Deliver intentionally created original content with catchy vernacular language and headlines that drive away.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/contentwritingservice/contentwriringchoose1/content-team/pana.png" alt="Quality Content" title="Quality Content">
+                                <h3>Quality Content</h3>
+                                <p>Deliver intentionally created original content with catchy vernacular language and headlines that drive away.</p>   
+                                    </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/ProjectPlanning.png" alt="Rapid Turnaround" title="Rapid Turnaround">
-                            <h3> Rapid Turnaround</h3>
-                            <p>As soon as we receive your request we craft your content and get it to you at super fast speed taking care of its originality.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/contentwritingservice/contentwriringchoose2/walking-around/rafiki.png" alt="Rapid Turnaround" title="Rapid Turnaround">
+                                <h3> Rapid Turnaround</h3>
+                                <p>As soon as we receive your request we craft your content and get it to you at super fast speed taking care of its originality.</p>
+                                    </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Unlimited-Revisions.png" alt="Unlimited Revisions" title="Unlimited Revisions">
-                            <h3>Unlimited Revisions</h3>
-                            <p>If you feel the content we've shaped needs fine-tuning, let us know right away and we'll keep refining it until you're satisfied.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/contentwritingservice/contentwriringchoose3/business-decisions/pana.png" alt="Unlimited Revisions" title="Unlimited Revisions">
+                                <h3>Unlimited Revisions</h3>
+                                <p>If you feel the content we've shaped needs fine-tuning, let us know right away and we'll keep refining it until you're satisfied.</p>
+                                    </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Swift-Response-Rate.png" alt="Swift Response Rate" title="Swift Response Rate">
-                            <h3>Fast Response Rate</h3>
-                            <p>We challenge you to try us out and see what our promise for your approval really looks like.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/contentwritingservice/contentwriringchoose4/responsive/bro.png" alt="Swift Response Rate" title="Swift Response Rate">
+                                <h3>Fast Response Rate</h3>
+                                <p>We challenge you to try us out and see what our promise for your approval really looks like.</p>
+                                    </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Professional-Writers.png" alt="Professional Writers" title="Professional Writers">
-                            <h3>
-                                Professional Writers
-                            </h3>
-                            <p>Our handpicked team of exceptional writers is always second to none in creating great content that engages with consumers.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/contentwritingservice/contentwriringchoose5/experts/rafiki.png" alt="Professional Writers" title="Professional Writers">
+                                <h3>
+                                    Professional Writers
+                                </h3>
+                                <p>Our handpicked team of exceptional writers is always second to none in creating great content that engages with consumers.</p>
+                                    </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Complex-Content-Projects.png" alt="Complex Content Projects" title="Complex Content Projects">
-                            <h3>Complex Content Projects</h3>
-                            <p>We curate your company's most complex website content writing project, long-form articles, product descriptions, blog pages or any other custom requirement.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/contentwritingservice/contentwriringchoose6/completed-steps/pana.png" alt="Complex Content Projects" title="Complex Content Projects">
+                                <h3>Complex Content Projects</h3>
+                                <p>We curate your company's most complex website content writing project, long-form articles, product descriptions, blog pages or any other custom requirement.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
@@ -301,7 +365,7 @@
                     data-wow-delay="0ms">
                     <div class=" card justify-content-center h-100  align-items-center card-block">
                         <div class="card-img-top mt-4">
-                            <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                            <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                         </div>
                         <div class="card-body mt-2">
                             <h4 class="text-tilte">Hourly Based Model</h4>
@@ -320,4 +384,34 @@
         </section>
        
     </div><!-- /.page-wrapper -->
-    <?php include "footer.php"; ?>
+    <div class="search-popup">
+        <div class="search-popup__overlay custom-cursor__overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div><!-- /.search-popup__overlay -->
+        <div class="search-popup__inner">
+            <form action="#" class="search-popup__form">
+                <input type="text" name="search" placeholder="Type here to Search....">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

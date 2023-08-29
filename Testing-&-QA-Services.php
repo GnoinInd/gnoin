@@ -1,6 +1,46 @@
-     <?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <title>Gnoin Pvt Ltd </title>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="home-one">
+
+    <div class="page-wrapper">
+
 
         <!-- ---------------------header section----------------------------------------->
+        <?php include "header.php" ?>
 
 
         <!-- inerpage page top container  -->
@@ -34,12 +74,12 @@
                             
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right h-75">
-                            <img src="./images/ondemand-developer/ease of use.png" alt="Strategical Open Source Development"
+                            <img src="images/imagesIndex/testingQAmain.png" alt="Strategical Open Source Development"
                                 title="QA & Testing">
                         </div>
                     </div>
@@ -69,70 +109,88 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Hourly-Model.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon1.png" alt="">
                                     <h3>Enterprise App Testing</h3>
                                     <p class="para">Through a wide user base using various modules in real time, it is important to know the performance, user acceptance and security of such enterprise web/mobile apps apart from its functionality.
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon2.png" alt="">
                                     <h3>Functional Testing</h3>
                                     <p class="para"> Through a wide user base using various modules in real time, it is important to keep track of the performance, user acceptance and security of such enterprise web/mobile apps apart from their functionality.
                                 
                                     
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon3.png" alt="">
                                     <h3>Software Performance Testing</h3>
                                     <p class="para"> Our performance testing services help our clients to find software grips that affect the quality and ability of your web/mobile app to handle heavy loads.
                                         
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon4.png" alt="">
                                     <h3>Responsive Testing</h3>
                                     <p class="para">Through responsive web design, more and more clients can enjoy the best presentation experience across a wide array of devices. At Responsive Testing Services, we ensure the responsiveness of any web/mobile app.
                                         
                                      </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon5.png" alt="">
                                     <h3> Platform Compatibility Testing</h3>
                                     <p class="para">Technology advancements and creating platforms in the web and mobile space have raised challenges for software or app development teams. In this test, our experts check the preferred performance of web/mobile apps on each platform.
                                             
                                      
                                 </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon6.png" alt="">
                                     <h3> Web/Mobile App Testing </h3>
                                     <p class="para">Big challenge with a web app is that it needs to be compatible with all browsers and operating systems. A mobile app testing service is done to preserve the performance of the app in different devices.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -432,7 +490,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -465,7 +523,7 @@
 
 
                         </div>
-                        <a href="contact.html" class="thm-btn cta-four__btn-two">Contact us</a>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
 
                     </div>
                 </div>
@@ -483,4 +541,34 @@
 
 
     </div>
-         <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

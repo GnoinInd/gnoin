@@ -40,7 +40,8 @@
     <div class="page-wrapper">
         <!-- header part start -->
 
- <?php include "header.php"; ?>
+        <?php include "header.php" ?>
+
 
         
         <!-- header end -->
@@ -123,8 +124,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -149,7 +150,7 @@
                                 that you get services that are innovative and customized as per the requirements.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -216,7 +217,7 @@
                                 portals
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -255,7 +256,7 @@
                                 solutions
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -295,7 +296,7 @@
                                 software solutions
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -335,7 +336,7 @@
                                 applications
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -445,68 +446,86 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Efficient Operations</h3>
-                                    <p>Our evolved retail and eCommerce software development solutions integrate
-                                        multiple features such as payment processing, customer support, shipping,
-                                        product reviews, inventory management, marketing and analytics that make
-                                        business operations efficient and fast.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Efficient Operations</h3>
+                                        <p>Our evolved retail and eCommerce software development solutions integrate
+                                            multiple features such as payment processing, customer support, shipping,
+                                            product reviews, inventory management, marketing and analytics that make
+                                            business operations efficient and fast.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
-                                    <h3>Quick Customer Converting</h3>
-                                    <p> Our technologically advanced eCommerce and retail solutions accelerate
-                                        conversion rates as they include location-based offers, dynamic pricing, secure
-                                        payments, product management functions and more to attract customers across the
-                                        globe.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
+                                        <h3>Quick Customer Converting</h3>
+                                        <p> Our technologically advanced eCommerce and retail solutions accelerate
+                                            conversion rates as they include location-based offers, dynamic pricing, secure
+                                            payments, product management functions and more to attract customers across the
+                                            globe.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Better Customer Reach</h3>
-                                    <p>When customers find suitable eCommerce and retail web solutions for their needs
-                                        and preferences, they automatically gravitate towards them. Therefore, we help
-                                        businesses implement an all-encompassing strategy to meet customer needs, while
-                                        providing custom shopping apps and chatbots.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Better Customer Reach</h3>
+                                        <p>When customers find suitable eCommerce and retail web solutions for their needs
+                                            and preferences, they automatically gravitate towards them. Therefore, we help
+                                            businesses implement an all-encompassing strategy to meet customer needs, while
+                                            providing custom shopping apps and chatbots.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>Inventory Management</h3>
-                                    <p>Our team integrates effective inventory management features into our eCommerce
-                                        solutions to help businesses better manage their inventory across all the sales
-                                        networks they have. Enterprises can easily know which products are in stock and
-                                        which have been sold out?</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>Inventory Management</h3>
+                                        <p>Our team integrates effective inventory management features into our eCommerce
+                                            solutions to help businesses better manage their inventory across all the sales
+                                            networks they have. Enterprises can easily know which products are in stock and
+                                            which have been sold out?</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Enhanced Customer Loyalty</h3>
-                                    <p>Customized product offers, attractive user interface, easy repeat orders,
-                                        referral system, customer support and others are some of the features that we
-                                        integrate with our solutions. These help in increasing the loyalty of the
-                                        customers while providing them a great experience.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Enhanced Customer Loyalty</h3>
+                                        <p>Customized product offers, attractive user interface, easy repeat orders,
+                                            referral system, customer support and others are some of the features that we
+                                            integrate with our solutions. These help in increasing the loyalty of the
+                                            customers while providing them a great experience.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>User Management</h3>
                                     <p>Taking care of millions of users and their needs is an easy task with the help of
                                         our retail and eCommerce solutions. Our team uses microservices to design and
                                         launch the appropriate architecture that allows apps to align to all user needs
                                         without performance issues.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -585,78 +604,102 @@
                 <div class="row web_margin_top">
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
-                            <h3>Inventory Management Software</h3>
-                            <p>
-                                Highly structured and user friendly supply data, inventory control and inventory
-                                management software system.
-                            </p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
+                                <h3>Inventory Management Software</h3>
+                                <p>
+                                    Highly structured and user friendly supply data, inventory control and inventory
+                                    management software system.
+                                </p>   
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy"
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy"
                                 title="Media Buy">
                             <h3>Online Payments</h3>
                             <p>Omnichannel solution for retail payment processing, cross-platform, cross-currency,
                                 high-speed and secure transactions.</p>
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising"
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising"
                                 title="Display Advertising">
                             <h3>C2C eCommerce Marketplaces</h3>
                             <p>The trusted, granular solution for selling goods between registered members.</p>
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads"
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads"
                                 title="Shopping Ads">
                             <h3>Loyalty Programs</h3>
                             <p>Reliable, optimized platforms that can handle large numbers of user accounts, manage
                                 discount offers and customer loyalty programs.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing"
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing"
                                 title="Re-Marketing">
                             <h3>CRM / Marketing</h3>
                             <p>App Monetization & Promotion, Digital Advertising Solutions and Customer Management
                                 Software.</p>
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Tracking & Analytics</h3>
-                            <p>Complex and yet easy-to-use systems that track customer interactions and analyze big
-                                data.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Tracking & Analytics</h3>
+                                <p>Complex and yet easy-to-use systems that track customer interactions and analyze big
+                                    data.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3> Social Media</h3>
-                            <p>Integration of retail software solutions with social media and other communication
-                                channels.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3> Social Media</h3>
+                                <p>Integration of retail software solutions with social media and other communication
+                                    channels.</p>
+                                    </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3> AR</h3>
-                            <p>Helping retailers implement Augmented Reality to provide enhanced customer experience.
-                            </p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3> AR</h3>
+                                <p>Helping retailers implement Augmented Reality to provide enhanced customer experience.
+                                </p> 
+                                    </div>
+                            
                         </div>
                     </div>
 
@@ -665,7 +708,7 @@
 
                 </div>
                 <!-- <div class="text-center mt-3">
-                    <a class="thm-btn" href="#">Request a Quote  </a>
+                    <a class="thm-btn" href="#"><span>Request a Quote</span>  </a>
                 </div> -->
             </div>
         </section>
@@ -686,7 +729,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -791,7 +834,7 @@
 
         
     </div><!-- /.page-wrapper -->
- <?php include "footer.php"; ?>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

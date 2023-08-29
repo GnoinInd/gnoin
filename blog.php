@@ -32,7 +32,8 @@
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
 <!-- header part start -->
-<?php include "header.php"; ?>
+<?php include "header.php" ?>
+
 <!-- header end -->
 <!-- header part end -->
         <!-- baner parts start -->
@@ -212,7 +213,7 @@
 
 
 
-<?php include "footer.php"; ?>
+
        
     </div><!-- /.page-wrapper -->
     

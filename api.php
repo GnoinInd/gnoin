@@ -38,10 +38,11 @@
 
     <div class="page-wrapper">
 
+    <?php include "header.php" ?>
 
         <!-- ---------------------header section----------------------------------------->
 
-<?php include "header.php"; ?>
+
         <!-- inerpage page top container  -->
         <section class="inner-banner">
             <div class="container">
@@ -82,12 +83,12 @@
 
                         </p>
 
-                        <a class="thm-btn" href="#">Let's Connect Your Project</a>
+                        <a class="thm-btn" href="#"><span>Let's Connect Your Project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/Multi-Channel-Integration.png" alt="API Integrations"
+                            <img src="images/imagesIndex/apiintAndDevMain.png" alt="API Integrations"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -309,7 +310,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top">
 
-                            <img src="https://static.javatpoint.com/tutorial/webapi/images/web-api-tutorial.png" alt="...">
+                            <img src="images/imagesIndex/apiSol1.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -346,7 +347,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="https://cdn-icons-png.flaticon.com/512/2620/2620861.png" alt="...">
+                            <img src="images/imagesIndex/apiSol2.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -384,7 +385,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="https://cdn-icons-png.flaticon.com/512/1878/1878350.png" alt="...">
+                            <img src="images/imagesIndex/apiSol3.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -422,7 +423,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="https://cdn-icons-png.flaticon.com/512/2164/2164832.png" alt="...">
+                            <img src="images/imagesIndex/apiSol4.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -464,7 +465,7 @@
             
         </div>
         <div class="text-center ">
-            <a class="thm-btn" href="#"> Request a Quote </a>
+            <a class="thm-btn1" href="#"> <span>Request a Quote</span> </a>
         </div>
     </div>
 
@@ -479,7 +480,7 @@
 
         <div class="container text-center justify-content-around pt-4">
             <div class="row1">
-                <h1>Repel Your Project abouve the Horizon</h1>
+                <h1>Repel Your Project above the Horizon</h1>
                 <h5>Being a APIs Development and Integration Company</h5>
                 <p> FWhenever you work with a capable and experienced team, you have fewer things to focus on and more
                     things to consider.
@@ -491,70 +492,88 @@
                     <div class="row m-2">
                         <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                             <div class="delivery_models float-left">
-                                <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png" alt="">
-                                <h3>Patience and Persistence</h3>
-                                <p class="para">It takes a lot of patience and time to get someone on the same page as
-                                    you.
-
-
-                                </p>
+                                <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/apiRepelyourProIcon1.png" alt="">
+                                    <h3>Patience and Persistence</h3>
+                                    <p class="para">It takes a lot of patience and time to get someone on the same page as
+                                        you.
+    
+    
+                                    </p>
+                                </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Analyze-Your-Growth.png" alt="">
-                                <h3>Creative without being Ivasive</h3>
-                                <p class="para"> Creative individuals make up our team. They know what you like and what
-                                    you don't.
-
-
-                                </p>
+                                <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/apiRepelyourProIcon2.png" alt="">
+                                    <h3>Creative without being Ivasive</h3>
+                                    <p class="para"> Creative individuals make up our team. They know what you like and what
+                                        you don't.
+    
+    
+                                    </p>
+                                </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
-                                <h3>Watch your creation grow</h3>
-                                <p class="para">Daily updates are provided about your project so you can watch your
-                                    child grow.
-
-
-                                </p>
+                                <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/apiRepelyourProIcon3.png" alt="">
+                                    <h3>Watch your creation grow</h3>
+                                    <p class="para">Daily updates are provided about your project so you can watch your
+                                        child grow.
+    
+    
+                                    </p>
+                                </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4  col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Launch.png" alt="">
-                                <h3>On the Forefront of technology</h3>
-                                <p class="para">An impeccable expertise in spotting technology trends before they
-                                    emerge.
-                                </p>
+                                <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/apiRepelyourProIcon4.png" alt="">
+                                    <h3>On the Forefront of technology</h3>
+                                    <p class="para">An impeccable expertise in spotting technology trends before they
+                                        emerge.
+                                    </p>
+                                </div>
+                              
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
-                                <h3>A remote team assistance</h3>
-                                <p class="para">A global team dedicated exclusively to your project, to listen and
-                                    answer your questions.
-
-
-                                </p>
+                                <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/apiRepelyourProIcon5.png" alt="">
+                                    <h3>A remote team assistance</h3>
+                                    <p class="para">A global team dedicated exclusively to your project, to listen and
+                                        answer your questions.
+    
+    
+                                    </p>
+                                </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
-                                <h3>Security & Confidentiality</h3>
-                                <p class="para">A non-negotiable development practice. Everything is repairable, but
-                                    don't trust.
-
-                                </p>
+                                <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/apiRepelyourProIcon6.png" alt="">
+                                    <h3>Security & Confidentiality</h3>
+                                    <p class="para">A non-negotiable development practice. Everything is repairable, but
+                                        don't trust.
+    
+                                    </p>
+                                </div>
+                               
                             </div>
                         </div>
 
@@ -577,7 +596,7 @@
                 hiring our dedicated custom API developers for your up-to-date cost-effective custom development.
 
             </p><br>
-            <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+            <a href="#" class="thm-btn1 about-one__btn"><span>Hire Now</span></a>
         </div><!-- /.container -->
     </section>
 
@@ -651,7 +670,7 @@
                     data-wow-delay="0ms">
                     <div class=" card justify-content-center h-100  align-items-center card-block">
                         <div class="card-img-top mt-4">
-                            <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                            <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                         </div>
                         <div class="card-body mt-2">
                             <h4 class="text-tilte">Hourly Based Model</h4>
@@ -672,13 +691,33 @@
 
 
 
+    <!-- Contact us start -->
+
+    <section class="zzz">
+        <div class="container">
+            <div class="cta-four">
+
+                <div class="inner-container m-0">
+                    <div class="block-title">
+                        <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                    </div>
+                    <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- footer start -->
     <!-------------------------- Footer Page Include ----------------- -->
 
     <!-- footer end -->
 
-<?php include "footer.php"; ?>
+
 
 
     </div>

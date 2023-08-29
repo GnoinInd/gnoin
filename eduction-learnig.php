@@ -1,7 +1,45 @@
-     <?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <title>Gnoin Pvt Ltd </title>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    
+
+    <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="./css/ondemand.css"> -->
+    <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
 
-
+        <?php include "header.php" ?>
 
       
         <!-- header end -->
@@ -83,8 +121,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -99,7 +137,7 @@
                                We also provide easy-to-use education mobile apps, omnichannel consumption, e-learning portals, and multi-level analytics tools.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -155,7 +193,7 @@
                                
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -190,7 +228,7 @@
 
                             
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -223,7 +261,7 @@
                                
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -259,7 +297,7 @@
                                
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -301,42 +339,57 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Improved learners’ performance</h3>
-                                    <p>E-learning allows students to choose the learning style and type of content, making them more productive. Plus, they can study when they are most productive. Thus, businesses benefit from the efficient training of their employees or the great experience of the customers of their e-learning products.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Improved learners’ performance</h3>
+                                        <p>E-learning allows students to choose the learning style and type of content, making them more productive. Plus, they can study when they are most productive. Thus, businesses benefit from the efficient training of their employees or the great experience of the customers of their e-learning products.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Time-efficiency</h3>
                                     <p>E-learning not only saves business owners money but also time. It is very easy to organize online learning courses. For example, you do not need to look for places to organize the educational process. Plus, your students save time with less travel and advanced information discovery provided by digital learning materials.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Sustainability</h3>
                                     <p>E-learning eliminates the need to print huge stacks of paper handouts. Plus, since learners don't need to commute, it helps reduce emissions into the environment. Therefore, it becomes easier for businesses to meet their social responsibilities, thereby creating a smaller ecological footprint.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Сost-efficiency</h3>
                                     <p>E-learning is more affordable than traditional education. Businesses save on classroom rent, maintenance, catering, printing, distribution and updating of learning materials, trainer travel and other infrastructure expenses.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Comfort</h3>
-                                    <p>Online courses or modules can be accessed anytime, anywhere and from any device. In addition, they are more personalized than traditional ones as learners can choose their own study pace. As a result, more employees are satisfied with professional training programs, and more students flock to online learning platforms.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Comfort</h3>
+                                        <p>Online courses or modules can be accessed anytime, anywhere and from any device. In addition, they are more personalized than traditional ones as learners can choose their own study pace. As a result, more employees are satisfied with professional training programs, and more students flock to online learning platforms.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -359,50 +412,68 @@
                 <div class="row web_margin_top">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Educational Platforms and E-learning Solutions</h3>
-                            <p>With us, you can get a wide range of solutions from corporate training systems to online course platforms. Education companies can benefit from our management software and applications. Our experts ensure that those solutions are of high quality and easy to use.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Educational Platforms and E-learning Solutions</h3>
+                                <p>With us, you can get a wide range of solutions from corporate training systems to online course platforms. Education companies can benefit from our management software and applications. Our experts ensure that those solutions are of high quality and easy to use.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>AI Educational Applications</h3>
-                            <p>Artificial intelligence has long left some of the unexplained stuff of movies. We know how to leverage this technology in education, helping both students and faculty. Bug-free AI algorithms tailored to your needs.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>AI Educational Applications</h3>
+                                <p>Artificial intelligence has long left some of the unexplained stuff of movies. We know how to leverage this technology in education, helping both students and faculty. Bug-free AI algorithms tailored to your needs.</p> 
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Virtual Classrooms</h3>
-                            <p>Lack of interaction between students and teachers can be a significant drawback of distance education. We solve this problem by creating immersive educational spaces. Do you want to create solutions using augmented or virtual reality and 3D scanning? Our Team Can Help!</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Virtual Classrooms</h3>
+                                <p>Lack of interaction between students and teachers can be a significant drawback of distance education. We solve this problem by creating immersive educational spaces. Do you want to create solutions using augmented or virtual reality and 3D scanning? Our Team Can Help!</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>School Management Platforms</h3>
-                            <p>Our education software development services can save school administrators dozens of hours. The school management solutions we design can automate mundane tasks and increase their efficiency. Also, our team can design a custom mobile app integrated with the school management portal.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>School Management Platforms</h3>
+                                <p>Our education software development services can save school administrators dozens of hours. The school management solutions we design can automate mundane tasks and increase their efficiency. Also, our team can design a custom mobile app integrated with the school management portal.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Chatbots</h3>
-                            <p>No matter how hard teachers try, they often fail to pay much attention to individual students. Our education software development company can provide them with teaching assistant. Certainly, no amount of machine learning will completely replace interaction with a real person. Nevertheless, our chatbots can use these techniques to make teachers more efficient and students more engaged.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Chatbots</h3>
+                                <p>No matter how hard teachers try, they often fail to pay much attention to individual students. Our education software development company can provide them with teaching assistant. Certainly, no amount of machine learning will completely replace interaction with a real person. Nevertheless, our chatbots can use these techniques to make teachers more efficient and students more engaged.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Learning Management Systems</h3>
-                            <p>Available LMS tools come in all shapes and sizes. Even so, they cannot cover all cases. If you need a custom solution for planning, implementing and evaluating an educational process, we are happy to help. Our experienced team will create a system tailored to your needs.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Learning Management Systems</h3>
+                                <p>Available LMS tools come in all shapes and sizes. Even so, they cannot cover all cases. If you need a custom solution for planning, implementing and evaluating an educational process, we are happy to help. Our experienced team will create a system tailored to your needs.</p>
+                                    </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -433,49 +504,67 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Market-Analysis-&amp;-Keyword-Research.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Market-Analysis-&amp;-Keyword-Research.png" alt="">
                                     <h3>eLearning Portal Development</h3>
                                     <p>We create easy-to-use, interoperable e-learning portals that meet the critical business needs of the corporate, education, non-profit, government and non-government sectors.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
                                     <h3>Online Proctoring Solutions</h3>
                                     <p>We combine our deep video analytics and artificial intelligence expertise to educational software development to bring you non-intrusive, scalable and cost-effective surveillance solutions.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
                                     <h3>Mobile eLearning Development</h3>
                                     <p>We combine our expertise with strong mobile app development experience to provide user-centric mobile learning apps that enable students to access knowledge wherever and whenever they want.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>Corporate Learning Solutions</h3>
-                                    <p>Our education software development solutions meet all your corporate learning needs as we develop on-demand e-learning solutions for enterprises that increase efficiency and competency among employees.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
+                                        <h3>Corporate Learning Solutions</h3>
+                                        <p>Our education software development solutions meet all your corporate learning needs as we develop on-demand e-learning solutions for enterprises that increase efficiency and competency among employees.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
-                                    <h3>Gamification</h3>
-                                    <p>We provide interactive game-based learning solutions to help students solve complex problems as our e-learning software solutions enhance the engaging power of learners and maintain their attention throughout the session.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
+                                        <h3>Gamification</h3>
+                                        <p>We provide interactive game-based learning solutions to help students solve complex problems as our e-learning software solutions enhance the engaging power of learners and maintain their attention throughout the session.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
                                     <h3>School Management Software</h3>
                                     <p> Our web-based e-learning application development services help schools to develop their educational centers in the right way as we develop such apps to boost the performance of both teachers and students for efficient workflow.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
@@ -497,7 +586,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -600,4 +689,58 @@
         
     </div><!-- /.page-wrapper -->
 
-         <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#Accessibility").css("display", "flex");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+
+            });
+
+            $("#btn2").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "flex");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn3").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "flex");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn4").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "flex");
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

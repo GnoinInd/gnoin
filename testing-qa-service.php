@@ -40,8 +40,9 @@
 
 
         <!-- ---------------------header section----------------------------------------->
+        <?php include "header.php" ?>
 
-<?php include "header.php"; ?>
+
         <!-- inerpage page top container  -->
         <section class="inner-banner">
             <div class="container">
@@ -73,12 +74,12 @@
                             
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right h-75">
-                            <img src="./images/ondemand-developer/ease of use.png" alt="Strategical Open Source Development"
+                            <img src="images/imagesIndex/testingQAmain.png" alt="Strategical Open Source Development"
                                 title="QA & Testing">
                         </div>
                     </div>
@@ -108,70 +109,88 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Hourly-Model.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon1.png" alt="">
                                     <h3>Enterprise App Testing</h3>
                                     <p class="para">Through a wide user base using various modules in real time, it is important to know the performance, user acceptance and security of such enterprise web/mobile apps apart from its functionality.
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon2.png" alt="">
                                     <h3>Functional Testing</h3>
                                     <p class="para"> Through a wide user base using various modules in real time, it is important to keep track of the performance, user acceptance and security of such enterprise web/mobile apps apart from their functionality.
                                 
                                     
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon3.png" alt="">
                                     <h3>Software Performance Testing</h3>
                                     <p class="para"> Our performance testing services help our clients to find software grips that affect the quality and ability of your web/mobile app to handle heavy loads.
                                         
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon4.png" alt="">
                                     <h3>Responsive Testing</h3>
                                     <p class="para">Through responsive web design, more and more clients can enjoy the best presentation experience across a wide array of devices. At Responsive Testing Services, we ensure the responsiveness of any web/mobile app.
                                         
                                      </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon5.png" alt="">
                                     <h3> Platform Compatibility Testing</h3>
                                     <p class="para">Technology advancements and creating platforms in the web and mobile space have raised challenges for software or app development teams. In this test, our experts check the preferred performance of web/mobile apps on each platform.
                                             
                                      
                                 </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
+                                  <div class="box_shad p-3">
+                                    <img src="images/imagesIndex/testingqaIcon6.png" alt="">
                                     <h3> Web/Mobile App Testing </h3>
                                     <p class="para">Big challenge with a web app is that it needs to be compatible with all browsers and operating systems. A mobile app testing service is done to preserve the performance of the app in different devices.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -471,7 +490,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -492,12 +511,30 @@
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
 
-<?php include "footer.php"; ?>
         <!-- footer end -->
 
 

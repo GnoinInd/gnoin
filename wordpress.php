@@ -35,9 +35,12 @@
 
 </head>
 
-     <?php include "header.php"; ?>
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
 
+        <?php include "header.php" ?>
 
 
         
@@ -118,8 +121,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -135,7 +138,7 @@
                                 Our services include various services ranging from WordPress theme development, Woocommerce development, WordPress plugin development and WordPress website management/maintenance, our WordPress programmers provide all types of services. The dedicated WordPress developers at Inphoneo are highly experienced in building robust solutions that exponentially accelerate your business growth and significantly increase revenue..</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -161,50 +164,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Custom WordPress Development</h3>
-                                    <p>Years of domain expertise of our WordPress developers help in providing secure, scalable, feature packed and mobile friendly WordPress CMS solutions.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Custom WordPress Development</h3>
+                                        <p>Years of domain expertise of our WordPress developers help in providing secure, scalable, feature packed and mobile friendly WordPress CMS solutions.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Custom Enterprise Oriented Solutions</h3>
                                     <p>Get high performance and scalable enterprise oriented CMS solutions as per the specific needs and requirements of your business.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Migration & Upgradation Services</h3>
-                                    <p>If you want to migrate your CMS from other platform to WordPress or want to upgrade your current version of WordPress, we are ready to help you.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Migration & Upgradation Services</h3>
+                                        <p>If you want to migrate your CMS from other platform to WordPress or want to upgrade your current version of WordPress, we are ready to help you.
+                                        </p> 
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>WordPress Consulting Services</h3>
                                     <p>If you want to know anything about WordPress technology, feel free to contact us and our WordPress developers are ready to help you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>QA and Testing Services</h3>
                                     <p>From the earliest stages of the project, we keep our expert quality analysts in the loop to ensure that your app runs on all browsers and screens.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>24*7 Support & Maintenance</h3>
-                                    <p>Apart from WordPress development services, our WordPress developers are also proficient in providing round the clock WordPress support and maintenance to our respected clients.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>24*7 Support & Maintenance</h3>
+                                        <p>Apart from WordPress development services, our WordPress developers are also proficient in providing round the clock WordPress support and maintenance to our respected clients.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -215,7 +236,7 @@
                     
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Request a free estimate
+                    <a href="#" class="thm-btn about-one__btn"><span>Request a free estimate</span>
                     </a>
                    </div>
             </div>
@@ -236,76 +257,103 @@
                 <div class="row web_margin_top">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
-                            <h3>Retail & ECommerce</h3>
-                            <p>
-                                Gnoin builds a robust e-commerce solution including e-carts and marketplaces, auctions and reverse auctions, social commerce solutions, and more.
-                            </p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
+                                <h3>Retail & ECommerce</h3>
+                                <p>
+                                    Gnoin builds a robust e-commerce solution including e-carts and marketplaces, auctions and reverse auctions, social commerce solutions, and more.
+                                </p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
-                            <h3>E-Learning Solutions</h3>
-                            <p>Our e-learning solutions include various professional online training web apps, learning management systems, corporate learning portals, online courses, etc.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
+                                <h3>E-Learning Solutions</h3>
+                                <p>Our e-learning solutions include various professional online training web apps, learning management systems, corporate learning portals, online courses, etc.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
-                            <h3>Social Networks Solutions</h3>
-                            <p>Web applications with social connectivity developed by Gnoin include social networks and communities, collaboration solutions, blogs and wikis, etc.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
+                                <h3>Social Networks Solutions</h3>
+                                <p>Web applications with social connectivity developed by Gnoin include social networks and communities, collaboration solutions, blogs and wikis, etc.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
-                            <h3>Travel & Tourism Solutions</h3>
-                            <p>Our agile application development solutions increase the ROI of your travel business and reduce operational costs.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
+                                <h3>Travel & Tourism Solutions</h3>
+                                <p>Our agile application development solutions increase the ROI of your travel business and reduce operational costs.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
-                            <h3>Logistics & Transport Solutions</h3>
-                            <p>Our result driven application development services for logistics and transportation increase ROI and effectively manage routine workflow.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
+                                <h3>Logistics & Transport Solutions</h3>
+                                <p>Our result driven application development services for logistics and transportation increase ROI and effectively manage routine workflow.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Media & Entertainment</h3>
-                            <p>Our ASP.NET experts provide online promotion solutions, social networking development tools etc. with the use of latest trends.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Media & Entertainment</h3>
+                                <p>Our ASP.NET experts provide online promotion solutions, social networking development tools etc. with the use of latest trends.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Healthcare App Solutions</h3>
-                            <p>Our .NET development company in India specializes in building advanced e-healthcare solutions with end-to-end web and mobile healthcare application development services.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Healthcare App Solutions</h3>
+                                <p>Our .NET development company in India specializes in building advanced e-healthcare solutions with end-to-end web and mobile healthcare application development services.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Banking & Finance Solutions</h3>
-                            <p>Our .NET app development company in India provides custom banking and financial software development services for increased operational efficiency and agility.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Banking & Finance Solutions</h3>
+                                <p>Our .NET app development company in India provides custom banking and financial software development services for increased operational efficiency and agility.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Automotive Solutions</h3>
-                            <p>Our custom web and mobile applications help in making the automotive organization more cost efficient as well as sustainable.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Automotive Solutions</h3>
+                                <p>Our custom web and mobile applications help in making the automotive organization more cost efficient as well as sustainable.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
@@ -314,7 +362,7 @@
     
                 </div>
                 <div class="text-center mt-3">
-                    <a class="thm-btn" href="#">Request a Quote  </a>
+                    <a class="thm-btn" href="#"><span>Request a Quote </span> </a>
                 </div>
             </div>
         </section>
@@ -334,50 +382,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Comprehensive Analysis</h3>
-                                    <p>Good analysis always gives good profit. While discussing the project requirements, we make sure to provide the best app development solutions as per your business requirements.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Comprehensive Analysis</h3>
+                                        <p>Good analysis always gives good profit. While discussing the project requirements, we make sure to provide the best app development solutions as per your business requirements.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Well Designed Web</h3>
                                     <p>The first thing your user will notice is the UI/UX design of the web. We follow the latest UI/UX design trends to provide an attractive and easy-to-use design to your website.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Mobile Friendly CMS</h3>
-                                    <p>Our experienced team of WordPress developers provides you a functional rich responsive CMS with a stylish custom theme, feature rich plugins and mobile friendly user interface.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Mobile Friendly CMS</h3>
+                                        <p>Our experienced team of WordPress developers provides you a functional rich responsive CMS with a stylish custom theme, feature rich plugins and mobile friendly user interface.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>High Performance & Speed</h3>
-                                    <p>Our developed WordPress web apps bring great user experience by loading within 3 seconds which boost your conversions and help in increasing Google ranking.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>High Performance & Speed</h3>
+                                        <p>Our developed WordPress web apps bring great user experience by loading within 3 seconds which boost your conversions and help in increasing Google ranking.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Advanced Security & Scalability</h3>
                                     <p>We ensure maximum scalability and security of the site by employing superior security measures like high security plugins, data encryption, highly secure admin dashboard etc.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>Easy Communication</h3>
-                                    <p>You can connect with us through various communication channels including WhatsApp, Messenger, Phone, Skype etc.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>Easy Communication</h3>
+                                        <p>You can connect with us through various communication channels including WhatsApp, Messenger, Phone, Skype etc.</p>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -405,7 +471,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -508,4 +574,21 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-         <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>

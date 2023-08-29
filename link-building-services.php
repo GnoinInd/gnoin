@@ -29,22 +29,13 @@
     <link rel="stylesheet" href="css/enterprise_branding_all.css">
 </head>
 
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <title>Gnoin Pvt Ltd </title>
-    </head>
-     <?php include "header.php"; ?>
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
 <!-- header part start -->
 
 
-
+<?php include "header.php" ?>
 
 
 <!-- header end -->
@@ -84,11 +75,11 @@
 
                         </p>
 
-                        <a class="thm-btn" href="">Let's connect your project</a>
+                        <a class="thm-btn" href=""><span>Let's connect your project</span></a>
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/lbs1.png" alt="content writing services" title="content writing services">
+                            <img src="images/linkbuildingservices/linkbuildingservicesmain.png" alt="content writing services" title="content writing services">
                         </div>
                     </div>
                 </div>
@@ -116,49 +107,67 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Social-Media-Audit-&amp;-Strategy.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuidngservicesicon1.png" alt="">
                                     <h3>BackLink Audits</h3>
                                     <p>Our custom link audit includes a thorough analysis of backlink profiles, identification of risks, and recommendations for improvement.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Link-Submissions.png" alt="">
-                                    <h3>Link Submissions</h3>
-                                    <p>Get quality backlinks for your website and attract targeted traffic with our manual submission service.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuidngservicesicon2.png" alt="">
+                                        <h3>Link Submissions</h3>
+                                        <p>Get quality backlinks for your website and attract targeted traffic with our manual submission service.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuidngservicesicon3.png" alt="">
                                     <h3>Link Building</h3>
                                     <p>We specialize in custom-built link building solutions driven by thorough research, proven strategies and effective KPIs.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuidngservicesicon4.png" alt="">
                                     <h3>Local SEO(Search Engine Optimization)</h3>
                                     <p>The word 'local' in our link building process helps businesses drive sustainable solutions through local search.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Migration &amp; Upgrade.png" alt="">
-                                    <h3>Social Media Promotion</h3>
-                                    <p>We help you earn quality backlinks and expand brand awareness with a relevant social engagement strategy.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuidngservicesicon5.png" alt="">
+                                        <h3>Social Media Promotion</h3>
+                                        <p>We help you earn quality backlinks and expand brand awareness with a relevant social engagement strategy.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Product Development.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuidngservicesicon6.png" alt="">
                                     <h3>Link Building Outreach</h3>
                                     <p>Maximize your reach effectively and increase your success rate with our customized approaches to link outreach.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -178,7 +187,7 @@
                             <p><i class="fa fa-hand-o-right text-primary" ></i> Receive a comprehensive assessment of your online profile along with targeted customized strategies on how to take your online profile to the next level.</p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="request-a-quote.html">Request a Quote</a>
+                            <a class="thm-btn1" href="request-a-quote.html"><span>Request a Quote</span></a>
                         </div>
                     </div>
                 </div>
@@ -206,49 +215,67 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Social-Media-Audit-&amp;-Strategy.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuilngservices1.png" alt="">
                                     <h3>Web 2.0 Backlinks</h3>
                                     <p>Web 2.0 backlinks are powerful ways to help control the interaction of directed content on a website. These backlinks are from highly authoritative domains, and moreover, relevant links in blogs can bring some serious ranking power to your website.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Link-Submissions.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuilngservices2.png" alt="">
                                     <h3>Wiki Backlinks</h3>
                                     <p>Wiki Backlinks can serve as one of the most effective link building of SEO. Increase your keyword rankings fast and get quality traffic when you link to wiki sites. Furthermore, these wiki sites have a good reputation on Google, with exemplary visitors from all over the world.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>Free Backlink Indexing</h3>
-                                    <p>Backlinks are basically more powerful SEO strategies, from link building to indexing. Backlinks have value only when it gets indexed on Google or similar search engines. In addition, we use Ping Server and other indexing services, social media signals and Web 2.0 indexing methods.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuilngservices3.png" alt="">
+                                        <h3>Free Backlink Indexing</h3>
+                                        <p>Backlinks are basically more powerful SEO strategies, from link building to indexing. Backlinks have value only when it gets indexed on Google or similar search engines. In addition, we use Ping Server and other indexing services, social media signals and Web 2.0 indexing methods.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>Traffic to your Website</h3>
-                                    <p>Our free website traffic comes with backlinks package. Definitely, you will get good quality traffic from our backlinks. As a result, your website will get good organic traffic and social network traffic. On the other hand, this free traffic will help your site to increase its ranking on search engines.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuilngservices4.png" alt="">
+                                        <h3>Traffic to your Website</h3>
+                                        <p>Our free website traffic comes with backlinks package. Definitely, you will get good quality traffic from our backlinks. As a result, your website will get good organic traffic and social network traffic. On the other hand, this free traffic will help your site to increase its ranking on search engines.</p>  
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Migration &amp; Upgrade.png" alt="">
-                                    <h3>Full White-Label Reports</h3>
-                                    <p>Backlink Works will generate a backlink report for you in an Excel document with detailed whitelabel reports for you to track every single link. Furthermore, the backlinks report will be sent to your email upon completion. Are you reselling to customers? Add your logo and send it to your customers.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuilngservices5.png" alt="">
+                                        <h3>Full White-Label Reports</h3>
+                                        <p>Backlink Works will generate a backlink report for you in an Excel document with detailed whitelabel reports for you to track every single link. Furthermore, the backlinks report will be sent to your email upon completion. Are you reselling to customers? Add your logo and send it to your customers.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Product Development.png" alt="">
-                                    <h3>Multi-Tier Backlinks</h3>
-                                    <p>Tiered backlinks are created to increase the amount of link juice sent from your backlink profile to your website. For example, some Tier 1 backlinks point to your main website, some Tier 2 backlinks point to each Tier 1 backlink, and some Tier 3 backlinks point to each Tier 2 backlink.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/linkbuildingservices/linkbuilngservices6.png" alt="">
+                                        <h3>Multi-Tier Backlinks</h3>
+                                        <p>Tiered backlinks are created to increase the amount of link juice sent from your backlink profile to your website. For example, some Tier 1 backlinks point to your main website, some Tier 2 backlinks point to each Tier 1 backlink, and some Tier 3 backlinks point to each Tier 2 backlink.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -284,7 +311,7 @@
                                 <li>DA 20-35</li>
                                 <li>Basic support</li>
                                 <li>Month End Report</li>
-                            </ul> <a href="#" target="_blank" class="thm-btn mb-3">Book Now</a>
+                            </ul> <a href="#" target="_blank" class="thm-btn mb-3"><span>Book Now</span></a>
                         </div>
                     </div>
                     <div class="card card-pricing popular shadow text-center px-3 mb-4">
@@ -299,7 +326,7 @@
                                 <li>DA 25-40</li>
                                 <li>Basic support</li>
                                 <li>Month End Report</li>
-                            </ul> <a href="#" target="_blank" class="thm-btn mb-3">Book Now</a>
+                            </ul> <a href="#" target="_blank" class="thm-btn mb-3"><span>Book Now</span></a>
                         </div>
                     </div>
                     <div class="card card-pricing text-center px-3 mb-4">
@@ -314,7 +341,7 @@
                                 <li>DA 25-60</li>
                                 <li>24*7 Support</li>
                                 <li>Month End Report</li>
-                            </ul> <a href="#" target="_blank" class="thm-btn mb-3">Book Now</a>
+                            </ul> <a href="#" target="_blank" class="thm-btn mb-3"><span>Book Now</span></a>
                         </div>
                     </div>
                     <div class="card card-pricing text-center px-3 mb-4">
@@ -328,7 +355,7 @@
                                 <li>DA 25-65</li>
                                 <li>Dedicated support</li>
                                 <li>Month End Report</li>
-                            </ul> <a href="#" target="_blank" class="thm-btn mb-3">Book Now</a>
+                            </ul> <a href="#" target="_blank" class="thm-btn mb-3"><span>Book Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -395,7 +422,7 @@
                     data-wow-delay="0ms">
                     <div class=" card justify-content-center h-100  align-items-center card-block">
                         <div class="card-img-top mt-4">
-                            <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                            <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                         </div>
                         <div class="card-body mt-2">
                             <h4 class="text-tilte">Hourly Based Model</h4>
@@ -427,4 +454,21 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

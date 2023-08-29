@@ -40,11 +40,8 @@
 
 
         <!-- ---------------------header section----------------------------------------->
+        <?php include "header.php" ?>
 
-      <?php
-
-include("header.php");
-?>
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -65,7 +62,7 @@ include("header.php");
 
 
 
-           <section class=" web_design_section_main">
+        <section class=" web_design_section_main">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7  justify-content-center align-items-start">
@@ -76,7 +73,7 @@ include("header.php");
                             Need expert help with your custom application development project? Connect with us for a free quote.
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
@@ -110,92 +107,119 @@ include("header.php");
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Hourly-Model.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon1.png" alt="">
                                     <h3>Application Development </h3>
                                     <p class="para">Our expert advisors at Preferred Technology provide custom app strategies to our clients to minimize cost and time and maximize return on investment.
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
-                                    <h3>Digital Transformation</h3>
-                                    <p class="para"> Increase the operational efficiency of your business as well as the company's ROI through process automation, wireframe digitization and integration.
-                                        
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon2.png" alt="">
+                                        <h3>Digital Transformation</h3>
+                                        <p class="para"> Increase the operational efficiency of your business as well as the company's ROI through process automation, wireframe digitization and integration.
+                                            
+                                        </p> 
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon3.png" alt="">
                                     <h3>Product Development</h3>
                                     <p class="para"> Whether you are looking to build your own SaaS-based or cloud-based software product, our experienced consultants can assist you with all your doubts regarding the same.
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon4.png" alt="">
                                     <h3> Channel Improvisation</h3>
                                     <p class="para">Build your presence anytime, anywhere by incorporating social and mobile technologies into your business.
                                         
                                      </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon5.png" alt="">
                                     <h3> Cost Optimization</h3>
                                     <p class="para"> Increase your project's readiness for support and maintenance and save yourself time and cost with our pre-support auditing service.
                                         
                                 </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon6.png" alt="">
                                     <h3> DevOps Implementation </h3>
                                     <p class="para">Our advanced DevOps environments streamline update delivery and realign cross-departmental integrity across multiple businesses.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
-                                    <h3> Development Re-Engineering</h3>
-                                    <p class="para">Increase productivity and develop project visibility by introducing agile practices under the guidance of our experts.  
-                                     </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon7.png" alt="">
+                                        <h3> Development Re-Engineering</h3>
+                                        <p class="para">Increase productivity and develop project visibility by introducing agile practices under the guidance of our experts.  
+                                         </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
-                                    <h3> IT Infrastructure Upgrade</h3>
-                                    <p class="para"> Reorganize your hardware, software and network resources and cut costs through infrastructure virtualization and migration to the cloud.
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon8.png" alt="">
+                                        <h3> IT Infrastructure Upgrade</h3>
+                                        <p class="para"> Reorganize your hardware, software and network resources and cut costs through infrastructure virtualization and migration to the cloud.</p>
+                                    </div>
+                                  
                                         
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/itconsultingimages/itconsultingicon9.png" alt="">
                                     <h3> Service Breakdown Benchmarking </h3>
                                     <p class="para">Our software consultants keep track of your business performance and find out the various negative points. Our experts access the analysis tools without interrupting your existing flow of work.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -439,7 +463,7 @@ include("header.php");
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -460,13 +484,29 @@ include("header.php");
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-      <?php
-
-include("footer.php");
-?>
-
 
         <!-- footer end -->
 

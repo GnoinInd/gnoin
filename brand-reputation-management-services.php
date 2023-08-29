@@ -34,7 +34,8 @@
     <div class="page-wrapper">
 <!-- header part start -->
 
-<?php include "header.php"; ?>
+<?php include "header.php" ?>
+
 
 
 
@@ -78,11 +79,11 @@
                             <br>This is where <Strong class="text-primary">Gnoin</Strong> can help you, we not only transform your online reputation marketing strategies but we also help you maintain a good brand reputation. We are one of the best online reputation management services providing services in India and we understand that any brand's stature in the market directly affects its customers and productivity. Creating a brand reputation in the market place with a strong emphasis on customer satisfaction, with a continuous process of rectifying all the negative effects of your product, and sustaining it in the present as well as in the future.
                         </p>
 
-                        <a class="thm-btn" href="#"> Let's connect your project</a>
+                        <a class="thm-btn" href="#"> <span>Let's connect your project</span></a>
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png" alt="Online-Reputation-Management-services" title="Online-Reputation-Management-services">
+                            <img src="images/brandreputation/brandreputationmain.png" alt="Online-Reputation-Management-services" title="Online-Reputation-Management-services">
                         </div>
                     </div>
                 </div>
@@ -108,7 +109,7 @@
                                     <h6>Renovate your reputation, Fix existing problems Reputation Renovate</h6>
                                     <h2>Repair</h2>
                                     <div class="text-center">
-                                        <a class="thm-btn" href="#"> Reputation Repair </a>
+                                        <a class="thm-btn1" href="#"><span> Reputation Repair</span> </a>
                                     </div>
                                     <p>Suppress or delete content</p>
                                     <p>
@@ -122,7 +123,7 @@
                                     <h6>Build Your Brand, Strengthen Your Brand Online Brand Creation</h6>
                                     <h2>Improve</h2>
                                     <div class="text-center">
-                                        <a class="thm-btn" href="#">Brand Building </a>
+                                        <a class="thm-btn1" href="#"><span>Brand Building</span> </a>
                                     </div>
                                     <p>Your branded search</p>
                                     <p>
@@ -137,7 +138,7 @@
                                         Review Management</h6>
                                     <h2>Reviews</h2>
                                     <div class="text-center">
-                                        <a class="thm-btn" href="#"> Review Management</a>
+                                        <a class="thm-btn1" href="#"> <span>Review Management</span></a>
                                     </div>
                                     <p>Improve star-rating</p>
                                     <p>
@@ -170,7 +171,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn mt-5" href="request-a-quote.html"> Request a Quote </a>
+                            <a class="thm-btn1 mt-5" href="request-a-quote.html"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -235,7 +236,7 @@
                     data-wow-delay="0ms">
                     <div class=" card justify-content-center h-100  align-items-center card-block">
                         <div class="card-img-top mt-4">
-                            <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                            <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                         </div>
                         <div class="card-body mt-2">
                             <h4 class="text-tilte">Hourly Based Model</h4>
@@ -267,7 +268,6 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <?php include "footer.php"; ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

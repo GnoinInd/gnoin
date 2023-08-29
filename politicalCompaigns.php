@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +10,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Gnoin Pvt Ltd </title>
-    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -23,12 +27,27 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/enterprise_branding_all.css">
     <link rel="stylesheet" href="css/maintness.css">
+
+
     <link rel="stylesheet" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
 </head>
+
+<body class="home-one">
+
+    <div class="page-wrapper">
+
+
         <!-- ---------------------header section----------------------------------------->
+        <?php include "header.php" ?>
+
+
 <section class="zzz">
-    <div class="maintenance container ">
+
+
+    <div class="maintenance container">
         <div class="maintenance_contain">
           <img src="https://demo.wpbeaveraddons.com/wp-content/uploads/2018/02/main-vector.png" alt="maintenance">
           <span class="pp-infobox-title-prefix">WE ARE COMING SOON</span>
@@ -36,10 +55,12 @@
                 <h3 class="pp-infobox-title">The page under maintenance!</h3>
             </div> 
         <div class="pp-infobox-description">
-              <p>something hase issue our page . We are negotiation ransom and<br>will resolve this issue in 24/7 hours</p></div>    
+              <p>something hase issue our page . We are negotiation ransom and<br>will resolve this issue in 24/7 hours</p>			</div>    
+         
               <div class="text-center mt-4">
-                <a class="thm-btn" href="index.php"> Go back Home </a>
+                <a class="thm-btn" href="/"> Go back Home </a>
             </div>
+         
               <span class="title-text pp-primary-title">We are social</span>
           <div class="pp-social-icons pp-social-icons-center pp-responsive-center">
           <span class="pp-social-icon">
@@ -69,9 +90,43 @@
         </div>
       </div>
 </section>
+
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
 
         <!-- footer end -->
-</div>
-  
+
+
+
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+
+
+    <script>
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

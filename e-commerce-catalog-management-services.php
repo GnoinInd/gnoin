@@ -1,7 +1,41 @@
-     <?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <title>Gnoin </title>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./css/ondemand.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+</head>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
 <!-- header part start -->
 
 
+<?php include "header.php" ?>
 
 
 
@@ -21,37 +55,25 @@
             </div>
         </section>
 
-        <!-- bannaer end -->
-
-
-
-
-
-
-
-
-
         <section class="web_design_section_main">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7 justify-content-center align-items-start">
-                        <h2 class="text-primary">Product Catalog Management Adds Value for Better Conversion</h2>
+                        <h2 class="text-primary" >Product Catalog Management Adds Value for Better Conversion</h2>
                         <p><strong>Promoting your Product Data Standardization</strong></p>
                         <p>We also key in comparative category data, promotional pricing and sale deals to attract customers. We also cross-link products to cross-sell and up-sell, create metadata for site search and SEO, and launch a content marketing campaign by combining images, videos, PDF documents with your product information.<br> <strong>Gnoin</strong> in a regular and systematic manner in maintaining your product catalogue, adding or modifying information relating to product prices, availability, product variants, including new images and other relevant information, deleting information in case of discontinued products, etc. Provides continuous support from. Gnoin has a team of highly skilled catalog data entry professionals who provide services for all major shopping cart platforms and online marketplaces including Amazon A+ content services.</p>
                         
 
-                        <a class="thm-btn" href="request-a-quote.html">Let's connect your project</a>
+                        <a class="thm-btn" href="request-a-quote.html"><span>Let's connect your project</span></a>
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/outsource-catalog-processing-services.png " alt=" eCommerce product catalog management services in Kolkata" title=" eCommerce product catalog management services in Kolkata">
+                            <img src="images/ecommercecataloguemgmt/ecomcatmain.png" alt=" eCommerce product catalog management services in Kolkata" title=" eCommerce product catalog management services in Kolkata">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    
-      
     
         <section class="service_web_section">
             <div class="container text-center justify-content-around ">
@@ -68,17 +90,17 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="crm_miston1">
                             <ul>
-                                <li>
-                                   <i class="fa fa-hand-o-right text-primary"></i> Catalog Processing services
+                                <li class="shadow-sm1 p-4">
+                                   <i class="fa fa-hand-o-right text-primary "></i> Catalog Processing services
                                 </li>
-                                <li>
+                                <li class="shadow-sm1 p-4">
                                    <i class="fa fa-hand-o-right text-primary"></i> Catalog Creation services
                                 </li>
-                                <li>
+                                <li class="shadow-sm1 p-4">
                                    <i class="fa fa-hand-o-right text-primary"></i> Catalog Indexing services
     
                                 </li>
-                                <li>
+                                <li class="shadow-sm1 p-4">
                                    <i class="fa fa-hand-o-right text-primary"></i> Catalog Content Creation services
                                 </li>
                             </ul>
@@ -88,16 +110,16 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="crm_miston1">
                             <ul>
-                                <li>
+                                <li class="shadow-sm1 p-4">
                                    <i class="fa fa-hand-o-right text-primary"></i> Catalog Content Editing services
                                 </li>
-                                <li>
+                                <li class="shadow-sm1 p-4">
                                    <i class="fa fa-hand-o-right text-primary"></i> Catalog Conversion services
                                 </li>
-                                <li>
+                                <li class="shadow-sm1 p-4">
                                    <i class="fa fa-hand-o-right text-primary"></i> Catalog Updating services
                                 </li>
-                                <li>
+                                <li class="shadow-sm1 p-4">
                                    <i class="fa fa-hand-o-right text-primary"></i> Catalog Maintenance services
                                 </li>
                             </ul>
@@ -108,7 +130,7 @@
                 </div>
     
                 <div class="text-center mt-5">
-                    <a class="thm-btn" href="request-a-quote.html"> Request a Quote </a>
+                    <a class="thm-btn1" href="request-a-quote.html"> <span>Request a Quote</span> </a>
                 </div>
     
             </div>
@@ -130,7 +152,7 @@
         <section class="zzz">
             <div class="container text-center justify-content-around pt-4">
                 <div class="row1">
-                    <h1> Engagement Exercise Model</h1>
+                    <h1 > Engagement Exercise Model</h1>
                     <h5>That meet every business need</h5>
                     <p></p>
                 </div>
@@ -186,7 +208,7 @@
                     data-wow-delay="0ms">
                     <div class=" card justify-content-center h-100  align-items-center card-block">
                         <div class="card-img-top mt-4">
-                            <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                            <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                         </div>
                         <div class="card-body mt-2">
                             <h4 class="text-tilte">Hourly Based Model</h4>
@@ -218,4 +240,21 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

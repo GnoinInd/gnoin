@@ -40,8 +40,9 @@
 
 
         <!-- ---------------------header section----------------------------------------->
+        <?php include "header.php" ?>
 
-<?php include "header.php"; ?>
+
         <!-- inerpage page top container  -->
         <section class="inner-banner">
             <div class="container">
@@ -76,12 +77,12 @@
                             mobile friendly websites!
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/new/open-sorce.png" alt="Strategical Open Source Development"
+                            <img src="images/imagesIndex/mobileFriendlyWebDesign.png" alt="Strategical Open Source Development"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -111,7 +112,8 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png"
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/mobileFriendlyWebDesign1.png"
                                         alt="">
                                     <h3>Enhanced User Experience</h3>
                                     <p class="para">Our UI/UX experts recognize that designing a website for mobile
@@ -120,12 +122,15 @@
 
 
                                     </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/mobileFriendlyWebDesign2.png" alt="">
                                     <h3>Technical Expertise</h3>
                                     <p class="para"> As a mobile first website design company, we know the importance of
                                         focusing on various technical aspects such as - mobile wireframes, advanced
@@ -134,59 +139,73 @@
 
 
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
-                                    <h3>Optimized for Different Platforms</h3>
-                                    <p class="para">Today's consumers do most of their browsing, shopping and searching
-                                        for most services only on mobile devices. We work to create a mobile first
-                                        design that easily adapts to different platforms, capabilities and mobile
-                                        browsers.
-
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/mobileFriendlyWebDesign3.png" alt="">
+                                        <h3>Optimized for Different Platforms</h3>
+                                        <p class="para">Today's consumers do most of their browsing, shopping and searching
+                                            for most services only on mobile devices. We work to create a mobile first
+                                            design that easily adapts to different platforms, capabilities and mobile
+                                            browsers.
+    
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/mobileFriendlyWebDesign4.png" alt="">
                                     <h3>Enhanced Search Engine Indexing</h3>
                                     <p class="para">While creating a mobile first design for you, our expert team makes
                                         sure that we follow Google best practices and guidelines for mobile first
                                         indexing.
 
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/mobileFriendlyWebDesign5.png" alt="">
                                     <h3> Front-End Development</h3>
                                     <p class="para">Our team consists of skilled front-end developers capable of
                                         creating pixel-perfect, responsive front-end solutions.
 
 
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
-                                    <h3>Usability Testing </h3>
-                                    <p class="para">We provide fully tested UI/UX designs that have been validated by
-                                        target industry users using trusted testing tools.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/mobileFriendlyWebDesign6.png" alt="">
+                                        <h3>Usability Testing </h3>
+                                        <p class="para">We provide fully tested UI/UX designs that have been validated by
+                                            target industry users using trusted testing tools.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -221,7 +240,7 @@
                         </div>
                         <div class="col-md-5">
                             <div class="h-100">
-                                <img src="https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg"
+                                <img src="images/imagesIndex/reasnToMakeWebMobfr.png"
                                     alt="Image">
                             </div>
                         </div>
@@ -339,77 +358,104 @@
                 </div>
                 <div class="row web_margin_top">
 
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Clarity In Design</h3>
-                            <p>Designs that are easily accessible and graphics that are recognizable.</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx1.png" alt="" title="">
+                                <h3>Clarity In Design</h3>
+                                <p>Designs that are easily accessible and graphics that are recognizable.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Benefist-Of-Omni-Channel-Reach.png" alt="" title="">
-                            <h3> Well Organized</h3>
-                            <p>A well-planned structure where elements are placed for maximum effect.</p>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Cost-Effective.png" alt="" title="">
-                            <h3> Simplicity</h3>
-                            <p>Intuitive, relevant and organized are our three designing principles.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Original Designs</h3>
-                            <p>We hate to infringe, so rest assured our designs are always original.</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx2.png" alt="" title="">
+                                <h3> Well Organized</h3>
+                                <p>A well-planned structure where elements are placed for maximum effect.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
 
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3> Consistency</h3>
-                            <p>We follow a standardized layout on the site to keep it simple for the users</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx3.png" alt="" title="">
+                                <h3> Simplicity</h3>
+                                <p>Intuitive, relevant and organized are our three designing principles.</p>
+                                    </div>
+                          
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Responsive Design</h3>
-                            <p>Sites that smoothly adapt to all screen resolutions, sizes and devices</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx4/creativity/rafiki.png" alt="" title="">
+                                <h3>Original Designs</h3>
+                                <p>We hate to infringe, so rest assured our designs are always original.</p>
+                                    </div>
+                          
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Proper Call To Action</h3>
-                            <p> A well-planned architecture for the user to function in the required manner of the
-                                application.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Highly Affordable</h3>
-                            <p>Despite having good quality, our prices are highly competitive</p>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx5/consent/rafiki.png" alt="" title="">
+                                <h3> Consistency</h3>
+                                <p>We follow a standardized layout on the site to keep it simple for the users</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx6.png" alt="" title="">
+                                <h3>Responsive Design</h3>
+                                <p>Sites that smoothly adapt to all screen resolutions, sizes and devices</p>
+                                    </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx7.png" alt="" title="">
+                                <h3>Proper Call To Action</h3>
+                                <p> A well-planned architecture for the user to function in the required manner of the
+                                    application.</p>   
+                                    </div>
+                          
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                <img src="images/imagesIndex/latestTrendUiUx8/uploading/rafiki.png" alt="" title="">
+                                <h3>Highly Affordable</h3>
+                                <p>Despite having good quality, our prices are highly competitive</p>
+                                    </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 my-2">
+                        <div class="web_analysis box_shad1 ">
+                            <div class=" p-3">
+                                        <img src="images/imagesIndex/latestTrendUiUx9/data-trends/rafiki.png" alt="" title="">
                             <h3> Latest Trends</h3>
                             <p>Be sure to follow the latest UI/UX designing trends in your web designing projects.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
@@ -517,7 +563,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -538,11 +584,29 @@
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-<?php include "footer.php"; ?>
 
         <!-- footer end -->
 

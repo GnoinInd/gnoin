@@ -41,7 +41,8 @@
         <!-- header part start -->
 
 
-<?php include "header.php"; ?>
+        <?php include "header.php" ?>
+
        
         <!-- header end -->
 
@@ -124,8 +125,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -142,7 +143,7 @@
                                 We are India's leading service-based AngularJS web development company and offer a wide range of development services and solutions as per business needs.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
                        
@@ -167,50 +168,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Custom AngularJS Development</h3>
-                                    <p>Our years of domain expertise assist us in offering secure, scalable, feature packed and responsive AngularJS web app development.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Custom AngularJS Development</h3>
+                                        <p>Our years of domain expertise assist us in offering secure, scalable, feature packed and responsive AngularJS web app development.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
-                                    <h3>Web/Mobile App UI/UX Development</h3>
-                                    <p>Our professional team of AngularJS developers provides creative and engaging web and mobile app UI/UX development services as per the current designing trends.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
+                                        <h3>Web/Mobile App UI/UX Development</h3>
+                                        <p>Our professional team of AngularJS developers provides creative and engaging web and mobile app UI/UX development services as per the current designing trends.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>API Development</h3>
-                                    <p>We provide high performance and scalable enterprise oriented API development services as per the exact requirements of your business.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>API Development</h3>
+                                        <p>We provide high performance and scalable enterprise oriented API development services as per the exact requirements of your business.
+                                        </p> 
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Migration & Upgradation Services</h3>
                                     <p>If you want to migrate your website from other platform to AngularJS or want to upgrade the current version, our AngularJS developers will help you easily.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>AngularJS Consulting Services</h3>
                                     <p>If you want to know anything about AngularJS technology, feel free to contact us and our AngularJS developers will definitely assist you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>24*7 Support and Maintenance</h3>
-                                    <p>Apart from AngularJS development services, our AngularJS developers are also experienced in providing round the clock AngularJS support and maintenance service to our global clients.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>24*7 Support and Maintenance</h3>
+                                        <p>Apart from AngularJS development services, our AngularJS developers are also experienced in providing round the clock AngularJS support and maintenance service to our global clients.</p>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -221,7 +240,7 @@
                     
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Request for Free Quote
+                    <a href="#" class="thm-btn about-one__btn"><span>Request for Free Quote</span>
                     </a>
                    </div>
             </div>
@@ -269,76 +288,103 @@
                 <div class="row pading">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
-                            <h3>Retail & ECommerce</h3>
-                            <p>
-                                Gnoin builds a robust e-commerce solution including e-carts and marketplaces, auctions and reverse auctions, social commerce solutions, and more.
-                            </p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
+                                <h3>Retail & ECommerce</h3>
+                                <p>
+                                    Gnoin builds a robust e-commerce solution including e-carts and marketplaces, auctions and reverse auctions, social commerce solutions, and more.
+                                </p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
-                            <h3>E-Learning Solutions</h3>
-                            <p>Our e-learning solutions include various professional online training web apps, learning management systems, corporate learning portals, online courses, etc.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
+                                <h3>E-Learning Solutions</h3>
+                                <p>Our e-learning solutions include various professional online training web apps, learning management systems, corporate learning portals, online courses, etc.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
-                            <h3>Social Networks Solutions</h3>
-                            <p>Web applications with social connectivity developed by Gnoin include social networks and communities, collaboration solutions, blogs and wikis, etc.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
+                                <h3>Social Networks Solutions</h3>
+                                <p>Web applications with social connectivity developed by Gnoin include social networks and communities, collaboration solutions, blogs and wikis, etc.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
-                            <h3>Travel & Tourism Solutions</h3>
-                            <p>Our agile application development solutions increase the ROI of your travel business and reduce operational costs.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
+                                <h3>Travel & Tourism Solutions</h3>
+                                <p>Our agile application development solutions increase the ROI of your travel business and reduce operational costs.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
-                            <h3>Logistics & Transport Solutions</h3>
-                            <p>Our result driven application development services for logistics and transportation increase ROI and effectively manage routine workflow.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
+                                <h3>Logistics & Transport Solutions</h3>
+                                <p>Our result driven application development services for logistics and transportation increase ROI and effectively manage routine workflow.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Media & Entertainment</h3>
-                            <p>Our ASP.NET experts provide online promotion solutions, social networking development tools etc. with the use of latest trends.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Media & Entertainment</h3>
+                                <p>Our ASP.NET experts provide online promotion solutions, social networking development tools etc. with the use of latest trends.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Healthcare App Solutions</h3>
-                            <p>Our .NET development company in India specializes in building advanced e-healthcare solutions with end-to-end web and mobile healthcare application development services.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Healthcare App Solutions</h3>
+                                <p>Our .NET development company in India specializes in building advanced e-healthcare solutions with end-to-end web and mobile healthcare application development services.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Banking & Finance Solutions</h3>
-                            <p>Our .NET app development company in India provides custom banking and financial software development services for increased operational efficiency and agility.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Banking & Finance Solutions</h3>
+                                <p>Our .NET app development company in India provides custom banking and financial software development services for increased operational efficiency and agility.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Automotive Solutions</h3>
-                            <p>Our custom web and mobile applications help in making the automotive organization more cost efficient as well as sustainable.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Automotive Solutions</h3>
+                                <p>Our custom web and mobile applications help in making the automotive organization more cost efficient as well as sustainable.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
@@ -347,7 +393,7 @@
     
                 </div>
                 <div class="text-center mt-3">
-                    <a class="thm-btn" href="#">Request a Quote  </a>
+                    <a class="thm-btn" href="#"><span>Request a Quote</span>  </a>
                 </div>
             </div>
         </section>
@@ -363,7 +409,7 @@
             <div class="container text-center">
                 <h3 class="cta-one__title">HIRE ANGULAR.JS WEB DEVELOPER</h3><!-- /.cta-one__title -->
                 <p class="cta-one__phone">Optimize and automate business processes, grow your customer base, and maximize ROI by hiring our dedicated AngularJS for your up-to-date cost-effective web applications.</p><br>
-                <a href="#" class="thm-btn about-one__btn">Let's Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Let's Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -462,7 +508,6 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <?php include "footer.php"; ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -530,3 +575,13 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+

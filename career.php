@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,13 +34,13 @@
     
 
 
-
 </head class="home-one">
 <body >
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
-    <?php include "header.php"; ?>
-        <section class="inner-banner">
+    <?php include "header.php" ?>
+
+    <section class="inner-banner">
         <div class="container">
             <div class="inner-banner__content-wrap">
                 <h2 class="text-light">CAREER</h2>
@@ -70,7 +67,7 @@
                 </div>
                 <div class="col-md-5">
                     <div class="web_desing_right">
-                        <img src="./images/EnterpriseBranding/career.jpg" alt="Careers"
+                        <img src="../images/EnterpriseBranding/career.jpg" alt="Careers"
                             title="Careers">
                     </div>
                 </div>
@@ -90,8 +87,8 @@
                             <p class="mb-0 font-md">Hiring Java Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -108,8 +105,8 @@
                             <p class="mb-0 font-md">Hiring React js Developers with 7+ years of experience.</p>
     
                     </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -126,8 +123,8 @@
                             <p class="mb-0 font-md">Hiring PHP Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -145,8 +142,8 @@
                             <p class="mb-0 font-md">Hiring Angular Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -165,8 +162,8 @@
                             <p class="mb-0 font-md">Hiring Node js Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -191,7 +188,6 @@
             </form>
         </div>
     </div>
-    <?php include "footer.php"; ?>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

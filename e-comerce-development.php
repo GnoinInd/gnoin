@@ -34,10 +34,13 @@
 
 </head>
 
-     <?php include "header.php"; ?>
+<body class="home-one">
+
+    <div class="page-wrapper">
 
 
         <!-- ---------------------header section----------------------------------------->
+        <?php include "header.php" ?>
 
 
         <!-- inerpage page top container  -->
@@ -70,12 +73,12 @@
                             
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/lbs1.png" alt="Best Seo Services in India"
+                            <img src="images/imagesIndex/eCommerceDevImage.png" alt="Best Seo Services in India"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -104,70 +107,88 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/eCommDev1.png" alt="">
                                     <h3>e-Commerce Shopfronts</h3>
                                     <p class="para">Being a top eCommerce development company, we design customer-centric web stores and shopping websites that provide a great shopping experience to your customers, regardless of their location.
                                         
                                      
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/eCommDev2.png" alt="">
                                     <h3>e-Commerce Aggregators</h3>
                                     <p class="para"> If you are planning for a customized eCommerce solution that bundles together various sellers and summarizes their solutions under one umbrella, then we are ready to offer you our exclusive services.
                                         
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/eCommDev3.png" alt="">
                                     <h3>Market-Town</h3>
                                     <p class="para">With our professional eCommerce web development expertise, we deploy multi-currency and multi-lingual marketplaces as an intelligent medium for a smooth collaboration between customers and sellers.
                                         
                                       
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/eCommDev4.png" alt="">
                                     <h3> Delivery Paltforms</h3>
                                     <p class="para">With our wide range of eCommerce website development services, we implement solutions for online delivery businesses to operate smoothly, manage and track deliveries, and optimize whenever required.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/eCommDev5.png" alt="">
                                     <h3>Booking Platforms</h3>
                                     <p class="para">  We design and deploy personalized solutions to make booking and ticketing activities more comfortable, transparent for customers around the world. We pay close attention to payment encryption security methodology and solution performance.
                                         
                                      
                                 </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
-                                    <h3>B2B Trade Portals</h3>
-                                    <p class="para">Our solutions support businesses in managing and establishing a secure multichannel global trade, form partnerships, design competitive public offerings, and collaborate with merchants globally.
-                                        
-                                        </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/eCommDev6.png" alt="">
+                                        <h3>B2B Trade Portals</h3>
+                                        <p class="para">Our solutions support businesses in managing and establishing a secure multichannel global trade, form partnerships, design competitive public offerings, and collaborate with merchants globally.
+                                            
+                                            </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -429,7 +450,7 @@
                 <!-- /.cta-one__title -->
                 <p class="text-light">Optimize and automate your business processes, grow your customer base, and maximize your ROI by hiring our dedicated custom eCommerce developers for your up-to-date cost-effective development.
                 </p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -454,14 +475,14 @@
                                 <h5 class="text-light">Our experts team creates enjoyable and meaningful web experiences</h5>
                                 <p class="banner-one__text banner-one__is-animated">We always try to reduce the cost with better administration and integration.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
-                                    talk</a><!-- /.thm-btn -->
+                                <a href="about-2.html" class="thm-btn1 banner-one__btn"><span>Let's start
+                                    talk</span></a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
 
                             <div class="implation-img-box">
 
-                                <img src="./images/new/istockphoto-1291318636-170667a.jpg" alt="" class="">
+                                <img src="images/imagesIndex/inHouseDevServices.png" alt="" class="">
                             </div>
 
 
@@ -528,7 +549,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Development &-Implementation.jpg">
+                                            <img src="./images/custom softweare dev/ownDomainIcon.jpg">
                                         </div>
 
                                         <div>
@@ -544,7 +565,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Expert Software Consulting.png">
+                                            <img src="./images/custom softweare dev/customSoftDevOwnDomain.jpg">
                                         </div>
 
                                         <div>
@@ -560,7 +581,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev//Design-Specification.jpg">
+                                            <img src="./images/custom softweare dev//customSoftDevFeedIcon.jpg">
                                         </div>
 
                                         <div>
@@ -575,7 +596,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="./images/new/development-4536630_1280.webp" alt="" class="">
+                                <img src="images/imagesIndex/inHouseDevServices1.png" alt="" class="">
                             </div>
 
 
@@ -653,7 +674,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -674,6 +695,25 @@
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- footer start -->
@@ -685,4 +725,34 @@
 
 
     </div>
-         <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

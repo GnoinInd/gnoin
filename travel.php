@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +10,37 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Gnoin Pvt Ltd </title>
-    </head>
-     <?php include "header.php"; ?>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    
+
+    <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="./css/ondemand.css"> -->
+    <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
 
 
+        <?php include "header.php" ?>
 
        
         <!-- header end -->
@@ -93,8 +122,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -108,7 +137,7 @@
                             <p class="">From demand forecasting, booking/reservations, guest services to front-desk operations, our creative web and mobile solutions cover all front and back office processes and operational needs of the travel and hospitality industry. To stay cutthroat in our contemporary digital world, every business, which is engulfed in the hospitality bubble, needs innovative, creative and cost-effective IT solutions intentionally customized for the travel and hospitality industry. Every one of us wants to increase profitability, but to achieve this, you need truly customer-centric solutions that enable managers to sprint everything from a single dashboard as well as highly demanding markets. and meets the expectations of the customers.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Request a Quote</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Request a Quote</span></a>
                             </div>
                         </div>
 
@@ -126,7 +155,7 @@
                         TRAVEL & HOSPITALITY APP AND SOFTWARE DEVELOPMENT SOLUTIONS
 <h5>Powerful Feature and Unique Technologies.</h5>
                         <div class="sub_heading" >
-                            <p >>Gnoin provides mobility solutions for travel and hospitality businesses. Our developed solutions promise fast and easy operations, smooth planning and many other benefits.<p>
+                            <p>Gnoin provides mobility solutions for travel and hospitality businesses. Our developed solutions promise fast and easy operations, smooth planning and many other benefits.<p>
                         </div>
 
                     </h2>
@@ -138,72 +167,99 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Travel Planning App</h3>
                                     <p>As a top travel app development company, we provide a solution that will help you get rid of confusing queries related to your travel plans. From ticket booking to places to visit, we take care of everything for you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Ticket and Hotel Booking</h3>
                                     <p>We offer ticket and hotel booking software/app development services that are secure and help customers book tickets and hotels smoothly at their desired destinations. We Offer hack-proof solutions to protect customer information.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Vehicle Booking Solutions</h3>
-                                    <p>On-demand vehicle booking facility to enable inter-city and inter-country travel is also included in our Travel & Hospitality Software Solutions. It helps the customers to book vehicles anytime anywhere as per their convenience.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Vehicle Booking Solutions</h3>
+                                        <p>On-demand vehicle booking facility to enable inter-city and inter-country travel is also included in our Travel & Hospitality Software Solutions. It helps the customers to book vehicles anytime anywhere as per their convenience.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Hotel Management Software</h3>
                                     <p>We offer hotel management software development services that are beneficial for simplifying a vast scope of industry-specific routine operations to reduce the use of reliable human resources and associated costs.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>CRM Solutions</h3>
                                     <p>Our skilled developers create unique CRM solutions that help travel and hotel enterprises handle huge customer data. This data is useful for offering customized services to customers to increase engagement and earn their loyalty.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>Travel Agent Software</h3>
-                                    <p>Travel agent software solution is a savior for all travel agents, as it provides easy and better management by coordinating tasks, keeping records of accounts and details of customer bookings, customer communication, and various others.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>Travel Agent Software</h3>
+                                        <p>Travel agent software solution is a savior for all travel agents, as it provides easy and better management by coordinating tasks, keeping records of accounts and details of customer bookings, customer communication, and various others.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>Document Management System</h3>
                                     <p>Whether it is a hotel or a restaurant, DMS is essential for all enterprises to have control over all business documents and files. We integrate DMS into our evolved hospitality management software solutions for better organization.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>Hospitality App Development</h3>
                                     <p>We offer excellent mobile app development solutions for hospitality to boost brand awareness and user engagement. Our skilled app developers create both hospitality software solutions and standalone task-specific applications.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>Payment Management</h3>
-                                    <p>Our payment management solutions help hospitality vendors to manage all tasks and invoices, automate payment and billing process, keep track of transactions, personalized payment terms and many more.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>Payment Management</h3>
+                                        <p>Our payment management solutions help hospitality vendors to manage all tasks and invoices, automate payment and billing process, keep track of transactions, personalized payment terms and many more.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -227,52 +283,70 @@
                 <div class="row">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
-                            <h3>Reputation Management</h3>
-                            <p>
-                                Brand reputation plays an important role in increasing the customer base. With our efficient travel and hospitality solutions, it will be easier for your marketing team to positively influence and modify the way people perceive your business.
-                            </p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
+                                <h3>Reputation Management</h3>
+                                <p>
+                                    Brand reputation plays an important role in increasing the customer base. With our efficient travel and hospitality solutions, it will be easier for your marketing team to positively influence and modify the way people perceive your business.
+                                </p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
-                            <h3>In-expensive Marketing</h3>
-                            <p>Gone are the days when you needed a big budget and lots of resources to sell your services; no longer exist. Now you can market your products cost-effectively through your website or mobile app to get better audience reach and other benefits.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
+                                <h3>In-expensive Marketing</h3>
+                                <p>Gone are the days when you needed a big budget and lots of resources to sell your services; no longer exist. Now you can market your products cost-effectively through your website or mobile app to get better audience reach and other benefits.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
-                            <h3>Easy Business Management</h3>
-                            <p>With our custom hospitality software development services, it is easy to handle business operations like documentation, billing and invoicing, offering hot deals to attract customers, room management, better customer services, and so on.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
+                                <h3>Easy Business Management</h3>
+                                <p>With our custom hospitality software development services, it is easy to handle business operations like documentation, billing and invoicing, offering hot deals to attract customers, room management, better customer services, and so on.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
-                            <h3>Decrease Operational Cost</h3>
-                            <p>The adoption of technology in travel and hospitality solutions has resulted in reduction of general operating costs. Optimizing staff training, manpower scheduling, identifying inefficiencies and process automation are also helpful.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
+                                <h3>Decrease Operational Cost</h3>
+                                <p>The adoption of technology in travel and hospitality solutions has resulted in reduction of general operating costs. Optimizing staff training, manpower scheduling, identifying inefficiencies and process automation are also helpful.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
-                            <h3>Better Customer Support</h3>
-                            <p>Our travel and hospitality web development services facilitate the customers round the clock and provide flexible support. It eases the communication between the guests and the officials thereby resolving their queries.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
+                                <h3>Better Customer Support</h3>
+                                <p>Our travel and hospitality web development services facilitate the customers round the clock and provide flexible support. It eases the communication between the guests and the officials thereby resolving their queries.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>24*7 Customer Services</h3>
-                            <p>We provide the right mobility solutions for hospitality and travel that will meet all the needs of your customers 24*7. It will also increase your potential customers by providing high-quality customer services that lead to ultimate satisfaction.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>24*7 Customer Services</h3>
+                                <p>We provide the right mobility solutions for hospitality and travel that will meet all the needs of your customers 24*7. It will also increase your potential customers by providing high-quality customer services that lead to ultimate satisfaction.</p>
+                                    </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -357,7 +431,7 @@
             <div class="container text-center">
                 <h3 class="cta-one__title">  HIRE SOFTWARE DEVELOPER </h3><!-- /.cta-one__title -->
                 <p class="cta-one__phone">Automate and optimize your business processes, boost your customer base, and maximize your RoI by hiring our dedicated software developers for cost-effective custom software development.</p><br>
-                <a href="#" class="thm-btn about-one__btn">Let's Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Let's Hire Now</span></a>
             </div><!-- /.container -->
         </section>
         <section class="web_design_section_main new_col_section">
@@ -506,4 +580,58 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-         <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#Accessibility").css("display", "flex");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+
+            });
+
+            $("#btn2").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "flex");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn3").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "flex");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn4").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "flex");
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

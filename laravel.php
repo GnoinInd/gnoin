@@ -31,47 +31,17 @@
     <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="./css/ondemand.css"> -->
     <link rel="stylesheet" href="./css/custom.css">
+   
 
 </head>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <title>Gnoin Pvt Ltd </title>
-    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/hover-min.css">
-    <link rel="stylesheet" href="css/vegas.min.css">
-    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/enterprise_branding_all.css">
-    
-
-    <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="./css/ondemand.css"> -->
-    <link rel="stylesheet" href="./css/custom.css">
-
-</head>
-     <?php include "header.php"; ?>
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
 
 
+        <?php include "header.php" ?>
 
        
         <!-- header end -->
@@ -153,8 +123,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -171,7 +141,7 @@
                                 Our services range from Laravel web development to custom Laravel CMS development and more. The dedicated Laravel developers at Gnoin are highly experienced in building robust Laravel solutions, which exponentially accelerate your business growth and significantly increase revenue.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -200,56 +170,77 @@
                         <div class="row m-0 ">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Custom Laravel Web Development</h3>
-                                    <p> We develop custom-built Laravel web applications with the help of our professional Laravel developers that integrate best-in-class functionalities and features.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Custom Laravel Web Development</h3>
+                                        <p> We develop custom-built Laravel web applications with the help of our professional Laravel developers that integrate best-in-class functionalities and features.</p>
+                                        <div class="box_shad p-3">
+                                       
+                                    </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
-                                    <h3>Enterprise Laravel Application</h3>
-                                    <p>With the amazing combination of the scalable Laravel platform and the expert team of Laravel developers at Gnoin, you will get full stack enterprise Laravel applications.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
+                                        <h3>Enterprise Laravel Application</h3>
+                                        <p>With the amazing combination of the scalable Laravel platform and the expert team of Laravel developers at Gnoin, you will get full stack enterprise Laravel applications.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Migration & Upgradation Services</h3>
                                     <p>If you want to migrate your web to Laravel platform or want to upgrade current version of Laravel, our developers are always ready to assist you.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Laravel API Development</h3>
                                     <p>We being a world class Laravel development company have years of expertise in building an API that enables perfect communication with mobile users as well as extending applications to reach mobile-platforms.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>QA and Testing Services</h3>
-                                    <p>From the earliest stages of the project, we keep our expert quality analysts in the loop to ensure that your web works on all browsers and screens.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>QA and Testing Services</h3>
+                                        <p>From the earliest stages of the project, we keep our expert quality analysts in the loop to ensure that your web works on all browsers and screens.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>24*7 Support & Maintenance</h3>
                                     <p>Apart from providing development services, our expert Laravel developers are also proficient in providing round the clock support and maintenance to the clients.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Request a free Quote</a>
+                            <a class="thm-btn mt-5" href="#"><span>Request a free Quote</span></a>
                         </div>
                     </div>
                 </div>
@@ -329,52 +320,70 @@
                 <div class="row web_margin_top">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
-                            <h3>Requirement Analysis</h3>
-                            <p>
-                                High quality analysis always provides better returns. While discussing the requirements of the project, we definitely craft to offer the best web app development services as per the business requirements of the clients.
-                            </p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
+                                <h3>Requirement Analysis</h3>
+                                <p>
+                                    High quality analysis always provides better returns. While discussing the requirements of the project, we definitely craft to offer the best web app development services as per the business requirements of the clients.
+                                </p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
-                            <h3>Well Designed Web App</h3>
-                            <p>The primary thing your user sees is the design of your web app. We follow the latest web design trends to provide attractive and easy-to-use designs for your web apps.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
+                                <h3>Well Designed Web App</h3>
+                                <p>The primary thing your user sees is the design of your web app. We follow the latest web design trends to provide attractive and easy-to-use designs for your web apps.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
-                            <h3>Mobile Friendly Web app</h3>
-                            <p>Our Laravel web app developers provide our clients with a feature rich responsive web app with a stunning custom design, robust plug-ins and mobile friendly user interface.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
+                                <h3>Mobile Friendly Web app</h3>
+                                <p>Our Laravel web app developers provide our clients with a feature rich responsive web app with a stunning custom design, robust plug-ins and mobile friendly user interface.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
-                            <h3>High Performance & Speed</h3>
-                            <p>Our offered website provides great quick user experience and loads within 3 seconds which improves your conversions and helps in Google ranking.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
+                                <h3>High Performance & Speed</h3>
+                                <p>Our offered website provides great quick user experience and loads within 3 seconds which improves your conversions and helps in Google ranking.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
-                            <h3>Advanced Security & Scalability</h3>
-                            <p>Our Laravel web development ensures extreme scalability and site shielding by employing advanced security measures like high security plug-ins, data encryption, secure admin dashboard etc.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
+                                <h3>Advanced Security & Scalability</h3>
+                                <p>Our Laravel web development ensures extreme scalability and site shielding by employing advanced security measures like high security plug-ins, data encryption, secure admin dashboard etc.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Extended Software Protection Plan</h3>
-                            <p>If you discover a bug or security issue with your software, you can request a free quote. Our specialist will get in touch with you within 12 to 24 hours.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Extended Software Protection Plan</h3>
+                                <p>If you discover a bug or security issue with your software, you can request a free quote. Our specialist will get in touch with you within 12 to 24 hours.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
@@ -394,7 +403,7 @@
             <div class="container text-center">
                 <h3 class="cta-one__title">  HIRE LARAVEL DEVELOPER </h3><!-- /.cta-one__title -->
                 <p class="cta-one__phone">Optimize and automate business processes, grow your customer base, and maximize ROI by hiring our dedicated Laravel developers for your up-to-date cost-effective applications.</p><br>
-                <a href="#" class="thm-btn about-one__btn">Let's Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Let's Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -480,4 +489,21 @@
         
     </div><!-- /.page-wrapper -->
    
-        <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>

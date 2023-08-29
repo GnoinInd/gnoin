@@ -1,8 +1,47 @@
-     <?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <title>Gnoin Pvt Ltd </title>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="home-one">
+
+    <div class="page-wrapper">
 
 
         <!-- ---------------------header section----------------------------------------->
 
+        <?php include "header.php" ?>
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -35,12 +74,12 @@
                             
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/Social-Media-Content.png" alt="Strategical Open Source Development"
+                            <img src="images/uxuidesign/uiuxdesignmain.png" alt="Strategical Open Source Development"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -70,73 +109,91 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png" alt="">
-                                    <h3> UX Research</h3>
-                                    <p class="para">We understand the exact requirements and then analyze business goals as well as market trends to create a scope definition for the project.
+                                    <div class="box_shad p-3">
+                                        <img src="images/uxuidesign/uiuxdesignicon1.png" alt="">
+                                        <h3> UX Research</h3>
+                                        <p class="para">We understand the exact requirements and then analyze business goals as well as market trends to create a scope definition for the project.
+                                        
+                                         
+                                        </p>
+                                    </div>
                                     
-                                     
-                                    </p>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
-                                    <h3>UX Design</h3>
-                                    <p class="para"> UX design is a broad term that includes its visual layout, content, navigation, and features that come together to create an amazing experience for users.
+                                    <div class="box_shad p-3">
+                                        <img src="images/uxuidesign/uiuxdesignicon2.png" alt="">
+                                        <h3>UX Design</h3>
+                                        <p class="para"> UX design is a broad term that includes its visual layout, content, navigation, and features that come together to create an amazing experience for users.
+                                            
                                         
-                                    
-                                        
-                                    </p>
+                                            
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
-                                    <h3> UI Design</h3>
-                                    <p class="para"> Our designing team excels in creating interactive yet eye-catching designs with the right mix of colors, typography and images keeping the user experience at the center.
-                                        
-                                        
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/uxuidesign/uiuxdesignicon3.png" alt="">
+                                        <h3> UI Design</h3>
+                                        <p class="para"> Our designing team excels in creating interactive yet eye-catching designs with the right mix of colors, typography and images keeping the user experience at the center.
+                                            
+                                            
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/uxuidesign/uiuxdesignicon4.png" alt="">
                                     <h3>Branding and Identity</h3>
                                     <p class="para">The truth is this - every business is defined by its brand. We create designs that accurately replicate brands, their business and core values.
                                         
                                      </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/uxuidesign/uiuxdesignicon5.png" alt="">
                                     <h3> Front-End Development</h3>
                                     <p class="para">Our experts include skilled front-end developers who are highly skilled in creating pixel-perfect and responsive front-end solutions.
                                         
                                         
                                      
                                 </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
-                                    <h3>Usability Testing</h3>
-                                    <p class="para">We present well-tested UI/UX designs that have been validated by real-life users of the target industry using trusted testing tools.
+                                    <div class="box_shad p-3">
+                                        <img src="images/uxuidesign/uiuxdesignicon6.png" alt="">
+                                        <h3>Usability Testing</h3>
+                                        <p class="para">We present well-tested UI/UX designs that have been validated by real-life users of the target industry using trusted testing tools.
+                                        
+                                            </p>
+                                    </div>
                                     
-                                        </p>
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -300,7 +357,7 @@
                 <!-- /.cta-one__title -->
                 <p class="text-light">Optimize and automate your business processes, grow your customer base, and maximize your ROI by hiring our dedicated UX/UI designers for your up-to-date cost-effective web applications.
                    </p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -325,14 +382,14 @@
                                 <h5 class="text-light">Prerequisites of success for every business</h5>
                                 <p class="banner-one__text banner-one__is-animated">Our development team emphasizes on in-depth technology expertise and is fully equipped to handle your simple-to-complex project requirements with ease.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
-                                    talk</a><!-- /.thm-btn -->
+                                <a href="about-2.html" class="thm-btn1 banner-one__btn"><span>Let's start
+                                    talk</span></a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
 
                             <div class="implation-img-box">
 
-                                <img src="https://media.istockphoto.com/id/1295900106/photo/data-scientists-male-programmer-using-laptop-analyzing-and-developing-in-various-information.jpg?s=612x612&w=0&k=20&c=2z9VEOlF7mAgeZDEsnetqFMyQS6xqjmXDoryrQ_LeOc=" alt="" class="">
+                                <img src="images/uxuidesign/latesttrendsimg.png" alt="" class="">
                             </div>
 
 
@@ -450,7 +507,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="./images/new/why-us-bg.jpg" alt="" class="">
+                                <img src="images/uxuidesign/latesttrendsimg1.png" alt="" class="">
                             </div>
 
 
@@ -553,7 +610,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -586,7 +643,7 @@
 
 
                         </div>
-                        <a href="contact.html" class="thm-btn cta-four__btn-two">Contact us</a>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
 
                     </div>
                 </div>
@@ -604,4 +661,34 @@
 
 
     </div>
-         <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

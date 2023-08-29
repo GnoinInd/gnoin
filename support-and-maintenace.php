@@ -41,11 +41,8 @@
 
 
         <!-- ---------------------header section----------------------------------------->
+        <?php include "header.php" ?>
 
-    <?php
-
-include("header.php");
-?>
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -66,6 +63,7 @@ include("header.php");
 
 
 
+
         <section class=" web_design_section_main">
             <div class="container">
                 <div class="row">
@@ -78,12 +76,12 @@ include("header.php");
      
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="Support & maintenance"
+                            <img src="images/imagesIndex/supportandMaintainMainIng.png" alt="Support & maintenance"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -109,67 +107,85 @@ include("header.php");
                 <div class="row m-2">
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                         <div class="delivery_models float-left">
-                            <img src="./images/EnterpriseBranding/Software Migration & Upgrade.png" alt="">
-                            <h3>OS & server migration</h3>
-                            <p class="para">  We evaluate your business IT strategy, current resources, technologies and other key aspects of the IT revolution. We provide services like Linux to Windows migration, operating system update or application server migration.
-                                
-                             
-                            </p>
+                            <div class="box_shad p-3">
+                                <img src="images/imagesIndex/supportandMaintainMainIcon1.png" alt="">
+                                <h3>OS & server migration</h3>
+                                <p class="para">  We evaluate your business IT strategy, current resources, technologies and other key aspects of the IT revolution. We provide services like Linux to Windows migration, operating system update or application server migration.
+                                    
+                                 
+                                </p>
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="delivery_models">
-                            <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                            <h3>3rd party maintenance</h3>
-                            <p class="para">Our maintenance team uses a range of techniques to identify problems in your application and provides technical support services such as technology advisory services, security support and compliance updates.
-                                
-                                
-                            </p>
+                            <div class="box_shad p-3">
+                                <img src="images/imagesIndex/supportandMaintainMainIcon2.png" alt="">
+                                <h3>3rd party maintenance</h3>
+                                <p class="para">Our maintenance team uses a range of techniques to identify problems in your application and provides technical support services such as technology advisory services, security support and compliance updates.
+                                    
+                                    
+                                </p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="delivery_models">
-                            <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
-                            <h3>Bug fix & task tracking</h3>
-                            <p class="para">We ensure that your work continues uninterrupted as well as fix bugs of stable applications including audits, installation of tools and plugins, code standardization etc.
-                                
-                            </p>
+                            <div class="box_shad p-3">
+                                <img src="images/imagesIndex/supportandMaintainMainIcon3.png" alt="">
+                                <h3>Bug fix & task tracking</h3>
+                                <p class="para">We ensure that your work continues uninterrupted as well as fix bugs of stable applications including audits, installation of tools and plugins, code standardization etc.
+                                    
+                                </p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4  col-sm-6 col-xs-12">
                         <div class="delivery_models">
-                            <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                            <h3>Application maintenance</h3>
-                            <p class="para">We take care of your digital products and also suggest you with best matching platform, version and other version upgrades, monetization techniques and enhancements.
-                                </p>
+                            <div class="box_shad p-3">
+                                <img src="images/imagesIndex/supportandMaintainMainIcon4.png" alt="">
+                                <h3>Application maintenance</h3>
+                                <p class="para">We take care of your digital products and also suggest you with best matching platform, version and other version upgrades, monetization techniques and enhancements.
+                                    </p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="delivery_models">
-                            <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
-                            <h3>Devops Solutions</h3>
-                            <p class="para"> DevOps computerizes software delivery processes and ensures scalability and security of startup as well as large organization's infrastructure which includes testing and consulting services.
-                                
-                        </p>
+                            <div class="box_shad p-3">
+                                <img src="images/imagesIndex/supportandMaintainMainIcon5.png" alt="">
+                                <h3>Devops Solutions</h3>
+                                <p class="para"> DevOps computerizes software delivery processes and ensures scalability and security of startup as well as large organization's infrastructure which includes testing and consulting services.
+                                    
+                            </p>    
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="delivery_models">
-                            <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                            <h3>Pre support audit</h3>
-                            <p class="para">We pay special attention to start-ups and emerging companies to provide you customized solutions for your fast-changing business needs for your company.  
-                                </p>
+                            <div class="box_shad p-3">
+                                <img src="images/imagesIndex/supportandMaintainMainIcon6.png" alt="">
+                                <h3>Pre support audit</h3>
+                                <p class="para">We pay special attention to start-ups and emerging companies to provide you customized solutions for your fast-changing business needs for your company.  
+                                    </p>  
+                                    </div>
+                           
                         </div>
                     </div>
 
                 </div>
                 <div class="text-center mt-4">
-                    <a class="thm-btn" href="#"> Request a Quote </a>
+                    <a class="thm-btn" href="#"><span> Request a Quote</span> </a>
                 </div>
             </div>
         </div>
@@ -403,7 +419,7 @@ include("header.php");
             
         </div>
         <div class="text-center ">
-            <a class="thm-btn" href="#"> Request a Quote </a>
+            <a class="thm-btn1" href="#"> <span>Request a Quote</span> </a>
         </div>
     </div>
 
@@ -433,7 +449,7 @@ include("header.php");
                             </ul>
                            
                             <div class="mt-xl-4 mt-md-1">
-                                <a class="thm-btn" href="#"> Let's Start Now </a>
+                                <a class="thm-btn1" href="#"> <span>Let's Start Now</span> </a>
                             </div>
                         </div><!-- /.block-title -->
 
@@ -515,7 +531,7 @@ include("header.php");
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -536,17 +552,29 @@ include("header.php");
 
 
 
+        <!-- Contact us start -->
 
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-
-    <?php
-
-include("footer.php");
-?>
 
         <!-- footer end -->
 

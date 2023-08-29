@@ -40,15 +40,16 @@
 
 
         <!-- --------------------header Includ  -------------->
+        <?php include "header.php"?>
 
-<?php include "header.php"; ?>
 
         <section class="inner-banner">
             <div class="container">
                 <div class="inner-banner__content-wrap">
                     <h2 class="text-light">Custom Software Development
                     </h2>
-                    <p>We provide powerful unique software solutions for large and medium sized businesses - fast and with the closest attention to quality, ROI and your users</p>
+                    <p>We provide powerful unique software solutions for large and medium sized businesses - fast and
+                        with the closest attention to quality, ROI and your users</p>
                     <ul class="thm-breadcrumb list-unstyled">
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="contact.html">Page</a></li>
@@ -56,11 +57,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
         <section class=" web_design_section_main">
             <div class="container">
                 <div class="row">
@@ -78,7 +74,7 @@
                             the assurance that your software is methodically tested during each development phase.
                         </p>
 
-                        <a class="thm-btn" href="#">Let's Connect your Project</a>
+                        <a class="thm-btn" href="#"> <span>Let's Connect your Project</span> </a>
 
                     </div>
                     <div class="col-md-5">
@@ -115,100 +111,153 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/custom softweare dev/Expert Software Consulting.png" alt="">
-                                    <h3>Specialist Software Consulting</h3>
-                                    <p class="para"> Right from the inception stage of the project, our professionals
-                                        start working to ensure that your custom software application runs smoothly
-                                        across all browsers and screens.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/softwareTesting.png" alt="">
+                                        <h3>Specialist Software Consulting</h3>
+                                        <p class="para"> Right from the inception stage of the project, our
+                                            professionals
+                                            start working to ensure that your custom software application runs smoothly
+                                            across all browsers and screens.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>Custom Software Development</h3>
-                                    <p class="para">Our years of expertise in this domain helps us in providing scalable
-                                        and client-specific software with a guarantee of impenetrable security and high
-                                        performance.
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/apiIntegrationandDev.png" alt="">
+                                        <h3>Custom Software Development</h3>
+                                        <p class="para">Our years of expertise in this domain helps us in providing
+                                            scalable
+                                            and client-specific software with a guarantee of impenetrable security and
+                                            high
+                                            performance.
 
-                                    </p>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
-                                    <h3>ERP Software Development</h3>
-                                    <p class="para">SWe support you reduce your operating costs, maximize your
-                                        productivity, boost efficiency, and identify your business processes with our
-                                        highly secure and scalable ERP software development services.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/erpsoftdevelopmnt.png"
+                                            alt="">
+                                        <h3>ERP Software Development</h3>
+                                        <p class="para">SWe support you reduce your operating costs, maximize your
+                                            productivity, boost efficiency, and identify your business processes with
+                                            our
+                                            highly secure and scalable ERP software development services.
+                                        </p>
+                                    </div>
+
+
+
+
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>Software Product Development</h3>
-                                    <p class="para">Our skilled developers have successfully build lots of software
-                                        products to solve various multifaceted business problems in a systematic manner.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/apiIntegrationandDev.png" alt="">
+                                        <h3>Software Product Development</h3>
+                                        <p class="para">Our skilled developers have successfully build lots of software
+                                            products to solve various multifaceted business problems in a systematic
+                                            manner.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
-                                    <h3>Software UI/UX Design</h3>
-                                    <p class="para"> As a custom software designing company, we provide your software
-                                        with an interactive design and user-friendly backend interface with latest
-                                        scrolling and visual aspects.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/uiuxDesign.png" alt="">
+                                        <h3>Software UI/UX Design</h3>
+                                        <p class="para"> As a custom software designing company, we provide your
+                                            software
+                                            with an interactive design and user-friendly backend interface with latest
+                                            scrolling and visual aspects.</p>
+                                    </div>
+
+
+
+
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                    <h3>Software migration and Updation</h3>
-                                    <p class="para">If you want to migrate your existing software to other platform or
-                                        you want to upgrade its version, our software developers are always there to
-                                        support you.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/softwwareMigAndUpdtn.png" alt="">
+                                        <h3>Software migration and Updation</h3>
+                                        <p class="para">If you want to migrate your existing software to other platform
+                                            or
+                                            you want to upgrade its version, our software developers are always there to
+                                            support you.</p>
+                                    </div>
+
+
+
+
                                 </div>
                             </div>
 
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>Software (Quality Assurance)QA & Testing</h3>
-                                    <p class="para">Right from the inception stage of the project, our professionals
-                                        start working to ensure that your custom software application runs smoothly
-                                        across all browsers and screens.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/softwareQualtyAssu.png" alt="">
+                                        <h3>Software (Quality Assurance)QA & Testing</h3>
+                                        <p class="para">Right from the inception stage of the project, our professionals
+                                            start working to ensure that your custom software application runs smoothly
+                                            across all browsers and screens.</p>
+
+                                    </div>
+
+
+
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Complex-Content-Projects.png" alt="">
-                                    <h3>Software Support and Maintenance</h3>
-                                    <p class="para">We not only provide custom software design and development services
-                                        but we also provide end to end software maintenance and support solutions to our
-                                        clients.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/supportandMainten.png" alt="">
+                                        <h3>Software Support and Maintenance</h3>
+                                        <p class="para">We not only provide custom software design and development
+                                            services
+                                            but we also provide end to end software maintenance and support solutions to
+                                            our
+                                            clients.</p>
+                                    </div>
+
+
+
+
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Product Development.png" alt="">
-                                    <h3>Software Support and Maintenance</h3>
-                                    <p class="para">Aside of full cycle software development, you can also hire a
-                                        dedicated software development team consisting of professionals well-experienced
-                                        in business solutions.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/softwareSupportAndMain.png" alt="">
+                                        <h3>Software Support and Maintenance</h3>
+                                        <p class="para">Aside of full cycle software development, you can also hire a
+                                            dedicated software development team consisting of professionals
+                                            well-experienced
+                                            in business solutions.
+                                        </p>
+                                    </div>
+
+
+
+
                                 </div>
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +279,7 @@
                 <p>We deploy the latest development technologies and frameworks.</p>
                 <div class="row mt-4">
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body  d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/angular.png" /></span> Angular JS
                                 </h4>
@@ -239,7 +288,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/react.png" /></span> React native
                                 </h4>
@@ -248,7 +297,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/react.png" /></span> React JS
                                 </h4>
@@ -257,7 +306,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/net.png" /></span> .Net
                                 </h4>
@@ -266,7 +315,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/nodejs.jpg" /></span> Node JS
                                 </h4>
@@ -275,7 +324,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/php.png" /></span> PHP
                                 </h4>
@@ -284,7 +333,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/zeplin.png" /></span> Xamrain
                                 </h4>
@@ -293,7 +342,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/illustrator.png" /></span> Chatbot
                                 </h4>
@@ -302,7 +351,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/axure.png" /></span>Android
                                 </h4>
@@ -323,7 +372,7 @@
 
 
 
-<!-- software prosessss -->
+        <!-- software prosessss -->
         <section class="zzz" id="prosesss-section">
 
             <div class="container text-center justify-content-around pt-4">
@@ -334,22 +383,24 @@
                         process, with an aim to provide complete product life cycle solutions to our customer.</p>
                 </div>
                 <div class="col-lg-6 col-md-12 prosess-list">
-                    <p class="m-0"><i class="fa fa-hand-o-right text-primary" ></i> Planning & strategizing</p>
-                    <p class="m-0"><i class="fa fa-hand-o-right text-primary" ></i> Requirement Analysis</p>
-                    <p class="m-0"><i class="fa fa-hand-o-right text-primary" ></i> Design Specification</p>
-                    <p class="m-0"><i class="fa fa-hand-o-right text-primary" ></i> Development & Implementation</p>
-                    <p class="m-0"><i class="fa fa-hand-o-right text-primary" ></i> Testing & Debugging</p>
-                    <p class="m-0"><i class="fa fa-hand-o-right text-primary" ></i> Maintenance & Support</p>
-                    
-                    
-                   
+                    <p class="m-0"><i class="fa fa-hand-o-right text-primary"></i> Planning & strategizing</p>
+                    <p class="m-0"><i class="fa fa-hand-o-right text-primary"></i> Requirement Analysis</p>
+                    <p class="m-0"><i class="fa fa-hand-o-right text-primary"></i> Design Specification</p>
+                    <p class="m-0"><i class="fa fa-hand-o-right text-primary"></i> Development & Implementation</p>
+                    <p class="m-0"><i class="fa fa-hand-o-right text-primary"></i> Testing & Debugging</p>
+                    <p class="m-0"><i class="fa fa-hand-o-right text-primary"></i> Maintenance & Support</p>
+
+
+
 
 
                 </div>
                 <div class="row1">
                     <h3 class="text-muted">Initiate & Discover Phases</h3>
 
-                    <p class="text-start">Without a well-structured plan, software development is useless. Planning ascertains the strengths and weaknesses of a project, gives it a head start and positively influences its development.</p>
+                    <p class="text-start">Without a well-structured plan, software development is useless. Planning
+                        ascertains the strengths and weaknesses of a project, gives it a head start and positively
+                        influences its development.</p>
                 </div>
             </div>
         </section>
@@ -376,14 +427,14 @@
                                 <p class="banner-one__text banner-one__is-animated">We always strive to reduce costs
                                     with advanced administration and integration.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
-                                    talk</a><!-- /.thm-btn -->
+                                <a href="about-2.html" class="thm-btn banner-one__btn"><span>Let's start
+                                    talk</span></a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
 
                             <div class="implation-img-box">
 
-                                <img src="https://img.freepik.com/premium-vector/character-design-digital-technology-person-graphic-mobile-user-business-man-presented-with-low-poly-style-with-futuristic-element_46706-1117.jpg"
+                                <img src="images/imagesIndex/implmenationProcess.png"
                                     alt="" class="">
                             </div>
 
@@ -402,7 +453,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tns-item">
 
-                                            <img src="./images/custom softweare dev/Expert Software Consulting.png">
+                                            <img src="images/imagesIndex/accicon1/mobile-development/rafiki.png">
                                         </div>
 
                                         <div>
@@ -421,7 +472,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Custom Software Development.png">
+                                            <img src="images/imagesIndex/agile-method/rafiki.png">
                                         </div>
 
                                         <div>
@@ -439,7 +490,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/ERP Software Development.png">
+                                            <img src="images/imagesIndex/business-risk/rafiki.png">
                                         </div>
 
                                         <div>
@@ -457,7 +508,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Software Support & Maintenance.png">
+                                            <img src="images/imagesIndex/pimple-patches/pana.png">
                                         </div>
 
                                         <div>
@@ -474,7 +525,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Software Product Development.png">
+                                            <img src="images/imagesIndex/service-247/rafiki.png">
                                         </div>
 
                                         <div>
@@ -490,7 +541,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="https://images.unsplash.com/photo-1613980790147-f4f449df0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ya2luZyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60"
+                                <img src="images/imagesIndex/accurateImplemntn.png"
                                     alt="" class="">
                             </div>
 
@@ -505,14 +556,14 @@
 
 
 
-        <section  class="zzz hire-section">
+        <section class="zzz hire-section">
             <div class="container text-center">
                 <h2 class="text-light"> HIRE CUSTOM SOFTWARE DEVELOPER </h2>
                 <!-- /.cta-one__title -->
                 <p class="text-light">Automate and optimize your business processes, boost your customer base, and
                     maximize your RoI by hiring our dedicated software developers for cost-effective custom software
                     development.</p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn about-one__btn"> <span>Hire Now</span> </a>
             </div><!-- /.container -->
         </section>
 
@@ -583,7 +634,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -603,15 +654,35 @@
         </section>
 
 
+        <!-- Contact us start -->
 
-        
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"> <span>Contact us</span> </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
         <!-- footer section-->
 
-<?php include "footer.php"; ?>
+
 
 
     </div><!-- /.page-wrapper -->
-   
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

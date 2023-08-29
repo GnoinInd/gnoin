@@ -38,7 +38,8 @@
 
     <div class="page-wrapper">
 
-<?php include "header.php"; ?>
+    <?php include "header.php" ?>
+        <!-- ---------------------header -->
         <!-- header end -->
 
         <!-- inerpage page top container  -->
@@ -78,12 +79,12 @@
                             application development team?
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"> <span>Let's connect your project</span> </a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/ondemand-developer/offsite.png"
+                            <img src="images/imagesIndex/custmAppDevMain.png"
                                 alt="Best Seo Services in India" title="Best Seo Services in India">
                         </div>
                     </div>
@@ -114,68 +115,86 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Software Migration & Upgrade.png" alt="">
-                                    <h3>Web Apps Development</h3>
-                                    <p class="para"> As a web application development company, we develop world class
-                                        B2B and B2C solutions by using latest technologies.
-                                    </p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/cucustmAppDevMain1.png" alt="">
+                                        <h3>Web Apps Development</h3>
+                                        <p class="para"> As a web application development company, we develop world class
+                                            B2B and B2C solutions by using latest technologies.
+                                        </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>Mobile Apps Development</h3>
-                                    <p class="para">We provide custom mobile application development services to suit
-                                        your business needs. From idea to deployment, management, support and
-                                        maintenance, we cover all the steps.
-                                    </p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/cucustmAppDevMain2.png" alt="">
+                                        <h3>Mobile Apps Development</h3>
+                                        <p class="para">We provide custom mobile application development services to suit
+                                            your business needs. From idea to deployment, management, support and
+                                            maintenance, we cover all the steps.
+                                        </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
-                                    <h3>Cross-platform Apps Development</h3>
-                                    <p class="para">As a best hybrid app development company, we provide speedy and
-                                        customized mobile app development services with best results that run seamlessly
-                                        across platforms.
-                                    </p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/cucustmAppDevMain3.png" alt="">
+                                        <h3>Cross-platform Apps Development</h3>
+                                        <p class="para">As a best hybrid app development company, we provide speedy and
+                                            customized mobile app development services with best results that run seamlessly
+                                            across platforms.
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>Cloud Apps Development</h3>
-                                    <p class="para">If you need to integrate with AWS or create a high traffic live
-                                        streaming system, our professionals will deliver cloud projects of any
-                                        complexity.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/cucustmAppDevMain4.png" alt="">
+                                        <h3>Cloud Apps Development</h3>
+                                        <p class="para">If you need to integrate with AWS or create a high traffic live
+                                            streaming system, our professionals will deliver cloud projects of any
+                                            complexity.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
+                                     <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/cucustmAppDevMain5.png" alt="">
                                     <h3>Apps Maintenance and Management</h3>
                                     <p class="para">Our application development professionals/team manage and maintain
                                         your custom applications by following industry best practices.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                    <h3>Dedicated Apps Development Team</h3>
-                                    <p class="para">Our highly skilled dedicated development team helps to reduce your
-                                        overhead costs, ensure high-quality and better time-to-market for each project
-                                        milestone.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/cucustmAppDevMain6.png" alt="">
+                                        <h3>Dedicated Apps Development Team</h3>
+                                        <p class="para">Our highly skilled dedicated development team helps to reduce your
+                                            overhead costs, ensure high-quality and better time-to-market for each project
+                                            milestone.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -190,14 +209,14 @@
         <!--____________ technology part start________________ -->
 
         <section class="services " id="services">
-            <div class="container py-md-5 py-4">
+            <div class="container py-md-5 py-4 text-center">
                 <div class="divider-shape"></div>
-                <h2 class="text-primary">Wide-Ranging Technology We Use</h2>
+                <h2 class="text-primary ">Wide-Ranging Technology We Use</h2>
                 <p>We deploy the latest development technologies and frameworks.</p>
                 <div class="row mt-4">
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
-                            <div class="card-body  d-flex align-items-center justify-content-between">
+                        <div class="card shadow-sm1" >
+                            <div class="card-body  d-flex align-items-center justify-content-between" >
                                 <h4 class=""><span><Img src="./images/uxui/angular.png" /></span> Angular JS
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
@@ -205,7 +224,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/react.png" /></span> React native
                                 </h4>
@@ -214,7 +233,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/react.png" /></span> React JS
                                 </h4>
@@ -223,7 +242,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/net.png" /></span> .Net
                                 </h4>
@@ -232,7 +251,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/nodejs.jpg" /></span> Node JS
                                 </h4>
@@ -241,7 +260,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/php.png" /></span> PHP
                                 </h4>
@@ -250,7 +269,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/zeplin.png" /></span> Xamrain
                                 </h4>
@@ -259,7 +278,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/illustrator.png" /></span> Chatbot
                                 </h4>
@@ -268,7 +287,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
                                 <h4 class=""><span><Img src="./images/uxui/axure.png" /></span>Android
                                 </h4>
@@ -301,14 +320,14 @@
                                 <p class="banner-one__text banner-one__is-animated">We always strive to reduce costs
                                     with advanced administration and integration.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
-                                    talk</a><!-- /.thm-btn -->
+                                <a href="about-2.html" class="thm-btn banner-one__btn"> <span>Let's start
+                                    talk</span> </a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
 
                             <div class="implation-img-box">
 
-                                <img src="https://img.freepik.com/premium-vector/character-design-digital-technology-person-graphic-mobile-user-business-man-presented-with-low-poly-style-with-futuristic-element_46706-1117.jpg"
+                                <img src="images/imagesIndex/custAppDevImplPro.png"
                                     alt="" class="">
                             </div>
 
@@ -327,7 +346,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tns-item">
 
-                                            <img src="./images/custom softweare dev/Expert Software Consulting.png">
+                                            <img src="images/imagesIndex/custmAppDevIcon1/mobile-development/rafiki.png">
                                         </div>
 
                                         <div>
@@ -346,7 +365,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Custom Software Development.png">
+                                            <img src="images/imagesIndex/custmAppDevIcon2/agile-method/rafiki.png">
                                         </div>
 
                                         <div>
@@ -363,7 +382,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/ERP Software Development.png">
+                                            <img src="images/imagesIndex/custmAppDevIcon3/business-risk/rafiki.png">
                                         </div>
 
                                         <div>
@@ -381,7 +400,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Software Support & Maintenance.png">
+                                            <img src="images/imagesIndex/custmAppDevIcon4/pimple-patches/pana.png">
                                         </div>
 
                                         <div>
@@ -398,7 +417,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Software Product Development.png">
+                                            <img src="images/imagesIndex/custmAppDevIcon5/service-247/rafiki.png">
                                         </div>
 
                                         <div>
@@ -414,7 +433,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="https://images.unsplash.com/photo-1613980790147-f4f449df0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d29ya2luZyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60"
+                                <img src="images/imagesIndex/custAppDevImplPro1.png"
                                     alt="" class="">
                             </div>
 
@@ -436,7 +455,7 @@
                 <p class="text-light">Automate and optimize your business processes, boost your customer base, and
                     maximize your RoI by hiring our dedicated software developers for cost-effective custom software
                     development.</p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn about-one__btn"> <span>Hire Now</span> </a>
             </div><!-- /.container -->
         </section>
 
@@ -539,7 +558,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -560,11 +579,115 @@
 
 
 
-       
+        <!-- Contact us start -->
 
-      
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- footer start -->
+       <!-- footer start -->
+       <footer class="site-footer">
+        <div class="site-footer__upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="footer-widget">
+                            <div class=" d-flex align-items-center  justify-content-start " style="width: 100%; margin-top: -20px;">
+                                <a class="" href="index.html">
+                                    <img src="./images/new/gnoiin 1-2.png" alt="Awesome Image">
+                                </a>
+                            </div>
+                            <p class="footer-widget__text">Gnoin Pvt. Ltd. is one of the fastest growing Technology Services & Consulting Company providing end to end software solutions across the country. We provide IT expertise in Software, Website & Application (iOS & Android) Development, UI/UX Design and Digital Marketing. Our company focused on building innovative solutions that address customers' most complex digital transformation needs.</p>
+                            <!-- /.footer-widget__text -->
+                            <div class="footer-widget__social">
+                                <div class=" d-flex align-items-center  justify-content-start " >
+                                    <a class="" href="index.html">
+                                        <img src="./images/new/MSCA-LOGO.png" alt="ASCA">
+                                    </a>
+                                </div>
+                            </div><!-- /.footer-widget__social -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-2 col-md-6 col-sm-12 d-flex justify-content-lg-center">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget__title">Quick Link</h3><!-- /.footer-widget__title -->
+                            <ul class="footer-widget__links list-unstyled">
+                                <li><a href="./about.html">About us</a></li>
+                                <li><a href="./contact.html">Contact Us</a></li>
+                                <li><a href="./on-demand-developer.html">On Demand developers </a></li>
+                                <li><a href="./about.html">Blog</a></li>
+                                <li><a href="./contact.html">Careers</a></li>
+                                <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+                            </ul><!-- /.footer-widget__links -->
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-lg-center">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget__title">Services</h3><!-- /.footer-widget__title -->
+                            <ul class="footer-widget__links list-unstyled">
+                                <li><a href="#">Core Services</a></li>
+                                <li><a href="#">Enterprise Branding</a></li>
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Industries</a></li>
+                                <li><a href="#">Company</a></li>
+                            </ul>
+                        </div><!-- /.footer-widget -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget__title">Contact Info</h3><!-- /.footer-widget__title -->
+                            <p class="footer-widget__text">Astra Towers, ASO 718 South Block, Action Area 2C, New
+                                Town, Rajarhat, Kolkata, West Bengal - 700161</p>
+                            <!-- /.footer-widget__text -->
+                            <p class="footer-widget__text"><a href="tel:+91-9888337791">+91-9888337791</a></p>
+                            <p class="footer-widget__text"><a href="tel:+91-9888337791"> +91- (33) 48040710</a></p>
+                            <!-- /.footer-widget__text -->
+                            <p class="footer-widget__text"><a href="mailto:info@gnoin.com">info@gnoin.com</a></p>
+                        </div>
+
+                        <div class="footer-widget__social">
+                            <a style="font-size: 30px;" href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a style="font-size: 30px;" href="#"><i class="fa fa-twitter"></i></a>
+                            <a style="font-size: 30px;" href="#"><i class="fa fa-instagram"></i></a>
+                            <a style="font-size: 30px;" href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.footer-widget__social -->
+                    </div><!-- /.col-lg-3 -->
+                </div><!-- /.row -->
+            </div>
+        </div>
+        <div class="site-footer__bottom">
+            <div class="container">
+                <div class="site-footer__copy">Gnoin pvt Ltd <i class="fa fa-copyright"></i> 2022 All Right Reserved
+                </div>
+                <ul class="list-unstyled site-footer__links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
     
-    <?php include "footer.php"; ?>
+    <!-- footer end -->
+    
+    
     
     
 </div>

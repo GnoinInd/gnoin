@@ -35,9 +35,13 @@
 
 </head>
 
-  <?php include "header.php"; ?>
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
+        <!-- header part start -->
 
 
+        <?php include "header.php" ?>
 
         
         <!-- header end -->
@@ -117,8 +121,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -132,7 +136,7 @@
                             <p class="">Outsource your Node.js application development to Inphoneo and save up to 70% on overall development cost. As experts in Node.js, we build feature-rich, secure, scalable and custom-tailored Node.jsT web applications. It is now one of the most popular development platforms and being the most reliable and secure, developers use this technology to build custom web-based applications. We are India's leading service-based Node.js development company and provide a wide range of Node.js based development services and solutions as per business requirements. Our services range from Node.js web app development to custom Node.js CMS development and more. The dedicated Node.js developers at Inphoneo are highly experienced in building robust solutions that exponentially accelerate your business growth and significantly increase revenue.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -158,50 +162,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Custom Node.js Development</h3>
                                     <p>We build Node js applications to develop real-time web and mobile apps, desktop apps, and more to gain business advantage.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Web App UI/UX Development</h3>
                                     <p>Our team of expert designers provide creative and engaging web app UI/UX development services as per the current designing trends.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Node.js API Development</h3>
                                     <p>Extend the functionality of the web applications to achieve your key goals with NodeJS API integration services.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3> Migration & Upgradation Services</h3>
                                     <p>If you want to know anything about your cross-platform app development needs, you can connect with us and our experts are ready to assist you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Node.js Consulting Services</h3>
-                                    <p>Our highly experienced Node js consultants help understand businesses & envision Node.js web application development services.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Node.js Consulting Services</h3>
+                                        <p>Our highly experienced Node js consultants help understand businesses & envision Node.js web application development services.</p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>24*7 Support and Maintenance</h3>
                                     <p>Apart from Node.js development services, our Node.js development company in India also specializes in providing full stack Node.js support and maintenance to our global clients.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -292,7 +314,7 @@
 
             </div>
             <div class="text-center">
-                <a class="thm-btn" href="#">Request a Quotes</a>
+                <a class="thm-btn" href="#"><span>Request a Quotes</span></a>
             </div>
 
         </section>
@@ -361,7 +383,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's Hire Now</a>
+                            <a class="thm-btn" href="#"><span>Let's Hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -450,4 +472,34 @@
 
         
     </div><!-- /.page-wrapper -->
-     <?php include "footer.php"; ?>
+    <div class="search-popup">
+        <div class="search-popup__overlay custom-cursor__overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div><!-- /.search-popup__overlay -->
+        <div class="search-popup__inner">
+            <form action="#" class="search-popup__form">
+                <input type="text" name="search" placeholder="Type here to Search....">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>

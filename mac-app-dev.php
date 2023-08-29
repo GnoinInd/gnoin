@@ -40,10 +40,7 @@
 
 
         <!-- ---------------------header section----------------------------------------->
-      <?php
-
-include("header.php");
-?>
+        <?php include "header.php" ?>
 
 
         <!-- inerpage page top container  -->
@@ -78,12 +75,12 @@ include("header.php");
    
                         </p>
 
-                        <a class="thm-btn" href="#">Request Quote</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/custom softweare dev/Software Migration & Upgrade.png" alt="Best Seo Services in India"
+                            <img src="images/imagesIndex/macAppDevMain.png" alt="Best Seo Services in India"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -113,7 +110,7 @@ include("header.php");
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top">
 
-                            <img src="images/icons/intech-icon-1-5.png" alt="...">
+                            <img src="images/imagesIndex/macAppDevIcon1.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -149,7 +146,7 @@ include("header.php");
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="images/icons/intech-icon-1-2.png" alt="...">
+                            <img src="images/imagesIndex/macAppDevIcon2.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -187,7 +184,7 @@ include("header.php");
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="images/icons/intech-icon-1-6.png" alt="...">
+                            <img src="images/imagesIndex/macAppDevIcon3.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -226,7 +223,7 @@ include("header.php");
             
         </div>
         <div class="text-center ">
-            <a class="thm-btn" href="#"> Request a Quote </a>
+            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
         </div>
     </div>
 
@@ -240,7 +237,7 @@ include("header.php");
 
             <div class="container text-center justify-content-around pt-4">
                 <div class="row1">
-                    <h1>Repel Your Project abouve the Horizon</h1>
+                    <h1>Repel Your Project above the Horizon</h1>
                     <h5>Becoming a Top Mac Application Development Company</h5>
                     <p> When you work with a capable, experienced team, you'll have fewer things to care about and more things to consider.</p>
                 </div>
@@ -250,64 +247,82 @@ include("header.php");
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Software Migration & Upgrade.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/macAppRepel1.png" alt="">
                                     <h3>Patience and Persistence</h3>
                                     <p class="para"> Getting on the page you're on now takes time, and a lot of patience is added.
                                      
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>Creative without being Ivasive</h3>
-                                    <p class="para">Creative individuals make up our team. They know what you like and what you don't.
-                                        
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/macAppRepel2.png" alt="">
+                                        <h3>Creative without being Ivasive</h3>
+                                        <p class="para">Creative individuals make up our team. They know what you like and what you don't.
+                                            
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/macAppRepel3.png" alt="">
                                     <h3>Watch your creation grow</h3>
                                     <p class="para">Daily updates about your project so you can watch your child grow.
                                       
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>On the Forefront of technology</h3>
-                                    <p class="para">An impeccable expertise in foreseeing technology trends before they emerge.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/macAppRepel4.png" alt="">
+                                        <h3>On the Forefront of technology</h3>
+                                        <p class="para">An impeccable expertise in foreseeing technology trends before they emerge.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
-                                    <h3>A remote team assistance </h3>
-                                    <p class="para"> A global team dedicated exclusively to your project listens and responds to you.
-                                     
-                                </p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/macAppRepel5.png" alt="">
+                                        <h3>A remote team assistance </h3>
+                                        <p class="para"> A global team dedicated exclusively to your project listens and responds to you.
+                                         
+                                    </p> 
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/imagesIndex/macAppRepel6.png" alt="">
                                     <h3>Security & Confidentiality</h3>
                                     <p class="para">A non-compromising development practice. Everything is repairable but trust.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -322,20 +337,13 @@ include("header.php");
 
 
         <!-- ___________Hire Now Box_________________ -->
-        <section style="padding: 40px 0; background-image:linear-gradient(
-            to bottom,
-            rgba(3, 3, 29, 0.849),
-            rgba(6, 53, 116, 0.685)
-          ), url(https://thumbs.dreamstime.com/b/mobile-banking-network-online-payment-digital-marketing-business-people-using-phone-credit-card-icon-co-connection-154742015.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;" class="zzz">
+        <section  class="zzz hire-section">
             <div class="container text-center">
                 <h2 class="text-light"> HIRE MAC DEVELOPER</h2>
                 <!-- /.cta-one__title -->
                 <p class="text-light">Optimize and automate business processes, grow your customer base, and maximize ROI by hiring our dedicated Mac app developers for up-to-date cost-effective solutions.
                     </p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -409,7 +417,7 @@ include("header.php");
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -442,7 +450,7 @@ include("header.php");
 
 
                         </div>
-                        <a href="contact.html" class="thm-btn cta-four__btn-two">Contact us</a>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
 
                     </div>
                 </div>
@@ -453,10 +461,6 @@ include("header.php");
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-      <?php
-
-include("footer.php");
-?>
 
         <!-- footer end -->
 

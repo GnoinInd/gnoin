@@ -35,10 +35,13 @@
 
 </head>
 
-     <?php include "header.php"; ?>
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
 
 
+        <?php include "header.php" ?>
 
         
         <!-- header end -->
@@ -121,8 +124,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -136,8 +139,8 @@
                             <p class="">Healthcare software development is a process of creating custom medical apps for state-of-the-art care delivery and cost-efficient internal processes. We provide custom healthcare software development services to medical organizations, doctors, and patients to enhance patient outcomes, provide on-call care, and automate medical workflows with the latest technologies. From prototyping to healthcare software development, deployment and its maintenance, we provide you a complete range of software and application development services. Gnoin is developing healthcare applications used successfully in various healthcare domains by clinics, laboratories, pharmaceutical companies, and many more.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Send Your
-                                    Request</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Send Your
+                                    Request</span></a>
                             </div>
                         </div>
 
@@ -187,7 +190,7 @@
                                
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -219,7 +222,7 @@
                                 
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -249,7 +252,7 @@
                                 <i class="fa fa-hand-o-right text-primary" ></i> Technology innovation
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -280,7 +283,7 @@
                                 <i class="fa fa-hand-o-right text-primary" ></i> Drive patient engagement
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -320,50 +323,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Requirement Analysis</h3>
-                                    <p>High quality analysis always provides better returns. While discussing the requirements of the project, we definitely craft to offer the best web app development services as per the business requirements of the clients.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Requirement Analysis</h3>
+                                        <p>High quality analysis always provides better returns. While discussing the requirements of the project, we definitely craft to offer the best web app development services as per the business requirements of the clients.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Well Designed App</h3>
                                     <p>The primary thing your user sees is the design of your app. We follow the latest design trends to present an attractive and easy-to-use design for your app.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Mobile Friendly Web app</h3>
                                     <p> Our web app developers provide our clients with a feature rich responsive web app with a stunning custom design, robust plug-ins and mobile friendly user interface.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>High Performance & Speed</h3>
-                                    <p>Our offered app provides great quick user experience and loads within 3 seconds which improves your conversions and helps in Google ranking.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>High Performance & Speed</h3>
+                                        <p>Our offered app provides great quick user experience and loads within 3 seconds which improves your conversions and helps in Google ranking.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Advanced Security & Scalability</h3>
-                                    <p>Our development ensures extreme scalability and site shielding by employing advanced security measures like high security plug-ins, data encryption, secure admin dashboard etc.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Advanced Security & Scalability</h3>
+                                        <p>Our development ensures extreme scalability and site shielding by employing advanced security measures like high security plug-ins, data encryption, secure admin dashboard etc.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>Extended Software Protection Plan</h3>
                                     <p>If you discover a bug or security issue with your software/app, you can request a free quote. Our specialist will get in touch with you within 12 to 24 hours.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -423,123 +444,165 @@
                 <div class="row pading">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
-                            <h3>Available in the App Store</h3>
-                            <p>
-                                Your white-labeled apps are available for download from the Google Play Store and Apple's App Store. Link your apps to your website and promote them in all of your patient marketing materials. The mobile app is free for your patients to download. Your health services are just a touch away on your patients' home screen.
-                            </p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/NeedsAnalysis.png" alt="" title="">
+                                <h3>Available in the App Store</h3>
+                                <p>
+                                    Your white-labeled apps are available for download from the Google Play Store and Apple's App Store. Link your apps to your website and promote them in all of your patient marketing materials. The mobile app is free for your patients to download. Your health services are just a touch away on your patients' home screen.
+                                </p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
-                            <h3>Your Branding</h3>
-                            <p>Your App, for your practice. A unique mobile app that will carry your branding, logo and images, making it easy to identify and download.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/social-media-audit.png" alt="Media Buy" title="Media Buy">
+                                <h3>Your Branding</h3>
+                                <p>Your App, for your practice. A unique mobile app that will carry your branding, logo and images, making it easy to identify and download.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
-                            <h3>Colours of your choice</h3>
-                            <p>Make it your own. Option to customize the theme and colors so that your app is a natural extension of your business. Our design team will help design the perfect app icon, splash screen, and custom look and feel to match your brand.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Display-Advertising.png" alt="Display Advertising" title="Display Advertising">
+                                <h3>Colours of your choice</h3>
+                                <p>Make it your own. Option to customize the theme and colors so that your app is a natural extension of your business. Our design team will help design the perfect app icon, splash screen, and custom look and feel to match your brand.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
-                            <h3>Doctor Listing & Profiles</h3>
-                            <p>Help your patients make informed choices. Display a list of all consultants and staff members in your healthcare organization to connect with patients. All information can be easily updated at any time through the web back-end.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="Shopping Ads" title="Shopping Ads">
+                                <h3>Doctor Listing & Profiles</h3>
+                                <p>Help your patients make informed choices. Display a list of all consultants and staff members in your healthcare organization to connect with patients. All information can be easily updated at any time through the web back-end.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
-                            <h3>Patient Appointment Booking</h3>
-                            <p>A complete appointment booking facility with patient and provider informations. Your patients also get automated reminders, which saves time and helps reduce no-shows. Manage appointments through the web based appointment scheduler or the Doctor mobile app (available for free download).</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="Re-Marketing" title="Re-Marketing">
+                                <h3>Patient Appointment Booking</h3>
+                                <p>A complete appointment booking facility with patient and provider informations. Your patients also get automated reminders, which saves time and helps reduce no-shows. Manage appointments through the web based appointment scheduler or the Doctor mobile app (available for free download).</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Text Consultations</h3>
-                            <p>Finding the right answer has never been easier. The AAP app will allow patients to ask questions and get second opinions whenever they need them, wherever they are. Want to charge your patients for the consultation - this is also possible, through the app.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Text Consultations</h3>
+                                <p>Finding the right answer has never been easier. The AAP app will allow patients to ask questions and get second opinions whenever they need them, wherever they are. Want to charge your patients for the consultation - this is also possible, through the app.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Telehealth and Video Consultations</h3>
-                            <p>A white-label telehealth solution built for your practice. Follow-up is easier than ever with video consultations. Patients can book a session, consult via video and get the consultation summary directly through the app. Patients can also pay you directly through the app. Telehealth opens up a whole new income stream for your clinic practice.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Telehealth and Video Consultations</h3>
+                                <p>A white-label telehealth solution built for your practice. Follow-up is easier than ever with video consultations. Patients can book a session, consult via video and get the consultation summary directly through the app. Patients can also pay you directly through the app. Telehealth opens up a whole new income stream for your clinic practice.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Patient Care Plans</h3>
-                            <p>Monitor the health of your patients remotely. Enroll your patients for care plans. Accept online payment. Monitor your patients' updates and send them feedback directly through the app.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Patient Care Plans</h3>
+                                <p>Monitor the health of your patients remotely. Enroll your patients for care plans. Accept online payment. Monitor your patients' updates and send them feedback directly through the app.</p>   
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Health Trackers</h3>
-                            <p>The app comes with many trackers that allow your patients to enter accurate data that goes directly into their patient health records. Health Trackers include - Blood Ketone, Blood Sugar, HbA1c, Exercise, Food, Creatinine, Urine Glucose, Blood Pressure etc.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Health Trackers</h3>
+                                <p>The app comes with many trackers that allow your patients to enter accurate data that goes directly into their patient health records. Health Trackers include - Blood Ketone, Blood Sugar, HbA1c, Exercise, Food, Creatinine, Urine Glucose, Blood Pressure etc.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Push Notifications. SMS. Email</h3>
-                            <p>From your own app you can now send push notifications directly to your patients. Your patients receive push notifications for appointments, care plan reviews, blog updates, and other relevant events. SMS, email notifications are also available.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Push Notifications. SMS. Email</h3>
+                                <p>From your own app you can now send push notifications directly to your patients. Your patients receive push notifications for appointments, care plan reviews, blog updates, and other relevant events. SMS, email notifications are also available.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Accept Online Payments</h3>
-                            <p>Easily accept online payments for appointments, care plans or question services from within the app.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Accept Online Payments</h3>
+                                <p>Easily accept online payments for appointments, care plans or question services from within the app.</p>
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Consumer Health Devices</h3>
-                            <p>Connected healthcare has arrived. Patients can share health data from home monitoring devices via Bluetooth. The app is also integrated with Google Fit and iOS HealthKit.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Consumer Health Devices</h3>
+                                <p>Connected healthcare has arrived. Patients can share health data from home monitoring devices via Bluetooth. The app is also integrated with Google Fit and iOS HealthKit.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Comprehensive Health Records</h3>
-                            <p>Patients have access to a comprehensive electronic health record that includes a health profile, health conditions, medications, allergies, surgeries, treatments, procedures, and vaccinations. The application also supports many health trackers related to Vital Signs, Blood, Electrolytes, Fitness & Well Being, Kidney, Lipid Profile, Liver, Lung, Skin, Symptoms and Thyroid. Enable health-trackers that support your patient needs.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Comprehensive Health Records</h3>
+                                <p>Patients have access to a comprehensive electronic health record that includes a health profile, health conditions, medications, allergies, surgeries, treatments, procedures, and vaccinations. The application also supports many health trackers related to Vital Signs, Blood, Electrolytes, Fitness & Well Being, Kidney, Lipid Profile, Liver, Lung, Skin, Symptoms and Thyroid. Enable health-trackers that support your patient needs.</p>  
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
-                            <h3>Upload Medical Reports</h3>
-                            <p>Sharing medical reports is easy. Medical reports are securely stored in the cloud and we also support DICOM images.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="./images/EnterpriseBranding/Social-Media-Advertising.png" alt="" title="">
+                                <h3>Upload Medical Reports</h3>
+                                <p>Sharing medical reports is easy. Medical reports are securely stored in the cloud and we also support DICOM images.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
     
                 </div>
                 <!-- <div class="text-center mt-3">
-                    <a class="thm-btn" href="#">Request a Quote  </a>
+                    <a class="thm-btn" href="#"><span>Request a Quote</span>  </a>
                 </div> -->
             </div>
         </section>
@@ -549,7 +612,7 @@
             <div class="container text-center">
                 <h3 class="cta-one__title">  HIRE SOFTWARE DEVELOPER </h3><!-- /.cta-one__title -->
                 <p class="cta-one__phone">Automate and optimize your business processes, boost your customer base, and maximize your RoI by hiring our dedicated software developers for cost-effective custom software development.</p><br>
-                <a href="#" class="thm-btn about-one__btn">Let's Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Let's Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -661,4 +724,58 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-       <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#Accessibility").css("display", "flex");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+
+            });
+
+            $("#btn2").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "flex");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn3").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "flex");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn4").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "flex");
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

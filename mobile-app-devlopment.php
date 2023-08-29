@@ -40,7 +40,7 @@
 
 
         <!-- ---------------------header section----------------------------------------->
-<?php include "header.php"; ?>
+        <?php include "header.php" ?>
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -79,12 +79,12 @@
                             services? Or looking to hire an offshore mobile app development team?
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/ondemand-developer/Android-Developers.png"
+                            <img src="images/mobile-app-services/mobileappservicesmain.png"
                                 alt="Best Seo Services in India" title="Best Seo Services in India">
                         </div>
                     </div>
@@ -115,104 +115,131 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Software Migration & Upgrade.png" alt="">
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon1.png" alt="">
                                     <h3>Custom mobile app development</h3>
                                     <p class="para"> We have years of experience in building feature-packed customized
                                         mobile applications. Out-of-the-box development approach makes us one of the top
                                         mobile app development company in India.
                                     </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>App Technology consulting</h3>
-                                    <p class="para">Our dedicated mobile app consulting team provides the best technical
-                                        advice so that you can work out the most appropriate technology-stack and
-                                        best-practice system architecture for your mobile app.
-                                    </p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon2.png" alt="">
+                                        <h3>App Technology consulting</h3>
+                                        <p class="para">Our dedicated mobile app consulting team provides the best technical
+                                            advice so that you can work out the most appropriate technology-stack and
+                                            best-practice system architecture for your mobile app.
+                                        </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon3.png" alt="">
                                     <h3>AI Based Mobile App</h3>
                                     <p class="para">We recommend a modified customer experience across all your channels
                                         through insights based on the needs of each customer, such as we have online
                                         service/product comparison apps, finance reports and stock market apps, personal
                                         finance management apps.
                                     </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>Data Analysis App</h3>
-                                    <p class="para">Handle massive amounts of data and let them help you with all
-                                        aspects of your business, including promotions, branding, decision making,
-                                        revenue optimization, and much more. We have ERP/CRM apps, reporting, and
-                                        planning apps.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon4.png" alt="">
+                                        <h3>Data Analysis App</h3>
+                                        <p class="para">Handle massive amounts of data and let them help you with all
+                                            aspects of your business, including promotions, branding, decision making,
+                                            revenue optimization, and much more. We have ERP/CRM apps, reporting, and
+                                            planning apps.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
-                                    <h3>Enterprise mobility solutions</h3>
-                                    <p class="para">With the help of latest tools, frameworks and SDKs, our mobile app
-                                        development team builds relevant products for smart businesses and brings
-                                        excellent enterprise mobility solutions such as smart home solutions and
-                                        real-time device apps.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon5.png" alt="">
+                                        <h3>Enterprise mobility solutions</h3>
+                                        <p class="para">With the help of latest tools, frameworks and SDKs, our mobile app
+                                            development team builds relevant products for smart businesses and brings
+                                            excellent enterprise mobility solutions such as smart home solutions and
+                                            real-time device apps.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                    <h3>On-Demand & Costum App</h3>
-                                    <p class="para">Build on-demand mobile apps with custom front-end UI and one touch
-                                        and scalable advanced admin dashboards like GPS and map integration, e-commerce,
-                                        event management, site management, lead management and more.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon6.png" alt="">
+                                        <h3>On-Demand & Costum App</h3>
+                                        <p class="para">Build on-demand mobile apps with custom front-end UI and one touch
+                                            and scalable advanced admin dashboards like GPS and map integration, e-commerce,
+                                            event management, site management, lead management and more.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                    <h3>App Integration</h3>
-                                    <p class="para">We also provide latest technology integration, payment gateway
-                                        integration and API integration into your existing mobile apps to improve its
-                                        functionality, security and adaptability to the latest market and user
-                                        requirements.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon7.png" alt="">
+                                        <h3>App Integration</h3>
+                                        <p class="para">We also provide latest technology integration, payment gateway
+                                            integration and API integration into your existing mobile apps to improve its
+                                            functionality, security and adaptability to the latest market and user
+                                            requirements.</p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                    <h3>Upgradation & Migration</h3>
-                                    <p class="para">Whether you are looking to upgrade your existing mobile app to the
-                                        latest technology or want to migrate your app to a different operating system or
-                                        platform, we are here to assist you with our expert team of developers.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon8.png" alt="">
+                                        <h3>Upgradation & Migration</h3>
+                                        <p class="para">Whether you are looking to upgrade your existing mobile app to the
+                                            latest technology or want to migrate your app to a different operating system or
+                                            platform, we are here to assist you with our expert team of developers.</p>  
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                    <h3>QA and testing services</h3>
-                                    <p class="para">Right from the very first stage of the project, our best mobile app
-                                        development company in India employs quality analysts to ensure that your mobile
-                                        app runs flawlessly on all devices and OS.</p>
+                                     <div class="box_shad p-3">
+                                        <img src="images/mobile-app-services/mobileappicon9.png" alt="">
+                                        <h3>QA and testing services</h3>
+                                        <p class="para">Right from the very first stage of the project, our best mobile app
+                                            development company in India employs quality analysts to ensure that your mobile
+                                            app runs flawlessly on all devices and OS.</p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -420,7 +447,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Expert Software Consulting.png">
+                                            <img src="images/mobile-app-services/repelIconRemote.png">
                                         </div>
 
                                         <div>
@@ -449,7 +476,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="./images/project/project-1-8.jpg" alt="" class="">
+                                <img src="images/mobile-app-services/repelyourProject.png" alt="" class="">
                             </div>
 
 
@@ -486,7 +513,7 @@
                 <h2 class="text-light"> HIRE MOBILE APP DEVELOPER </h2>
                 <!-- /.cta-one__title -->
                 <p class="text-light">Optimize and automate your business processes, boost your customer base, and maximize your ROI by hiring our dedicated custom mobile app developers for your up-to-date cost-effective mobile applications.</p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn about-one__btn"><span>Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -562,7 +589,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -583,12 +610,30 @@
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-<?php include "footer.php"; ?>
+
         <!-- footer end -->
 
 

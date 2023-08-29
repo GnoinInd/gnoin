@@ -38,9 +38,10 @@
 
     <div class="page-wrapper">
 
+    <?php include "header.php" ?>
 
         <!-- ---------------------header section----------------------------------------->
-<?php include "header.php"; ?>
+
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -74,7 +75,7 @@
                             
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
@@ -108,70 +109,88 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png" alt="">
                                     <h3>Open source ecommerce development</h3>
                                     <p class="para">We provide open-source eCommerce development solutions with complete control over online channels, the ability to build sites that deliver an end-to-end customer experience using search engine optimization, catalog management, and various other tools .
                                         
                                      
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
-                                    <h3>Open sorce CRM Solutions</h3>
-                                    <p class="para"> We create open source CRM (Customer Relationship Management) solutions that do more than just lead management, accelerate deal follow up, foster partnerships with other communication tools, and enable data updation, e-mail messaging, notification and reporting Automate daily processes like
-                                    
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
+                                        <h3>Open sorce CRM Solutions</h3>
+                                        <p class="para"> We create open source CRM (Customer Relationship Management) solutions that do more than just lead management, accelerate deal follow up, foster partnerships with other communication tools, and enable data updation, e-mail messaging, notification and reporting Automate daily processes like
                                         
-                                    </p>
+                                            
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
                                     <h3> Open Source Integration</h3>
                                     <p class="para">  Our open source integration solutions allow customization of software integration and facilitate flawless integration of applications. Its modules are designed for readiness and critical production deployments, such as performance management, high availability, and security.
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
-                                    <h3>Open Source CMS</h3>
-                                    <p class="para">Our open-source CMS (Content Management System) experts create solutions that support multi-site functionality and allow central supervision. It moderates current content, other integrated platforms, and third-party technologies, such as content monetization tools, that drive revenue and brand awareness in the marketplace.
-                                     </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                        <h3>Open Source CMS</h3>
+                                        <p class="para">Our open-source CMS (Content Management System) experts create solutions that support multi-site functionality and allow central supervision. It moderates current content, other integrated platforms, and third-party technologies, such as content monetization tools, that drive revenue and brand awareness in the marketplace.
+                                         </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
                                     <h3> Open Source Software Solutions</h3>
                                     <p class="para">We develop custom open-source software solutions including websites, web applications, web services, databases, analytics, cloud platforms, networking, CRM, automation testing, and more. Our solutions are customizable as per the current industry and technology needs.
                                     
                                         
                                      
                                 </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
                                     <h3>Open Source Software Development</h3>
                                     <p class="para">Our expert developers provide open source software development for various verticals and industries with full-stack services including custom development, UI/UX design, integration, rapid prototyping, customization, migration and maintenance.
                                     
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -270,7 +289,7 @@
             <p>Optimize and automate your business processes, grow your customer base, and maximize your ROI by hiring our dedicated open source developers to build your up-to-date cost-effective web applications.
               </p>
               
-            <a href="#" class="btn ">Get Started</a>
+            <a href="#" class="thm-btn1 "><span>Get Started</span></a>
           </div>
         </div>
 
@@ -344,14 +363,14 @@
                                 <h5 class="text-light">Our experts team creates enjoyable and meaningful web experiences</h5>
                                 <p class="banner-one__text banner-one__is-animated">We always try to reduce the cost with better administration and integration.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
-                                    talk</a><!-- /.thm-btn -->
+                                <a href="about-2.html" class="thm-btn1 banner-one__btn"><span>Let's start
+                                    talk</span></a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
 
                             <div class="implation-img-box">
 
-                                <img src="https://d7nm3c5ruslmy.cloudfront.net/africanexponent-com-client/images/africanexponent.com/general/technology1567796470993_aspR_1.471_w625_h425_e400.jpg" alt="" class="">
+                                <img src="images/EnterpriseBranding/openSourceDevInHouseWeb.png" alt="" class="">
                             </div>
 
 
@@ -465,7 +484,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="./images/new/development-4536630_1280.webp" alt="" class="">
+                                <img src="images/EnterpriseBranding/openSourceDevInHouseWeb1.png" alt="" class="">
                             </div>
 
 
@@ -566,7 +585,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -587,11 +606,29 @@
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-<?php include "footer.php"; ?>
 
         <!-- footer end -->
 

@@ -104,12 +104,13 @@
 
 
 </head>
-<?php include "header.php"; ?>
+
 <body class="home-one">
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
         <!-- header part start -->
 
+        <?php include "header.php" ?>
 
 
        
@@ -635,4 +636,3 @@
 </body>
 
 </html>
-<?php include "footer.php"; ?>
