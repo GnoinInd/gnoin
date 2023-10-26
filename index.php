@@ -1,3 +1,50 @@
+
+<?php
+
+
+// Create connection
+$conn = mysqli_connect("localhost","root","","gnoin");
+
+// Check the connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$name = "";
+$email = "";
+$reason = "";
+
+
+// Check if the form has been submitted
+if(isset($_POST["submit"]))
+{
+    
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $reason = $_POST["reason"];
+
+    // $query = "INSERT INTO `connect`(`id`, `name`, `email`, `discussion`) VALUES ('','$name','$email','$reason')";
+$query = "INSERT INTO connect(id, name, email, discussion) VALUES ('','$name','$email','$reason')";
+mysqli_query($conn,$query);
+
+
+// $reload = true;
+}
+
+
+
+
+
+// Close the database connection
+$conn->close();
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -618,31 +665,30 @@
         <section class="appointment-one">
             <div class="container wow fadeInUp" data-wow-duration="1.5s">
                 <div class="inner-container ">
-                    <h3 class="appointment-one__title"> Let’s connect to build something together</h3>
-                    <!-- /.appointment-one__title -->
-                    <p class="appointment-one__text">Fill out the form and let’s talk about how we can grow your
-                        business</p>
+                    <h3 class="appointment-one__title"> Let’s connect to build something together</h3><!-- /.appointment-one__title -->
+                    <p class="appointment-one__text">Fill out the form and let’s talk about how we can grow your business</p>
                     <!-- /.appointment-one__text -->
-                    <form action="contact.html"
+                    <form  id="my_form" method="post" action="<?php echo $baseUrl ?>request-appointments"
                         class="appointment-one__form align-items-center justify-content-center w-100 row">
+
                         <div class="col-lg-4 mb-1">
                             <input type="text" name="name" placeholder="Your name">
                         </div><!-- /.col-lg-4 -->
                         <div class="col-lg-4 mb-1">
                             <input type="text" name="name" placeholder="Your email">
                         </div><!-- /.col-lg-4 -->
-                        <div class="col-lg-4 mb-1 ">
-                            <select class="selectpicker border-0">
+                        <div class="col-lg-4 mb-1">
+                            <select class="selectpicker" name="reason">
                                 <option value="1">Discussion About</option>
-                                <option value="2">Multi-function services</option>
-                                <option value="3">Managed IT services</option>
-                                <option value="4">Cyber security</option>
+                                <option value="1">Multi-function services</option>
+                                <option value="1">Managed IT services</option>
+                                <option value="1">Cyber security</option>
                             </select>
                         </div><!-- /.col-lg-4 -->
                         <div class="col-lg-12">
                             <div class="appointment-one__bottom">
 
-                                <button type="submit" class="btn_second">Let’s connect</button>
+                                <button type="submit" class="thm-btn">Let’s connect</button>
                             </div><!-- /.appointment-one__bottom -->
                         </div><!-- /.col-lg-12 -->
                     </form><!-- /.appointment-one__form -->
@@ -651,6 +697,28 @@
         </section><!-- /.appointment-one -->
 
         <!-- about us section start -->
+
+        <div id="success-message" style="display: none;">
+          Data submitted successfully.
+         </div>
+
+         <script>
+    // Add an event listener to the form's submit event
+    document.getElementById("my_form").addEventListener("submit", function (e) {
+        // Check if the required fields are empty
+        if (!document.querySelector('input[name="name"]').value || !document.querySelector('input[name="email"]').value || !document.querySelector('select[name="reason"]').value) {
+            alert("Please fill in all required fields.");
+            e.preventDefault(); // Prevent form submission
+        } else {
+            // Display a success message
+            alert("Data submitted successfully.");
+
+            // Reload the page
+            location.reload();
+        }
+    });
+</script>
+
 
         <section class="about-one @@extra_class">
             <div class="container">
@@ -700,6 +768,7 @@
                 
             </div>
         </section><!-- /.about-one -->
+
 
 
 
@@ -765,6 +834,9 @@
         </section><!-- /.cta-three -->
 
         <!-- __________What we Services___________ -->
+
+
+      
 
         <section class="zzz">
 
