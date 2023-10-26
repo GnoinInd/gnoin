@@ -158,7 +158,7 @@ $conn->close();
                                     <p class="banner-one__text">Turn Your idea into extraordinary, Web and
                                         Mobile Apps with Gnoin
                                     </p><!-- /.banner-one__text -->
-                                    <a href="about.html" class="thm-btn banner-one__btn banner-one__is-animated">Let's
+                                    <a href="contact.php" class="thm-btn banner-one__btn banner-one__is-animated">Let's
                                         start talk</a>
                                     <!-- /.thm-btn -->
                                 </div><!-- /.banner-one__content -->
