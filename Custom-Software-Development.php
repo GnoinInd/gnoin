@@ -41,14 +41,18 @@
 
         <!-- --------------------header Includ  -------------->
 
-<?php include "header.php"; ?>
+<?php
+
+include("header.php");
+?>
+
 
         <section class="inner-banner">
             <div class="container">
                 <div class="inner-banner__content-wrap">
-                    <h2 class="text-light">Custom Software Development
+                    <h2 class="text-light">Custom Software Development Solutions.
                     </h2>
-                    <p>We provide powerful unique software solutions for large and medium sized businesses - fast and with the closest attention to quality, ROI and your users</p>
+                    <p>We provide powerful unique Custom software development solutions for startups, small to medium and enterprise size businesses - fast and with the closest attention to quality, ROI and your users</p>
                     <ul class="thm-breadcrumb list-unstyled">
                         <li><a href="index.html">Home</a></li>
                         <li class="active"><a href="contact.html">Page</a></li>
@@ -67,15 +71,16 @@
                     <div class="col-md-7  justify-content-center align-items-start">
 
                         <h2 class="text-primary">Custom software development services</h2>
-                        <p><strong>The perfect place for your SaaS(Software as a Services)-applications.</strong></p>
+                        <p><strong>Our expert website developer at Gnoin can create your dream website. </strong></p>
                         <p>
                             Custom software development services require spending an amazing amount of time onsite to
                             create the best custom products.
                             In today's digital age the value of any business lies in the software. At Gnoin, we distill
                             up-and-coming trends into groundbreaking products and services that reshape your business
-                            model, generate new sources of revenue, and attract customers like never before. When you
-                            choose us, you choose faster marketing, faster in-house deployment of your applications, and
-                            the assurance that your software is methodically tested during each development phase.
+                            model, generate new sources of revenue, and attract customers like never before.We design
+                            responsive, attractive and user-friendly websites that improve the customer business,
+                            we work with you to understand your business plan, goals and preferences to grow your business. 
+                            From simple blogs to complex e-commerce platforms, we are dedicated work to delivering high-quality solutions that increase your expectations. 
                         </p>
 
                         <a class="thm-btn" href="#">Let's Connect your Project</a>
@@ -83,7 +88,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/EnterpriseBranding/Custom Software Development.png"
+                            <img src=".\images\pages\core_service\custom_soft_dev\cust_soft_dev.png"
                                 alt="Best Seo Services in India" title="Best Seo Services in India">
                         </div>
                     </div>
@@ -115,22 +120,21 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/custom softweare dev/Expert Software Consulting.png" alt="">
-                                    <h3>Specialist Software Consulting</h3>
-                                    <p class="para"> Right from the inception stage of the project, our professionals
-                                        start working to ensure that your custom software application runs smoothly
-                                        across all browsers and screens.
+                                    <img src=".\images\pages\core_service\custom_soft_dev\expert_soft_consulting.png" alt="">
+                                    <h3>Custom Website Application Development</h3>
+                                    <p class="para"> Using an expert team, we develop a wide range of web applications, from small to large/complex enterprise solutions. Using latest development tools and frameworks to design fast, reliable, and secure web applications that fullfill your business requirements.
+                                    We can customize your existing applications for Enterprise Resource Planning (ERP), Online Training & Courses, E-Commerce, Customer Relationship Management (CRM), and so much more.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>Custom Software Development</h3>
-                                    <p class="para">Our years of expertise in this domain helps us in providing scalable
-                                        and client-specific software with a guarantee of impenetrable security and high
-                                        performance.
+                                    <img src=".\images\pages\core_service\custom_soft_dev\custom_soft_dev.png" alt="">
+                                    <h3>Various Coding Experience</h3>
+                                    <p class="para">Our expert developer has experience in database design and web app development.
+                                    They also have experience in system integrations and cloud consulting. Our expert team of Full-Stack Developers has the expertise to build your next software application. Our software engineers have many years of combined experience.
+                                    They have worked with Java, JavaScript, PHP, Python, jQuery, AngularJS, MongoDB, Oracle, MySql, Node.js, .NET Framework, and much more.
 
                                     </p>
                                 </div>
@@ -138,71 +142,78 @@
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
-                                    <h3>ERP Software Development</h3>
-                                    <p class="para">SWe support you reduce your operating costs, maximize your
-                                        productivity, boost efficiency, and identify your business processes with our
-                                        highly secure and scalable ERP software development services.
+                                    <img src=".\images\pages\core_service\custom_soft_dev\website_audit_optimization.png" alt="">
+                                    <h3>Content Management System</h3>
+                                    <p class="para">Our expert team integrates CMS capabilities into your existing website or application. 
+                                    They can also develop a custom CMS that makes managing your website content easy. 
+Our CMS solutions are easy to use, dependable, and adaptable. You can add and edit web content without rewriting code.
+CMS platforms are commonly used for building and maintaining websites. We provide diverse features that can help businesses grow.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
+                                    <img src=".\images\pages\core_service\custom_soft_dev\soft_qa_testing.png" alt="">
                                     <h3>Software Product Development</h3>
                                     <p class="para">Our skilled developers have successfully build lots of software
                                         products to solve various multifaceted business problems in a systematic manner.
+                                        Certainly! Software product development is crucial for modern business strategy. It helps companies create innovative solutions,
+                                        streamline processes, and gain a competitive advantage. To increase business,
+                                        successful software product development requires careful consideration and strategy. Here is a comprehensive overview of key factors to consider.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
+                                    <img src=".\images\pages\core_service\custom_soft_dev\high_quality_link-building.png" alt="">
                                     <h3>Software UI/UX Design</h3>
-                                    <p class="para"> As a custom software designing company, we provide your software
-                                        with an interactive design and user-friendly backend interface with latest
-                                        scrolling and visual aspects.</p>
+                                    <p class="para"> We are a custom software designing company. 
+                                    We provide your software with an interactive design and user-friendly backend interface. 
+                                    We use the latest scrolling and visual aspects. Custom software development involves creating tailored solutions to address specific business needs.
+                                    An integral part of this process is designing the user interface (UI) and user experience (UX). 
+                                    This ensures the software is not only functional but also intuitive and user-friendly.<p>
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
+                                    <img src=".\images\pages\core_service\custom_soft_dev\analytics_reporting.png" alt="">
                                     <h3>Software migration and Updation</h3>
-                                    <p class="para">If you want to migrate your existing software to other platform or
-                                        you want to upgrade its version, our software developers are always there to
-                                        support you.</p>
+                                    <p class="para">Our software developers are always there to support you.
+                                    If you want to migrate your existing software to another platform or upgrade its version.
+                                    Today's fast-paced digital landscape demands continuous adaptation and optimization. To stay ahead in business, 
+                                    you must keep up. Software migration and updating can significantly impact your business. It is a crucial aspect.
+                                    Our expert developer embraces the latest technologies. 
+                                    Keeping your software systems up-to-date enhances performance. It also contributes to increased productivity and profitability.</p>
                                 </div>
                             </div>
 
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>Software (Quality Assurance)QA & Testing</h3>
-                                    <p class="para">Right from the inception stage of the project, our professionals
-                                        start working to ensure that your custom software application runs smoothly
-                                        across all browsers and screens.</p>
+                                    <img src=".\images\pages\core_service\custom_soft_dev\soft_qa_testing.png" alt="">
+                                    <h3>API development & integration</h3>
+                                    <p class="para">API development involves creating a set of rules and protocols. These allow different software applications to communicate with each other. Our expert team establishes a plan for ongoing maintenance and updates. 
+                                    We address feedback from developers and fix bugs promptly. We also keep the documentation up to date to increase your business.<p>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Complex-Content-Projects.png" alt="">
+                                    <img src=".\images\pages\core_service\custom_soft_dev\complex_content_projects.png" alt="">
                                     <h3>Software Support and Maintenance</h3>
-                                    <p class="para">We not only provide custom software design and development services
-                                        but we also provide end to end software maintenance and support solutions to our
-                                        clients.</p>
+                                    <p class="para">Regular application maintenance is essential to ensure optimal performance, security, and user experience. This process involves a set of activities. It aims to identify and address issues. It implements updates and continuously improves the website's functionality.
+                                    Our expert developer optimizes code and resources. This enhances the website's speed and responsiveness, resulting in a better user experience.</p>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Product Development.png" alt="">
-                                    <h3>Software Support and Maintenance</h3>
-                                    <p class="para">Aside of full cycle software development, you can also hire a
-                                        dedicated software development team consisting of professionals well-experienced
-                                        in business solutions.
+                                    <img src=".\images\pages\core_service\custom_soft_dev\soft_product_dev.png" alt="">
+                                    <h3>Application Maintenance and Support</h3>
+                                    <p class="para">Our expert team regularly updates software to protect against emerging threats.
+                                    This keeps your business data and sensitive information secure. We ensure that your software remains compatible with the latest hardware. We also ensure compatibility with the latest operating systems and other dependencies. 
+                                    Proactive maintenance reduces the risk of major software failures. It prevents the need for costly emergency fixes or replacements.
                                     </p>
                                 </div>
                             </div>
@@ -232,7 +243,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body  d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/angular.png" /></span> Angular JS
+                                <h4 class=""><span><Img src=".\images\logo\language\angular.png" /></span> Angular JS
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -241,7 +252,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/react.png" /></span> React native
+                                <h4 class=""><span><Img src=".\images\logo\language\react.png" /></span> React native
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -250,7 +261,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/react.png" /></span> React JS
+                                <h4 class=""><span><Img src=".\images\logo\language\react.png" /></span> React JS
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -259,7 +270,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/net.png" /></span> .Net
+                                <h4 class=""><span><Img src=".\images\logo\language\net.png" /></span> .Net
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -268,7 +279,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/nodejs.jpg" /></span> Node JS
+                                <h4 class=""><span><Img src=".\images\logo\language\nodejs.jpg" /></span> Node JS
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -277,7 +288,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/php.png" /></span> PHP
+                                <h4 class=""><span><Img src=".\images\logo\language\php.png" /></span> PHP
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -286,7 +297,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/zeplin.png" /></span> Xamrain
+                                <h4 class=""><span><Img src=".\images\logo\language\zeplin.png" /></span> Xamrain
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -295,7 +306,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/illustrator.png" /></span> Chatbot
+                                <h4 class=""><span><Img src=".\images\logo\language\illustrator.png" /></span> Chatbot
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -304,7 +315,7 @@
                     <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                         <div class="card shadow-sm">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/axure.png" /></span>Android
+                                <h4 class=""><span><Img src=".\images\logo\language\axure.png" /></span>Android
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -402,7 +413,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tns-item">
 
-                                            <img src="./images/custom softweare dev/Expert Software Consulting.png">
+                                            <img src=".\images\pages\core_service\custom_soft_dev\custom_soft_dev.png">
                                         </div>
 
                                         <div>
@@ -421,7 +432,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Custom Software Development.png">
+                                            <img src=".\images\pages\core_service\custom_soft_dev\custom_soft_dev.png">
                                         </div>
 
                                         <div>
@@ -439,7 +450,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/ERP Software Development.png">
+                                            <img src=".\images\pages\core_service\custom_soft_dev\erp_ soft_dev.png">
                                         </div>
 
                                         <div>
@@ -457,7 +468,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Software Support & Maintenance.png">
+                                            <img src=".\images\pages\core_service\custom_soft_dev\soft_support_maintenance.png">
                                         </div>
 
                                         <div>
@@ -474,7 +485,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Software Product Development.png">
+                                            <img src=".\images\pages\core_service\custom_soft_dev\soft_product_dev.png">
                                         </div>
 
                                         <div>
@@ -534,7 +545,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Fixed-Cost-Model.png" alt="...">
+                                <img src=".\images\pages\core_service\custom_soft_dev\fixed_cost_model.png" alt="...">
                             </div>
                             <div class="card-body  mt-2">
                                 <h4 class="text-tilte">Fixed Cost Based Model</h4>
@@ -551,7 +562,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100 align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/T-M-Model.png" alt="...">
+                                <img src=".\images\pages\core_service\custom_soft_dev\tm_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte"> T &amp; M Model</h4>
@@ -567,7 +578,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src=".\images\pages\core_service\custom_soft_dev\partner_with_us.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Associate With Us</h4>
@@ -583,7 +594,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src=".\images\pages\core_service\custom_soft_dev\partner_with_us.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -607,7 +618,11 @@
         
         <!-- footer section-->
 
-<?php include "footer.php"; ?>
+<?php
+
+include("footer.php");
+?>
+
 
 
     </div><!-- /.page-wrapper -->

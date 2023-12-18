@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <title>Gnoin Pvt Ltd </title>
-    </head>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,7 +42,11 @@
     <div class="page-wrapper">
         <!-- header part start -->
 
-<?php include "header.php"; ?>
+            <?php
+
+include("header.php");
+?>
+
 
 
         <!-- header end -->
@@ -134,8 +129,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -157,7 +152,7 @@
                                 of your business and significantly increase revenue.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's connect your project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's connect your project</span></a>
                             </div>
                         </div>
 
@@ -179,63 +174,81 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Custom Android app Development</h3>
                                     <p>Our years of domain expertise assist us in offering secure, scalable,
                                         feature-packed and high-performing Android applications.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Enterprise Oriented Solutions</h3>
                                     <p>Get high performance and scalable enterprise-oriented Android app development
                                         solutions as per the specific needs and requirements of your business.</p>
                                 </div>
+                                    </div>
+                                   
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Migration & Upgradation Services</h3>
                                     <p>If you want to migrate your app to Android platform or want to upgrade the
                                         current version of your Android app, our Android app development company in
                                         India is always ready to assist you.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>Android App Consulting Services</h3>
-                                    <p>Join us if you want to understand anything about Android App Development. Our
-                                        Android app developers will happily answer your questions.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>Android App Consulting Services</h3>
+                                        <p>Join us if you want to understand anything about Android App Development. Our
+                                            Android app developers will happily answer your questions.</p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>QA and Testing Services</h3>
                                     <p>Right from the planning stage, our Android app development company in India
                                         includes expert quality analysts on the team to ensure that your app runs on all
                                         browsers and screens.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>24*7 Support & Maintenance</h3>
                                     <p>Along with Android app development services, our Android app development company
                                         in India also provides development support and maintenance to the clients.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Request For Free Quote</a>
+                            <a class="thm-btn mt-5" href="#">Request For Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -282,7 +295,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -309,7 +322,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -336,7 +349,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -362,7 +375,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -475,7 +488,7 @@
 
                 </div>
                 <div class="text-center">
-                    <a class="thm-btn" href="#">Request For Free Quote</a>
+                    <a class="thm-btn" href="#"><span>Request For Free Quote</span></a>
                 </div>
             </div>
 
@@ -589,59 +602,77 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Requirement Analysis</h3>
                                     <p>Good analysis always gives good profit. While analyzing the project requirements,
                                         we make sure to provide the best app development solutions as per your business
                                         requirements.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Well Designed App</h3>
                                     <p>The first thing your user will notice is the UI/UX design of the Android app. We
                                         follow the latest UI/UX design trends to provide attractive and user centric
                                         design for your app.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Cross-device Functionality</h3>
                                     <p>Cross-device functionality across all smartphone devices - Compatible with all
                                         versions of smartphones.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>High Performance & Speed</h3>
-                                    <p>Our developed applications provide amazingly fast user experience and load within
-                                        3 seconds which increase your conversions and also increase Google ranking.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>High Performance & Speed</h3>
+                                        <p>Our developed applications provide amazingly fast user experience and load within
+                                            3 seconds which increase your conversions and also increase Google ranking.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Advanced Security & Scalability</h3>
-                                    <p>We ensure maximum scalability and security of the Android app by deploying
-                                        advanced security measures like advanced data encryption, secure admin dashboard
-                                        etc.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Advanced Security & Scalability</h3>
+                                        <p>We ensure maximum scalability and security of the Android app by deploying
+                                            advanced security measures like advanced data encryption, secure admin dashboard
+                                            etc.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>End-to-end Development</h3>
-                                    <p>We provide end-to-end Android app development solutions from UI/UX designing
-                                        development to final deployment to App Store.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>End-to-end Development</h3>
+                                        <p>We provide end-to-end Android app development solutions from UI/UX designing
+                                            development to final deployment to App Store.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -667,7 +698,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -785,7 +816,12 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

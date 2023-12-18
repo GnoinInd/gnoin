@@ -104,11 +104,15 @@
 
 
 </head>
-<?php include "header.php"; ?>
+
 <body class="home-one">
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
         <!-- header part start -->
+            <?php
+
+include("header.php");
+?>
 
 
 
@@ -124,8 +128,8 @@
                         best-in-class React.JS development services
                     </p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -580,6 +584,11 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+        <?php
+
+include("footer.php");
+?>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -635,4 +644,3 @@
 </body>
 
 </html>
-<?php include "footer.php"; ?>

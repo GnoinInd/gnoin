@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,13 +34,17 @@
     
 
 
-
 </head class="home-one">
 <body >
+    <?php
+
+include("header.php");
+?>
+
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
-    <?php include "header.php"; ?>
-        <section class="inner-banner">
+    
+    <section class="inner-banner">
         <div class="container">
             <div class="inner-banner__content-wrap">
                 <h2 class="text-light">CAREER</h2>
@@ -51,8 +52,8 @@
                     
 
                 <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                 </ul>
             </div>
         </div>
@@ -84,14 +85,14 @@
                 <div class="col-md-12 col-sm-12 vacant_positions mb-2" >
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src="/images/uxui/java.jpg"> </div>
+                            <img src=".\images\logo\language\java.jpg"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">Java Developer</h3>
                             <p class="mb-0 font-md">Hiring Java Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -102,14 +103,14 @@
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src="/images/uxui/react.png"> </div>
+                            <img src=".\images\logo\language\react.png"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">React Js Developer</h3>
                             <p class="mb-0 font-md">Hiring React js Developers with 7+ years of experience.</p>
     
                     </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -120,14 +121,14 @@
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src="/images/uxui/php.png"> </div>
+                            <img src=".\images\logo\language\php.png"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">PHP Developer</h3>
                             <p class="mb-0 font-md">Hiring PHP Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -139,14 +140,14 @@
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src="/images/uxui/angular.png"> </div>
+                            <img src=".\images\logo\language\angular.png"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">Angular Developer</h3>
                             <p class="mb-0 font-md">Hiring Angular Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -159,14 +160,14 @@
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src="/images/uxui/nodejs.jpg"> </div>
+                            <img src=".\images\logo\language\nodejs.jpg"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">Node Js Developer</h3>
                             <p class="mb-0 font-md">Hiring Node js Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn box_btn openAppyModal"
-                                style="cursor:pointer;border: 1px solid; ">APPLY</a> </div>
+                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                                style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -191,8 +192,12 @@
             </form>
         </div>
     </div>
-    <?php include "footer.php"; ?>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <?php
+
+include("footer.php");
+?>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

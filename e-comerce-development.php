@@ -38,6 +38,10 @@
 
 
         <!-- ---------------------header section----------------------------------------->
+        <?php
+
+include("header.php");
+?>
 
 
         <!-- inerpage page top container  -->
@@ -48,8 +52,8 @@
                     </h2>
                     <p>Raise the standard for your customers with an online experience that exceeds their expectations and increases your ROI.</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -454,7 +458,7 @@
                                 <h5 class="text-light">Our experts team creates enjoyable and meaningful web experiences</h5>
                                 <p class="banner-one__text banner-one__is-animated">We always try to reduce the cost with better administration and integration.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
+                                <a href="about-2.php" class="thm-btn banner-one__btn">Let's start
                                     talk</a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
@@ -678,6 +682,11 @@
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
+        <?php
+
+include("footer.php");
+?>
+
 
         <!-- footer end -->
 

@@ -29,18 +29,14 @@
     <link rel="stylesheet" href="css/enterprise_branding_all.css">
 </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <title>Gnoin Pvt Ltd </title>
-    </head>
-     <?php include "header.php"; ?>
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
 <!-- header part start -->
+    <?php
+
+include("header.php");
+?>
 
 
 
@@ -80,7 +76,7 @@
                             <p>
                                 SEO audit is essential to keep your site optimized. They give insight into the overall performance of your website and help you build an effective SEO strategy going forward. Search engine algorithms and webmaster guidelines are constantly being revised, so it's important to audit your website regularly.<br><br> SEO auditing helps you prioritize the work that will have the greatest impact on your success in search, starting with the asset you already have – your website. This step ensures that your off-page optimization and link building work will lead to results that have a direct impact on your return on investment (ROI).
                             </p>
-                            <a class="thm-btn" href="#">Let's connect your project</a>
+                            <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
                     </div>
                     <div class="col-md-5">
                         <div class="SEO_audit">
@@ -110,7 +106,7 @@
                                 Why Should I Get an <br>
                                 <b>Audit Review?</b>
                             </h2>
-                            <img src="./images/EnterpriseBranding/seo-audit-services-india.png" alt="SEO Audit services India" title="SEO Audit services India">
+                            <img src="images/seoauditservices/seoserviceaudit.png" alt="SEO Audit services India" title="SEO Audit services India">
                         </div>
                     </div>
     
@@ -158,67 +154,88 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Expert Software Consulting.png" alt="">
-                                    <h3>Baseline SEO Audit</h3>
-                                    <p>Our SEO auditing services start with a baseline SEO audit. We use tools such as Google Analytics, Google Search Console and Ahrefs. Along with the information, we provide a six-page interactive analysis of how your site is performing with SEO.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/seoauditservices/seoservicesicon1.png" alt="">
+                                        <h3>Baseline SEO Audit</h3>
+                                        <p>Our SEO auditing services start with a baseline SEO audit. We use tools such as Google Analytics, Google Search Console and Ahrefs. Along with the information, we provide a six-page interactive analysis of how your site is performing with SEO.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/seoauditservices/seoservicesicon2.png" alt="">
                                     <h3>Sitewide Page-Level Audit</h3>
                                     <p>Our SEO analyzers will compile information from six sources to find the next best steps for each URL on your site. Our SEO analysts get this data from places like SEMrush, Ahrefs, Google Search Console, Google Analytics, Screaming Frog and Sitemap.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/ERP Software Development.png" alt="">
-                                    <h3>Advanced Technical SEO Audit</h3>
-                                    <p>This audit is a three-part process that includes an automated crawl, a manually constructed recommendation letter for 91 independent SEO factors, and a prioritized evaluation of high-impact changes written in developer-friendly language.We will be using tools during this process including OnCrawl, Screaming Frog, Sitemaps, PageSpeed, Search Console, Server Logs, and Chrome Developer Tools.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/seoauditservices/seoservicesicon3.png" alt="">
+                                        <h3>Advanced Technical SEO Audit</h3>
+                                        <p>This audit is a three-part process that includes an automated crawl, a manually constructed recommendation letter for 91 independent SEO factors, and a prioritized evaluation of high-impact changes written in developer-friendly language.We will be using tools during this process including OnCrawl, Screaming Frog, Sitemaps, PageSpeed, Search Console, Server Logs, and Chrome Developer Tools.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/seoauditservices/seoservicesicon4.png" alt="">
                                     <h3>Ranking Keyword Research</h3>
                                     <p>We take a data-driven approach to find the best targeted keywords for each existing page on your site.
                                         During this phase of our auditing services, we will be using tools such as Screaming Frog, Ahrefs, and SEMRush. You'll get a report on how the keywords you're using on your current pages are working for you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Migration &amp; Upgrade.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/seoauditservices/seoservicesicon5.png" alt="">
                                     <h3>Keyword Gap Analysis</h3>
                                     <p>Keyword research gap analysis is all about finding the best content for you to pursue. We make a list of all the keywords you and your competitors are ranking for. We then find the best keyword opportunities to drive future traffic to your site.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software Product Development.png" alt="">
-                                    <h3>On Page SEO Recommendations</h3>
-                                    <p>We create a detailed on-page SEO report and suggest ways to improve your website's search ranking. These recommendations include things like updates to text on pages, meta tags, and schema markup. We will be using tools like Screaming Frog, Sitemaps, Search Console, Google Analytics, and Ahrefs.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="images/seoauditservices/seoservicesicon6.png" alt="">
+                                        <h3>On Page SEO Recommendations</h3>
+                                        <p>We create a detailed on-page SEO report and suggest ways to improve your website's search ranking. These recommendations include things like updates to text on pages, meta tags, and schema markup. We will be using tools like Screaming Frog, Sitemaps, Search Console, Google Analytics, and Ahrefs.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
     
     
                             <div class="col-md-4 col-sm-6 col-xs-12 extraDiv">
                                 <div class="delivery_models ">
-                                    <img src="./images/EnterpriseBranding/Hire Software Teams.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="images/seoauditservices/seoservicesicon7.png" alt="">
                                     <h3>Onsite Content Quality Audit</h3>
                                     <p>This process looks at blog posts you already have and refines the targeting and focus. These refactorings can significantly impact your site traffic and customer conversion rates.
                                         We will be using tools like Screaming Frog, Sitemaps, Google Analytics, Search Console, and Ahrefs. And we will provide you a full material audit report.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
     
                           
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#"> Let's Discuss your Project </a>
+                            <a class="thm-btn mt-5" href="#"> <span>Let's Discuss your Project</span> </a>
                         </div>
                     </div>
                 </div>
@@ -265,13 +282,13 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Technical Website Audit</h3>
                             <p>We audit the technical pointers such as sitemap, robots.txt, crawl performance. A Technical Website Audit is aimed to identify the different programming and technical issues on your website, which might be the reason behind its poor performance. We'll assess your technical infrastructure and make definitive recommendations on how to resolve any issues.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Keyword Research Analysis</h3>
                             <p>Everything starts with a keyword and it is the backbone of any successful media campaign. We'll make sure you're targeting the right keywords and suggest new keyword ideas for you to target to meet your user goals.</p>
                         </div>
@@ -280,13 +297,13 @@
     
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> On-Page SEO Audit</h3>
                             <p>On-Page audit includes URL structure, headers, title & meta tags, and many more. We will evaluate the on-page SEO organization of all your web pages (including the homepage) to ensure that you are giving the right 'attraction' to the Google algorithms.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Penalty Recognition & Recovery</h3>
                             <p>Have your website penalized by Google? Have you experienced a sudden drop in your ranking without knowing the reason? We will help you whether you are subject to Google penalty and how to get rid of it.</p>
                         </div>
@@ -295,13 +312,13 @@
     
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Content Quality Audit</h3>
                             <p>We audit the content present on your website and provide suggestions. The quality of content affects user experience and your website’s ranking. Is your content SEO friendly? Is it good enough for search engines as well as satisfying user intent? Our exclusive SEO content quality audit will give you all the answers you can get.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Website Architecture Audit</h3>
                             <p>Through an in-depth architecture audit, we discover the underlying potential of your website. Many people leave out the importance of a well defined website structure and to be precise it is bad for SEO. We'll review your website's structure and give you specific recommendations on how to optimize it.</p>
                         </div>
@@ -310,13 +327,13 @@
     
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Off-Page SEO Audit</h3>
                             <p>We audit your off page activities and provide suggestions to avoid any Google penalty. We will check your complete link profile, identify toxic links that can hurt your ranking and give various suggestions on how to optimize your link profile.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Custom Strategical SEO Audit</h3>
                             <p>Most of the websites fail because they do not have a result oriented SEO strategy in order. We will also guide and suggest SEO strategy that can work for you be a part of this SEO audit.</p>
                         </div>
@@ -325,13 +342,13 @@
     
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Competitor Research Analysis</h3>
                             <p>Competitor Analysis helps us to understand SEO practices of your competitor. The best way to learn is from your competitors, provided you know what to look for. Our competitor analysis will identify what they are doing better and how to replicate their steps to get better results.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="what_included_left">
+                        <div class="what_included_left shadow-sm1 p-4">
                             <h3><i class="fa fa-circle text-primary mr-1" ></i> Action Plan</h3>
                             <p>An audit report without an action plan is just another audit. We'll give you a prepackaged action plan on what to do to increase your SEO performance in 90 days or less. Actionable things that might really be able to make a difference.</p>
                         </div>
@@ -433,7 +450,7 @@
                     data-wow-delay="0ms">
                     <div class=" card justify-content-center h-100  align-items-center card-block">
                         <div class="card-img-top mt-4">
-                            <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                            <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                         </div>
                         <div class="card-body mt-2">
                             <h4 class="text-tilte">Hourly Based Model</h4>
@@ -465,4 +482,26 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

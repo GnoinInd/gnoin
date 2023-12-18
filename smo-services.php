@@ -33,12 +33,14 @@
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
 <!-- header part start -->
-
-
     <?php
 
 include("header.php");
 ?>
+
+
+
+
 
 <!-- header end -->
 <!-- header part end -->
@@ -51,8 +53,8 @@ include("header.php");
                 Best Social Media Optimization(SMO) Services<br>
                 Social Media Optimization(SMO) Company In India At Your Service</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -77,12 +79,12 @@ include("header.php");
                                 <p><strong>Objective or Result-oriented Social Media Advertising Campaign Services.</strong></p>
                                 <p>Our Social Media Optimization(SMO) Services is one of the most experienced social media optimization company in India that works to promote your business and brand on social media platforms and direct most of the web traffic to your website. Our team consists of social media optimization experts who have helped over hundreds of businesses gain brand visibility and leads from social media channels. We provide affordable social media optimization services in India which is cost-effective so that every business can get fruitful results</p>
         
-                                <a class="thm-btn" href="#">Request Proposal/SMO Packages</a>
+                                <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
                            
                         </div>
                         <div class="col-md-5">
                             <div class="web_desing_right">
-                                <img src="./images/EnterpriseBranding/social media promotion india.png" alt="Social media marketing services" title="Social media marketing services">
+                                <img src="images/smoservices/smoservicesmain.png" alt="Social media marketing services" title="Social media marketing services">
                             </div>
                         </div>
                     </div>
@@ -99,7 +101,7 @@ include("header.php");
                         <p> <i class="fa fa-hand-o-right text-primary" ></i> Our social media advertising services help you generate instant results on social media. We make your products or services popular among millions of people who may be affected by them. Our social media campaigns are built to generate leads with retention in mind and ensure that your audience interprets your message correctly. We make sure the message is engaging and reflects your brand values, well beyond the initial points of association.</p>
                     </div>
                     <div class="text-center">
-                        <a class="thm-btn" href="free-seo-audit-services.html"> Yes, I want a Free Social Audit!  </a>
+                        <a class="thm-btn1" href="free-seo-audit-services.php"> <span>Yes, I want a Free Social Audit!</span>  </a>
                     </div>
                 </div>
             </div>
@@ -127,49 +129,67 @@ include("header.php");
                     <div class="row m-0">
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Social-Media-Audit-&amp;-Strategy.png" alt="">
-                                <h3>Facebook Optimization</h3>
-                                <p>We create high-quality Facebook posts, creative and actionable content to increase engagement of your Facebook Page with your followers or community. Learn more about our Facebook marketing services.</p>
+                                <div class="box_shad p-3">
+                                    <img src="images/smoservices/smosocialmedia1.png" alt="">
+                                    <h3>Facebook Optimization</h3>
+                                    <p>We create high-quality Facebook posts, creative and actionable content to increase engagement of your Facebook Page with your followers or community. Learn more about our Facebook marketing services.</p>
+                                </div>
+                                
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                <h3>Instagram Optimization</h3>
-                                <p>We set up your Instagram profile and provide all the necessary details to make it perfect for your audience and increase its visibility. We use high-quality graphics and use Instagram Insights to enhance Instagram's optimization. We create high-quality actionable content to increase engagement and do proper hashtag research before posting the content on your Instagram profile.</p>
+                                <div class="box_shad p-3">
+                                    <img src="images/smoservices/smosocialmedia2.png" alt="">
+                                    <h3>Instagram Optimization</h3>
+                                    <p>We set up your Instagram profile and provide all the necessary details to make it perfect for your audience and increase its visibility. We use high-quality graphics and use Instagram Insights to enhance Instagram's optimization. We create high-quality actionable content to increase engagement and do proper hashtag research before posting the content on your Instagram profile.</p>
+                                    </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Multi-Channel-Integration.png" alt="">
-                                <h3>YouTube Optimization</h3>
-                                <p>Our team of YouTube marketing experts perform the necessary organic YouTube management to help your video rank on YouTube when someone searches for terms related to your video. We create custom thumbnails and make necessary video optimizations to help them rank better.</p>
+                                <div class="box_shad p-3">
+                                    <img src="images/smoservices/smosocialmedia3.png" alt="">
+                                    <h3>YouTube Optimization</h3>
+                                    <p>Our team of YouTube marketing experts perform the necessary organic YouTube management to help your video rank on YouTube when someone searches for terms related to your video. We create custom thumbnails and make necessary video optimizations to help them rank better.</p>
+                                    </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Social-Advertising.png" alt="">
-                                <h3>Linkedin Optimization</h3>
-                                <p>We set up your business profile on Linkedin and provide all the necessary business details to make your Linkedin profile perfect and complete. A thorough LinkedIn business profile can increase your chances of ranking on LinkedIn on relevant searches.</p>
+                                <div class="box_shad p-3">
+                                    <img src="images/smoservices/smosocialmedia4.png" alt="">
+                                    <h3>Linkedin Optimization</h3>
+                                    <p>We set up your business profile on Linkedin and provide all the necessary business details to make your Linkedin profile perfect and complete. A thorough LinkedIn business profile can increase your chances of ranking on LinkedIn on relevant searches.</p>
+                                    </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Software Migration &amp; Upgrade.png" alt="">
-                                <h3>Twitter Optimization</h3>
-                                <p>We provides high quality Twitter management services for your business. We create and post high quality content to your Twitter profile to keep your audience engaged on Twitter. We conduct proper competitor analysis to find out what type of content your successful competitors are sharing on their Twitter profiles.</p>
+                                <div class="box_shad p-3">
+                                    <img src="images/smoservices/smosocialmedia5.png" alt="">
+                                    <h3>Twitter Optimization</h3>
+                                    <p>We provides high quality Twitter management services for your business. We create and post high quality content to your Twitter profile to keep your audience engaged on Twitter. We conduct proper competitor analysis to find out what type of content your successful competitors are sharing on their Twitter profiles.</p>
+                                    </div>
+                               
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="delivery_models">
-                                <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                <h3>Pinterest Optimization</h3>
-                                <p>We customize your Pinterest profile and do the necessary verifications to start using Pinterest. We create high-quality graphics for your audience to increase CTR and sales.</p>
+                                <div class="box_shad p-3">
+                                    <img src="images/smoservices/smosocialmedia6.png" alt="">
+                                    <h3>Pinterest Optimization</h3>
+                                    <p>We customize your Pinterest profile and do the necessary verifications to start using Pinterest. We create high-quality graphics for your audience to increase CTR and sales.</p>
+                                    </div>
+                               
                             </div>
                         </div>
 
@@ -201,7 +221,7 @@ include("header.php");
                             <p ><i class="fa fa-hand-o-right text-primary" ></i> Get a complete audit of your Social Media Profiles along with Custom Strategies on how to take them to the another level.</p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#"> Yes, I want a Free Social Audit!  </a>
+                            <a class="thm-btn1" href="#"> <span>Yes, I want a Free Social Audit!</span>  </a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +295,7 @@ include("header.php");
                             <i class="fa fa-hand-o-right text-primary" ></i> It helps in increasing online reputation and brand loyalty<br>
                             <i class="fa fa-hand-o-right text-primary" ></i> Increase revenue from social channels
                         </p>
-                        <a class="thm-btn" href="#"> Order a Free SMO Audit</a>
+                        <a class="thm-btn1" href="#"> <span>Order a Free SMO Audit</span></a>
                     </div>
                 </div>
             </div>
@@ -300,7 +320,7 @@ include("header.php");
                         </p>
 
 
-                        <a class="thm-btn" href="#"> Order a Free SMO Audit</a>
+                        <a class="thm-btn1" href="#"> <span>Order a Free SMO Audit</span></a>
                     </div>
                 </div>
             </div>
@@ -416,7 +436,7 @@ include("header.php");
                 data-wow-delay="0ms">
                 <div class=" card justify-content-center h-100  align-items-center card-block">
                     <div class="card-img-top mt-4">
-                        <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                        <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                     </div>
                     <div class="card-body mt-2">
                         <h4 class="text-tilte">Hourly Based Model</h4>
@@ -457,7 +477,7 @@ include("header.php");
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <?php
+        <?php
 
 include("footer.php");
 ?>

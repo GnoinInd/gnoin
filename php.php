@@ -34,8 +34,15 @@
  
 
 </head>
-     <?php include "header.php"; ?>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
+            <?php
+
+include("header.php");
+?>
 
 
 
@@ -121,8 +128,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -138,7 +145,7 @@
 </p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -164,50 +171,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Custom PHP Development</h3>
-                                    <p>Get full stack PHP web development services from consulting, wireframing to end to end development and support. We provide end to end customization of your web applications.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Custom PHP Development</h3>
+                                        <p>Get full stack PHP web development services from consulting, wireframing to end to end development and support. We provide end to end customization of your web applications.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
-                                    <h3>API Development</h3>
-                                    <p>We extensively explore private, internal, and public APIs to offer secure third-party integrations and experiences. We have wide domain expertise in not only API development but also API integration with multiple applications.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
+                                        <h3>API Development</h3>
+                                        <p>We extensively explore private, internal, and public APIs to offer secure third-party integrations and experiences. We have wide domain expertise in not only API development but also API integration with multiple applications.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>CMS Development Solutions</h3>
-                                    <p>Our PHP development company in India provides scalable, robust and feature packed PHP based custom CMS solutions. We also provide CMS development services on various CMS platforms like WordPress.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>CMS Development Solutions</h3>
+                                        <p>Our PHP development company in India provides scalable, robust and feature packed PHP based custom CMS solutions. We also provide CMS development services on various CMS platforms like WordPress.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Upgradation & Migration</h3>
                                     <p>Our PHP web development company in India is proficient in developing new features in applications as well as customizing them to enhance performance.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>PHP Consulting</h3>
-                                    <p>If you need any help related to PHP development, feel free to contact us. Our consultants are always ready to help you choose the right technology.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>PHP Consulting</h3>
+                                        <p>If you need any help related to PHP development, feel free to contact us. Our consultants are always ready to help you choose the right technology.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>24*7 Support & Maintenance</h3>
-                                    <p>Our custom PHP development company not only provides web development services but also complete support and maintenance services to our clients.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>24*7 Support & Maintenance</h3>
+                                        <p>Our custom PHP development company not only provides web development services but also complete support and maintenance services to our clients.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -218,7 +243,7 @@
                     
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Request a free estimate</a>
+                    <a href="#" class="thm-btn about-one__btn"><span>Request a free estimate</span></a>
                    </div>
             </div>
         </section>
@@ -334,9 +359,9 @@
 
                     </div>
                     <div>
-                        <a  href="#" class="thm-btn about-one__btn">Request
+                        <a  href="#" class="thm-btn about-one__btn"><span>Request
                             a
-                            Quote</a>
+                            Quote</span></a>
                     </div>
 
                 </div>
@@ -359,50 +384,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Requirement Analysis</h3>
                                     <p>High quality analysis always provides better returns. While discussing the requirements of the project, we definitely craft to offer the best web app development services as per the business requirements of the clients.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Well Designed Web App</h3>
                                     <p>The primary thing your user sees is the design of your web app. We follow the latest web design trends to provide attractive and easy-to-use designs for your web apps.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Mobile Friendly Web app</h3>
-                                    <p>Our .net web app developers provide our clients with a feature rich responsive web app with a stunning custom design, robust plug-ins and mobile friendly user interface.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Mobile Friendly Web app</h3>
+                                        <p>Our .net web app developers provide our clients with a feature rich responsive web app with a stunning custom design, robust plug-ins and mobile friendly user interface.
+                                        </p>  
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>High Performance & Speed</h3>
-                                    <p>Our offered website provides great quick user experience and loads within 3 seconds which improves your conversions and helps in Google ranking.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>High Performance & Speed</h3>
+                                        <p>Our offered website provides great quick user experience and loads within 3 seconds which improves your conversions and helps in Google ranking.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Advanced Security & Scalability</h3>
-                                    <p>Our .NET web development ensures extreme scalability and site shielding by employing advanced security measures like high security plug-ins, data encryption, secure admin dashboard etc.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Advanced Security & Scalability</h3>
+                                        <p>Our .NET web development ensures extreme scalability and site shielding by employing advanced security measures like high security plug-ins, data encryption, secure admin dashboard etc.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>Extended Software Protection Plan</h3>
                                     <p>If you discover a bug or security issue with your software, you can request a free quote. Our specialist will get in touch with you within 12 to 24 hours.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
@@ -413,8 +456,8 @@
                     
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Send Your
-                        Request</a>
+                    <a href="#" class="thm-btn about-one__btn"><span>Send Your
+                        Request</span></a>
                    </div>
             </div>
         </section>
@@ -625,9 +668,9 @@
 
                     </div>
                     <div>
-                        <a  href="#" class="thm-btn about-one__btn m-auto">Request
+                        <a  href="#" class="thm-btn about-one__btn m-auto"><span>Request
                             a
-                            Quote</a>
+                            Quote</span></a>
                     </div>
 
                 </div>
@@ -646,7 +689,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -733,4 +776,109 @@
 
         
     </div><!-- /.page-wrapper -->
-      <?php include "footer.php"; ?>
+     <?php
+
+include("footer.php");
+?>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#design").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#pilot").css("display", "block");
+
+            });
+
+            $("#btn2").click(function () {
+                $("#pilot").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#design").css("display", "block");
+            });
+
+            $("#btn3").click(function () {
+                $("#design").css("display", "none");
+                $("#pilot").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#instrument").css("display", "block");
+            });
+
+            $("#btn4").click(function () {
+                $("#design").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#pilot").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#innovations").css("display", "block");
+            });
+
+            $("#btn5").click(function () {
+                $("#design").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#pilot").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "block");
+            });
+            $("#btn1-1").click(function () {
+                $("#design-1").css("display", "none");
+                $("#instrument-1").css("display", "none");
+                $("#innovations-1").css("display", "none");
+                $("#sampleExtra-1").css("display", "none");
+                $("#pilot-1").css("display", "block");
+
+            });
+
+            $("#btn2-1").click(function () {
+                $("#pilot-1").css("display", "none");
+                $("#instrument-1").css("display", "none");
+                $("#innovations-1").css("display", "none");
+                $("#sampleExtra-1").css("display", "none");
+                $("#design-1").css("display", "block");
+            });
+
+            $("#btn3-1").click(function () {
+                $("#design-1").css("display", "none");
+                $("#pilot-1").css("display", "none");
+                $("#innovations-1").css("display", "none");
+                $("#sampleExtra-1").css("display", "none");
+                $("#instrument-1").css("display", "block");
+            });
+
+            $("#btn4-1").click(function () {
+                $("#design-1").css("display", "none");
+                $("#instrument-1").css("display", "none");
+                $("#pilot-1").css("display", "none");
+                $("#sampleExtr-1").css("display", "none");
+                $("#innovations-1").css("display", "block");
+            });
+
+           
+        });
+
+    </script>
+
+
+</body>
+
+</html>

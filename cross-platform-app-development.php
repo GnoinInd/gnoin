@@ -1,8 +1,49 @@
-     <?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <title>Gnoin Pvt Ltd </title>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+
+
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="home-one">
+
+    <div class="page-wrapper">
 
 
         <!-- ---------------------header section----------------------------------------->
+        <?php
 
+include("header.php");
+?>
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -13,8 +54,8 @@
                     <p>We develop a mobile app experience that reaches your audience and nurtures your business online.
                     </p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,12 +82,12 @@
                             ?
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/ondemand-developer/C-Developers.png" alt="Best Seo Services in India"
+                            <img src=".\images\pages\core_service\cross_platform\cross_platform.png" alt="Best Seo Services in India"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -76,7 +117,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top">
 
-                            <img src="images/icons/intech-icon-1-2.png" alt="...">
+                            <img src=".\images\logo\cross_platform\cross_platform.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -92,7 +133,7 @@
                             <div class=" text-center ">Cost Saving</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="images/icons/intech-icon-1-2-hvr.png" alt="...">
+                                <img src=".\images\logo\cross_platform\cross_platform.png" alt="...">
                             </div>
 
                         </div>
@@ -112,7 +153,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="images/icons/intech-icon-1-3.png" alt="...">
+                            <img src=".\images\logo\cross_platform\app_enhancement.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -129,7 +170,7 @@
                             <div class=" text-center ">App Enhancement</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="images/icons/intech-icon-1-3-hvr.png" alt="...">
+                                <img src=".\images\logo\cross_platform\app_enhancement.png" alt="...">
                             </div>
 
                         </div>
@@ -149,7 +190,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="images/icons/intech-icon-1-4.png" alt="...">
+                            <img src=".\images\logo\cross_platform\fast_delevery.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -166,7 +207,7 @@
                             <div class=" text-center ">Fast Delivery</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="images/icons/intech-icon-1-4-hvr.png" alt="...">
+                                <img src=".\images\logo\cross_platform\fast_delevery.png" alt="...">
                             </div>
 
                         </div>
@@ -188,7 +229,7 @@
             
         </div>
         <div class="text-center ">
-            <a class="thm-btn" href="#"> Request a Quote </a>
+            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
         </div>
     </div>
 
@@ -197,43 +238,43 @@
         <!--____________ technology part start________________ -->
 
         <section class="services " id="services">
-            <div class="container py-md-5 py-4">
+            <div class="container py-md-5 py-4 text-center">
                 <div class="divider-shape"></div>
                 <h2 class="text-primary ">Integration into technologies applications</h2>
                 <h5>Being a top mobile application development company</h5>
                 <p> Our technology capabilities go beyond what is typically expected of a "cross-platform app development company". We have a strong foundation in cross-platform mobile application development techniques and stay updated with the latest trends.</p>
                 <div class="row mt-4">
                     <div class="col-md-3 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body  d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/angular.png" /></span> Xamrain
+                                <h4 class=""><span><Img src=".\images\logo\language\angular.png" /></span> Xamrain
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/react.png" /></span> React native
+                                <h4 class=""><span><Img src=".\images\logo\language\react.png" /></span> React native
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/react.png" /></span> Ionic
+                                <h4 class=""><span><Img src=".\images\logo\language\React.png" /></span> Ionic
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-2 col-sm-6 col-xs-12">
-                        <div class="card shadow-sm">
+                        <div class="card shadow-sm1">
                             <div class="card-body d-flex align-items-center justify-content-between">
-                                <h4 class=""><span><Img src="./images/uxui/net.png" /></span> Flutter
+                                <h4 class=""><span><Img src=".\images\logo\language\net.png" /></span> Flutter
                                 </h4>
                                 <a href="#"> <i class="fa fa-hand-o-right"></i></a>
                             </div>
@@ -261,64 +302,82 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Software Migration & Upgrade.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\cross_platform\cross_platform.png" alt="">
                                     <h3>Custom Hybrid Apps development</h3>
                                     <p class="para"> With an in-depth understanding of cross-platform advanced application frameworks, we offer a full range of development services to build apps that run on multiple platforms.
                                      
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>Utility Apps</h3>
-                                    <p class="para">We provide utility app development services that bridge the gap between users and service providers. Through such apps, users can book appointments with service providers.
-                                        
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\cross_platform\cross_platform.png" alt="">
+                                        <h3>Utility Apps</h3>
+                                        <p class="para">We provide utility app development services that bridge the gap between users and service providers. Through such apps, users can book appointments with service providers.
+                                            
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
-                                    <h3>HealthCare Apps</h3>
-                                    <p class="para">Our cross platform development services include healthcare apps like lab management, fitness monitoring, homecare tips, hospital locating etc.
-                                      
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\cross_platform\healthcare.png" alt="">
+                                        <h3>HealthCare Apps</h3>
+                                        <p class="para">Our cross platform development services include healthcare apps like lab management, fitness monitoring, homecare tips, hospital locating etc.
+                                          
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\cross_platform\custom_app.png" alt="">
                                     <h3>On-demand and cutom apps</h3>
                                     <p class="para">Build on-demand cross platform mobile apps with custom front-end UIs, advanced admin dashboards that are tough and scalable, such as GPS and map integration, event management, site management, lead management, and more..</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\cross_platform\ecommerce.png" alt="">
                                     <h3>e-commerce apps</h3>
                                     <p class="para"> Our dedicated cross-platform mobile app consulting team provides the best technical advice so that you can work out the most appropriate technology-stack and best-practice system architecture for your hybrid mobile app.
                                      
                                 </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
-                                    <h3>App Technology Consulting</h3>
-                                    <p class="para">Our dedicated cross-platform mobile app consulting team provides the best technical advice so that you can work out the most appropriate technology-stack and best-practice system architecture for your hybrid mobile app.
-                                        </p>
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\cross_platform\app_tech_cons.png" alt="">
+                                        <h3>App Technology Consulting</h3>
+                                        <p class="para">Our dedicated cross-platform mobile app consulting team provides the best technical advice so that you can work out the most appropriate technology-stack and best-practice system architecture for your hybrid mobile app.
+                                            </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +445,7 @@
                 <p class="text-light">Optimize and automate business processes, grow your customer base, and maximize
                     ROI by hiring our dedicated custom hybrid mobile app developers for your updated cost-effective
                     mobile application..</p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn about-one__btn"><span>Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -413,14 +472,14 @@
                                     experienced team, you'll have fewer things to care about and more things to
                                     consider.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
-                                    talk</a><!-- /.thm-btn -->
+                                <a href="about-2.php" class="thm-btn banner-one__btn"><span>Let's start
+                                    talk</span></a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
 
                             <div class="implation-img-box">
 
-                                <img src="./images/project/project-2-1.jpg" alt="" class="">
+                                <img src=".\images\pages\core_service\cross_platform\repel_your_project1.png" alt="" class="">
                             </div>
 
 
@@ -438,7 +497,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tns-item">
 
-                                            <img src="./images/custom softweare dev/Design-Specification.jpg">
+                                            <img src=".\images\logo\cross_platform\design_specification.jpg">
                                         </div>
 
                                         <div>
@@ -455,7 +514,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Maintenance-&-Support.jpg">
+                                            <img src=".\images\logo\cross_platform\maintenance_support.jpg">
                                         </div>
 
                                         <div>
@@ -471,7 +530,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Development &-Implementation.jpg">
+                                            <img src=".\images\logo\cross_platform\dev_implementation.jpg">
                                         </div>
 
                                         <div>
@@ -486,7 +545,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Development &-Implementation.jpg">
+                                            <img src=".\images\logo\cross_platform\dev_implementation.jpg">
                                         </div>
 
                                         <div>
@@ -502,7 +561,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev/Expert Software Consulting.png">
+                                            <img src=".\images\logo\cross_platform\expert_soft_consulting.png">
                                         </div>
 
                                         <div>
@@ -518,7 +577,7 @@
                                     <div class="card-item">
                                         <div class="listing-icon tool tns-item">
 
-                                            <img src="./images/custom softweare dev//Design-Specification.jpg">
+                                            <img src=".\images\logo\cross_platform\design_specification.jpg">
                                         </div>
 
                                         <div>
@@ -533,7 +592,7 @@
                             </div>
                             <div class="implation-img-box">
 
-                                <img src="./images/project/project-1-8.jpg" alt="" class="">
+                                <img src=".\images\pages\core_service\cross_platform\repel_your_project2.png" alt="" class="">
                             </div>
 
 
@@ -562,7 +621,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Fixed-Cost-Model.png" alt="...">
+                                <img src=".\images\logo\cross_platform\fixed_cost_model.png" alt="...">
                             </div>
                             <div class="card-body  mt-2">
                                 <h4 class="text-tilte">Fixed Cost Based Model</h4>
@@ -579,7 +638,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100 align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/T-M-Model.png" alt="...">
+                                <img src=".\images\logo\cross_platform\tm_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte"> T &amp; M Model</h4>
@@ -595,7 +654,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src=".\images\logo\cross_platform\partner_with_us.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Associate With Us</h4>
@@ -611,7 +670,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src=".\images\logo\cross_platform\hourly_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -632,6 +691,24 @@
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.php" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -644,4 +721,33 @@
 
 
     </div>
-       <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+
+
+    <script>
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,9 +1,49 @@
- 
- <?php include "header.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <title>Gnoin Pvt Ltd </title>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="home-one">
+
     <div class="page-wrapper">
 
 
         <!-- ---------------------header section----------------------------------------->
+            <?php
+
+include("header.php");
+?>
 
 
         <!-- inerpage page top container  -->
@@ -93,86 +133,113 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png"
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Online-Reputation-Management-services.png"
                                         alt="">
                                     <h3>Innovate Together</h3>
                                     <p class="para">When customers bring in an idea, the first thing we do is see if
                                         their chosen technologies can be improved.
 
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
                                     <h3>Maintain Transparency</h3>
                                     <p class="para"> One of the things our customers love about us is how much we email
                                         and call them if they choose daily or bi-weekly updates.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
-                                    <h3>Equal Opportunity</h3>
-                                    <p class="para"> We never discriminate between people while hiring for our company,
-                                        we only look at their skills and qualifications.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
+                                        <h3>Equal Opportunity</h3>
+                                        <p class="para"> We never discriminate between people while hiring for our company,
+                                            we only look at their skills and qualifications.
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Launch.png" alt="">
                                     <h3>Help Start-ups</h3>
                                     <p class="para">Since we also started as one, we know how much just mentoring can
                                         help small businesses grow, we do everything we can to make it happen.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
-                                    <h3> Deliver Utmost Value</h3>
-                                    <p class="para">We are dedicated to giving our best to our clients, helping them to
-                                        excel in the ever-changing and challenging business world.
-
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Shopping-Ads.png" alt="">
+                                        <h3> Deliver Utmost Value</h3>
+                                        <p class="para">We are dedicated to giving our best to our clients, helping them to
+                                            excel in the ever-changing and challenging business world.
+    
+                                        </p>  
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
                                     <h3>Recognize Clients' Needs</h3>
                                     <p class="para">We carefully examine each instance to understand customer wishes and
                                         goals and provide a reliable and efficient solution. </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Benefist-Of-Omni-Channel-Reach.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Benefist-Of-Omni-Channel-Reach.png" alt="">
                                     <h3>Passion For Excellence</h3>
                                     <p class="para">We strive to contribute our best for our customers while inspiring
                                         others to do the same. </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Complex-Content-Projects.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Complex-Content-Projects.png" alt="">
                                     <h3>Continuous Learning</h3>
                                     <p class="para">We always upgrade our skills to successfully adapt with the changing
                                         technologies.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Professional-Writers.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Professional-Writers.png" alt="">
                                     <h3>Responsibility</h3>
                                     <p class="para">We take personal responsibility for our actions and we strive to
                                         exceed your expectations. </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -603,7 +670,7 @@
                         Our purpose to build applications and plan digital transformation journeys for enterprises on a global front. Our values are demonstrated by the successful implementation of dynamic business solutions. We are proud to be recognized as a digital enabler.
                     </p>
                     <a href="javascript:void(0);"
-                        class="btn pmd-ripple-effect pmd-btn-raised btn-primary">Let's Start Talk</a>
+                        class="thm-btn1 pmd-ripple-effect pmd-btn-raised btn-primary"><span>Let's Start Talk</span></a>
                 </div>
             </div>
         </div>
@@ -762,7 +829,7 @@
                     <div class="col-lg-3">
                         <div class="team-two__single ">
                             <div class="team-two__images ">
-                                <img src="images/new/avtar.webp" alt="">
+                                <img src="/images/aboutimages/md-img.jpeg" alt="">
                                 <div class="team-two__social">
                                     <a href="#"><i class="fa fa-facebook-f"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -796,7 +863,7 @@
                     <div class="col-lg-3">
                         <div class="team-two__single">
                             <div class="team-two__images">
-                                <img src="images/new/avtar5.jpg" alt="">
+                                <img src="/images//aboutimages/cfo-img.jpeg" alt="">
                                 <div class="team-two__social">
                                     <a href="#"><i class="fa fa-facebook-f"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -813,7 +880,7 @@
                     <div class="col-lg-3">
                         <div class="team-two__single">
                             <div class="team-two__images">
-                                <img src="images/new/hr.webp" alt="">
+                                <img src="/images/aboutimages/hr.jpg" alt="">
                                 <div class="team-two__social">
                                     <a href="#"><i class="fa fa-facebook-f"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -822,7 +889,7 @@
                                 </div><!-- /.team-two__social -->
                             </div><!-- /.team-two__images -->
                             <div class="team-two__content">
-                                <h3 class="team-two__name"><a href="#">jai Shree Singh</a></h3><!-- /.team-two__name -->
+                                <h3 class="team-two__name"><a href="#">Jai Shree Singh</a></h3><!-- /.team-two__name -->
                                 <p class="team-two__designation">HR Head</p><!-- /.team-two__designation -->
                             </div><!-- /.team-two__content -->
                         </div><!-- /.team-two__single -->
@@ -844,12 +911,12 @@
                     <div class="form-contact row">
                        
                         <div class="col-lg-7  contact-form__wrapper order-lg-1">
-                            <form method="POST" action="<?php echo $baseUrl ?>interesteds" id="my_form" class="contact-form form-validate" novalidate="novalidate">
+                            <form action="#" class="contact-form form-validate" novalidate="novalidate">
                                 <div class="row ">
                                     <div class="col-sm-6 ">
                                         <div class="form-group">
                                             <label class="required-field" for="Name">Full Name </label>
-                                            <input type="text" class="form-control" id="Name" name="name"
+                                            <input type="text" class="form-control" id="Name" name="Full Name"
                                                 placeholder="Full Name ">
                                         </div>
                                     </div>
@@ -857,7 +924,7 @@
                                     <div class="col-sm-6 ">
                                         <div class="form-group">
                                             <label for="Email">Email Id</label>
-                                            <input type="text" class="form-control" id="Email" name="email"
+                                            <input type="text" class="form-control" id="Email" name="Email Id"
                                                 placeholder="Email Id">
                                         </div>
                                     </div>
@@ -886,7 +953,7 @@
                                                     </optgroup>
                                                 </select>
 
-                                                <input type="text" class="form-control" id="Phone" name="phone"
+                                                <input type="text" class="form-control" id="Phone" name="Phone"
                                                     placeholder="Phone">
                                             </div>
                                         </div>
@@ -895,14 +962,14 @@
                                     <div class="col-sm-6 ">
                                         <div class="form-group">
                                             <label for="Skype">Skype ID</label>
-                                            <input type="text" class="form-control " id="Skype" name="skype_id"
+                                            <input type="text" class="form-control " id="Skype" name="Skype"
                                                 placeholder="Skype ID">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 ">
                                         <div class="form-group">
                                             <label for="Budget">Your Budget</label>
-                                            <input type="text" class="form-control " id="budget" name="budget"
+                                            <input type="text" class="form-control " id="Budget" name="Budget"
                                                 placeholder="Your Budget">
                                         </div>
                                     </div>
@@ -910,7 +977,7 @@
                                     <div class="col-sm-6 ">
                                         <div class="form-group">
                                             <label for="looking">What are you looking for?</label>
-                                            <input type="text" class="form-control " id="looking" name="looking_for"
+                                            <input type="text" class="form-control " id="looking" name="looking"
                                                 placeholder="Type Here">
                                         </div>
                                     </div>
@@ -919,13 +986,13 @@
                                     <div class="col-sm-12 ">
                                         <div class="form-group">
                                             <label class="required-field" for="Project ">How can we help?*</label>
-                                            <textarea type="input" class="form-control" id="Project " name="project_brief" rows="4"
+                                            <textarea class="form-control" id="Project " name="Project " rows="4"
                                                 placeholder="Project Brief"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="col-sm-12 ">
-                                        <button type="submit" name="submit" class="btn btn-primary">submit</button>
+                                        <button type="submit" name="submit" class="thm-btn btn-primary"><span>submit</span></button>
                                     </div>
 
                                 </div>
@@ -949,9 +1016,46 @@
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
+        <?php
+
+include("footer.php");
+?>
+
 
         <!-- footer end -->
 
 
 
-   <?php include("footer.php"); ?>
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

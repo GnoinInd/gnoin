@@ -38,7 +38,11 @@
 
     <div class="page-wrapper">
 
-<?php include "header.php"; ?>
+<?php
+
+include("header.php");
+?>
+
         <!-- header end -->
 
         <!-- inerpage page top container  -->
@@ -50,8 +54,8 @@
                     <p>Let's create custom solutions to help your organization become more efficient, with improved
                         operational efficiencies .</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -301,7 +305,7 @@
                                 <p class="banner-one__text banner-one__is-animated">We always strive to reduce costs
                                     with advanced administration and integration.
                                 </p><!-- /.banner-one__text -->
-                                <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
+                                <a href="about-2.php" class="thm-btn banner-one__btn">Let's start
                                     talk</a><!-- /.thm-btn -->
 
                             </div><!-- /.banner-one__content -->
@@ -561,10 +565,11 @@
 
 
        
+<?php
 
-      
-    
-    <?php include "footer.php"; ?>
+include("footer.php");
+?>
+
     
     
 </div>

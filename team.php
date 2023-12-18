@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +10,34 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Gnoin Pvt Ltd </title>
-    </head>
-     <?php include "header.php"; ?>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
+</head>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
 <!-- header part start -->
 
+    <?php
+
+include("header.php");
+?>
 
 
 
@@ -231,6 +258,30 @@
 
 
     </div><!-- /.page-wrapper -->
-   
+       <?php
 
-        <?php include "footer.php"; ?>
+include("footer.php");
+?>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
+</html>
+
+
+
+

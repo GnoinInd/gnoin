@@ -39,11 +39,10 @@
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
         <!-- header part start -->
-
-
-<?php include "header.php"; ?>
-
-        <!-- header end -->
+            <?php
+include("header.php");
+?>
+  <!-- header end -->
 
         <!-- baner parts start -->
         <section class="inner-banner">
@@ -53,8 +52,8 @@
                     <p>A framework for building web apps and services with .NET and C#.
                     </p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -125,8 +124,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -155,7 +154,7 @@
                                 revenue.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's connect your projectt</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's connect your project</span></a>
                             </div>
                         </div>
 
@@ -180,58 +179,76 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Custom ASP.NET Development</h3>
-                                    <p>Our years of domain expertise helps us in providing secure and custom, scalable,
-                                        feature packed and mobile friendly ASP.NET web applications.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Custom ASP.NET Development</h3>
+                                        <p>Our years of domain expertise helps us in providing secure and custom, scalable,
+                                            feature packed and mobile friendly ASP.NET web applications.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Enterprise ASP.NET Development</h3>
                                     <p>Get high performance and scalable enterprise inclined web and mobile app
                                         development solutions as per the specific needs and requirements of your
                                         business.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Migration & Upgradation Services</h3>
-                                    <p>If you want to migrate your application from other platform to .NET or want to
-                                        upgrade existing version of ASP.NET to MVC framework, we are ready to assist
-                                        you.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Migration & Upgradation Services</h3>
+                                        <p>If you want to migrate your application from other platform to .NET or want to
+                                            upgrade existing version of ASP.NET to MVC framework, we are ready to assist
+                                            you.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>ASP.NET Consulting Services</h3>
                                     <p>If you have any questions about .NET technology, feel free to contact us and our
                                         ASP.NET experts will assist you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>QA and Testing Services</h3>
                                     <p>From the inception stage of the project, we have our expert quality analysts on
                                         board to ensure that your web or app runs on all browsers and screens.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                     <h3>24*7 Support & Maintenance</h3>
                                     <p>Adding to Asp.Net development services, we are also able to provide 24*7 ASP.NET
                                         support and maintenance to our valuable clients.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
@@ -242,8 +259,8 @@
 
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Send Your
-                        Request</a>
+                    <a href="#" class="thm-btn about-one__btn mt-5"><span>Send Your
+                        Request</span></a>
                 </div>
             </div>
         </section>
@@ -359,9 +376,9 @@
 
                     </div>
                     <div>
-                        <a style=" margin-top: 60px;" href="#" class="thm-btn about-one__btn">Request
+                        <a style=" margin-top: 60px;" href="#" class="thm-btn about-one__btn"><span>Request
                             a
-                            Quote</a>
+                            Quote</span></a>
                     </div>
 
                 </div>
@@ -386,60 +403,78 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Requirement Analysis</h3>
-                                    <p>High quality analysis always provides better returns. While discussing the
-                                        requirements of the project, we definitely craft to offer the best web app
-                                        development services as per the business requirements of the clients.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Requirement Analysis</h3>
+                                        <p>High quality analysis always provides better returns. While discussing the
+                                            requirements of the project, we definitely craft to offer the best web app
+                                            development services as per the business requirements of the clients.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
-                                    <h3>Perfect Designed Web App</h3>
-                                    <p>The primary thing your user sees is the design of your web app. We follow the
-                                        latest web design trends to provide attractive and easy-to-use designs for your
-                                        web apps.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
+                                        <h3>Perfect Designed Web App</h3>
+                                        <p>The primary thing your user sees is the design of your web app. We follow the
+                                            latest web design trends to provide attractive and easy-to-use designs for your
+                                            web apps.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Mobile Friendly Web app</h3>
-                                    <p>Our .net web app developers provide our clients with a feature rich responsive
-                                        web app with a stunning custom design, robust plug-ins and mobile friendly user
-                                        interface.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Mobile Friendly Web app</h3>
+                                        <p>Our .net web app developers provide our clients with a feature rich responsive
+                                            web app with a stunning custom design, robust plug-ins and mobile friendly user
+                                            interface.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>High Performance & Speed</h3>
                                     <p>Our offered website provides great quick user experience and loads within 3
                                         seconds which improves your conversions and helps in Google ranking.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Advanced Security & Scalability</h3>
                                     <p>Our .NET web development ensures extreme scalability and site shielding by
                                         employing advanced security measures like high security plug-ins, data
                                         encryption, secure admin dashboard etc.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>Extended Software Protection Plan</h3>
-                                    <p>If you discover a bug or security issue with your software, you can request a
-                                        free quote. Our specialist will get in touch with you within 12 to 24 hours.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>Extended Software Protection Plan</h3>
+                                        <p>If you discover a bug or security issue with your software, you can request a
+                                            free quote. Our specialist will get in touch with you within 12 to 24 hours.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -450,8 +485,8 @@
 
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Send Your
-                        Request</a>
+                    <a href="#" class="thm-btn about-one__btn"><span>Send Your
+                        Request</span></a>
                 </div>
             </div>
         </section>
@@ -570,7 +605,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -660,7 +695,12 @@
 
 
     </div><!-- /.page-wrapper -->
-  <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>
+
+  
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

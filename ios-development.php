@@ -36,8 +36,15 @@
    
 
 </head>
-     <?php include "header.php"; ?>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
+            <?php
+
+include("header.php");
+?>
 
 
 
@@ -53,8 +60,8 @@
                         future-forward iOS Application Development Services.
                     </p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -122,8 +129,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -148,7 +155,7 @@
                                 matching, geo-tagging, video streaming, and many more.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -176,57 +183,75 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Full-Stack Development</h3>
                                     <p>Our years of domain expertise assist us in offering secure, scalable, feature
                                         packed and high performance iPhone applications.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
-                                    <h3>Enterprise Oriented Solutions</h3>
-                                    <p>Get high performance and scalable enterprise oriented iOS / iPhone app solutions
-                                        as per the exact needs and requirements of your business.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
+                                        <h3>Enterprise Oriented Solutions</h3>
+                                        <p>Get high performance and scalable enterprise oriented iOS / iPhone app solutions
+                                            as per the exact needs and requirements of your business.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Migration & Upgradation Services</h3>
                                     <p>If you want to migrate your app to iOS platform or upgrade the current version of
                                         iOS/iPhone app, our iOS app developers are always ready to assist.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>iPhone App Consulting Services</h3>
                                     <p>If you wish to discuss anything regarding iOS/iPhone app development, feel free
                                         to contact us and our experts are ready to assist you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>QA and Testing Services</h3>
-                                    <p>From the earliest stages of the project, we involve our expert quality analysts
-                                        in the loop to ensure that your app runs on all browsers and screens.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>QA and Testing Services</h3>
+                                        <p>From the earliest stages of the project, we involve our expert quality analysts
+                                            in the loop to ensure that your app runs on all browsers and screens.</p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>24*7 Support & Maintenance</h3>
-                                    <p>Apart from providing iPhone app development services, we are also proficient in
-                                        providing iOS app development support and maintenance to the clients round the
-                                        clock.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>24*7 Support & Maintenance</h3>
+                                        <p>Apart from providing iPhone app development services, we are also proficient in
+                                            providing iOS app development support and maintenance to the clients round the
+                                            clock.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -281,7 +306,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -309,7 +334,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -337,7 +362,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -367,7 +392,7 @@
 
 
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -469,7 +494,7 @@
 
             </div>
             <div class="text-center">
-                <a class="thm-btn" href="#">Request A Quote</a>
+                <a class="thm-btn" href="#"><span>Request A Quote</span></a>
             </div>
 </div>
         </section>
@@ -580,60 +605,79 @@
                     <div class="col-md-12">
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                <div class="delivery_models box_shad1">
+                                    <div class=" p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Requirement Analysis</h3>
+                                   
                                     <p>Good analysis always gives good results. While discussing the project
                                         requirements, we make sure to provide the best app development solutions as per
                                         your business requirements.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
-                                    <h3>Well Designed App</h3>
-                                    <p>The first thing your user will notice is the UI/UX design of the iOS app. We
-                                        follow the current UI/UX design trends to provide attractive and user centric
-                                        design to your app.</p>
+                                <div class="delivery_models box_shad1">
+                                    <div class=" p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
+                                        <h3>Well Designed App</h3>
+                                        <p>The first thing your user will notice is the UI/UX design of the iOS app. We
+                                            follow the current UI/UX design trends to provide attractive and user centric
+                                            design to your app.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                <div class="delivery_models box_shad1">
+                                    <div class=" p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Cross-device Functionality</h3>
                                     <p>Cross-device functionality across all iOS devices- Compatible with all versions
                                         of Apple phones.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>High Performance & Speed</h3>
-                                    <p>Our developed applications provide amazingly fast user experience and load within
-                                        3 seconds which increase your conversions and also increase Google ranking</p>
+                                <div class="delivery_models box_shad1">
+                                    <div class=" p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>High Performance & Speed</h3>
+                                        <p>Our developed applications provide amazingly fast user experience and load within
+                                            3 seconds which increase your conversions and also increase Google ranking</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Advanced Security & Scalability</h3>
-                                    <p> We ensure maximum scalability and security of the iOS app by employing advanced
-                                        security measures such as advanced data encryption, secure admin dashboard, etc.
-                                    </p>
+                                <div class="delivery_models box_shad1">
+                                    <div class=" p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Advanced Security & Scalability</h3>
+                                        <p> We ensure maximum scalability and security of the iOS app by employing advanced
+                                            security measures such as advanced data encryption, secure admin dashboard, etc.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>End-to-end iOS App Development</h3>
-                                    <p>We provide end-to-end iOS app development solutions from UI/UX designing
-                                        development to final deployment to App Store.</p>
+                                <div class="delivery_models box_shad1">
+                                    <div class=" p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>End-to-end iOS App Development</h3>
+                                        <p>We provide end-to-end iOS app development solutions from UI/UX designing
+                                            development to final deployment to App Store.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -659,7 +703,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -777,4 +821,65 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-         <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#Accessibility").css("display", "flex");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+
+            });
+
+            $("#btn2").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "flex");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn3").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "flex");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn4").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "flex");
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

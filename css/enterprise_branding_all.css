@@ -30,7 +30,7 @@ seo services
 }
 .responsive_web2 span {
     display: flex;
-    color: #000;
+    color: #fff;
     padding-bottom: 5px;
     font-size: 24px;
     font-weight: 400;
@@ -270,8 +270,8 @@ text-align: justify;
 
  
 .delivery_models img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .offerings_section {
@@ -392,7 +392,7 @@ text-align: justify;
 
 .web_desing span{
     font-size: x-large;
-    color: #000;
+    color: #fff;
 }
 .web_desing h2{
     margin-left: -10px;

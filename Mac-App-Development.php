@@ -34,11 +34,17 @@
 
 </head>
 
-     <?php include "header.php"; ?>
+<body class="home-one">
+
+    <div class="page-wrapper">
 
 
         <!-- ---------------------header section----------------------------------------->
+          <div class="page-wrapper">
+       <?php
 
+include("header.php");
+?>
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -72,12 +78,12 @@
    
                         </p>
 
-                        <a class="thm-btn" href="#">Let's connect your project</a>
+                        <a class="thm-btn" href="#"><span>Let's connect your project</span></a>
 
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
-                            <img src="./images/custom softweare dev/Software Migration & Upgrade.png" alt="Best Seo Services in India"
+                            <img src=".\images\pages\core_service\mac_app\seo_service.png" alt="Best Seo Services in India"
                                 title="Best Seo Services in India">
                         </div>
                     </div>
@@ -107,7 +113,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top">
 
-                            <img src="images/icons/intech-icon-1-5.png" alt="...">
+                            <img src=".\images\logo\mac_app\increase_productivity.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -123,7 +129,7 @@
                             <div class=" text-center ">Increased productivity</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="images/icons/intech-icon-1-5.png" alt="...">
+                                <img src=".\images\logo\mac_app\increase_productivity.png" alt="...">
                             </div>
 
                         </div>
@@ -143,7 +149,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="images/icons/intech-icon-1-2.png" alt="...">
+                            <img src=".\images\logo\mac_app\stream_operation.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -160,7 +166,7 @@
                             <div class=" text-center ">Streamlined Operations</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="images/icons/intech-icon-1-2-hvr.png" alt="...">
+                                <img src=".\images\logo\mac_app\stream_operation.png" alt="...">
                             </div>
 
                         </div>
@@ -181,7 +187,7 @@
                     <div class="front card justify-content-center p-4 align-items-center card-block">
                         <div class="card-img-top w-50">
 
-                            <img src="images/icons/intech-icon-1-6.png" alt="...">
+                            <img src=".\images\logo\mac_app\fast_turnaround.png" alt="...">
                         </div>
                         <div class="card-body text-center">
 
@@ -198,7 +204,7 @@
                             <div class=" text-center ">Fast Turnaround</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="images/icons/intech-icon-1-6-hvr.png" alt="...">
+                                <img src=".\images\logo\mac_app\fast_turnaround.png" alt="...">
                             </div>
 
                         </div>
@@ -220,7 +226,7 @@
             
         </div>
         <div class="text-center ">
-            <a class="thm-btn" href="#"> Request a Quote </a>
+            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
         </div>
     </div>
 
@@ -234,7 +240,7 @@
 
             <div class="container text-center justify-content-around pt-4">
                 <div class="row1">
-                    <h1>Repel Your Project abouve the Horizon</h1>
+                    <h1>Repel Your Project above the Horizon</h1>
                     <h5>Becoming a Top Mac Application Development Company</h5>
                     <p> When you work with a capable, experienced team, you'll have fewer things to care about and more things to consider.</p>
                 </div>
@@ -244,64 +250,82 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Software Migration & Upgrade.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\mac_app\patience_persistence.png" alt="">
                                     <h3>Patience and Persistence</h3>
                                     <p class="para"> Getting on the page you're on now takes time, and a lot of patience is added.
                                      
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Custom Software Development.png" alt="">
-                                    <h3>Creative without being Ivasive</h3>
-                                    <p class="para">Creative individuals make up our team. They know what you like and what you don't.
-                                        
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\mac_app\repel_creative.png" alt="">
+                                        <h3>Creative without being Ivasive</h3>
+                                        <p class="para">Creative individuals make up our team. They know what you like and what you don't.
+                                            
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Website-Audit-&amp;-Optimization.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\mac_app\repel_watch_grow.png" alt="">
                                     <h3>Watch your creation grow</h3>
                                     <p class="para">Daily updates about your project so you can watch your child grow.
                                       
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Software QA and Testing.png" alt="">
-                                    <h3>On the Forefront of technology</h3>
-                                    <p class="para">An impeccable expertise in foreseeing technology trends before they emerge.</p>
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\mac_app\repel_forefront_tech.png" alt="">
+                                        <h3>On the Forefront of technology</h3>
+                                        <p class="para">An impeccable expertise in foreseeing technology trends before they emerge.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/High-Quality-Link-Building.png" alt="">
-                                    <h3>A remote team assistance </h3>
-                                    <p class="para"> A global team dedicated exclusively to your project listens and responds to you.
-                                     
-                                </p>
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\mac_app\repel_remote_team.png" alt="">
+                                        <h3>A remote team assistance </h3>
+                                        <p class="para"> A global team dedicated exclusively to your project listens and responds to you.
+                                         
+                                    </p> 
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Analytics-&amp;-Reporting.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src=".\images\logo\mac_app\repel_security.png" alt="">
                                     <h3>Security & Confidentiality</h3>
                                     <p class="para">A non-compromising development practice. Everything is repairable but trust.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -322,7 +346,7 @@
                 <!-- /.cta-one__title -->
                 <p class="text-light">Optimize and automate business processes, grow your customer base, and maximize ROI by hiring our dedicated Mac app developers for up-to-date cost-effective solutions.
                     </p><br>
-                <a href="#" class="thm-btn about-one__btn">Hire Now</a>
+                <a href="#" class="thm-btn1 about-one__btn"><span>Hire Now</span></a>
             </div><!-- /.container -->
         </section>
 
@@ -347,7 +371,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Fixed-Cost-Model.png" alt="...">
+                                <img src=".\images\logo\cross_platform\fixed_cost_model.png" alt="...">
                             </div>
                             <div class="card-body  mt-2">
                                 <h4 class="text-tilte">Fixed Cost Based Model</h4>
@@ -364,7 +388,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100 align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/T-M-Model.png" alt="...">
+                                <img src=".\images\logo\cross_platform\tm_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte"> T &amp; M Model</h4>
@@ -380,7 +404,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src=".\images\logo\cross_platform\partner_with_us.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Associate With Us</h4>
@@ -396,7 +420,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src=".\images\logo\cross_platform\hourly_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -429,7 +453,7 @@
 
 
                         </div>
-                        <a href="contact.html" class="thm-btn cta-four__btn-two">Contact us</a>
+                        <a href="contact.php" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
 
                     </div>
                 </div>
@@ -447,4 +471,33 @@
 
 
     </div>
-         <?php include "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/index.js"></script>
+
+
+    <script>
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

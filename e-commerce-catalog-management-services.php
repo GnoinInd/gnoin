@@ -1,5 +1,9 @@
-     <?php include "header.php"; ?>
+     
 <!-- header part start -->
+<?php
+
+include("header.php");
+?>
 
 
 
@@ -14,8 +18,8 @@
                     <h2 class="text-light">eCommerce Catalog Management Services In India</h2>
                     <p>Our services are strategically implemented to Increased Business Revenue online</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,7 +44,7 @@
                         <p>We also key in comparative category data, promotional pricing and sale deals to attract customers. We also cross-link products to cross-sell and up-sell, create metadata for site search and SEO, and launch a content marketing campaign by combining images, videos, PDF documents with your product information.<br> <strong>Gnoin</strong> in a regular and systematic manner in maintaining your product catalogue, adding or modifying information relating to product prices, availability, product variants, including new images and other relevant information, deleting information in case of discontinued products, etc. Provides continuous support from. Gnoin has a team of highly skilled catalog data entry professionals who provide services for all major shopping cart platforms and online marketplaces including Amazon A+ content services.</p>
                         
 
-                        <a class="thm-btn" href="request-a-quote.html">Let's connect your project</a>
+                        <a class="thm-btn" href="request-a-quote.php">Let's connect your project</a>
                     </div>
                     <div class="col-md-5">
                         <div class="web_desing_right">
@@ -108,7 +112,7 @@
                 </div>
     
                 <div class="text-center mt-5">
-                    <a class="thm-btn" href="request-a-quote.html"> Request a Quote </a>
+                    <a class="thm-btn" href="request-a-quote.php"> Request a Quote </a>
                 </div>
     
             </div>
@@ -218,4 +222,7 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>

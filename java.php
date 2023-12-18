@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +10,39 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Gnoin Pvt Ltd </title>
-    </head>
-     <?php include "header.php"; ?>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    
+
+    <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/ondemand.css">
+    <link rel="stylesheet" href="./css/custom.css">
+   
+
+</head>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
+            <?php
+
+include("header.php");
+?>
 
 
 
@@ -24,8 +57,8 @@
                     <p >We apply the latest Java-related technologies to help customers build sustainable Java-based software rapidly and cost-effectively.
                     </p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -95,8 +128,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -110,7 +143,7 @@
                             <p class="">We are a renowned Java development company committed to building scalable and high quality Java solutions using the most trusted architecture patterns. As a trusted Java web application development company, we have wide expertise in building robust and secure Java desktop and web-based applications for multiple industries and business verticals. Our Java web development team can convert your idea or vision into intelligent software using Java. Working with Gnoin, you will get the full cycle of Java software development services under one roof. Our year-long expertise in this domain and in-depth knowledge of this domain has enabled us to become the preferred Java Development Company. Be it MVPs for startups or complex enterprise business automation; Our Java Development Services got you covered. Get in touch to get the best-in-class Java applications for yourself.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                             </div>
                         </div>
 
@@ -213,50 +246,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Versatility</h3>
-                                    <p>Java was designed to work with any type of hardware, be it mobile, desktop/laptop or even a satellite in orbit. You can hire Java Developers India to build the right application for your project or business.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Versatility</h3>
+                                        <p>Java was designed to work with any type of hardware, be it mobile, desktop/laptop or even a satellite in orbit. You can hire Java Developers India to build the right application for your project or business.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Speed</h3>
                                     <p>Java is a lightweight yet powerful language, which can be used to build fast applications/web pages etc. that are also secure and light on resources.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Network Capability</h3>
                                     <p>The versatility of Java extends to its ability to interface with almost any type of network/network application. You can take advantage of Java development services to build the ideal Java-based network application that is fast, stable, and has minimal latency.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>Excellent for Web development</h3>
-                                    <p>The lightweight nature and heavy lifting capability of Ava can be used by onshore and offshore Java development companies to build seamless, fast and reliable web applications and sites.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>Excellent for Web development</h3>
+                                        <p>The lightweight nature and heavy lifting capability of Ava can be used by onshore and offshore Java development companies to build seamless, fast and reliable web applications and sites.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Database Connectivity</h3>
                                     <p>Java Development Services can be used to build applications that interface with databases efficiently and reliably, thereby fueling the growth of your business.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>GUI (Graphical User Interface) based applications</h3>
-                                    <p>Java is capable of creating and maintaining beautiful, smooth and intuitive GUIs for a litany of applications. You can hire Java Developers India to build you the ideal GUI for your Java project.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>GUI (Graphical User Interface) based applications</h3>
+                                        <p>Java is capable of creating and maintaining beautiful, smooth and intuitive GUIs for a litany of applications. You can hire Java Developers India to build you the ideal GUI for your Java project.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -285,74 +336,101 @@
                 <div class="row pading">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Requirement Gathering</h3>
-                            <p>This involves understanding the client's needs and requirements for the application. This may include gathering information about the target audience, features needed, and other specifications.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Requirement Gathering</h3>
+                                <p>This involves understanding the client's needs and requirements for the application. This may include gathering information about the target audience, features needed, and other specifications.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Planning and design</h3>
-                            <p>Once the requirements are in place, the next step is to plan and design the application. This includes creating a project plan, designing the architecture, and creating wireframes and prototypes.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Planning and design</h3>
+                                <p>Once the requirements are in place, the next step is to plan and design the application. This includes creating a project plan, designing the architecture, and creating wireframes and prototypes.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Prototype Demo</h3>
-                            <p>After finalizing and designing approval, we freeze the scope and help our client visualize the look and feel of the app/web/platform with a demo or prototype.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Prototype Demo</h3>
+                                <p>After finalizing and designing approval, we freeze the scope and help our client visualize the look and feel of the app/web/platform with a demo or prototype.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Changes And Confirmation</h3>
-                            <p>Customers can feel free to add and mention the required changes in the existing platform as per their requirements. We will proceed with the confirmation of the customer on the same.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Changes And Confirmation</h3>
+                                <p>Customers can feel free to add and mention the required changes in the existing platform as per their requirements. We will proceed with the confirmation of the customer on the same.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Development</h3>
-                            <p>The actual development process starts with building the code, testing and debugging. Developers use an integrated development environment (IDE) such as Eclipse or NetBeans to write, compile, and test code.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Development</h3>
+                                <p>The actual development process starts with building the code, testing and debugging. Developers use an integrated development environment (IDE) such as Eclipse or NetBeans to write, compile, and test code.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Quality Assurance</h3>
-                            <p>This phase involves testing the application for defects, bugs and other issues. Quality assurance is an important step in ensuring that the application is error free and meets the customer's requirements.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Quality Assurance</h3>
+                                <p>This phase involves testing the application for defects, bugs and other issues. Quality assurance is an important step in ensuring that the application is error free and meets the customer's requirements.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Deployment</h3>
-                            <p>After the application is tested and ready, it is deployed on the server for users to use. This step includes configuring the server, installing the application, and setting up the database.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Deployment</h3>
+                                <p>After the application is tested and ready, it is deployed on the server for users to use. This step includes configuring the server, installing the application, and setting up the database.</p>
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>24*7 Support & Maintenance</h3>
-                            <p>We provide free service and support in accordance with the terms set out in our agreement. We also provide further monthly or yearly packages depending on your requirement.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>24*7 Support & Maintenance</h3>
+                                <p>We provide free service and support in accordance with the terms set out in our agreement. We also provide further monthly or yearly packages depending on your requirement.</p>
+                                    </div>
+                            
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>SEO</h3>
-                            <p>We are open to provide complimentary SEO services to our clients to promote their businesses/products, thereby helping them to market their products/business.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>SEO</h3>
+                                <p>We are open to provide complimentary SEO services to our clients to promote their businesses/products, thereby helping them to market their products/business.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
@@ -423,7 +501,7 @@
                 </div>
     
                 <!-- <div class="text-center mt-5">
-                    <a class="thm-btn" href="request-a-quote.html"> Request a Quote </a>
+                    <a class="thm-btn" href="request-a-quote.php"> Request a Quote </a>
                 </div> -->
     
             </div>
@@ -444,74 +522,101 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Retail & ECommerce</h3>
                                     <p>Gnoin builds a robust e-commerce solution including e-carts and marketplaces, auctions and reverse auctions, social commerce solutions, and more.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>E-Learning Solutions</h3>
                                     <p> Our e-learning solutions include various professional online training web apps, learning management systems, corporate learning portals, online courses, etc.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                     <h3>Social Networks Solutions</h3>
                                     <p>Web applications with social connectivity developed by Gnoin include social networks and communities, collaboration solutions, blogs and wikis, etc.
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
-                                    <h3>Travel & Tourism Solutions</h3>
-                                    <p>Our agile application development solutions increase the ROI of your travel business and reduce operational costs.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
+                                        <h3>Travel & Tourism Solutions</h3>
+                                        <p>Our agile application development solutions increase the ROI of your travel business and reduce operational costs.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Logistics & Transport Solutions</h3>
                                     <p>Our result driven application development services for logistics and transportation increase ROI and effectively manage routine workflow.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>Media & Entertainment</h3>
-                                    <p>Our Java experts provide online promotion solutions, social networking development tools etc. with the use of latest trends.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>Media & Entertainment</h3>
+                                        <p>Our Java experts provide online promotion solutions, social networking development tools etc. with the use of latest trends.</p> 
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Healthcare App Solutions</h3>
                                     <p>Our Java development company in India specializes in building advanced e-healthcare solutions with end-to-end web and mobile healthcare application development services.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
-                                    <h3>Banking & Finance Solutions</h3>
-                                    <p>Our Java app development company in India provides custom banking and financial software development services for increased operational efficiency and agility</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
+                                        <h3>Banking & Finance Solutions</h3>
+                                        <p>Our Java app development company in India provides custom banking and financial software development services for increased operational efficiency and agility</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>Automotive Solutions</h3>
-                                    <p>Our custom web and mobile applications help in making the automotive organization more cost efficient as well as sustainable.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>Automotive Solutions</h3>
+                                        <p>Our custom web and mobile applications help in making the automotive organization more cost efficient as well as sustainable.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -522,7 +627,7 @@
                     
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Request A Quote</a>
+                    <a href="#" class="thm-btn about-one__btn"><span>Request A Quote</span></a>
                    </div>
             </div>
         </section>
@@ -539,50 +644,68 @@
                 <div class="row pading">
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Requirement Analysis</h3>
-                            <p>Good analysis always gives good profit. While analyzing the project requirements, we make sure to provide the best app development solutions as per your business requirements.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Requirement Analysis</h3>
+                                <p>Good analysis always gives good profit. While analyzing the project requirements, we make sure to provide the best app development solutions as per your business requirements.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Well Designed App</h3>
-                            <p>The first thing your user will notice is the UI/UX design of the Java app. We follow the latest UI/UX design trends to provide attractive and user centric design for your app.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Well Designed App</h3>
+                                <p>The first thing your user will notice is the UI/UX design of the Java app. We follow the latest UI/UX design trends to provide attractive and user centric design for your app.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Cross-device Functionality</h3>
-                            <p>Cross-device functionality across all smartphone devices - Compatible with all versions of smartphones.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Cross-device Functionality</h3>
+                                <p>Cross-device functionality across all smartphone devices - Compatible with all versions of smartphones.</p>
+                                    </div>
+                            
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>High Performance & Speed</h3>
-                            <p>Our developed applications provide amazingly fast user experience and load within 3 seconds which increase your conversions and also increase Google ranking.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>High Performance & Speed</h3>
+                                <p>Our developed applications provide amazingly fast user experience and load within 3 seconds which increase your conversions and also increase Google ranking.</p>
+                                    </div>
+                          
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>Advanced Security & Scalability</h3>
-                            <p>We ensure maximum scalability and security of the Java app by deploying advanced security measures like advanced data encryption, secure admin dashboard etc.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>Advanced Security & Scalability</h3>
+                                <p>We ensure maximum scalability and security of the Java app by deploying advanced security measures like advanced data encryption, secure admin dashboard etc.</p>
+                                    </div>
+                           
                         </div>
                     </div>
     
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="web_analysis">
-                            <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
-                            <h3>End-to-end Development</h3>
-                            <p>We provide end-to-end Java app development solutions from UI/UX designing development to final deployment to App Store.</p>
+                        <div class="web_analysis box_shad1">
+                            <div class=" p-3">
+                                <img src="images/EnterpriseBranding/Quality-Content.png" alt="" title="">
+                                <h3>End-to-end Development</h3>
+                                <p>We provide end-to-end Java app development solutions from UI/UX designing development to final deployment to App Store.</p>
+                                    </div>
+                           
                         </div>
                     </div>
 
@@ -607,7 +730,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -723,4 +846,75 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#design").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#pilot").css("display", "block");
+
+            });
+
+            $("#btn2").click(function () {
+                $("#pilot").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#design").css("display", "block");
+            });
+
+            $("#btn3").click(function () {
+                $("#design").css("display", "none");
+                $("#pilot").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#instrument").css("display", "block");
+            });
+
+            $("#btn4").click(function () {
+                $("#design").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#pilot").css("display", "none");
+                $("#sampleExtra").css("display", "none");
+                $("#innovations").css("display", "block");
+            });
+
+            $("#btn5").click(function () {
+                $("#design").css("display", "none");
+                $("#instrument").css("display", "none");
+                $("#pilot").css("display", "none");
+                $("#innovations").css("display", "none");
+                $("#sampleExtra").css("display", "block");
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>

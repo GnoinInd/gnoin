@@ -33,8 +33,11 @@
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
 <!-- header part start -->
+    <?php
 
-<?php include "header.php"; ?>
+include("header.php");
+?>
+
 
 
 
@@ -267,7 +270,11 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

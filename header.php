@@ -83,7 +83,7 @@
                     <!-- TLOGO -->
 
                     <div class=" d-flex align-items-center  justify-content-start " id="logo-img">
-                        <a class="d-flex align-items-center justify-content-start" href="index">
+                        <a class="d-flex align-items-center justify-content-start" href="index.php">
                             <img id="logo" class="img-responsive" src="./images/new/gnoiin 1-2.png" alt="Logo">
 
                         </a>
@@ -153,7 +153,7 @@
                                                         Platform App Development
                                                         <small>Development of Hybrid mobile apps</small>
                                                     </a>
-                                                    <a href="mac-app-dev.php"
+                                                    <a href="mac-app-development.php"
                                                         class="list-group-item list-group-item-action">Mac App
                                                         Development
                                                         <small>Custom Mac OS solutions</small>

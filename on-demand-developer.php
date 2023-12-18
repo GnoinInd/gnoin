@@ -40,7 +40,11 @@
 
 
         <!-- ---------------------header section----------------------------------------->
-<?php include "header.php"; ?>
+            <?php
+
+include("header.php");
+?>
+
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -50,8 +54,8 @@
                     </h2>
                     <p>Hire Skilled Software Developers / Engineers / Programmers / Consultants & Save on Design and Development Cost & Time.</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -78,7 +82,7 @@
                         
     
                         </div>
-                        <a class="thm-btn mt-3" href="#">Let's connect</a>
+                        <a class="thm-btn mt-3" href="#"><span>Let's connect</span></a>
 
                     </div>
                     <div class="col-md-5">
@@ -112,41 +116,53 @@
                         <div class="row m-2">
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12 ">
                                 <div class="delivery_models float-left">
-                                    <img src="./images/EnterpriseBranding/Hourly-Model.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Hourly-Model.png" alt="">
                                     <h3>DISPENSE QUALITY RESULT</h3>
                                     <p class="para">When it comes to project quality, our developers use an adaptive approach to enhance your brand presence and visibility.
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
-                                    <h3> BUDGET-FRIENDLY SERVICES</h3>
-                                    <p class="para"> We aim at the best services and high quality solutions delivered at cost effective prices.
-                                        
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Online-Reputation-Management.png" alt="">
+                                        <h3> BUDGET-FRIENDLY SERVICES</h3>
+                                        <p class="para"> We aim at the best services and high quality solutions delivered at cost effective prices.
+                                            
+                                        </p>
+                                    </div>
+                                  
                                 </div>
                             </div>
 
                             <div class="col-md-4 mb-2 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Re-Marketing.png" alt="">
                                     <h3>OUR WORK KEEPS CALLING CUSTOMER BACK</h3>
                                     <p class="para">Our services create trust and credibility, keeping our clients coming back for any development projects.
                                         
                                     </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Launch.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Launch.png" alt="">
                                     <h3>CLIENT SATISFACTION</h3>
                                     <p class="para">Build your presence anytime, anywhere by incorporating social and mobile technologies into your business.
                                         
                                      </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
@@ -154,17 +170,23 @@
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="">
                                     <h3> YOUR TEAM, YOUR CHOICE</h3>
                                     <p class="para">Feel free to choose our Team as a Service (Taas) or Resource as a Service (Raas) for your projects.
                                         </p>
+                                    </div>
+                                   
                                 </div>
                             </div>
                             <div class="col-md-4  col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/EnterpriseBranding/Writing-&-Optimization.png" alt="">
-                                    <h3>  SKILLED PROFESSIONALS</h3>
-                                    <p class="para">Hire highly qualified and reliable developers with 3+ years of experience who can manage and develop projects efficiently.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/EnterpriseBranding/Writing-&-Optimization.png" alt="">
+                                        <h3>  SKILLED PROFESSIONALS</h3>
+                                        <p class="para">Hire highly qualified and reliable developers with 3+ years of experience who can manage and develop projects efficiently.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -172,7 +194,7 @@
 
                         </div>
                         <div class="text-center mt-4">
-                            <a class="thm-btn" href="#"> Request a Quote </a>
+                            <a class="thm-btn" href="#"> <span>Request a Quote</span> </a>
                         </div>
                     </div>
                 </div>
@@ -431,7 +453,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Hire us</a>
+                            <a class="thm-btn1" href="#"><span>Hire us</span></a>
                         </div>
                     </div>
                 </div>
@@ -542,8 +564,8 @@
                             <p class="banner-one__text banner-one__is-animated">We always strive to reduce costs
                                 with advanced administration and integration.
                             </p><!-- /.banner-one__text -->
-                            <a href="about-2.html" class="thm-btn banner-one__btn">Let's start
-                                talk</a><!-- /.thm-btn -->
+                            <a href="about-2.php" class="thm-btn banner-one__btn"><span>Let's start
+                                talk</span></a><!-- /.thm-btn -->
 
                         </div><!-- /.banner-one__content -->
 
@@ -1064,12 +1086,33 @@
 
 
 
+        <!-- Contact us start -->
+
+        <section class="zzz">
+            <div class="container">
+                <div class="cta-four">
+
+                    <div class="inner-container m-0">
+                        <div class="block-title">
+                            <h1 class="text-start text-light">let's work together for long term relationships</h1>
+
+
+                        </div>
+                        <a href="contact.php" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-        <?php include "footer.php"; ?>
+            <?php
+
+include("footer.php");
+?>
 
         <!-- footer end -->
 

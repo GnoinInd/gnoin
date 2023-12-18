@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +10,39 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <title>Gnoin Pvt Ltd </title>
-    </head>
-     <?php include "header.php"; ?>
+    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/enterprise_branding_all.css">
+    
+
+    <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="./css/ondemand.css"> -->
+    <link rel="stylesheet" href="./css/custom.css">
+
+
+</head>
+
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
+            <?php
+
+include("header.php");
+?>
 
 
 
@@ -93,8 +126,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="#" class="thm-btn about-one__btn">Send Your
-                                        Request</a>
+                                    <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                        Request</span></a>
                                 </form>
                             </div>
                         </div>
@@ -122,8 +155,8 @@
                                 significantly increase revenue.</p>
 
                             <div class="text-center">
-                                <a href="#" class="thm-btn about-one__btn">Send Your
-                                    Request</a>
+                                <a href="#" class="thm-btn about-one__btn"><span>Send Your
+                                    Request</span></a>
                             </div>
                         </div>
                      
@@ -153,50 +186,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Real estate mobile app development</h3>
                                     <p>With a team of dedicated developers, we provide robust real estate development solutions. We provide AR/VR integrated apps with unique features and functionalities. Get the ultimate experience of property viewing, interest rate calculator etc.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Real-estate website development</h3>
                                     <p>We provide real estate website development services to promote your business. We also provide amazing product showcase with single-click sign-in, AI-based recommendations for products, payment integration, 3D property visualization, and more.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>Online property booking solutions</h3>
-                                    <p>With a team of expert real estate software developers, we provide ultimate property booking solutions that help clients find location-specific resorts, hotels, etc. We also provide features like accounting, virtual asset inspection etc.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>Online property booking solutions</h3>
+                                        <p>With a team of expert real estate software developers, we provide ultimate property booking solutions that help clients find location-specific resorts, hotels, etc. We also provide features like accounting, virtual asset inspection etc.
+                                        </p> 
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Property management software</h3>
                                     <p>Real estate software development helps determine the impact of business marketing efforts on your users. Our expert developers prepare to-do lists along with end buyer engagement techniques and strategies based on the given data.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Lead management software</h3>
                                     <p>Real estate lead management software helps businesses represent property inquiries from websites, social media channels, and referrals. Real estate businesses can easily track their business growth and leads from the database.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>24*7 Support and maintenance</h3>
-                                    <p>Our expert real estate developers will offer real estate software maintenance and services. Hire a dedicated real estate software developer with flexible engagement models for services like upgradation, customization, bug fixing issues etc.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>24*7 Support and maintenance</h3>
+                                        <p>Our expert real estate developers will offer real estate software maintenance and services. Hire a dedicated real estate software developer with flexible engagement models for services like upgradation, customization, bug fixing issues etc.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -276,7 +327,7 @@
                                 Apps that are universally supported.
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -306,7 +357,7 @@
                                 for you the Android Mobile Apps that are universally supported.
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -336,7 +387,7 @@
                                 for you the Android Mobile Apps that are universally supported.
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -367,7 +418,7 @@
                                 for you the Android Mobile Apps that are universally supported.
                             </p>
 
-                            <a class="thm-btn" href="#">Request a Quote</a>
+                            <a class="thm-btn" href="#"><span>Request a Quote</span></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -405,7 +456,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -507,5 +558,63 @@
 
         
     </div><!-- /.page-wrapper -->
-   
-         <?php include "footer.php"; ?>
+       <?php
+
+include("footer.php");
+?>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#Accessibility").css("display", "flex");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+
+            });
+
+            $("#btn2").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "flex");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn3").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "flex");
+                $("#global").css("display", "none");
+            });
+
+            $("#btn4").click(function () {
+                $("#Accessibility").css("display", "none");
+                $("#Android").css("display", "none");
+                $("#Digital").css("display", "none");
+                $("#global").css("display", "flex");
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

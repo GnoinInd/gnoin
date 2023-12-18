@@ -36,9 +36,15 @@
 
 </head>
 
-     <?php include "header.php"; ?>
+<body class="home-one">
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
         <!-- header part start -->
 
+            <?php
+
+include("header.php");
+?>
 
 
      
@@ -120,8 +126,8 @@
     
                                             </div>
                                         </div>
-                                        <a href="#" class="thm-btn about-one__btn">Send Your
-                                            Request</a>
+                                        <a href="#" class="thm-btn1 about-one__btn"><span>Send Your
+                                            Request</span></a>
                                     </form>
                                 </div>
                             </div>
@@ -138,7 +144,7 @@
                                     We provide best-in-class web and mobile application (Android & iOS) development services to start-ups, enterprises and entrepreneurs at affordable cost. The dedicated React.JS developers at Inphoneo are highly experienced in building robust solutions that exponentially accelerate your business growth and significantly increase revenue.</p>
     
                                 <div class="text-center">
-                                    <a href="#" class="thm-btn about-one__btn">Let's Connect Your Project</a>
+                                    <a href="#" class="thm-btn about-one__btn"><span>Let's Connect Your Project</span></a>
                                 </div>
                             </div>
     
@@ -166,50 +172,68 @@
                         <div class="row m-0">
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>Custom React.JS Development</h3>
                                     <p>Our years of domain expertise helps us in providing secure, scalable, feature packed and mobile friendly React.JS web apps.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/global.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                     <h3>Web/Mobile App UI/UX Development</h3>
                                     <p>Our team of expert designers provide creative and engaging web and mobile app UI/UX development services as per the latest designing trends.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
-                                    <h3>API Development</h3>
-                                    <p>Our React.js development company in India provides high performance and scalable enterprise oriented API development services as per the specific needs of your business.
-                                    </p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
+                                        <h3>API Development</h3>
+                                        <p>Our React.js development company in India provides high performance and scalable enterprise oriented API development services as per the specific needs of your business.
+                                        </p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offshore.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Migration & Upgradation Services</h3>
                                     <p>If you want to migrate your website from other platform to React.JS or want to upgrade current version, our React.JS developers are ready to help you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/offsite.png" alt="">
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>React.JS Consulting Services</h3>
                                     <p>If you want to know anything about ReactJS technology, feel free to contact us and our React.JS developers are ready to help you.</p>
+                                    </div>
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
-                                    <img src="./images/ondemand-developer/onsite.png" alt="">
-                                    <h3>24*7 Support and Maintenance</h3>
-                                    <p>Apart from ReactJS development services, our React.JS developers are also skilled in providing round the clock ReactJS support and maintenance to our respected clients.</p>
+                                    <div class="box_shad p-3">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
+                                        <h3>24*7 Support and Maintenance</h3>
+                                        <p>Apart from ReactJS development services, our React.JS developers are also skilled in providing round the clock ReactJS support and maintenance to our respected clients.</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
 
@@ -220,7 +244,7 @@
                     
                 </div>
                 <div class="text-center">
-                    <a href="#" class="thm-btn about-one__btn">Request for Free Quote
+                    <a href="#" class="thm-btn about-one__btn"><span>Request for Free Quote</span>
                     </a>
                    </div>
             </div>
@@ -332,7 +356,7 @@
                             </p>
                         </div>
                         <div class="text-center">
-                            <a class="thm-btn" href="#">Let's hire Now</a>
+                            <a class="thm-btn1" href="#"><span>Let's hire Now</span></a>
                         </div>
                     </div>
                 </div>
@@ -432,4 +456,26 @@
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <?php include "footer.php"; ?>
+        <?php
+
+include("footer.php");
+?>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>

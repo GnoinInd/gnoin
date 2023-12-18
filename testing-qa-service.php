@@ -41,7 +41,11 @@
 
         <!-- ---------------------header section----------------------------------------->
 
-<?php include "header.php"; ?>
+    <?php
+
+include("header.php");
+?>
+
         <!-- inerpage page top container  -->
         <section class="inner-banner">
             <div class="container">
@@ -497,7 +501,11 @@
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
 
-<?php include "footer.php"; ?>
+    <?php
+
+include("footer.php");
+?>
+
         <!-- footer end -->
 
 

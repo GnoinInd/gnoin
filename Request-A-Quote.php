@@ -33,10 +33,17 @@
 
 
 </head>
-     <?php include "header.php"; ?>
+
+<body class="home-one">
+
+    <div class="page-wrapper">
 
 
         <!-- ---------------------header section----------------------------------------->
+            <?php
+
+include("header.php");
+?>
 
 
         <!-- inerpage page top container  -->
@@ -67,9 +74,10 @@
 
         <!-- START CONTACT SECTION -->
 
-        <section class="zzz">
+        <section class="zzz" >  
+            <!-- style="background: rgb(85, 56, 244);" -->
 
-            <div class="container">
+            <div class="container" >
                 <div class="section-contact">
                     <div class="row row1 justify-content-center">
                         <div class="col-12 col-lg-10 col-xl-8">
@@ -253,7 +261,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Hourly Based Model</h4>
@@ -291,10 +299,44 @@
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
+            <?php
+
+include("footer.php");
+?>
 
         <!-- footer end -->
 
 
 
 
-     <?php include "footer.php"; ?>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/isotope.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/vegas.min.js"></script>
+        <script src="js/theme.js"></script>
+        <script src="js/index.js"></script>
+
+
+        <script>
+
+
+
+
+
+        </script>
+
+
+
+</body>
+
+</html>
