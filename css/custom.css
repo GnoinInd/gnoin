@@ -1,0 +1,542 @@
+section{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-col{
+    width: 22rem !important;
+    padding: 10px 10px !important;
+    height: 100% !important;
+     background: --thm-white-color !important; 
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    margin: 10px 24px;
+    text-align: start;
+    
+  } 
+  .zzz{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: large;
+  }
+  
+   
+  .col-sm-9{
+      margin-left: 260px;
+  }
+  
+  
+  
+  
+   
+  .main-text{
+      font-size: large;
+      color: #000; 
+      text-align: start;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .gn-section {
+     font-family: 'Open Sans', sans-serif; 
+    width: 100%;
+    position: relative;
+    height: 100%;
+    /* background-color: #262626; */
+  }
+   .gn-section h1 {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 15%;
+  } 
+   .gn-section .all-sections {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20%;
+  } 
+  @media (max-width: 1496px) {
+    .gn-section .all-sections {
+      flex-wrap: wrap;
+    }
+  }
+   .gn-section .all-sections .mini-section {
+    /* height: 350px; */
+    width: 20%;
+  } 
+   .gn-section .all-sections .mini-section .text-mini-section {
+    position: relative;
+    text-align: start;
+  } 
+  .gn-section .all-sections .mini-section .text-mini-section h1 {
+    font-size: 30px;
+  
+  
+  }
+  
+  @media (max-width: 1496px) {
+    .gn-section .all-sections .mini-section {
+      width: 35%;
+      margin-bottom: 50px;
+    }
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 32%;
+      height: 150px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .gn-section .all-sections .mini-section {
+      width: 60%;
+      margin-bottom: 50px;
+    }
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 27%;
+      height: 155px;
+    }
+  }
+  @media (max-width: 920px) {
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 30%;
+    }
+  }
+  @media (max-width: 800px) {
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 31%;
+    }
+    
+  }
+  @media (max-width: 730px) {
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 40%;
+    }
+  }
+  @media (max-width: 635px) {
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 40%;
+    }
+  }
+  @media (max-width: 550px) {
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 50%;
+    }
+  }
+  @media (max-width: 400px) {
+    .gn-section .all-sections .mini-section .hexagon {
+      width: 60%;
+    }
+  }
+
+  
+
+  /* ui ux start */
+  .ui_ux_pagelist {
+    /* margin: 3rem 0 0; */
+    display: flex;
+    justify-content: center;
+}
+
+.ui_ux_pagelist ul li {
+    flex-basis: 20%;
+    border-radius: 5px;
+    margin: 7px 7px;
+    width: 100% !important;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.ui_ux_pagelist ul{
+    list-style: none;
+}
+
+.ui_ux_pagelist ul li a {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #757575;
+}
+
+.ui_ux_pageContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ui_ux_pageUlContainer{
+    text-align: center;
+       display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.ui_ux_pageUlContainer h4 {
+    font-size: 18px;
+    text-align: left;
+    color: #262626;
+    margin: -27px -75px 15px;
+    font-weight: 700;
+    padding: 0 25px;
+}
+
+
+.ui_ux_pageUlContainer .textFor {
+    font-size: 18px;
+    text-align: left;
+    color: #262626;
+    margin: -27px -75px 15px;
+    font-weight: 700;
+    padding: 0 25px;
+}
+
+.ui_ux_pageUlContainer li:hover{
+    box-shadow: 0px 5px 4px  rgb(204, 204, 204);
+}
+.ui_ux_pageUlContainer a{
+    text-decoration: none;
+}
+
+
+.ui_ux_pageImg{
+    width: 46px;
+    margin-right: 5px;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+@media only screen and (max-width: 1176px){
+    .ui_ux_pagelist ul li {
+        flex-basis: 44%;
+        /* width: 258px; */
+        border-radius: 5px;
+        margin: 7px 7px;
+        border: 1px solid #ccc;
+        background: #fff;
+    }
+}
+
+@media only screen and (max-width: 596px){
+    .ui_ux_pagelist ul li {
+        flex-basis: 100%;
+        /* width: 258px; */
+        border-radius: 5px;
+        margin: 7px 7px;
+        border: 1px solid #ccc;
+        background: #fff;
+    }
+}
+
+
+
+  @media only screen and (max-width: 624px) {
+    .ui_ux_pagelist ul li a {
+        /* padding: 1rem 7rem; */
+        display: flex;
+        align-items: center;
+        color: #757575;
+    }
+  }
+  /* ui ux end */
+
+
+
+  /* e comerce development */
+
+  .aspDotM {
+ 
+    height: 100%;
+
+}
+
+.boxText {
+    color: black;
+}
+
+.col-sm-9 {
+    display: block;
+    margin: auto;
+    padding-top: 29px;
+}
+
+
+.aspBtn {
+   width: 218px;
+    background-color: #376868;
+    color: white;
+    font-size: 17px;
+
+}
+
+.aspGetStartbtn {
+    border: 2px solid white;
+    background-color: rgb(236, 236, 231);
+    margin-bottom: 20px;
+}
+
+.main-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aspBtn:hover {
+    box-shadow: 20px 20px 50px grey;
+}
+
+.aspBtn:after {
+    transition: all ease-in-out .5s;
+    background: no-repeat scroll 0 0 rgb(22, 50, 233);
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0;
+}
+
+.aspBtn:hover:after {
+    width: 100%;
+}
+
+.listUl {
+    display: flex;
+
+}
+
+.aspDotMheadings {
+    color: #000;
+}
+
+.listUl {
+    display: flex;
+    flex-wrap: wrap;
+    /* columns: 5; */
+    justify-content: center;
+    align-items: center;
+}
+
+.listUl li {
+    background-color: white;
+    display: flex;
+    padding: 15px 24px;
+    margin: 4px 12px;
+}
+
+.listUlli {
+    margin: 7px;
+    /* padding: 16px; */
+    border: 2px solid;
+    list-style: none;
+    width: 9rem;
+    /* height: 4rem; */
+    border-radius: 8px;
+}
+
+@media only screen and (min-width: 221px) {
+    .aspDotM {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+  /* e comerce  */
+
+
+
+  /* .net ka form csss */
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.form_wrapper {
+  
+    background: #fff;
+    width: 500px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: auto ;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 23px 4px -21px rgba(0, 0, 0, 0.9);
+}
+
+.form_container {
+    padding: 15px;
+    /* border: 1px dashed #ccc; */
+}
+
+.form_wrapper h2 {
+  border-bottom: 3px solid var(--thm-base-color);
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.form_wrapper .title_container {
+    text-align: center;
+    margin: -15px -15px 15px;
+    padding: 15px 0;
+    /* border-bottom: 1px dashed #ccc; */
+}
+
+.form_wrapper h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.form_wrapper .row {
+    margin: 10px -15px;
+}
+
+.form_wrapper .row>div {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.form_wrapper .col_half {
+    width: 50%;
+    float: left;
+}
+
+.form_wrapper label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.form_wrapper .input_field,
+.form_wrapper .textarea_field {
+    position: relative;
+}
+
+.form_wrapper .input_field>span,
+.form_wrapper .textarea_field>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #333;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    width: 30px;
+}
+
+.form_wrapper .textarea_field>span {
+    border-bottom: 1px solid #ccc;
+    max-height: 35px;
+}
+
+.form_wrapper .input_field>span>i,
+.form_wrapper .textarea_field>span>i {
+    padding-top: 12px;
+}
+
+.form_wrapper input[type="text"],
+.form_wrapper input[type="email"],
+.form_wrapper input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+.form_wrapper textarea {
+    height: 8em;
+}
+
+.form_wrapper input[type="text"]:focus,
+.form_wrapper input[type="email"]:focus,
+.form_wrapper input[type="tel"]:focus,
+textarea:focus {
+    -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border: 1px solid #f5ba1a;
+}
+
+.form_wrapper input[type="submit"] {
+    background: #f5ba1a;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2em;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+
+.form_wrapper input[type="submit"]:hover,
+.form_wrapper input[type="submit"]:focus {
+    background: #daa106;
+}
+
+.credit {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+    color: #f5ba1a;
+}
+
+.credit a {
+    color: #daa106;
+}
+
+@media (max-width: 767px) {
+    .form_wrapper .col_half {
+        width: 100%;
+        float: none;
+    }
+    .form_wrapper {
+      width: 98%;}
+
+
+    .form_wrapper label {
+        margin: 0px 0;
+    }
+    .form_wrapper textarea {
+      height: auto;}
+
+      .form_container {
+        padding: 4px;
+      
+    }
+
+    .form_wrapper .title_container {
+      text-align: center;
+      margin: 0px 0px 0px;
+      padding: 0px 0;}
+
+    .form_wrapper input[type="text"], .form_wrapper input[type="email"], .form_wrapper input[type="tel"], textarea {
+      width: 100%;
+      padding: 3px 2px 3px 30px;
+      border: 1px solid #ccc;
+   
+  }
+}
+  /* .net end */

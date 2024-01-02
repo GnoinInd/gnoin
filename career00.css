@@ -1,0 +1,136 @@
+.vacant_positions .box {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.box_cnt h3 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+.box_cnt {
+    float: left;
+    padding-top: 19px;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.box_icon img {
+    width: 100%;
+}
+
+.vacant_positions .box_btn {
+    float: right;
+    margin-top: 22px;
+    font-size: 15px;
+}
+
+.vacant_positions .box_icon {
+    background-color: #fafafa;
+    width: 90px;
+    height: 90px;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 0.25rem;
+}
+
+.box_cnt p {
+    text-align: start;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin: 0 6px 30px;
+}
+
+.career_page_section {
+    background-color: #f2f2f2d9;
+    padding: 50px 0;
+}
+
+.thm-btn {
+    color: #fff;
+
+}
+
+#job_vacancy_row:Hover {
+
+    transition: transform .2s;
+    -ms-transform: scale(1.02);
+    /* IE 9 */
+    -webkit-transform: scale(1.02);
+    /* Safari 3-8 */
+    transform: scale(1.02);
+}
+
+.rounded-lg:Hover {
+    background-color: aqua;
+}
+
+.button_div_career {
+    float: right;
+}
+
+@media only screen and (max-width: 1117px) {
+    .vacant_positions .box_btn {
+        float: right;
+        margin-top: -70px;
+        font-size: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width: 992px) {
+    .vacant_positions .box_btn {
+        float: right;
+        margin-top: -56px;
+        font-size: 15px;
+    }
+
+    .vacant_positions .box_icon img {
+        /* padding: 20px; */
+
+        min-width: min-content;
+    }
+
+
+    .thm-btn {
+        padding: 14.5px 39.5px;
+    }
+}
+
+@media only screen and (max-width: 573px) {
+    .vacant_positions .box_btn {
+        float: right;
+        /* margin-top: -56px; */
+        font-size: 15px;
+    }
+
+    .text-right {
+        width: 4%;
+        margin-top: 74px;
+        float: left;
+        padding-left: 179px;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width: 415px) {
+    .vacant_positions .box_icon img {
+        /* padding: 20px; */
+
+        margin-left: 50px;
+    }
+}
