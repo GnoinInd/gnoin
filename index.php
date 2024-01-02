@@ -230,7 +230,7 @@
                                 loop: true,
                                 nav: false,
                                 margin: 20,
-                                autoplay: false,
+                                autoplay: true,
                                 autoplayTimeout: 1000,
                                 autoplayHoverPause: true,
                                 responsive: {
@@ -1828,7 +1828,7 @@
             var swiper = new Swiper(".mySwiper", {
                 slidesPerView: 4,
                 spaceBetween: 30,
-                autoplay: false,
+                autoplay: true,
                 breakpoints: {
                     100: {
                         slidesPerView: 1,
@@ -1890,6 +1890,7 @@
         var myswipe = new Swiper(".mySwipe", {
             slidesPerView: 1,
             spaceBetween: 30,
+            autoplay: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
