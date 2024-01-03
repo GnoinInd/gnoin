@@ -198,6 +198,113 @@
   </div>
 </div>
 
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script> -->
+    <script src="gnoinv1/jsv1/index.js"></script>
+    <script src="gnoinv1/assets/vendors/highlight.js"></script>
+    <script src="gnoinv1/assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 4,
+                spaceBetween: 30,
+                autoplay: true,
+                breakpoints: {
+                    100: {
+                        slidesPerView: 1,
+                    },
+
+                    500: {
+                        slidesPerView: 2,
+                    },
+                    901: {
+                        slidesPerView: 3,
+                    },
+                    992: {
+                        slidesPerView: 4,
+                    },
+
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                on: {
+                    init: function () {
+                        setTimeout(function () {
+                            updateActiveSlide();
+                        }, 0);
+                    },
+                    slideChange: function () {
+                        updateActiveSlide();
+                    },
+                },
+            });
+
+            function updateActiveSlide() {
+                var activeIndex = swiper.activeIndex;
+                var imageWrappers = document.querySelectorAll('.image_wrapper');
+                var overlayTexts = document.querySelectorAll('.overlay_2');
+
+
+             
+                imageWrappers.forEach(function (wrapper, index) {
+                    var images = wrapper.querySelectorAll('img');
+                    images.forEach(function (image, imageIndex) {
+                        image.style.display = imageIndex === activeIndex ? 'block' : 'none';
+                    });
+                });
+
+                overlayTexts.forEach(function (text, textIndex) {
+                    text.style.display = textIndex === activeIndex ? 'block' : 'none';
+                });
+            }
+        });
+    </script>
+
+
+
+
+
+   
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      
+        $(document).ready(function () {
+            new WOW().init();
+        });
+
+        
+
+    </script>
+
+    <script>
+        var swip = new Swiper(".mySwip", {
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+<script>
+      var swiper = new Swiper(".mSwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
 </body>
 
 </html>

@@ -64,8 +64,8 @@ $conn->close();
                     <p class="text-light">Believe in vibrant minds, smart ideas and coordinated
                         change.</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>

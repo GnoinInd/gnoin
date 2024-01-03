@@ -32,11 +32,10 @@
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
 <!-- header part start -->
-    <?php
+<?php
 
 include("header.php");
 ?>
-
 <!-- header end -->
 <!-- header part end -->
         <!-- baner parts start -->
@@ -45,8 +44,8 @@ include("header.php");
                 <div class="inner-banner__content-wrap">
                     <h2 class="inner-banner__title">Our Blog</h2>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./blog.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./blog.php"> Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -219,11 +218,10 @@ include("header.php");
 
        
     </div><!-- /.page-wrapper -->
-        <?php
+    <?php
 
 include("footer.php");
 ?>
-
    
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

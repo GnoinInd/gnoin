@@ -1,52 +1,31 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gnoin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="gnoinv1/cssv1/index.css">
-    <link rel="stylesheet" href="gnoinv1/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="gnoinv1/assets/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="gnoinv1/assets/vendors/jquery.min.js"></script>
-    <script src="gnoinv1/assets/owlcarousel/owl.carousel.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<?php
 
-
-    <link rel="stylesheet" href="css/animate.css">
-
-
-</head>
-
-<body>
+include("header.php");
+?>
 
    
 
 
-    <div class="container-fluid g-0  banner_section">
+    <div class="banner-one g-0  banner_section">
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
-            data-bs-interval="1500">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+              </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="d-md-block carousel_slide_1"></div>
-                    <img src="gnoinv1/images/banner/bannerimg.png" class="d-block w-100" alt="..." class="img-fluid">
+                    <img src="gnoinv1/images/banner/bannerimg.png" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="text-left">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
                         </h5>
-                        <p class="subheading_new ">Transforming industries with AI-Powered Custom Software Solutions
+                        <p class="subheading_new banner-one__title banner-one__is-animated ">Transforming industries with AI-Powered Custom Software Solutions
                         </p>
                         
                     </div>
@@ -54,15 +33,15 @@
                         <a href="#" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
-                <div class="carousel-item carousel_slide_2">
+                <div class="carousel-item ">
 
                     <div class="d-md-block  carousel_bg_shape"></div>
-                    <img src="gnoinv1/images/banner/banner2.jpeg" class="d-block w-100" alt="..." class="img-fluid">
+                    <img src="gnoinv1/images/banner/banner2.png" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="text-left">We are the makers <br> of awesome <br> business process
+                        <h5 class="banner-one__title banner-one__is-animated">We are the makers <br> of awesome <br> business process
                         </h5>
-                        <p class="subheading_new">Turn your idea into extraordinary, Web and Mobile Apps with Gnoin.</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Turn your idea into extraordinary, Web and Mobile Apps with Gnoin.</p>
                         
                     </div>
                     <div class="caraousel_btn">
@@ -71,12 +50,43 @@
                 </div>
                 <div class="carousel-item">
                     <div class="d-md-block carousel_slide_3"></div>
-                    <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100" alt="..." class="img-fluid">
+                    <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="text-left">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
                         </h5>
-                        <p class="subheading_new">Transforming industries with AI-Powered Custom Software Solutions</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Transforming industries with AI-Powered Custom Software Solutions</p>
+                        
+                    </div>
+                    <div class="caraousel_btn">
+                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-md-block carousel_slide_3"></div>
+                    <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
+                    <div class="overlay_cover"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        </h5>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Transforming industries with AI-Powered Custom Software Solutions</p>
+                        
+                    </div>
+                    <div class="caraousel_btn">
+                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="d-md-block carousel_slide_3"></div>
+                    <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
+                    <div class="overlay_cover"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        </h5>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Transforming industries with AI-Powered Custom Software Solutions</p>
                         
                     </div>
                     <div class="caraousel_btn">
@@ -89,22 +99,16 @@
 
 
 
-    <div class="container-fluid g-0 ">
-        <div class="row position-relative">
-            <div class="col-9 pe-0">
-                <div class="section_image w-100">
-                    <img src="gnoinv1/images/banner/softdevandit.png" alt="" class="img-fluid w-100">
-                </div>
-            </div>
-
-            <div class="col-3 ps-0">
+    <div class="container-fluid p-0 g-0 ">
+        <div class="busenns-wraper position-relative">
+        <div class="section_image w-75 h-100">
+                    <img src="gnoinv1/images/banner/softdevandit.png" alt="" class="img-fluid h-100 rounded-0 w-100">
+               
+           <!--   <div class="col-3 ps-0">
                 <div class="section_bg_colr">
 
                 </div>
-            </div>
-
-
-
+            </div> -->
 
             <div class="card custom_card_design d-none d-sm-none d-lg-block d-xl-block">
                 <div class="card-body">
@@ -125,7 +129,7 @@
         </div>
     </div>
 
-    <div class="container-fluid d-block d-md-none">
+    <div class="container-fluid p-0 d-block d-md-none">
         <div class="row">
             <div class="col-12 ">
                 <div class="card ">
@@ -165,19 +169,19 @@
                 </div>
                 <div class="col-12  mt-3 ">
                     <div class="owl-carousel owl-carousel-1 owl-theme">
-                        <div class="item_1">
+                        <div class="item_1 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
                                 <p>Industries</p>
                             </div>
                         </div>
-                        <div class="item_2">
+                        <div class="item_2 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
                                 <p>Education & e-Learning</p>
                             </div>
                         </div>
-                        <div class="item_3">
+                        <div class="item_3 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
                                 <p class="card_listings text-center">
@@ -341,27 +345,21 @@
         </div>
     </div>
 
-
-  
-
-
-
-
-
-
-    <div class="container-fluid g-0">
-        <div class="row position-relative">
-            <div class="col-9 pe-0">
+    <div class="container-fluid g-0 p-0">
+        <div class="busenns-wraper position-relative">
+            <div class="section_image w-75 h-100">
+            <img src="gnoinv1/images/technologyleverage.png" alt="" class="img-fluid h-100 rounded-0 w-100">
+            <!-- <div class="col-9 pe-0">
                 <div class="section_image">
                     <img src="gnoinv1/images/technologyleverage.png" alt="" class="img-fluid w-100">
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col-3 ps-0">
+            <!-- <div class="col-3 ps-0">
                 <div class="section_bg_colr">
 
                 </div>
-            </div>
+            </div> -->
 
 
             <div class="card custom_card_design custom_card_design2 d-none d-sm-none d-lg-block d-xl-block">
@@ -400,7 +398,7 @@
                                     </div>
                                     <div class="item_1">
                                         <div class="group-5">
-                                            <img class="logo-nav" src="/gnoinv1/images/icon/java.png">
+                                            <img class="logo-nav" src="gnoinv1/images/icon/java.png">
                                         </div>
                                     </div>
                                     <div class="item_1">
@@ -511,7 +509,7 @@
 
                 </div>
             </div>
-
+            </div>
         </div>
     </div>
 
@@ -696,8 +694,8 @@
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
+                        <div class="flip-card-back" style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(/gnoinv1/images/delivery_model_1.png);">
+                            <div class="card-header card_header_back ">
 
                                 <div class="text-center">Offsite Delivery Model</div>
                                 <div class="rounded px-1  float-end ">
@@ -707,7 +705,7 @@
 
                             </div>
                             <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
+                                <p class=" text-center text-white">Enable customers to take advantage of dedicated or on-demand
                                     skilled resources.</p>
                                 <a href="#" class="btn btn-flipcard">Read More</a>
                             </div>
@@ -726,13 +724,13 @@
                                 <div class="rounded px-1 ">
                                     <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
                                 </div>
-                                <div class=" text-center ">Offsite Delivery Model</div>
+                                <div class=" text-center  ">Offsite Delivery Model</div>
 
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
+                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_2);">
+                            <div class="card-header card_header_back ">
 
                                 <div class="text-center">Offsite Delivery Model</div>
                                 <div class="rounded px-1  float-end ">
@@ -742,7 +740,177 @@
 
                             </div>
                             <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
+                                <p class=" text-center text-white">Enable customers to take advantage of dedicated or on-demand
+                                    skilled resources.</p>
+                                <a href="#" class="btn btn-flipcard">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-header py-5 ">
+
+
+                                <div class="rounded px-1 ">
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                </div>
+                                <div class=" text-center  ">Offsite Delivery Model</div>
+
+                            </div>
+                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        </div>
+                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_3);">
+                            <div class="card-header card_header_back ">
+
+                                <div class="text-center">Offsite Delivery Model</div>
+                                <div class="rounded px-1  float-end ">
+
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="card-body mt-2 p-2">
+                                <p class=" text-center text-white">Enable customers to take advantage of dedicated or on-demand
+                                    skilled resources.</p>
+                                <a href="#" class="btn btn-flipcard">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-header py-5 ">
+
+
+                                <div class="rounded px-1 ">
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                </div>
+                                <div class=" text-center  ">Offsite Delivery Model</div>
+
+                            </div>
+                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        </div>
+                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_4);">
+                            <div class="card-header card_header_back ">
+
+                                <div class="text-center text-white">Offsite Delivery Model</div>
+                                <div class="rounded px-1  float-end ">
+
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="card-body mt-2 p-2">
+                                <p class=" text-center text-white">Enable customers to take advantage of dedicated or on-demand
+                                    skilled resources.</p>
+                                <a href="#" class="btn btn-flipcard">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-header py-5 ">
+
+
+                                <div class="rounded px-1 ">
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                </div>
+                                <div class=" text-center  ">Offsite Delivery Model</div>
+
+                            </div>
+                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        </div>
+                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_5);">
+                            <div class="card-header card_header_back ">
+
+                                <div class="text-center ">Offsite Delivery Model</div>
+                                <div class="rounded px-1  float-end ">
+
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="card-body mt-2 p-2">
+                                <p class=" text-center text-white ">Enable customers to take advantage of dedicated or on-demand
+                                    skilled resources.</p>
+                                <a href="#" class="btn btn-flipcard">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-header py-5 ">
+
+
+                                <div class="rounded px-1 ">
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                </div>
+                                <div class=" text-center">Offsite Delivery Model</div>
+
+                            </div>
+                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        </div>
+                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_6);">
+                            <div class="card-header card_header_back ">
+
+                                <div class="text-center ">Offsite Delivery Model</div>
+                                <div class="rounded px-1  float-end ">
+
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="card-body mt-2 p-2">
+                                <p class=" text-center text-white">Enable customers to take advantage of dedicated or on-demand
+                                    skilled resources.</p>
+                                <a href="#" class="btn btn-flipcard">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-header py-5 ">
+
+
+                                <div class="rounded px-1 ">
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                </div>
+                                <div class=" text-center  ">Offsite Delivery Model</div>
+
+                            </div>
+                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        </div>
+                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_7);">
+                            <div class="card-header card_header_back ">
+
+                                <div class="text-center text-white">Offsite Delivery Model</div>
+                                <div class="rounded px-1  float-end ">
+
+                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="card-body mt-2 p-2">
+                                <p class=" text-center text-white ">Enable customers to take advantage of dedicated or on-demand
                                     skilled resources.</p>
                                 <a href="#" class="btn btn-flipcard">Read More</a>
                             </div>
@@ -765,10 +933,11 @@
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
+                        <div class="flip-card-back" style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_8.jpg);">
 
-                                <div class="text-center">Offsite Delivery Model</div>
+                            <div class="card-header card_header_back ">
+
+                                <div class="text-center ">Offsite Delivery Model</div>
                                 <div class="rounded px-1  float-end ">
 
                                     <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
@@ -776,177 +945,7 @@
 
                             </div>
                             <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
-                                    skilled resources.</p>
-                                <a href="#" class="btn btn-flipcard">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <div class="card-header py-5 ">
-
-
-                                <div class="rounded px-1 ">
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
-                                </div>
-                                <div class=" text-center ">Offsite Delivery Model</div>
-
-                            </div>
-                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-                        </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
-
-                                <div class="text-center">Offsite Delivery Model</div>
-                                <div class="rounded px-1  float-end ">
-
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
-                                </div>
-
-                            </div>
-                            <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
-                                    skilled resources.</p>
-                                <a href="#" class="btn btn-flipcard">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <div class="card-header py-5 ">
-
-
-                                <div class="rounded px-1 ">
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
-                                </div>
-                                <div class=" text-center ">Offsite Delivery Model</div>
-
-                            </div>
-                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-                        </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
-
-                                <div class="text-center">Offsite Delivery Model</div>
-                                <div class="rounded px-1  float-end ">
-
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
-                                </div>
-
-                            </div>
-                            <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
-                                    skilled resources.</p>
-                                <a href="#" class="btn btn-flipcard">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <div class="card-header py-5 ">
-
-
-                                <div class="rounded px-1 ">
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
-                                </div>
-                                <div class=" text-center ">Offsite Delivery Model</div>
-
-                            </div>
-                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-                        </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
-
-                                <div class="text-center">Offsite Delivery Model</div>
-                                <div class="rounded px-1  float-end ">
-
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
-                                </div>
-
-                            </div>
-                            <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
-                                    skilled resources.</p>
-                                <a href="#" class="btn btn-flipcard">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <div class="card-header py-5 ">
-
-
-                                <div class="rounded px-1 ">
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
-                                </div>
-                                <div class=" text-center ">Offsite Delivery Model</div>
-
-                            </div>
-                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-                        </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
-
-                                <div class="text-center">Offsite Delivery Model</div>
-                                <div class="rounded px-1  float-end ">
-
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
-                                </div>
-
-                            </div>
-                            <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
-                                    skilled resources.</p>
-                                <a href="#" class="btn btn-flipcard">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <div class="card-header py-5 ">
-
-
-                                <div class="rounded px-1 ">
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
-                                </div>
-                                <div class=" text-center ">Offsite Delivery Model</div>
-
-                            </div>
-                            <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-                        </div>
-                        <div class="flip-card-back">
-                            <div class="card-header ">
-
-                                <div class="text-center">Offsite Delivery Model</div>
-                                <div class="rounded px-1  float-end ">
-
-                                    <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
-                                </div>
-
-                            </div>
-                            <div class="card-body mt-2 p-2">
-                                <p class=" text-center">Enable customers to take advantage of dedicated or on-demand
+                                <p class=" text-center text-white">Enable customers to take advantage of dedicated or on-demand
                                     skilled resources.</p>
                                 <a href="#" class="btn btn-flipcard">Read More</a>
                             </div>
@@ -962,7 +961,7 @@
 
 
     </div>
-    </div>
+   
 
 
     <div class="container-fluid g-0 our_portfolio_section">
@@ -975,15 +974,19 @@
                 <div class="col-12 position-relative">
                     <ul class="our_portfolio_subsection ">
                         <li class="image_wrapper overlay">
-                            <img src="gnoinv1/images/our_portfolio.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/ourportfolio1.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/ourportfolio2.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/ourportfolio3.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/our_portfolio.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/ourportfolio1.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/ourportfolio2.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/ourportfolio3.png" alt="" class="img-fluid" />
-                            <img src="gnoinv1/images/our_portfolio.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/cariloop.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/harper_slome.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/kikufurniture.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/shineeasy.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/stantec.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/top_smile_oral_care.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/easecater.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/clark.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/nutriderm.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/cornerstone.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/easyhotel.png" alt="" class="img-fluid" />
+                            <img src="gnoinv1/images/portfolio/woodzee.png" alt="" class="img-fluid" />
+                           
 
 
 
@@ -1064,12 +1067,12 @@
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/our_portfolio_slideimg.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/cariloop.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">Cariloop</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="http://www.cariloop.com/">Cariloop</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1078,96 +1081,153 @@
 
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/ourportfolioslide1.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/harper_slome.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">Harper Sloan</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://harpersloaneproductions.com/">Harper Sloan </a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
                                 </div>
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/ourportfolioslide2.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/kikufurniture.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">kikufurniture</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://kikufurniture.com/">kikufurniture</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
                                 </div>
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/ourportfolioslide3.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/lagear.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">Lagear</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="http://lagear.com/">Lagear</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
                                 </div>
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/our_portfolio_slideimg.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/shineeasy.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">Shineeasy</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://shineeasy.com/">Shineeasy</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
                                 </div>
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/our_portfolio_slideimg.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/stantec.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">Stantec</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://www.stantec.com/en">Stantec</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
                                 </div>
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/our_portfolio_slideimg.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/top_smile_oral_care.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">Smile Oral Care</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://top-smile.com/">Smile Oral Care</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
                                 </div>
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/our_portfolio_slideimg.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/easecater.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">EaseCater</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="http://easecater.in/">EaseCater</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
                                 </div>
                             </div>
                             <div class="swiper-slide"
-                                style="background-image: url('gnoinv1/images/our_portfolio_slideimg.png'); background-size: cover;">
+                                style="background-image: url('gnoinv1/images/portfolio/clark.png'); background-size: cover;">
                                 <div class="slide-content">
-                                    <p class="slide_hide_hover">Hospital.in</p>
+                                    <p class="slide_hide_hover">clark</p>
 
                                     <p class="slide_cont_hover">
-                                        <span>Hospital</span> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://www.clarkconstruction.com/">clark</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        years
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+                            <div class="swiper-slide"
+                                style="background-image: url('gnoinv1/images/portfolio/nutriderm.png'); background-size: cover;">
+                                <div class="slide-content">
+                                    <p class="slide_hide_hover">Nutriderm</p>
+
+                                    <p class="slide_cont_hover">
+                                        <a href="https://www.neutriderm.com.au/">Nutriderm</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        years
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+                            <div class="swiper-slide"
+                                style="background-image: url('gnoinv1/images/portfolio/cornerstone.png'); background-size: cover;">
+                                <div class="slide-content">
+                                    <p class="slide_hide_hover">Corner Stone</p>
+
+                                    <p class="slide_cont_hover">
+                                        <a href="https://cornerstonecaregiving.com/">Corner Stone</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        years
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+                            <div class="swiper-slide"
+                                style="background-image: url('gnoinv1/images/portfolio/easyhotel.png'); background-size: cover;">
+                                <div class="slide-content">
+                                    <p class="slide_hide_hover">EasyHotel</p>
+
+                                    <p class="slide_cont_hover">
+                                        <a href="https://www.easyhotel.com/">EasyHotel</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        years
+                                    </p>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="swiper-slide"
+                                style="background-image: url('gnoinv1/images/portfolio/woodzee.png'); background-size: cover;">
+                                <div class="slide-content">
+                                    <p class="slide_hide_hover">Woodzee</p>
+
+                                    <p class="slide_cont_hover">
+                                        <a href="http://woodzee.com/">Woodzee</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1321,7 +1381,7 @@
                 <div class="row">
 
                     <div class="col-12">
-                        <p>Our Services</p>
+                        <h4 class="our_services_heading">Our Services</h4>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-12 animate__animated animate__fadeInLeft">
                         <div class="our_services_box">
@@ -1435,6 +1495,11 @@
         </div>
 
     </div>
+
+    <?php
+
+     include("engagementmodel.php");
+    ?>
 
     <div class="container-fluid textimonial_section mt-3">
         <div class="container">
@@ -1741,7 +1806,9 @@
                             </div>
                         </div>
 
-                        <div class="swiper-pagination"></div>
+                        <div class="col-12 mt-5">
+                                        <div class="swiper-pagination"></div>
+                                        </div>
                     </div>
 
 
@@ -1761,9 +1828,9 @@
 
 
 
-<div class="container-fluid p-0 strt_up_section_fluid" style="">
-    <div class="container strt_up_section ">
-        <div class="row  d-flex justify-content-center align-items-center">
+      <div class="container-fluid p-0 strt_up_section_fluid" style="">
+       <div class="container strt_up_section ">
+         <div class="row  d-flex justify-content-center align-items-center">
             <div class="col-12 mt-5">
                 <div class="strt_up_heading text-center">
                     <h4 class="text-white">
@@ -1784,146 +1851,12 @@
                     <span class="input-group-text btn btn-primary">SUBSCRIBE</span>
                   </div>
             </div>
+         </div>
+
         </div>
+      </div>
 
-    </div>
-</div>
+<?php
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="gnoinv1/jsv1/index.js"></script>
-    <script src="gnoinv1/assets/vendors/highlight.js"></script>
-    <script src="gnoinv1/assets/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 4,
-                spaceBetween: 30,
-                autoplay: true,
-                breakpoints: {
-                    100: {
-                        slidesPerView: 1,
-                    },
-
-                    500: {
-                        slidesPerView: 2,
-                    },
-                    901: {
-                        slidesPerView: 3,
-                    },
-                    992: {
-                        slidesPerView: 4,
-                    },
-
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-                on: {
-                    init: function () {
-                        setTimeout(function () {
-                            updateActiveSlide();
-                        }, 0);
-                    },
-                    slideChange: function () {
-                        updateActiveSlide();
-                    },
-                },
-            });
-
-            function updateActiveSlide() {
-                var activeIndex = swiper.activeIndex;
-                var imageWrappers = document.querySelectorAll('.image_wrapper');
-                var overlayTexts = document.querySelectorAll('.overlay_2');
-
-
-             
-                imageWrappers.forEach(function (wrapper, index) {
-                    var images = wrapper.querySelectorAll('img');
-                    images.forEach(function (image, imageIndex) {
-                        image.style.display = imageIndex === activeIndex ? 'block' : 'none';
-                    });
-                });
-
-                overlayTexts.forEach(function (text, textIndex) {
-                    text.style.display = textIndex === activeIndex ? 'block' : 'none';
-                });
-            }
-        });
-    </script>
-
-
-
-
-
-    <script>
-        var myswipe = new Swiper(".mySwipe", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            autoplay: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    </script>
-    <script src="js/wow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-      
-        $(document).ready(function () {
-            new WOW().init();
-        });
-
-        
-
-    </script>
-
-    <script>
-        var swip = new Swiper(".mySwip", {
-            autoplay: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
-
-
-</body>
-
-</html>
+include("footer.php");
+?>

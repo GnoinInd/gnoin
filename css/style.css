@@ -100,12 +100,7 @@ a:focus {
   color: var(--thm-base-color) !important;
 }
 
-p {
-  /* font-family: var(--heading-font); */
-  font-size: medium !important;
-  color: black;
 
-}
 
 .page-wrapper section .container .pading {
   padding: 34px 0 !important;
@@ -229,12 +224,12 @@ p {
 .superNav .container  .row .text-end{
   text-align: end;
 }
-img {
+/* img {
   box-sizing: border-box;
   border-radius: 10px;
   width: 100%;
   height: 100%;
-}
+} */
 
 .menuGroup-List img {
   height: 100%;
@@ -6029,8 +6024,6 @@ button.menu-toggler {
 
 }
 
-.ed_box_animado {
-}
 
 .ed_box_animado:hover .ed_icon {
 	transform: translateY(-70px);
@@ -6087,9 +6080,9 @@ button.menu-toggler {
 	transition: all 0.2s;
 }
 
-/* Tablet and up */
 
-@media screen and (min-width: 768px) {
+
+/* @media screen and (min-width: 768px) {
   .carousel-inner .active,
   .carousel-inner .active+.carousel-item {
     
@@ -6114,7 +6107,7 @@ button.menu-toggler {
     display: block;
     visibility: visible;
   }
-  /* left or forward direction */
+
   .active.carousel-item-left+.carousel-item-next.carousel-item-left,
   .carousel-item-next.carousel-item-left+.carousel-item {
     position: relative;
@@ -6122,7 +6115,7 @@ button.menu-toggler {
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
-  /* farthest right hidden item must be abso position for animations */
+
   .carousel-inner .carousel-item-prev.carousel-item-right {
     position: absolute;
     top: 0;
@@ -6131,7 +6124,7 @@ button.menu-toggler {
     display: block;
     visibility: visible;
   }
-  /* right or prev direction */
+
   .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right+.carousel-item {
     position: relative;
@@ -6141,12 +6134,12 @@ button.menu-toggler {
     display: block;
     visibility: visible;
   }
-}
-#myCarousel .carousel-inner .card{
+}  */
+/* #myCarousel .carousel-inner .card{
   border: none !important;
   background-color:var(--thm-base-color)
   
-}
+} */
 
 
 #industry #industry1-box{
@@ -6179,7 +6172,7 @@ background-position: center;
 /* Desktop and up */
 
 @media screen and (min-width: 992px) {
-  .carousel-inner .active,
+  /* .carousel-inner .active,
   .carousel-inner .active+.carousel-item,
   .carousel-inner .active+.carousel-item+.carousel-item {
     display: block;
@@ -6205,7 +6198,7 @@ background-position: center;
     visibility: visible;
   }
   /* left or forward direction */
-  .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+  /* .active.carousel-item-left+.carousel-item-next.carousel-item-left,
   .carousel-item-next.carousel-item-left+.carousel-item,
   .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
   .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
@@ -6213,18 +6206,18 @@ background-position: center;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
-  }
+  } */
   /* farthest right hidden item must be abso position for animations */
-  .carousel-inner .carousel-item-prev.carousel-item-right {
+  /* .carousel-inner .carousel-item-prev.carousel-item-right {
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
     display: block;
     visibility: visible;
-  }
+  } */
   /* right or prev direction */
-  .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+  /* .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
   .carousel-item-prev.carousel-item-right+.carousel-item,
   .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
   .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
@@ -6234,7 +6227,7 @@ background-position: center;
     visibility: visible;
     display: block;
     visibility: visible;
-  }
+  }  */
 
   .pmd-intro-bg-img{
     padding: 60px 0px !important;

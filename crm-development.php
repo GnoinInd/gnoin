@@ -40,11 +40,10 @@
 
 
         <!-- ---------------------header section----------------------------------------->
-<?php
+        <?php
 
 include("header.php");
 ?>
-
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -639,7 +638,7 @@ include("header.php");
 
 
                         </div>
-                        <a href="contact.php" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
 
                     </div>
                 </div>
@@ -650,12 +649,12 @@ include("header.php");
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-
-        <!-- footer end -->
-<?php
+        <?php
 
 include("footer.php");
 ?>
+
+        <!-- footer end -->
 
 
 
@@ -676,6 +675,13 @@ include("footer.php");
     <script src="js/vegas.min.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/index.js"></script>
+
+
+    <script>
+
+
+
+
 
     </script>
 

@@ -41,13 +41,11 @@
 
 
         <!-- ---------------------header section----------------------------------------->
-            <?php
+
+        <?php
 
 include("header.php");
 ?>
-
-
-
 <section class="zzz">
 
 
@@ -97,11 +95,10 @@ include("header.php");
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-            <?php
+        <?php
 
 include("footer.php");
 ?>
-
 
         <!-- footer end -->
 

@@ -36,13 +36,13 @@
 
 </head class="home-one">
 <body >
+    <div class="preloader"><span></span></div><!-- /.preloader -->
+    <div class="page-wrapper">
+
     <?php
 
 include("header.php");
 ?>
-
-    <div class="preloader"><span></span></div><!-- /.preloader -->
-    <div class="page-wrapper">
     
     <section class="inner-banner">
         <div class="container">
@@ -85,7 +85,7 @@ include("header.php");
                 <div class="col-md-12 col-sm-12 vacant_positions mb-2" >
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src=".\images\logo\language\java.jpg"> </div>
+                            <img src="./images/uxui/java.jpg"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">Java Developer</h3>
                             <p class="mb-0 font-md">Hiring Java Developers with 7+ years of experience.</p>
@@ -103,7 +103,7 @@ include("header.php");
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src=".\images\logo\language\react.png"> </div>
+                            <img src="./images/uxui/react.png"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">React Js Developer</h3>
                             <p class="mb-0 font-md">Hiring React js Developers with 7+ years of experience.</p>
@@ -121,7 +121,7 @@ include("header.php");
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src=".\images\logo\language\php.png"> </div>
+                            <img src="./images/uxui/php.png"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">PHP Developer</h3>
                             <p class="mb-0 font-md">Hiring PHP Developers with 7+ years of experience.</p>
@@ -140,7 +140,7 @@ include("header.php");
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src=".\images\logo\language\angular.png"> </div>
+                            <img src="./images/uxui/angular.png"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">Angular Developer</h3>
                             <p class="mb-0 font-md">Hiring Angular Developers with 7+ years of experience.</p>
@@ -160,7 +160,7 @@ include("header.php");
                 <div class="col-md-12 col-sm-12 vacant_positions" style="margin-bottom: 5px;">
                     <div class="box align-items-center rounded-lg">
                         <div class="box_icon d-flex align-items-center justify-content-center rounded" style="width:9%;">
-                            <img src=".\images\logo\language\nodejs.jpg"> </div>
+                            <img src="./images/uxui/nodejs.jpg"> </div>
                         <div class="box_cnt" style="width:85%;">
                             <h3 class="font-bd">Node Js Developer</h3>
                             <p class="mb-0 font-md">Hiring Node js Developers with 7+ years of experience.</p>
@@ -192,12 +192,12 @@ include("header.php");
             </form>
         </div>
     </div>
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
     <?php
 
 include("footer.php");
 ?>
-
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

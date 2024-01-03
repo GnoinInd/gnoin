@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
-    <title>Gnoin Pvt. Ltd. </title>
+    <title>Gnoin Pvt Ltd </title>
     <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -39,9 +39,13 @@
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
         <!-- header part start -->
-    <?php
+
+        <?php
+
 include("header.php");
 ?>
+
+       
         <!-- header end -->
 
         <!-- baner parts start -->
@@ -167,7 +171,7 @@ include("header.php");
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <div class="box_shad p-3">
-                                        <img src=".\images\logo\common\offsite.png" alt="">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                         <h3>Custom AngularJS Development</h3>
                                         <p>Our years of domain expertise assist us in offering secure, scalable, feature packed and responsive AngularJS web app development.</p>
                                     </div>
@@ -178,7 +182,7 @@ include("header.php");
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <div class="box_shad p-3">
-                                        <img src=".\images\logo\common\global.png" alt="">
+                                        <img src="./images/ondemand-developer/global.png" alt="">
                                         <h3>Web/Mobile App UI/UX Development</h3>
                                         <p>Our professional team of AngularJS developers provides creative and engaging web and mobile app UI/UX development services as per the current designing trends.</p>
                                     </div>
@@ -189,7 +193,7 @@ include("header.php");
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <div class="box_shad p-3">
-                                        <img src=".\images\logo\common\Hybrid_delivery.png" alt="">
+                                        <img src="./images/ondemand-developer/Hybrid_delivery.png" alt="">
                                         <h3>API Development</h3>
                                         <p>We provide high performance and scalable enterprise oriented API development services as per the exact requirements of your business.
                                         </p> 
@@ -201,7 +205,7 @@ include("header.php");
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <div class="box_shad p-3">
-                                        <img src=".\images\logo\common\offshore.png" alt="">
+                                        <img src="./images/ondemand-developer/offshore.png" alt="">
                                     <h3>Migration & Upgradation Services</h3>
                                     <p>If you want to migrate your website from other platform to AngularJS or want to upgrade the current version, our AngularJS developers will help you easily.</p>
                                     </div>
@@ -212,7 +216,7 @@ include("header.php");
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <div class="box_shad p-3">
-                                        <img src=".\images\logo\common\offsite.png" alt="">
+                                        <img src="./images/ondemand-developer/offsite.png" alt="">
                                     <h3>AngularJS Consulting Services</h3>
                                     <p>If you want to know anything about AngularJS technology, feel free to contact us and our AngularJS developers will definitely assist you.</p>
                                     </div>
@@ -223,7 +227,7 @@ include("header.php");
                             <div class="col-md-4 col-sm-6 col-xs-12">
                                 <div class="delivery_models">
                                     <div class="box_shad p-3">
-                                        <img src=".\images\logo\common\onsite.png" alt="">
+                                        <img src="./images/ondemand-developer/onsite.png" alt="">
                                         <h3>24*7 Support and Maintenance</h3>
                                         <p>Apart from AngularJS development services, our AngularJS developers are also experienced in providing round the clock AngularJS support and maintenance service to our global clients.</p>
                                     </div>
@@ -505,12 +509,12 @@ include("header.php");
             </form>
         </div>
     </div>
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-        <?php
+
+    <?php
 
 include("footer.php");
 ?>
-
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

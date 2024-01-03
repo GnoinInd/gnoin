@@ -39,10 +39,14 @@
     <div class="preloader"><span></span></div><!-- /.preloader -->
     <div class="page-wrapper">
         <!-- header part start -->
-            <?php
+
+        <?php
+
 include("header.php");
 ?>
-  <!-- header end -->
+
+
+        <!-- header end -->
 
         <!-- baner parts start -->
         <section class="inner-banner">
@@ -695,12 +699,11 @@ include("header.php");
 
 
     </div><!-- /.page-wrapper -->
-        <?php
+  
+    <?php
 
 include("footer.php");
 ?>
-
-  
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

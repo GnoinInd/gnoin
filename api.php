@@ -40,11 +40,10 @@
 
 
         <!-- ---------------------header section----------------------------------------->
-            <?php
+        <?php
 
 include("header.php");
 ?>
-
 
         <!-- inerpage page top container  -->
         <section class="inner-banner">
@@ -54,8 +53,8 @@ include("header.php");
                     </h2>
                     <p>We implement REST or functional APIs interface for customers to consume related services.</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Page</a></li>
                     </ul>
                 </div>
             </div>
@@ -252,7 +251,7 @@ include("header.php");
                             <div class="row">
                                 <div class="col-xl-5 col-md-6 img-bg">
                                     <img
-                                        src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/132560890/original/1d48e15e7b67d13e4721d03918d36485ec25494a/integrate-api-in-website-app-api-integration-and-development.jpg">
+                                        src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/132560890/original/12iD3XhCQfYF5sf6FaMrzrGFxzrKJ4u85L/integrate-api-in-website-app-api-integration-and-development.jpg">
                                 </div>
 
                                 <div class="col-xl-7 col-md-6 slides  position-relative">
@@ -716,12 +715,10 @@ include("header.php");
 
 
     <!-- footer start -->
-    <!-------------------------- Footer Page Include ----------------- -->
-        <?php
+    <?php
 
 include("footer.php");
 ?>
-
 
     <!-- footer end -->
 
@@ -745,6 +742,13 @@ include("footer.php");
     <script src="js/theme.js"></script>
     <script src="js/index.js"></script>
     <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+
+
+
+
 
     </script>
 

@@ -42,7 +42,6 @@ include("header.php");
 
 
 
-
 <!-- header end -->
 <!-- header part end -->
         <!-- baner parts start -->
@@ -387,6 +386,11 @@ include("header.php");
         </section>
        
     </div><!-- /.page-wrapper -->
+
+    <?php
+
+include("footer.php");
+?>
     <div class="search-popup">
         <div class="search-popup__overlay custom-cursor__overlay">
             <div class="cursor"></div>
@@ -400,11 +404,6 @@ include("header.php");
         </div>
     </div>
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <?php
-
-include("footer.php");
-?>
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
