@@ -1360,26 +1360,11 @@ text-align: center;
 }
 
 
-.carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
+.banner_section .carousel-indicators li {
+    
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    padding: 0px;
-    margin-right: 5px;
-    margin-left: 5px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
+    
 }
 
-.carousel-indicators .active {
-    opacity: 1;
-}
