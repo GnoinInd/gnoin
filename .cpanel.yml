@@ -2,4 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/xxb4wbjt6tqn/public_html/
-    - /bin/cp * $DEPLOYPATH
+    
+    # Change directory to the folder containing your updated codes
+    - cd /home/xxb4wbjt6tqn/repositories/gnoin/
+    
+    # Copy files to the deployment path
+    - /bin/cp -r * $DEPLOYPATH
