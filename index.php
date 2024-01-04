@@ -97,7 +97,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
             </div>
