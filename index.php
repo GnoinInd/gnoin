@@ -39,7 +39,7 @@ include("header.php");
                     <img src="gnoinv1/images/banner/banner2.png" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="banner-one__title banner-one__is-animated">We are the makers <br> of awesome <br> business process
+                        <h5 class="banner-one__title banner-one__is-animated">We are the makers <br> <span class="text-outline-heading"> of awesome</span> <br> business process
                         </h5>
                         <p class="subheading_new banner-one__title banner-one__is-animated">Turn your idea into extraordinary, Web and Mobile Apps with Gnoin.</p>
                         
@@ -53,9 +53,11 @@ include("header.php");
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        <h5 class="banner-one__title banner-one__is-animated">Join us to <br>  <span class="text-outline-heading">transform your </span><br> dreams digitally!
                         </h5>
-                        <p class="subheading_new banner-one__title banner-one__is-animated">Transforming industries with AI-Powered Custom Software Solutions</p>
+                         
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Our company name reflects our
+                                        service, our service reflects our identity, this is all about</p>
                         
                     </div>
                     <div class="caraousel_btn">
@@ -68,9 +70,14 @@ include("header.php");
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        <h5 class="banner-one__title banner-one__is-animated">Building trust   <br>  <span class="text-outline-heading">in interorganizational</span><br> collaboration
                         </h5>
-                        <p class="subheading_new banner-one__title banner-one__is-animated">Transforming industries with AI-Powered Custom Software Solutions</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Transaction
+                                        markets,toward relationship marketing
+                                    <br> State-of-the-art globally available software.</p>
+                                        <!-- web and app development company
+                                        technocrat Approach to Help You
+                                        Carve out better futuristic solutions. -->
                         
                     </div>
                     <div class="caraousel_btn">
@@ -84,9 +91,9 @@ include("header.php");
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        <h5 class="banner-one__title banner-one__is-animated">We are the makers of<br>  <span class="text-outline-heading">awesome</span><br> business process
                         </h5>
-                        <p class="subheading_new banner-one__title banner-one__is-animated">Transforming industries with AI-Powered Custom Software Solutions</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Turn Your idea into extraordinary, Web and Mobile Apps with Gnoin</p>
                         
                     </div>
                     <div class="caraousel_btn">
@@ -110,7 +117,7 @@ include("header.php");
                 </div>
             </div> -->
 
-            <div class="card custom_card_design d-none d-sm-none d-lg-block d-xl-block">
+            <div class="card custom_card_design ">
                 <div class="card-body">
                     <h5 class="card-title">Grow your business</h5>
                     <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary">Software Development & IT
@@ -122,14 +129,15 @@ include("header.php");
                         we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
                         Our promise? Support for your growth in an ever-expanding world.</p>
 
-                    <a href="#" class="card-link">Read More</a>
+                    <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
+                        class="img-fluid m-2 ">
 
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid p-0 d-block d-md-none">
+    <!-- <div class="container-fluid p-0 d-block d-md-none">
         <div class="row">
             <div class="col-12 ">
                 <div class="card ">
@@ -153,7 +161,7 @@ include("header.php");
 
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="container-fluid g-0">
@@ -694,7 +702,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back" style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(/gnoinv1/images/delivery_model_1.png);">
+                        <div class="flip-card-back our_deliver_model_1" >
                             <div class="card-header card_header_back ">
 
                                 <div class="text-center">Offsite Delivery Model</div>
@@ -729,7 +737,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_2);">
+                        <div class="flip-card-back our_deliver_model_2" >
                             <div class="card-header card_header_back ">
 
                                 <div class="text-center">Offsite Delivery Model</div>
@@ -763,7 +771,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_3);">
+                        <div class="flip-card-back our_deliver_model_3"  >
                             <div class="card-header card_header_back ">
 
                                 <div class="text-center">Offsite Delivery Model</div>
@@ -797,7 +805,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_4);">
+                        <div class="flip-card-back our_deliver_model_4" >
                             <div class="card-header card_header_back ">
 
                                 <div class="text-center text-white">Offsite Delivery Model</div>
@@ -831,7 +839,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_5);">
+                        <div class="flip-card-back our_deliver_model_5" >
                             <div class="card-header card_header_back ">
 
                                 <div class="text-center ">Offsite Delivery Model</div>
@@ -865,7 +873,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_6);">
+                        <div class="flip-card-back our_deliver_model_6"  >
                             <div class="card-header card_header_back ">
 
                                 <div class="text-center ">Offsite Delivery Model</div>
@@ -899,7 +907,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back"  style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_7);">
+                        <div class="flip-card-back our_deliver_model_7" >
                             <div class="card-header card_header_back ">
 
                                 <div class="text-center text-white">Offsite Delivery Model</div>
@@ -933,7 +941,7 @@ include("header.php");
                             </div>
                             <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                         </div>
-                        <div class="flip-card-back" style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_8.jpg);">
+                        <div class="flip-card-back our_deliver_model_8" >
 
                             <div class="card-header card_header_back ">
 
@@ -968,7 +976,7 @@ include("header.php");
         <div class="container position-relative">
             <div class="row">
                 <div class="col-12">
-                    <p class="our_portfolio_heading">OUR PORTFOLIO</p>
+                    <p class="our_portfolio_heading m-0">OUR PORTFOLIO</p>
                 </div>
 
                 <div class="col-12 position-relative">
@@ -996,7 +1004,7 @@ include("header.php");
 
                     </ul>
 
-                    <div class="swiper_slide_custm_heading">
+                    <!-- <div class="swiper_slide_custm_heading">
                         <div class=" overlay_2">
                             <p class="our_portfolio_subheading">Our global study finds that cloud and AI are a
                                 priority despite headwinds</p>
@@ -1059,7 +1067,7 @@ include("header.php");
                             <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
                                 class="img-fluid m-2 ">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
 
