@@ -3,11 +3,11 @@
 
 
 //server connection
-//$conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
+$conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
 
 
 // Create connection
-$conn = mysqli_connect("localhost","root","","gnoin");
+//$conn = mysqli_connect("localhost","root","","gnoin");
 
 // Check the connection
 if ($conn->connect_error) {
