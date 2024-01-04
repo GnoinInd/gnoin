@@ -45,7 +45,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -61,7 +61,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
 
@@ -81,12 +81,12 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
 
 
-                <div class="carousel-item">
+               <!-- <div class="carousel-item">
                     <div class="d-md-block carousel_slide_3"></div>
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
@@ -99,7 +99,7 @@ include("header.php");
                     <div class="caraousel_btn">
                         <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
