@@ -1080,7 +1080,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Cariloop</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="http://www.cariloop.com/">Cariloop</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="http://www.cariloop.com/" target="_blank">Cariloop</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1094,7 +1094,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Harper Sloan</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://harpersloaneproductions.com/">Harper Sloan </a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://harpersloaneproductions.com/" target="_blank">Harper Sloan </a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1106,7 +1106,7 @@ include("header.php");
                                     <p class="slide_hide_hover">kikufurniture</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://kikufurniture.com/">kikufurniture</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://kikufurniture.com/" target="_blank">kikufurniture</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1118,7 +1118,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Lagear</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="http://lagear.com/">Lagear</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="http://lagear.com/" target="_blank">Lagear</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1130,7 +1130,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Shineeasy</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://shineeasy.com/">Shineeasy</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://shineeasy.com/" target="_blank">Shineeasy</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1142,7 +1142,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Stantec</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://www.stantec.com/en">Stantec</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://www.stantec.com/en" target="_blank">Stantec</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1154,7 +1154,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Smile Oral Care</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://top-smile.com/">Smile Oral Care</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://top-smile.com/" target="_blank">Smile Oral Care</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1166,7 +1166,7 @@ include("header.php");
                                     <p class="slide_hide_hover">EaseCater</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="http://easecater.in/">EaseCater</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="http://easecater.in/" target="_blank">EaseCater</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1178,7 +1178,7 @@ include("header.php");
                                     <p class="slide_hide_hover">clark</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://www.clarkconstruction.com/">clark</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://www.clarkconstruction.com/" target="_blank">clark</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1192,7 +1192,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Nutriderm</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://www.neutriderm.com.au/">Nutriderm</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://www.neutriderm.com.au/" target="_blank">Nutriderm</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1206,7 +1206,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Corner Stone</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://cornerstonecaregiving.com/">Corner Stone</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://cornerstonecaregiving.com/" target="_blank">Corner Stone</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1220,7 +1220,7 @@ include("header.php");
                                     <p class="slide_hide_hover">EasyHotel</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="https://www.easyhotel.com/">EasyHotel</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="https://www.easyhotel.com/" target="_blank">EasyHotel</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
@@ -1235,7 +1235,7 @@ include("header.php");
                                     <p class="slide_hide_hover">Woodzee</p>
 
                                     <p class="slide_cont_hover">
-                                        <a href="http://woodzee.com/">Woodzee</a> <br>75% of organizations invested in AI & ML in the past 2
+                                        <a href="http://woodzee.com/" target="_blank">Woodzee</a> <br>75% of organizations invested in AI & ML in the past 2
                                         years
                                     </p>
 
