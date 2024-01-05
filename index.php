@@ -23,9 +23,13 @@ include("header.php");
                     <img src="gnoinv1/images/banner/bannerimg.png" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        <h5 class="banner-one__title banner-one__is-animated">Building trust <br>  <span class="text-outline-heading">in interorganizational</span><br> collaboration
                         </h5>
-                        <p class="subheading_new banner-one__title banner-one__is-animated ">Transforming industries with AI-Powered Custom Software Solutions
+                        <p class="subheading_new banner-one__title banner-one__is-animated " style="color:yellow;">
+                        State-of-the-art globally available software,
+                                        web and app development company
+                                       technocrat Approach to Help You
+                                        Carve out better futuristic solutions.
                         </p>
                         
                     </div>
@@ -41,7 +45,7 @@ include("header.php");
                     <div class="carousel-caption d-md-block">
                         <h5 class="banner-one__title banner-one__is-animated">We are the makers <br> <span class="text-outline-heading"> of awesome</span> <br> business process
                         </h5>
-                        <p class="subheading_new banner-one__title banner-one__is-animated">Turn your idea into extraordinary, Web and Mobile Apps with Gnoin.</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated" style="color:yellow">Turn your idea into extraordinary,<br> Web and Mobile Apps with Gnoin.</p>
                         
                     </div>
                     <div class="caraousel_btn">
@@ -53,11 +57,11 @@ include("header.php");
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="banner-one__title banner-one__is-animated">Join us to <br>  <span class="text-outline-heading">transform your </span><br> dreams digitally!
+                        <h5 class="banner-one__title banner-one__is-animated">We Combine  <br>  <span class="text-outline-heading"> Design And Technology</span><br> To Solve Real Customer Problems
                         </h5>
                          
-                        <p class="subheading_new banner-one__title banner-one__is-animated">Our company name reflects our
-                                        service, our service reflects our identity, this is all about</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated" style="color:yellow">Our company name reflects our
+                                        service, our service reflects our identity, this is all about.</p>
                         
                     </div>
                     <div class="caraousel_btn">
@@ -70,11 +74,12 @@ include("header.php");
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
                     <div class="carousel-caption d-md-block">
-                        <h5 class="banner-one__title banner-one__is-animated">Building trust   <br>  <span class="text-outline-heading">in interorganizational</span><br> collaboration
+                        <h5 class="banner-one__title banner-one__is-animated">Join us  <br>  <span class="text-outline-heading">to transform your dreams </span><br> digitally!
                         </h5>
-                        <p class="subheading_new banner-one__title banner-one__is-animated">Transaction
-                                        markets,toward relationship marketing
-                                    <br> State-of-the-art globally available software.</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated" style="color:yellow">
+                        Our company name reflects our
+                                        service, our service reflects our identity, this is all about.
+                                    </p>
                                         <!-- web and app development company
                                         technocrat Approach to Help You
                                         Carve out better futuristic solutions. -->
@@ -93,7 +98,7 @@ include("header.php");
                     <div class="carousel-caption d-md-block">
                         <h5 class="banner-one__title banner-one__is-animated">We are the makers of<br>  <span class="text-outline-heading">awesome</span><br> business process
                         </h5>
-                        <p class="subheading_new banner-one__title banner-one__is-animated">Turn Your idea into extraordinary, Web and Mobile Apps with Gnoin</p>
+                        <p class="subheading_new banner-one__title banner-one__is-animated" style="color:yellow;">Turn Your idea into extraordinary, Web and Mobile Apps with Gnoin</p>
                         
                     </div>
                     <div class="caraousel_btn">
@@ -120,17 +125,17 @@ include("header.php");
             <div class="card custom_card_design ">
                 <div class="card-body">
                     <h5 class="card-title">Grow your business</h5>
-                    <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary">Software Development & IT
+                    <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary" style="color:#0b3155;">Software Development & IT
                         Consulting Company In India</h6>
                     <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
                         Your Challenges.</h6>
 
-                    <p class="card-text">
-                                    Gnoin Pvt. Ltd. is a global web and mobile app development company. We partner with
+                    <p class="card-text" style="color:black">
+                                    <font style="color:#0b3155;">Gnoin Pvivate Limited</font> is a global software development company for small size to large size business. We partner with
                                     customers of all sizes to build highly innovative solutions, customizations and
-                                    products across technology platforms by leveraging cutting edge technologies. We
+                                    products across technology platforms by leveraging cutting edge technologies.<p style="color:black"> We
                                     provide high end technology solutions to help businesses realize their maximum
-                                    potential.
+                                    potential.</p>
                         
                         </p>
 
@@ -272,7 +277,8 @@ include("header.php");
                     <p class="dirc_subheading">
                    
                         Gnoin Pvt. Ltd., Our expert team work on resolve to remove the thick cloud of technological barriers from your day to day business and craft products that pose challenges to your business.
-                        We are guided by a vision to transform a brand.
+                        We are guided by a vision to transform a brand. Gnoin is globally oriented and providing excellent solutions to the customers across the globe.
+                        With its humanistic approach and flat organization structure, it proudly claims itself to be one of the best service providers.
                         
                         </p>
                 </div>
