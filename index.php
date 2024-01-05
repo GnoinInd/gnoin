@@ -111,11 +111,11 @@ include("header.php");
         <div class="section_image w-75 h-100">
                     <img src="gnoinv1/images/banner/softdevandit.png" alt="" class="img-fluid h-100 rounded-0 w-100">
                
-           <!--   <div class="col-3 ps-0">
+             <div class="col-3 ps-0">
                 <div class="section_bg_colr">
 
                 </div>
-            </div> -->
+            </div> 
 
             <div class="card custom_card_design ">
                 <div class="card-body">
@@ -137,7 +137,7 @@ include("header.php");
         </div>
     </div>
 
-    <!-- <div class="container-fluid p-0 d-block d-md-none">
+     <div class="container-fluid p-0 d-block d-md-none">
         <div class="row">
             <div class="col-12 ">
                 <div class="card ">
@@ -161,7 +161,7 @@ include("header.php");
 
             </div>
         </div>
-    </div> -->
+    </div> 
 
 
     <div class="container-fluid g-0">
