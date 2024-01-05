@@ -14,8 +14,8 @@ include("header.php");
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-               <!-- <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>-->
-               <!-- <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>-->
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
               </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -30,7 +30,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                        <a href="#" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
                 <div class="carousel-item ">
@@ -45,7 +45,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                        <a href="#" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -61,11 +61,11 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                        <a href="#" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
 
-                <!-- <div class="carousel-item">
+                <div class="carousel-item">
                     <div class="d-md-block carousel_slide_3"></div>
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
@@ -81,12 +81,12 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                        <a href="#" class="btn-custom ">Let's Start Talk</a>
                     </div>
-                </div>-->
+                </div>
 
 
-               <!-- <div class="carousel-item">
+                <div class="carousel-item">
                     <div class="d-md-block carousel_slide_3"></div>
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
@@ -97,9 +97,9 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                        <a href="#" class="btn-custom ">Let's Start Talk</a>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
     </div>
@@ -111,11 +111,11 @@ include("header.php");
         <div class="section_image w-75 h-100">
                     <img src="gnoinv1/images/banner/softdevandit.png" alt="" class="img-fluid h-100 rounded-0 w-100">
                
-             <div class="col-3 ps-0">
+           <!--   <div class="col-3 ps-0">
                 <div class="section_bg_colr">
 
                 </div>
-            </div> 
+            </div> -->
 
             <div class="card custom_card_design ">
                 <div class="card-body">
@@ -129,7 +129,7 @@ include("header.php");
                         we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
                         Our promise? Support for your growth in an ever-expanding world.</p>
 
-                    <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
+                    <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
                         class="img-fluid m-2 ">
 
                 </div>
@@ -137,7 +137,7 @@ include("header.php");
         </div>
     </div>
 
-     <div class="container-fluid p-0 d-block d-md-none">
+    <!-- <div class="container-fluid p-0 d-block d-md-none">
         <div class="row">
             <div class="col-12 ">
                 <div class="card ">
@@ -161,7 +161,7 @@ include("header.php");
 
             </div>
         </div>
-    </div> 
+    </div> -->
 
 
     <div class="container-fluid g-0">
@@ -196,45 +196,36 @@ include("header.php");
                                     Quick Links
                                 </p>
                                 <ul>
-                                    <li><a href="healthcare.php">Health Care</a></li>
-                                    <li><a href="eduction-learnig.php">Education & Learning</a></li>
-                                    <li><a href="Retail.php">Retail & Ecommerce</a></li>
-                                    <li><a href="privacy-policy.php">Privacy & Policy</a></li>
-                                    <li><a href="healthcare.php">Hospitality & Travel</a></li>
+                                    <li><a href="">Health Care</a></li>
+                                    <li><a href="">Education & Learning</a></li>
+                                    <li><a href="">Retail & Ecommerce</a></li>
+                                    <li><a href="">Political Compaigns</a></li>
+                                    <li><a href="">Hospitality & Travel</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="item_1">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Web Site development</p>
+                                <p>Industries</p>
                             </div>
                         </div>
                         <div class="item_2">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Technoloy</p>
+                                <p>Education & e-Learning</p>
                             </div>
                         </div>
-                          <div class="item_3 position-relative">
+                        <div class="item_1">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p class="card_listings text-center">
-                                    Quick Links
-                                </p>
-                                <ul>
-                                    <li><a href="java.php"></a>Java </li>
-                                    <li><a href="laravel.php">Laravel</a></li>
-                                    <li><a href="Mac-App-Development.php">Mac Application</a></li>
-                                    <li><a href="php.php">PHP</a></li>
-                                    <li><a href="node.php">Node</a></li>
-                                </ul>
+                                <p>Industries</p>
                             </div>
                         </div>
                         <div class="item_2">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Mobile App Development</p>
+                                <p>Education & e-Learning</p>
                             </div>
                         </div>
 
