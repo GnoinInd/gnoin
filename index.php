@@ -14,7 +14,7 @@ include("header.php");
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+               <!-- <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>-->
                <!-- <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>-->
               </ol>
             <div class="carousel-inner">
@@ -30,7 +30,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
                 <div class="carousel-item ">
@@ -65,7 +65,7 @@ include("header.php");
                     </div>
                 </div>
 
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <div class="d-md-block carousel_slide_3"></div>
                     <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
                     <div class="overlay_cover"></div>
@@ -83,7 +83,7 @@ include("header.php");
                     <div class="caraousel_btn">
                         <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
-                </div>
+                </div>-->
 
 
                <!-- <div class="carousel-item">
@@ -129,7 +129,7 @@ include("header.php");
                         we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
                         Our promise? Support for your growth in an ever-expanding world.</p>
 
-                    <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
+                    <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
                         class="img-fluid m-2 ">
 
                 </div>
@@ -196,36 +196,45 @@ include("header.php");
                                     Quick Links
                                 </p>
                                 <ul>
-                                    <li><a href="">Health Care</a></li>
-                                    <li><a href="">Education & Learning</a></li>
-                                    <li><a href="">Retail & Ecommerce</a></li>
-                                    <li><a href="">Political Compaigns</a></li>
-                                    <li><a href="">Hospitality & Travel</a></li>
+                                    <li><a href="healthcare.php">Health Care</a></li>
+                                    <li><a href="eduction-learnig.php">Education & Learning</a></li>
+                                    <li><a href="Retail.php">Retail & Ecommerce</a></li>
+                                    <li><a href="privacy-policy.php">Privacy & Policy</a></li>
+                                    <li><a href="healthcare.php">Hospitality & Travel</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="item_1">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Industries</p>
+                                <p>Web Site development</p>
                             </div>
                         </div>
                         <div class="item_2">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Education & e-Learning</p>
+                                <p>Technoloy</p>
                             </div>
                         </div>
-                        <div class="item_1">
+                          <div class="item_3 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Industries</p>
+                                <p class="card_listings text-center">
+                                    Quick Links
+                                </p>
+                                <ul>
+                                    <li><a href="java.php"></a>Java </li>
+                                    <li><a href="laravel.php">Laravel</a></li>
+                                    <li><a href="Mac-App-Development.php">Mac Application</a></li>
+                                    <li><a href="php.php">PHP</a></li>
+                                    <li><a href="node.php">Node</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="item_2">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Education & e-Learning</p>
+                                <p>Mobile App Development</p>
                             </div>
                         </div>
 
