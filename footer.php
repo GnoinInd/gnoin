@@ -2,11 +2,11 @@
 
 
       <!-- footer start -->
-        <footer class="site-footer">
-            <div class="site-footer__upper p-0 pt-5 ">
+        <footer class="site-footer" style="background-color:#0b3155" >
+            <div class="site-footer__upper p-0 pt-5 " >
                 <div class="container pt-2 pb-2">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12" style="color:#0b3155;">
                             <div class="footer-widget">
                                 <div class=" d-flex align-items-center  justify-content-start " style="width: 100%; margin-top: -20px;">
                                     <a class="" href="index.php" previewlistener="true">
