@@ -507,68 +507,13 @@ include("header.php");
 
 
 
+           <!-- start engagement excise mode-->
+            <?php
 
+     include("engagementmodel.php");
+    ?>
 
-
-
-
-
-
-
-
-
-        <section class="Engagement_section">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="short word-rotator-title font_size_heding">
-                        Engagement Exercise Model
-                        <div class="sub_heading ">
-                            <h5>That meet every business need</h5>
-                        </div>
-                    </h2>
-                </div>
-                <div class="row m-0">
-                    <div class="col-md-6 col-sm-6 col-xl-3">
-                        <div class="engagement_practices" style="max-height: 300px;">
-                            <img src="./images/EnterpriseBranding/Fixed-Cost-Model.png">
-                            <h4>Fixed Cost Based Model</h4>
-                            <p>Weather you or your business have a individual set of software development requirements
-                                or ideas for creating new solutions, the fixed cost model will be the best suitable for
-                                you.</p>
-                        </div>
-                    </div>
-                    <div class="ccol-md-6 col-sm-6 col-xl-3">
-                        <div class="engagement_practices" style="max-height: 300px;">
-                            <img src="./images/EnterpriseBranding/Hourly-Model.png">
-                            <h4>Hourly Based Model</h4>
-                            <p>Weather you or your company needs to develop software that demands regular change and the
-                                adoption of flexibility, then the hourly model will best suit you.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xl-3">
-                        <div class="engagement_practices" style="max-height: 300px;">
-                            <img src="./images/EnterpriseBranding/T-M-Model.png">
-                            <h4>T &amp; M Model</h4>
-                            <p>You can hire our dedicated professionals to work on your project only at a given time
-                                frame. Even after being dedicated, they will present the daily timesheet of their work
-                                in front of you.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xl-3">
-                        <div class="engagement_practices" style="max-height: 300px;">
-                            <img src="./images/EnterpriseBranding/Partner-With-Us.png">
-                            <h4>Associate With Us</h4>
-                            <p>You can also join us to achieve business diversification and mutual development. We will
-                                provide you skillful and experienced professionals with good domain knowledge.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
+     <!-- end engagement excise mode-->
         
     </div><!-- /.page-wrapper -->
     <div class="search-popup">

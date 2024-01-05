@@ -30,7 +30,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
                 <div class="carousel-item ">
@@ -45,7 +45,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -61,7 +61,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@ include("header.php");
                         
                     </div>
                     <div class="caraousel_btn">
-                        <a href="#" class="btn-custom ">Let's Start Talk</a>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                     </div>
                 </div>
             </div>
@@ -125,45 +125,24 @@ include("header.php");
                     <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
                         Your Challenges.</h6>
 
-                    <p class="card-text">Your global partner for web and mobile app development. We're not just a team,
-                        we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
-                        Our promise? Support for your growth in an ever-expanding world.</p>
+                    <p class="card-text">
+                                    Gnoin Pvt. Ltd. is a global web and mobile app development company. We partner with
+                                    customers of all sizes to build highly innovative solutions, customizations and
+                                    products across technology platforms by leveraging cutting edge technologies. We
+                                    provide high end technology solutions to help businesses realize their maximum
+                                    potential.
+                        
+                        </p>
 
-                    <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
-                        class="img-fluid m-2 ">
+                    <a href="about.php" class="card-link">Read More</a> <a href="about.php"><img src="gnoinv1/images/icon/arrowicon.png" alt=""
+                        class="img-fluid m-2 "></a>
 
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- <div class="container-fluid p-0 d-block d-md-none">
-        <div class="row">
-            <div class="col-12 ">
-                <div class="card ">
-                    <div class="card-body">
-                        <h5 class="card-title">Grow your business</h5>
-                        <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary">Software Development &
-                            IT
-                            Consulting Company In India</h6>
-                        <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
-                            Your Challenges.</h6>
-
-                        <p class="card-text">Your global partner for web and mobile app development. We're not just a
-                            team,
-                            we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
-                            Our promise? Support for your growth in an ever-expanding world.</p>
-
-                        <a href="#" class="card-link">Read More</a>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-
-
+    <!-- start  Industry Experience To Address Your Challenges section-->
     <div class="container-fluid g-0">
         <section class="container mt-5 indsutry_exp_cont" id="demos">
             <div class="row ">
@@ -196,24 +175,24 @@ include("header.php");
                                     Quick Links
                                 </p>
                                 <ul>
-                                    <li><a href="">Health Care</a></li>
-                                    <li><a href="">Education & Learning</a></li>
-                                    <li><a href="">Retail & Ecommerce</a></li>
-                                    <li><a href="">Political Compaigns</a></li>
-                                    <li><a href="">Hospitality & Travel</a></li>
+                                    <li><a href="healthcare.php">Health Care</a></li>
+                                    <li><a href="eduction-learnig.php">Education & Learning</a></li>
+                                    <li><a href="e-comerce-development.php">Retail & Ecommerce</a></li>
+                                    <li><a href="privacy-policy.php">Privacy & Policy</a></li>
+                                    <li><a href="healthcare.php">Hospitality & Travel</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="item_1">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Industries</p>
+                                <p>Custom Software Development</p>
                             </div>
                         </div>
                         <div class="item_2">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p>Education & e-Learning</p>
+                                <p>Cross Platform Development</p>
                             </div>
                         </div>
                         <div class="item_1">
@@ -264,9 +243,9 @@ include("header.php");
         </section>
     </div>
 
-  
+  <!-- end  Industry Experience To Address Your Challenges section-->
 
-
+  <!-- start  We Deliver Innovative, Reliable And Creative Services -->
     <div class="container-fluid g-0 dirc_section   mt-5">
         <div class="container pt-5">
             <div class="row">
@@ -290,18 +269,22 @@ include("header.php");
                         </div>
                     </div>
 
-                    <p class="dirc_subheading">Clearing tech barriers, creating impactful solutions for your business.
-                        Globally oriented, we transform brands with a humanistic approach. Your top-tier service
-                        provider.</p>
+                    <p class="dirc_subheading">
+                   
+                        Gnoin Pvt. Ltd., Our expert team work on resolve to remove the thick cloud of technological barriers from your day to day business and craft products that pose challenges to your business.
+                        We are guided by a vision to transform a brand.
+                        
+                        </p>
                 </div>
 
                 <div class="col-md-5 col-sm-12 resp_width">
                     <p class="dirc_second_heading">WHO WE ARE?</p>
                     <P class="dirc_second_subheading">Business Chalenges Solved With Digital Technology.</P>
-                    <P class="dirc_second_paraheading">Gnoin Pvt. Ltd: Navigate challenges with integrated tech
+                    <P class="dirc_second_paraheading">
+                        Gnoin Pvt. Ltd: Navigate challenges with integrated tech
                         solutions. Harnessing cutting-edge technology, we drive customer growth through data-driven
                         solutions across various sectors.</P>
-                    <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
+                    <a href="about.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
                         class="img-fluid m-2 ">
                 </div>
                 <div class="col-md-7 col-sm-12 d-none d-sm-none d-lg-block d-xl-block">
@@ -324,7 +307,8 @@ include("header.php");
         </div>
 
     </div>
-
+    <!--end We Deliver Innovative, Reliable And Creative Services -->
+    <!-- start  technology -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12  d-block d-md-none">
@@ -520,7 +504,7 @@ include("header.php");
             </div>
         </div>
     </div>
-
+    
     <div class="container-fluid  d-block d-md-none">
         <div class="row">
             <div class="col-12">
