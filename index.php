@@ -8,100 +8,118 @@ include("header.php");
 
 <div class="banner-one g-0  banner_section">
 
-    <div id="carouselExampleCaptions" class="carousel  carousel-fade" data-ride="carousel" data-interval="1500" data-pause="false">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <!-- <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>-->
-            <!-- <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>-->
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="d-md-block carousel_slide_1"></div>
-                <img src="gnoinv1/images/banner/bannerimg.png" class="d-block w-100 rounded-0" alt="..."
-                    class="img-fluid">
-                <div class="overlay_cover"></div>
-                <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">Software <br> <span
-                            class="text-outline-heading">Development</span><br> Services
-                    </h5>
-                    <p class="subheading_new banner-one__title banner-one__is-animated ">Transforming industries with
-                        AI-Powered Custom Software Solutions
-                    </p>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+               <!-- <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>-->
+               <!-- <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>-->
+              </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-md-block carousel_slide_1"></div>
+                    <img src="gnoinv1/images/banner/bannerimg.png" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
+                    <div class="overlay_cover"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="banner-one__title banner-one__is-animated">Software <br>  <span class="text-outline-heading">Development</span><br> Services
+                        </h5>
+                        <p class="subheading_new banner-one__title banner-one__is-animated ">Transforming industries with AI-Powered Custom Software Solutions
+                        </p>
+                        
+                    </div>
+                    <div class="caraousel_btn">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
+                </div>
+                <div class="carousel-item ">
 
+                    <div class="d-md-block  carousel_bg_shape"></div>
+                    <img src="gnoinv1/images/banner/banner2.png" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
+                    <div class="overlay_cover"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="banner-one__title banner-one__is-animated">We are the makers <br> <span class="text-outline-heading"> of awesome</span> <br> business process
+                        </h5>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Turn your idea into extraordinary, Web and Mobile Apps with Gnoin.</p>
+                        
+                    </div>
+                    <div class="caraousel_btn">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
                 </div>
-                <div class="caraousel_btn">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                <div class="carousel-item">
+                    <div class="d-md-block carousel_slide_3"></div>
+                    <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
+                    <div class="overlay_cover"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="banner-one__title banner-one__is-animated">Join us to <br>  <span class="text-outline-heading">transform your </span><br> dreams digitally!
+                        </h5>
+                         
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Our company name reflects our
+                                        service, our service reflects our identity, this is all about</p>
+                        
+                    </div>
+                    <div class="caraousel_btn">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
                 </div>
+
+                <!-- <div class="carousel-item">
+                    <div class="d-md-block carousel_slide_3"></div>
+                    <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
+                    <div class="overlay_cover"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="banner-one__title banner-one__is-animated">Building trust   <br>  <span class="text-outline-heading">in interorganizational</span><br> collaboration
+                        </h5>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Transaction
+                                        markets,toward relationship marketing
+                                    <br> State-of-the-art globally available software.</p>
+                                        <!-- web and app development company
+                                        technocrat Approach to Help You
+                                        Carve out better futuristic solutions. -->
+                        
+                    </div>
+                    <div class="caraousel_btn">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
+                </div>-->
+
+
+               <!-- <div class="carousel-item">
+                    <div class="d-md-block carousel_slide_3"></div>
+                    <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..." class="img-fluid">
+                    <div class="overlay_cover"></div>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="banner-one__title banner-one__is-animated">We are the makers of<br>  <span class="text-outline-heading">awesome</span><br> business process
+                        </h5>
+                        <p class="subheading_new banner-one__title banner-one__is-animated">Turn Your idea into extraordinary, Web and Mobile Apps with Gnoin</p>
+                        
+                    </div>
+                    <div class="caraousel_btn">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
+                </div>-->
             </div>
-            <div class="carousel-item " >
-
-                <div class="d-md-block  carousel_bg_shape"></div>
-                <img src="gnoinv1/images/banner/banner2.png" class="d-block w-100 rounded-0" alt="..."
-                    class="img-fluid">
-                <div class="overlay_cover"></div>
-                <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">We are the makers <br> <span
-                            class="text-outline-heading"> of awesome</span> <br> business process
-                    </h5>
-                    <p class="subheading_new banner-one__title banner-one__is-animated">Turn your idea into
-                        extraordinary, Web and Mobile Apps with Gnoin.</p>
-
-                </div>
-                <div class="caraousel_btn">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-                </div>
-            </div>
-            <div class="carousel-item" >
-                <div class="d-md-block carousel_slide_3"></div>
-                <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..."
-                    class="img-fluid">
-                <!-- <div class="overlay_cover"></div> -->
-                <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">Join us to <br> <span
-                            class="text-outline-heading">transform your </span><br> dreams digitally!
-                    </h5>
-
-                    <p class="subheading_new banner-one__title banner-one__is-animated">Our company name reflects our
-                        service, our service reflects our identity, this is all about</p>
-
-                </div>
-                <div class="caraousel_btn">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-                </div>
-            </div>
-
-           
-
-        </div>
-        <div class="caraousel_btn">
-            <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
         </div>
     </div>
-
-
-</div>
-</div>
-</div>
 
 
 
 <div class="container-fluid p-0 g-0 ">
     <div class="busenns-wraper position-relative">
         <div class="section_image w-75 h-100">
-            <img src="gnoinv1/images/banner/softdevandit.png" alt="" class="img-fluid h-100 rounded-0 w-100">
-
-            <div class="col-3 ps-0">
+                    <img src="gnoinv1/images/banner/softdevandit.png" alt="" class="img-fluid h-100 rounded-0 w-100">
+               
+             <div class="col-3 ps-0">
                 <div class="section_bg_colr">
 
                 </div>
-            </div>
+            </div> 
 
             <div class="card custom_card_design ">
                 <div class="card-body">
                     <h5 class="card-title">Grow your business</h5>
-                    <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary">Software Development & IT
+                    <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary" style="color:#0b3155;">Software Development & IT
                         Consulting Company In India</h6>
                     <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
                         Your Challenges.</h6>
@@ -110,16 +128,15 @@ include("header.php");
                         we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
                         Our promise? Support for your growth in an ever-expanding world.</p>
 
-                    <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png"
-                        alt="" class="img-fluid m-2 ">
+                    <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
+                        class="img-fluid m-2 ">
 
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
-    <div class="container-fluid p-0 d-block d-md-none">
+     <div class="container-fluid p-0 d-block d-md-none">
         <div class="row">
             <div class="col-12 ">
                 <div class="card ">
@@ -138,14 +155,12 @@ include("header.php");
 
                         <a href="#" class="card-link">Read More</a>
 
-                    </div>
                 </div>
-
             </div>
         </div>
     </div>
 
-
+    <!-- start  Industry Experience To Address Your Challenges section-->
     <div class="container-fluid g-0">
         <section class="container mt-5 indsutry_exp_cont" id="demos">
             <div class="row ">
@@ -201,7 +216,7 @@ include("header.php");
                                 <ul>
                                     <li><a href="healthcare.php">Health Care</a></li>
                                     <li><a href="eduction-learnig.php">Education & Learning</a></li>
-                                    <li><a href="Retail.php">Retail & Ecommerce</a></li>
+                                    <li><a href="e-comerce-development.php">Retail & Ecommerce</a></li>
                                     <li><a href="privacy-policy.php">Privacy & Policy</a></li>
                                     <li><a href="healthcare.php">Hospitality & Travel</a></li>
                                 </ul>
@@ -220,7 +235,7 @@ include("header.php");
                         <div class="item_1 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p class="text-center font-weight-bold">Web Site development</p>
+                                <p>Web Site development</p>
                             </div>
                             <div class="overlay">
                                
@@ -237,33 +252,13 @@ include("header.php");
                         <div class="item_1 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p class="text-center font-weight-bold">Technoloy</p>
-                            </div>
-
-                            <div class="overlay">
-                               
-                                  <div class="card_content_ind_exp">
-                                  <h5 class="text-center font-weight-bolder text-white">Industries</h5>
-                                    <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem quasi, neque quia minima necessitatibus a laborum amet atque? Non, quis!</p>
-
-                                    <a class="text-white" href="#">Read more</a>
-                                  </div>
-                               
+                                <p>Technoloy</p>
                             </div>
                         </div>
-                        <div class="item_3 position-relative">
+                          <div class="item_3 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p class="card_listings text-center">
-                                    Quick Links
-                                </p>
-                                <ul>
-                                    <li><a href="java.php"></a>Java </li>
-                                    <li><a href="laravel.php">Laravel</a></li>
-                                    <li><a href="Mac-App-Development.php">Mac Application</a></li>
-                                    <li><a href="php.php">PHP</a></li>
-                                    <li><a href="node.php">Node</a></li>
-                                </ul>
+                                <p>Industries</p>
                             </div>
                             <div class="overlay">
                                
@@ -279,7 +274,7 @@ include("header.php");
                         <div class="item_1 position-relative">
                             <div class="rectangle_bg"></div>
                             <div class="indsutry_exp_section">
-                                <p class="text-center font-weight-bold">Mobile App Development</p>
+                                <p>Mobile App Development</p>
                             </div>
                             <div class="overlay">
                                
@@ -328,7 +323,7 @@ include("header.php");
         </section>
     </div>
 
-
+  
 
 
     <div class="container-fluid g-0 dirc_section   mt-5">
@@ -354,18 +349,23 @@ include("header.php");
                         </div>
                     </div>
 
-                    <p class="dirc_subheading">Clearing tech barriers, creating impactful solutions for your business.
-                        Globally oriented, we transform brands with a humanistic approach. Your top-tier service
-                        provider.</p>
+                    <p class="dirc_subheading">
+                   
+                        Gnoin Pvt. Ltd., Our expert team work on resolve to remove the thick cloud of technological barriers from your day to day business and craft products that pose challenges to your business.
+                        We are guided by a vision to transform a brand. Gnoin is globally oriented and providing excellent solutions to the customers across the globe.
+                        With its humanistic approach and flat organization structure, it proudly claims itself to be one of the best service providers.
+                        
+                        </p>
                 </div>
 
                 <div class="col-md-5 col-sm-12 resp_width">
                     <p class="dirc_second_heading">WHO WE ARE?</p>
                     <P class="dirc_second_subheading">Business Chalenges Solved With Digital Technology.</P>
-                    <P class="dirc_second_paraheading">Gnoin Pvt. Ltd: Navigate challenges with integrated tech
+                    <P class="dirc_second_paraheading">
+                        Gnoin Pvt. Ltd: Navigate challenges with integrated tech
                         solutions. Harnessing cutting-edge technology, we drive customer growth through data-driven
                         solutions across various sectors.</P>
-                    <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
+                    <a href="about.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
                         class="img-fluid m-2 ">
                 </div>
                 <div class="col-md-7 col-sm-12 d-none d-sm-none d-lg-block d-xl-block">
@@ -388,7 +388,8 @@ include("header.php");
         </div>
 
     </div>
-
+    <!--end We Deliver Innovative, Reliable And Creative Services -->
+    <!-- start  technology -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12  d-block d-md-none">
@@ -582,7 +583,7 @@ include("header.php");
         </div>
     </div>
 
-    <!-- <div class="container-fluid  d-block d-md-none">
+    <div class="container-fluid  d-block d-md-none">
         <div class="row">
             <div class="col-12">
                 <div class="card custom_card_design2">
