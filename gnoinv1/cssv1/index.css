@@ -21,8 +21,8 @@
 .btn-custom {
     border-radius: 5px;
     Gap: 10px;
+    padding: .5rem 1rem;
     background: #ffffff;
-    padding: 16px 32px 16px 32px;
     color: #000000;
     cursor: pointer;
     text-decoration: none;
@@ -46,13 +46,53 @@
 
 
 .busenns-wraper {
-
-   position: relative !important;
+    position: relative !important;
     height: 550px;
     width: 100%;
     background: #215771;
 }
 
+.busenns-wraper .section_image {
+    width: 76%;
+    height: 100%;
+}
+
+.busenns-wraper .section_image img {
+    box-shadow: inset 0 0 10px 2px #215771;
+    ;
+}
+
+.custom_card_design {
+    width: 657px;
+    min-width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-22%, -50%);
+    transition: ease-in-out .3s;
+}
+
+.owl-carousel .item_1,
+.owl-carousel .item_2,
+.owl-carousel .item_3 {
+    margin-right: 10px;
+    /* Example margin */
+}
+
+.industry-item-text {
+    width: 79% !important;
+    height: 80% !important;
+    position: absolute !important;
+    background: rgba(12, 12, 12, 0.356);
+    left: 50% !important;
+    box-shadow: 0px 0px 4px 0px #00000040;
+    box-sizing: border-box !important;
+    top: 50% !important;
+    color: #fff;
+    text-align: center;
+    font-size: 500;
+    transform: translate(-50%, -50%);
+}
 
 .text-outline-heading {
     -webkit-text-fill-color: var(--gnoin-theme-color);
@@ -61,7 +101,7 @@
 }
 
 .subheading_new {
-
+    color: yellow;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
@@ -71,10 +111,6 @@
 
 }
 
-
-
-
-
 .section_bg_colr {
     background-color: var(--gnoin-theme-color);
     height: 100%;
@@ -82,15 +118,7 @@
 
 }
 
-.custom_card_design {
-    width: 657px;
-    min-width: 200px;
-    position: absolute;
-    right: 14%;
-    top: 30%;
-    height: auto;
-    min-height: auto;
-}
+
 
 .custom_card_design2 .techno_leverage {
     font-size: 36px;
@@ -174,15 +202,30 @@
 
 }
 
-.owl-carousel .item_1 .indsutry_exp_section {
-    background-image: url(../../gnoinv1/images/indusExpindustries.png);
-    background-color: #cccccc;
-    height: 365px;
+.owl-carousel .item_1 .indsutry_exp_section,
+.owl-carousel .item_2 .indsutry_exp_section,
+.owl-carousel .item_3 .indsutry_exp_section {
+    height: 362px;
+    width: 92%;
     border-radius: 50px 0px 50px 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.owl-carousel .item_1 .indsutry_exp_section {
+    background-image: url(../../gnoinv1/images/indusExpindustries.png);
+    background-color: #cccccc;
+}
+
+.owl-carousel .item_2 .indsutry_exp_section {
+    background-image: url(../../gnoinv1/images/indusExpindustries2.png);
+    background-color: #cccccc;
+}
+
+.owl-carousel .item_3 .indsutry_exp_section {
+    background-color: #2D5973;
 }
 
 .rectangle_bg {
@@ -225,16 +268,7 @@
 }
 
 
-.owl-carousel .item_2 .indsutry_exp_section {
-    background-image: url(../../gnoinv1/images/indusExpindustries2.png);
-    background-color: #cccccc;
-    height: 365px;
-    border-radius: 50px 0px 50px 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
+
 
 .owl-carousel .item_2 .indsutry_exp_section p {
     position: absolute;
@@ -243,12 +277,7 @@
     left: 30%;
 }
 
-.owl-carousel .item_3 .indsutry_exp_section {
-    background-color: #2D5973;
-    height: 365px;
-    border-radius: 50px 0px 50px 0px;
-    position: relative;
-}
+
 
 .owl-carousel .item_3 .indsutry_exp_section ul {
     position: absolute;
@@ -531,12 +560,6 @@
     color: #ffffff !important;
 }
 
-.custom_card_design2 {
-
-    top: 18% !important;
-
-}
-
 #carousel-2 .owl-carousel.owl-loaded {
     display: flex !important;
 }
@@ -647,7 +670,7 @@
     top: 0;
     left: 0;
     background-repeat: no-repeat;
-   
+
     background-size: cover;
     z-index: 0;
     transform: rotateY(180deg);
@@ -869,7 +892,7 @@
     display: none;
 }
 
-.swiper-slide .slide_hide_hover{
+.swiper-slide .slide_hide_hover {
     color: #ffffff !important;
 }
 
@@ -994,19 +1017,12 @@
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 992px) {
-    .overlap-11 {
-        background-image: none !important;
-    }
-    .dirc_section .resp_width{
-        width: 100% !important;
-    }
-}
+
 
 .rectangle-12 {
     position: absolute;
     width: 100%;
-    height: 763px;
+    height: 100%;
     top: 0;
     left: 0;
     background-color: #0a3043cc;
@@ -1073,8 +1089,8 @@
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     background: #2D5973 !important;
-    width: 16px ;
-    height: 16px ;
+    width: 16px;
+    height: 16px;
 }
 
 .why_choose_us_section .choose_us_heading {
@@ -1141,10 +1157,11 @@
 .textimonial_section .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     background: #0B3155 !important;
-   
+
 
 }
-.textimonial_section .swiper-pagination-bullet-active{
+
+.textimonial_section .swiper-pagination-bullet-active {
     width: 22px !important;
     height: 22px !important;
 }
@@ -1204,10 +1221,10 @@
 }
 
 
-.banner_section .caraousel_btn {
-    position: absolute;
-    left: 5%;
-    bottom: 23%;
+.banner-one .caraousel_btn {
+    display: block;
+    margin-top: 20px !important;
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -1239,10 +1256,6 @@
 
     .our_delivery_model {
         margin-top: 25px !important;
-    }
-
-    .custom_card_design2 {
-        top: 10px !important;
     }
 }
 
@@ -1302,17 +1315,17 @@
 
 }
 
-.strt_up_section .strt_up_subheading .text-white{
+.strt_up_section .strt_up_subheading .text-white {
     font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
-.strt_up_section_fluid{
+.strt_up_section_fluid {
     background-image: url(../../gnoinv1/images/createyrstrtup.png);
 }
 
@@ -1322,49 +1335,139 @@ text-align: center;
 
 
 
-  .overlay_cover {
+.overlay_cover {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: #32688280;
-  }
+}
 
-  .banner_section .carousel-inner {
+.banner_section .carousel-inner {
     position: relative;
-  }
+}
 
-  .banner_section .carousel-inner .overlay {
+.banner_section .carousel-inner .overlay {
     z-index: 1;
-  }
- 
+}
 
-.our_delivery_model .card-header{
+
+.our_delivery_model .card-header {
     border: none !important;
     background-color: #ffffff !important;
 }
 
-.our_delivery_model .card_header_back{
+.our_delivery_model .card_header_back {
     background-color: transparent !important;
 }
 
-.overlap-11 .our_services_heading{
+.overlap-11 .our_services_heading {
     font-weight: 600;
     font-size: 36px;
-    Line-height:45.36px;
+    Line-height: 45.36px;
     text-align: center;
     color: #9FDBFF;
     padding: 20px;
-    
+
 }
 
 
 .banner_section .carousel-indicators li {
-    
+
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    
+
 }
 
+
+@media only screen and (max-width: 992px) {
+    .overlap-11 {
+        background-image: none !important;
+    }
+
+    .dirc_section .resp_width {
+        width: 100% !important;
+    }
+
+    .busenns-wraper {
+        position: relative !important;
+        height: 100%;
+    }
+
+    .busenns-wraper .section_image {
+        width: 75%;
+    }
+
+    .custom_card_design {
+        width: 80%;
+        left: 20%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our_portfolio_section .swiper_slide_custm_heading {
+        position: absolute;
+        top: 3%;
+        left: 10%;
+        z-index: 999;
+        color: #ffffff;
+        width: 90%;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 25.94px;
+    }
+
+    .busenns-wraper {
+        position: relative !important;
+        height: 100vh;
+    }
+
+    .busenns-wraper .section_image {
+        width: 100%;
+    }
+
+    .custom_card_design {
+        width: 98%;
+        left: 1%;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+
+    .owl-carousel .item_1 .indsutry_exp_section,
+    .owl-carousel .item_2 .indsutry_exp_section,
+    .owl-carousel .item_3 .indsutry_exp_section {
+        height: 258px;
+        width: 92%;
+        overflow: hidden;
+    }
+    .rectangle_bg{
+        width: 94%;
+        height: 261px;
+    }
+    .indsutry_exp_cont .owl-theme .owl-dots .owl-dot span{
+        width: 8px;
+        height: 8px;
+    }
+
+}
+
+
+/* Custom animation */
+@keyframes customAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply the custom animation */
+.rectangle-12 .animate__animated {
+    animation: customAnimation 60s;
+}

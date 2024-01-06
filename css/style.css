@@ -1562,6 +1562,16 @@ hr.style-one {
 /*
 * 3. banner styles
 */
+
+.banner-one{
+  height: 640px;
+  width: 100%;
+  background-color: #005d89;
+}
+
+.banner-one .banner-one__single{
+  height: 640px;
+}
 .banner-one .container {
   padding-top: 229px;
   padding-bottom: 275px;
@@ -1718,6 +1728,15 @@ hr.style-one {
   .blog-one .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 40px;
   }
+  
+.banner-one{
+  height: auto;
+  width: 100%;
+}
+
+.banner-one .banner-one__single{
+  height: auto;
+}
 }
 
 .blog-one .owl-theme .owl-dots .owl-dot {
