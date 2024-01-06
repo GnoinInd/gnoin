@@ -94,7 +94,7 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@ include("header.php");
             <div class="card custom_card_design">
                 <div class="card-body">
                     <h5 class="card-title">Grow your business</h5>
-                    <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary">Software Development & IT
+                    <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary" style="color:#0b3155;">Software Development & IT
                         Consulting Company In India</h6>
                     <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
                         Your Challenges.</h6>
@@ -120,7 +120,8 @@ include("header.php");
                         we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
                         Our promise? Support for your growth in an ever-expanding world.</p>
 
-                    <a href="#" class="card-link">Read More</a>
+                    <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
+                        class="img-fluid m-2 ">
 
                 </div>
             </div>
@@ -375,90 +376,90 @@ include("header.php");
                     <p class="card-text">We work on wide range of tools and technologies to meet client business
                         requirement for existing project or new application.</p>
 
-                    <a href="#" class="card-link text-white">Read More</a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-1 d-flex justify-content-center align-items-center ">
-                                <a class="custom-nav-btn prev-btn"><img src="gnoinv1/images/icon/previcon.png" alt=""
-                                        class="img-fluid"></a>
-                            </div>
-
-                            <div class="col-10  mt-3 ">
-                                <div class="owl-carousel d-flex owl-carousel-2 ">
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/node.png">
-                                        </div>
-
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/java.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/sharp.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/react.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/php.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/cloud.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/ai.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/mongodb.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                                        </div>
-                                    </div>
-                                    <div class="item_1">
-                                        <div class="group-5">
-                                            <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                                        </div>
-                                    </div>
-
-
-
-
-
+                        <a href="#" class="card-link text-white">Read More</a>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-1 d-flex justify-content-center align-items-center ">
+                                    <a class="custom-nav-btn prev-btn"><img src="gnoinv1/images/icon/previcon.png"
+                                            alt="" class="img-fluid"></a>
                                 </div>
 
+                                <div class="col-10  mt-3 ">
+                                    <div class="owl-carousel d-flex owl-carousel-2 ">
+                                        <div class="item_1" title="Angular">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="Node">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/node.png">
+                                            </div>
+
+                                        </div>
+                                        <div class="item_1" title="Java">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/java.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="mySQL">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/sharp.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="ReactJS">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/react.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="Php">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/php.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="Cloud">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/cloud.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="Artificial intelligence">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/ai.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="MongoDB">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/mongodb.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="Angular">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="Angular">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
+                                            </div>
+                                        </div>
+                                        <div class="item_1" title="Angular">
+                                            <div class="group-5">
+                                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
+                                            </div>
+                                        </div>
 
 
 
 
-                                <script>
-                                    $(document).ready(function () {
+
+                                    </div>
+
+
+
+
+
+                                    <script>
+                                    $(document).ready(function() {
                                         var owl2 = $('.owl-carousel-2');
 
 
@@ -484,27 +485,27 @@ include("header.php");
                                                 }
                                             });
 
-                                            $('.custom-nav-btn.next-btn').click(function () {
+                                            $('.custom-nav-btn.next-btn').click(function() {
                                                 if (owl2) {
                                                     owl2.trigger('next.owl.carousel');
                                                 }
                                             });
 
-                                            $('.custom-nav-btn.prev-btn').click(function () {
+                                            $('.custom-nav-btn.prev-btn').click(function() {
                                                 if (owl2) {
                                                     owl2.trigger('prev.owl.carousel');
                                                 }
                                             });
                                         }
                                     });
-                                </script>
-                            </div>
-                            <div class="col-1 d-flex justify-content-center align-items-center">
-                                <a class="custom-nav-btn next-btn"><img src="gnoinv1/images/icon/nexticon.png" alt=""
-                                        class="img-fluid"></a>
+                                    </script>
+                                </div>
+                                <div class="col-1 d-flex justify-content-center align-items-center">
+                                    <a class="custom-nav-btn next-btn"><img src="gnoinv1/images/icon/nexticon.png"
+                                            alt="" class="img-fluid"></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
                 </div>
@@ -1241,6 +1242,7 @@ include("header.php");
 
 
 
+
     </div>
 </section>
 
@@ -1707,10 +1709,10 @@ include("header.php");
                     </h4>
                 </div>
 
-                <div class="strt_up_subheading text-center mt-3">
-                    <h5 class="text-white">Have a question/suggestion?</h5>
+                    <div class="strt_up_subheading text-center mt-3">
+                        <h5 class="text-white">Have a question/suggestion?</h5>
+                    </div>
                 </div>
-            </div>
 
             <div class="col-7 mt-3">
                 <div class="input-group ">
@@ -1725,7 +1727,7 @@ include("header.php");
     </div>
 </div>
 
-<?php
+    <?php
 
 include("footer.php");
 ?>

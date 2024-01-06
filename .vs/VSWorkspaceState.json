@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\gnoinv1",
+    "\\gnoinv1\\cssv1",
+    "\\gnoinv1\\jsv1"
   ],
   "PreviewInSolutionExplorer": false
 }

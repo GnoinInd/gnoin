@@ -55,6 +55,7 @@
 .busenns-wraper .section_image {
     width: 76%;
     height: 100%;
+   
 }
 
 .busenns-wraper .section_image img {
@@ -107,6 +108,7 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    width: 60%;
 
 
 }
@@ -131,11 +133,12 @@
 
 .custom_card_design .card-title {
 
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 900;
     line-height: 17px;
     letter-spacing: 0.14em;
     text-align: left;
+    color: #2D5973;
 
 }
 
@@ -167,17 +170,20 @@
 
 }
 
-.custom_card_design .card-link::after {
+/* .custom_card_design .card-link::after {
     content: url(../../gnoinv1/images/icon/arrowicon.png);
     width: auto;
     display: inline-block;
     position: absolute;
     left: 17%;
 
-}
+} */
 
 .custom_card_design .card-link {
     text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .industry_exp_heading {
@@ -680,6 +686,31 @@
     -ms-transform: rotateY(-180deg);
 }
 
+.our_deliver_model_1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_1.png);
+}
+.our_deliver_model_2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_2.png);
+}
+.our_deliver_model_3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_3.png);
+}
+.our_deliver_model_4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_4.png);
+}
+.our_deliver_model_5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_5.png);
+}
+.our_deliver_model_6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_6.png);
+}
+.our_deliver_model_7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_7.png);
+}
+.our_deliver_model_8{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(../../gnoinv1/images/delivery_model_8.png);
+}
+
 /* .banner_section .overlap{
     background-color: #32688280;
     height: 100%;
@@ -745,7 +776,7 @@
     letter-spacing: 0.05em;
     text-align: left;
     color: #ffffff !important;
-    padding: 27px 0px;
+    padding: 0px 0px;
 
 }
 
@@ -768,6 +799,7 @@
     padding-bottom: 7%;
 
 }
+
 
 /* .our_portfolio_section .swiper_slide_container .swiper-slide{
     border: 1px solid #ffffff;
@@ -809,6 +841,7 @@
 
 .our_portfolio_subsection .image_wrapper {
     position: relative;
+    opacity: 0.1;
 }
 
 .our_portfolio_subsection img {
@@ -818,12 +851,12 @@
     height: auto;
 }
 
-.our_portfolio_subsection .overlay {
+/* .our_portfolio_subsection .overlay {
 
 
     opacity: 0.2;
 
-}
+} */
 
 .our_portfolio_section .swiper_slide_custm_heading {
     position: absolute;
@@ -877,6 +910,7 @@
 .swiper-slide:hover .slide-content {
     height: 100%;
     opacity: 1;
+    border-radius: 10px;
 }
 
 .swiper_slide_container .mySwiper .slide_cont_hover a {
@@ -1023,6 +1057,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background-color: #0a3043cc;
@@ -1119,7 +1154,7 @@
     background-color: #2d5973;
     padding-bottom: 2%;
     padding-top: 5%;
-    height: 600px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1255,7 +1290,7 @@
     }
 
     .our_delivery_model {
-        margin-top: 25px !important;
+        margin-top: 25px;
     }
 }
 
@@ -1287,6 +1322,17 @@
         font-weight: 700;
         line-height: 41px;
         letter-spacing: 0.04em;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 660px){
+    
+    .custom_card_design  .card-subtitle_initial {
+        font-size: 14px !important;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0em;
         text-align: left;
     }
 }
@@ -1393,7 +1439,7 @@
 
     .busenns-wraper {
         position: relative !important;
-        height: 100%;
+        height: 50vh;
     }
 
     .busenns-wraper .section_image {
@@ -1423,7 +1469,7 @@
 
     .busenns-wraper {
         position: relative !important;
-        height: 100vh;
+        height: 60vh;
     }
 
     .busenns-wraper .section_image {
