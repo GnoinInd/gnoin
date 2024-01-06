@@ -109,6 +109,7 @@ a:focus {
 
 /*  nav bar after changing the code ----------------------------*/
 
+
 @media (max-width: 1276px) {
 #logo-img{
   width: 16%;
@@ -151,11 +152,24 @@ a:focus {
   width: 40%;
 }
 }
+
+.navbar{
+  position: static;
+  color: rgb(0, 0, 0);
+  top: -1000%;
+  width: 100%;
+  background: none;
+  background: rgba(0, 162, 226, 0.11);
+}
+.navbar .navbar-nav .dropdown  {
+  transform: none !important;
+  transition: ease-in-out .3s;
+}
 .nav-item .dropdown-menu {
   width: 100%;
   max-width: 87%;
   left: 6.5%;
-  top: 86%;
+  top: 95%;
   transition: ease-in-out .5s;
 
 }
