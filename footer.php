@@ -309,8 +309,27 @@
       });
     </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- smtp for email -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script>
+
+AOS.init();
+// ..............
+gsap.from("#logo-img", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
+gsap.from(".nav-item", {
+    opacity: 0,
+    duration: 1,
+    delay: 1.2,
+    y: 30,
+    stagger: 0.2,
+});
 
 
+</script>
 
 </body>
 
