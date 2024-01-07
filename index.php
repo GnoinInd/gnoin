@@ -15,20 +15,23 @@ include("header.php");
     </ol>
     <div class="banner-one__carousel owl-carousel owl-theme h-100">
         <div class="item ">
-            <div class="banner-one__single" style="background-image: url(gnoinv1/images/banner/bannerimg.png);">
+            <div class="banner-one__single" style="background-image: url(gnoinv1/images/banner/banner2.png);">
                 <div class="container">
                     <div class="col-lg-6 col-md-8">
                         <div class="banner-one__content ">
-                            <h5 class="banner-one__title banner-one__is-animated">Software <br
+                            <h5 class="banner-one__title banner-one__is-animated">Building trust in <br
                                     class="d-none d-md-block" /> <span
-                                    class="text-outline-heading">Development</span><br
-                                    class="d-none d-md-block> Services" />
+                                    class="text-outline-heading">interorganizational </span><br
+                                    class="d-none d-md-block> collaboration" />
                             </h5>
-
-                            <p class="subheading_new banner-one__text banner-one__is-animated">Transforming industries
-                                with AI-Powered Custom Software Solutions</p>
+                            <p class="subheading_new banner-one__text banner-one__is-animated" style="color:yellow;" >
+                            Globally available software,
+                                        web & app development company
+                                        technocrat approach to help you
+                                        carve out better futuristic solutions.
+                                </p>
                             <div class="caraousel_btn">
-                                <a href="#" class="btn-custom ">Let's Start Talk</a>
+                                <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                             </div>
                         </div>
                     </div>
@@ -37,18 +40,22 @@ include("header.php");
         </div>
         <div class="item">
             <div class="banner-one__single banner-one__slide-2"
-                style="background-image: url(gnoinv1/images/banner/banner2.png);">
+                style="background-image: url(gnoinv1/images/banner/bannerimg.png);">
                 <div class="container">
 
                     <div class="col-lg-7 col-md-8">
                         <div class="banner-one__content ">
-                            <h3 class="banner-one__title banner-one__is-animated"> Building trust in
-                                interorganizational collaboration </h3>
+                             <h3 class="banner-one__title banner-one__is-animated">Software Development & Support 
+ <br
+                                    class="d-none d-md-block" /> <span
+                                    class="text-outline-heading">For grow your business </span><br
+                                    class="d-none d-md-block> collaboration" />
+                            </h3>
 
-                            <p class="subheading_new banner-one__text banner-one__is-animated">Transforming industries
+                            <p class="subheading_new banner-one__text banner-one__is-animated" style="color:yellow;">Transforming industries
                                 with AI-Powered Custom Software Solutions</p>
                             <div class="caraousel_btn">
-                                <a href="#" class="btn-custom ">Let's Start Talk</a>
+                                <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +75,7 @@ include("header.php");
                                 Mobile Apps with Gnoin
                             </p>
                             <div class="caraousel_btn">
-                                <a href="#" class="btn-custom ">Let's Start Talk</a>
+                                <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                             </div>
                         </div>
                     </div>
@@ -82,15 +89,16 @@ include("header.php");
 
                     <div class="col-lg-6 col-md-8">
                         <div class="banner-one__content">
-                            <h5 class="banner-one__title banner-one__is-animated">Software <br
-                                    class="d-none d-md-block"> <span class="text-outline-heading">Development</span><br
+                            <h5 class="banner-one__title banner-one__is-animated">Enhance Marketing <br
+                                    class="d-none d-md-block"> <span class="text-outline-heading"></span>And Branding <br
                                     class="d-none d-md-block> Services">
                             </h5>
-                            <p class="subheading_new banner-one__title banner-one__is-animated">Transforming industries
-                                with AI-Powered Custom Software Solutions</p>
+                            <p class="subheading_new banner-one__title banner-one__is-animated" style="color:yellow;">
+                            Investing in marketing to build a stronger
+brand presence and attract new clients.</p>
 
                             <div class="caraousel_btn">
-                                <a href="#" class="btn-custom ">Let's Start Talk</a>
+                                <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                             </div>
                         </div>
                     </div>
@@ -116,12 +124,12 @@ include("header.php");
                     <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
                         Your Challenges.</h6>
 
-                    <p class="card-text">Your global partner for web and mobile app development. We're not just a team,
+                    <p class="card-text">Your global partner for desktop, web, obile application etc. development. We're not just a team,
                         we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
-                        Our promise? Support for your growth in an ever-expanding world.</p>
+                        Our promise? Support for your growth in an ever expanding world.</p>
 
-                    <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png" alt=""
-                        class="img-fluid m-2 ">
+                    <a href="about.php" class="card-link">Read More<img src="gnoinv1/images/icon/arrowicon.png" alt=""
+                        class="img-fluid m-2 "></a>
 
                 </div>
             </div>
@@ -148,16 +156,24 @@ include("header.php");
                         <div class="rectangle_bg"></div>
                         <div class="indsutry_exp_section">
                             <p>Industries</p>
-                            <p class="industry-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Dolor, distinctio!</p>
+                            <p class="industry-item-text">
+                           We offer a variety of engagement and hiring models, so we can meet our objectives for a
+                            variety of businesses, from startups that are in the planning stage, to businesses serving
+                            millions of users.
+                                
+                                </p>
                         </div>
                     </div>
                     <div class="item_2 position-relative">
                         <div class="rectangle_bg"></div>
                         <div class="indsutry_exp_section">
-                            <p>Education & e-Learning</p>
-                            <p class="industry-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Dolor, distinctio!</p>
+                            <p>Privac & Policy</p>
+                            <p class="industry-item-text">
+                            
+                            Build Gnoin into a leading IT Services company by driving continuous improvement, adopting
+                            cutting edge technologies and focusing on value addition for our customers.
+                                
+                                </p>
                         </div>
                     </div>
                     <div class="item_3 position-relative">
@@ -167,56 +183,67 @@ include("header.php");
                                 Quick Links
                             </p>
                             <ul>
-                                <li><a href="">Health Care</a></li>
-                                <li><a href="">Education & Learning</a></li>
-                                <li><a href="">Retail & Ecommerce</a></li>
-                                <li><a href="">Political Compaigns</a></li>
-                                <li><a href="">Hospitality & Travel</a></li>
+                                <li><a href="healthcare.php">Health Care</a></li>
+                                <li><a href="privacy-policy.php">Privacy & Policy</a></li>
+                                <li><a href="Retail.php">Retail & Ecommerce</a></li>
+                                <li><a href="politicalCompaigns.php">Political Compaigns</a></li>
+                                <li><a href="duction-learnig.php">Education & E-Learnin</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="item_1 position-relative">
                         <div class="rectangle_bg"></div>
                         <div class="indsutry_exp_section">
-                            <p>Industries</p>
-                            <p class="industry-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-                                molestias accusamus nam hic qui. Sunt rem quaerat similique est illo!
+                            <p>Web Application Development</p>
+                            <p class="industry-item-text">
+                            We execute a strategic analysis for each project we receive to ensure that we achieve all
+                            requirements, and the final product solves our customer's issues, meets their expectations.
                             </p>
                         </div>
                     </div>
                     <div class="item_2 position-relative">
                         <div class="rectangle_bg"></div>
                         <div class="indsutry_exp_section">
-                            <p>Education & e-Learning</p>
-                            <p class="industry-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            <p>Cross Application Development</p>
+                            <p class="industry-item-text">
+                            Let's create custom solutions to help your organization become more efficient, with improved
+                        operational efficiencies. We provide powerful unique software solutions for large and medium sized businesses - fast and
+                        with the closest attention to quality, ROI and your users.
                             </p>
                         </div>
                     </div>
-                    <div class="item_1 position-relative">
+                    <div class="item_3 position-relative">
                         <div class="rectangle_bg"></div>
                         <div class="indsutry_exp_section">
-                            <p>Industries</p>
-                            <p class="industry-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-                                molestias accusamus nam hic qui. Sunt rem quaerat similique est illo!
+                            <p class="card_listings text-center">
+                                Quick Links
                             </p>
+                            <ul>
+                                <li><a href="web-app-development.php">Web Application Development</a></li>
+                                <li><a href="mobile-app-devlopment.php">Mobile Application Development</a></li>
+                                <li><a href="cross-platform-app-development.php">Cross Platform Development</a></li>
+                                <li><a href="custom-app-development.php">Custom Application Development</a></li>
+                                <li><a href="digital-marketing-services.php">Diital Marketing </a></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="item_2 position-relative">
                         <div class="rectangle_bg"></div>
                         <div class="indsutry_exp_section">
-                            <p>Telcome</p>
-                            <p class="industry-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-                                molestias accusamus nam hic qui. Sunt rem quaerat similique est illo!
+                            <p>UI/UX Development</p>
+                            <p class="industry-item-text">
+Gnoin is one of the best UX/UI service providers globally, specializing in creating beautiful UI/UX designs that express our client's exact vision and goals. With the years of experience and updated knowledge, 
+                        we provide user-friendly apps and sites to our clients with the intention of enriching the experience of our clients.
                             </p>
                         </div>
                     </div>
                     <div class="item_1 position-relative">
                         <div class="rectangle_bg"></div>
                         <div class="indsutry_exp_section">
-                            <p>Industries</p>
-                            <p class="industry-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
-                                molestias accusamus nam hic qui. Sunt rem quaerat similique est illo!
-                                ed molestias accusamus nam hic qui. Sunt rem quaerat similique est illo
+                            <p>Technology</p>
+                            <p class="industry-item-text">
+                               Our team expert in Different technology like Java, Java Script, AI, Cloud based tecnology, Flutter, Android, Node JS, Mongo DB, Oracle, MySQL, PHP, Laravel, MERN, Dot Net, Microservice
+                                etc. for develop small size to Middle size to Largee size business.
                             </p>
                         </div>
                     </div>
@@ -301,11 +328,11 @@ include("header.php");
             <div class="col-md-5 col-sm-12 resp_width">
                 <p class="dirc_second_heading">WHO WE ARE?</p>
                 <P class="dirc_second_subheading">Business Chalenges Solved With Digital Technology.</P>
-                <P class="dirc_second_paraheading">Gnoin Pvt. Ltd: Navigate challenges with integrated tech
+                <P class="dirc_second_paraheading">Gnoin Private Limited Navigate challenges with integrated tech
                     solutions. Harnessing cutting-edge technology, we drive customer growth through data-driven
                     solutions across various sectors.</P>
-                <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                    class="img-fluid m-2 ">
+                <a href="about.php" class="card-link">Read More<img src="gnoinv1/images/icon/nexticonn.png" alt=""
+                    class="img-fluid m-2 "></a>
             </div>
             <div class="col-md-7 col-sm-12 d-none d-sm-none d-lg-block d-xl-block">
                 <div class="position-relative">
@@ -376,7 +403,7 @@ include("header.php");
                     <p class="card-text">We work on wide range of tools and technologies to meet client business
                         requirement for existing project or new application.</p>
 
-                        <a href="#" class="card-link text-white">Read More</a>
+                        <a href="about.php" class="card-link text-white">Read More</a>
                         <div class="container">
                             <div class="row">
                                 <div class="col-1 d-flex justify-content-center align-items-center ">
@@ -430,21 +457,6 @@ include("header.php");
                                         <div class="item_1" title="MongoDB">
                                             <div class="group-5">
                                                 <img class="logo-nav" src="gnoinv1/images/icon/mongodb.png">
-                                            </div>
-                                        </div>
-                                        <div class="item_1" title="Angular">
-                                            <div class="group-5">
-                                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                                            </div>
-                                        </div>
-                                        <div class="item_1" title="Angular">
-                                            <div class="group-5">
-                                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                                            </div>
-                                        </div>
-                                        <div class="item_1" title="Angular">
-                                            <div class="group-5">
-                                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
                                             </div>
                                         </div>
 
@@ -533,7 +545,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel1.png" alt="...">
                             </div>
                             <div class=" text-center ">Offsite Delivery Model</div>
 
@@ -547,7 +559,7 @@ include("header.php");
                             <div class="text-center">Offsite Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel1.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
@@ -555,7 +567,7 @@ include("header.php");
                             <p class=" text-center text-white">Enable customers to take advantage of dedicated or
                                 on-demand
                                 skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                           <!-- <a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
@@ -570,9 +582,9 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel2.png" alt="...">
                             </div>
-                            <div class=" text-center  ">Offsite Delivery Model</div>
+                            <div class=" text-center  ">Offshore Delivery Model</div>
 
                         </div>
                         <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
@@ -581,10 +593,10 @@ include("header.php");
                         style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_2);">
                         <div class="card-header card_header_back ">
 
-                            <div class="text-center">Offsite Delivery Model</div>
+                            <div class="text-center">Offshore Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel2.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
@@ -592,7 +604,7 @@ include("header.php");
                             <p class=" text-center text-white">Enable customers to take advantage of dedicated or
                                 on-demand
                                 skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                            <!--<a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
@@ -606,9 +618,9 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel3.png" alt="...">
                             </div>
-                            <div class=" text-center  ">Offsite Delivery Model</div>
+                            <div class=" text-center  ">Hybrid Delivery Model</div>
 
                         </div>
                         <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
@@ -617,18 +629,20 @@ include("header.php");
                         style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_3);">
                         <div class="card-header card_header_back ">
 
-                            <div class="text-center">Offsite Delivery Model</div>
+                            <div class="text-center">Hybrid Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel3.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
                         <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white">Enable customers to take advantage of dedicated or
-                                on-demand
-                                skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                            <p class=" text-center text-white">
+                            Consolidation of onsite and offsite models for optimal
+                                        results and performance.
+                                
+                                </p>
+                            <!--<a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
@@ -642,9 +656,9 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel4.png" alt="...">
                             </div>
-                            <div class=" text-center  ">Offsite Delivery Model</div>
+                            <div class=" text-center  ">Onsite Delivery Model</div>
 
                         </div>
                         <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
@@ -653,18 +667,19 @@ include("header.php");
                         style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_4);">
                         <div class="card-header card_header_back ">
 
-                            <div class="text-center text-white">Offsite Delivery Model</div>
+                            <div class="text-center text-white">Onsite Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel4.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
                         <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white">Enable customers to take advantage of dedicated or
-                                on-demand
-                                skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                            <p class=" text-center text-white">
+                            Skilled team working onsite to develop product or solution
+                                        at customer point.
+                                </p>
+                          <!--  <a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
@@ -678,9 +693,9 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel5.png" alt="...">
                             </div>
-                            <div class=" text-center  ">Offsite Delivery Model</div>
+                            <div class=" text-center  ">Software-as-a-Service (SaaS) Model</div>
 
                         </div>
                         <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
@@ -692,15 +707,16 @@ include("header.php");
                             <div class="text-center ">Offsite Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel5.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
                         <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white ">Enable customers to take advantage of dedicated or
-                                on-demand
-                                skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                            <p class=" text-center text-white ">
+                            We provides a complete software solution which you
+                                        purchase/rent on a pay-as-you-go basis from a cloud service provider.
+                                .</p>
+                            <!--<a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
@@ -714,9 +730,9 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel6.png" alt="...">
                             </div>
-                            <div class=" text-center">Offsite Delivery Model</div>
+                            <div class=" text-center">Offsite/Offshore Delivery Model</div>
 
                         </div>
                         <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
@@ -725,10 +741,10 @@ include("header.php");
                         style="background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.432)), url(gnoinv1/images/delivery_model_6);">
                         <div class="card-header card_header_back ">
 
-                            <div class="text-center ">Offsite Delivery Model</div>
+                            <div class="text-center ">Offsite/Offshore Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel6.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
@@ -736,7 +752,7 @@ include("header.php");
                             <p class=" text-center text-white">Enable customers to take advantage of dedicated or
                                 on-demand
                                 skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                           <!-- <a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
@@ -750,9 +766,9 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel7.png" alt="...">
                             </div>
-                            <div class=" text-center  ">Offsite Delivery Model</div>
+                            <div class=" text-center  ">Universal Delivery Model</div>
 
                         </div>
                         <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
@@ -764,15 +780,17 @@ include("header.php");
                             <div class="text-center text-white">Offsite Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                                <img src="images/imagesIndex/OurOrgDeliveryModel7.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
                         <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white ">Enable customers to take advantage of dedicated or
-                                on-demand
-                                skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                            <p class=" text-center text-white ">
+                            Real-time control of project according to
+                                        convenient time zone
+                                        for complete monitoring.
+                                </p>
+                           <!-- <a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
@@ -809,7 +827,7 @@ include("header.php");
                             <p class=" text-center text-white">Enable customers to take advantage of dedicated or
                                 on-demand
                                 skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
+                           <!-- <a href="#" class="btn btn-flipcard">Read More</a>-->
                         </div>
                     </div>
                 </div>
