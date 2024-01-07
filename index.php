@@ -19,12 +19,13 @@ include("header.php");
                 <div class="container">
                     <div class="col-lg-6 col-md-8">
                         <div class="banner-one__content ">
-                            <h5 class="banner-one__title banner-one__is-animated">Building trust in <br
-                                    class="d-none d-md-block" /> <span
-                                    class="text-outline-heading">interorganizational </span><br
-                                    class="d-none d-md-block> collaboration" />
+                            <h5 class="banner-one__title banner-one__is-animated">
+                                Building trust in 
+                                   <br class="d-none d-md-block" /> 
+                                      <span class="text-outline-heading">interorganizational </span>
+                                         <br class="d-none d-md-block"/> collaboration
                             </h5>
-                            <p class="subheading_new banner-one__text banner-one__is-animated" style="color:yellow;" >
+                            <p class="subheading_new banner-one__text banner-one__is-animated" style="color:yellow; font-size:20px; width:100%" >
                             Globally available software,
                                         web & app development company
                                         technocrat approach to help you
@@ -45,14 +46,14 @@ include("header.php");
 
                     <div class="col-lg-7 col-md-8">
                         <div class="banner-one__content ">
-                             <h3 class="banner-one__title banner-one__is-animated">Software Development & Support 
+                             <h3 class="banner-one__title banner-one__is-animated">We are the makers 
  <br
                                     class="d-none d-md-block" /> <span
-                                    class="text-outline-heading">For grow your business </span><br
-                                    class="d-none d-md-block> collaboration" />
+                                    class="text-outline-heading">of awesome  </span><br
+                                    class="d-none d-md-block"/> business process
                             </h3>
 
-                            <p class="subheading_new banner-one__text banner-one__is-animated" style="color:yellow;">Transforming industries
+                            <p class="subheading_new banner-one__text banner-one__is-animated" style="color:yellow; font-size:20px; width:100%">Transforming industries
                                 with AI-Powered Custom Software Solutions</p>
                             <div class="caraousel_btn">
                                 <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
@@ -68,11 +69,17 @@ include("header.php");
                 <div class="container">
 
                     <div class="col-lg-6 col-md-8">
-                        <div class="banner-one__content">
-                            <h3 class="banner-one__title banner-one__is-animated">We are the makers of awesome
-                                business process</h3>
-                            <p class="banner-one__text">Turn Your idea into extraordinary, Web and
-                                Mobile Apps with Gnoin
+                        <div class="banner-one__content" >
+                            <h4 class="banner-one__title banner-one__is-animated">
+                                 Become a 
+                                 
+ <br
+                                    class="d-none d-md-block" /> <span
+                                    class="text-outline-heading">Digital Enterprise  </span>
+                                     <br class="d-none d-md-block"/>To Enhance Business
+</h4>
+                            <p class="banner-one__text" style="color:yellow; font-size:20px; width:100%">
+                             We will help you to improve the quality of your products by helping you overcome any technical challanges to ensure your software's long-term health.'
                             </p>
                             <div class="caraousel_btn">
                                 <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
@@ -85,17 +92,19 @@ include("header.php");
         <div class="item">
             <div class="banner-one__single banner-one__slide-3"
                 style="background-image: url(gnoinv1/images/banner/softdevandit.png);">
-                <div class="container">
+                <div class="container-fluid" style="width:100%;padding-top:15%;padding-left:10%">
 
-                    <div class="col-lg-6 col-md-8">
-                        <div class="banner-one__content">
-                            <h5 class="banner-one__title banner-one__is-animated">Enhance Marketing <br
-                                    class="d-none d-md-block"> <span class="text-outline-heading"></span>And Branding <br
-                                    class="d-none d-md-block> Services">
+                    <div class="col-lg-6 col-md-8" style="width:100%">
+                        <div class="banner-one__content" style="width:100%">
+                            <h5 class="banner-one__title banner-one__is-animated" style="width:100%">Join us to<br
+                                    class="d-none d-md-block"> <span class="text-outline-heading"></span>transform your <br
+                                    class="d-none d-md-block">dreams digitally!
                             </h5>
-                            <p class="subheading_new banner-one__title banner-one__is-animated" style="color:yellow;">
-                            Investing in marketing to build a stronger
-brand presence and attract new clients.</p>
+                            <p class="subheading_new banner-one__title banner-one__is-animated" style="color:yellow; font-size:20px; width:100%">
+                            Our company name reflects our
+ service, our service reflects our identity, this is all about.
+
+</p>
 
                             <div class="caraousel_btn">
                                 <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
@@ -124,9 +133,15 @@ brand presence and attract new clients.</p>
                     <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
                         Your Challenges.</h6>
 
-                    <p class="card-text">Your global partner for desktop, web, obile application etc. development. We're not just a team,
-                        we're a perfect blend of skilled individuals creating extraordinary solutions. <br>
-                        Our promise? Support for your growth in an ever expanding world.</p>
+                    <p class="card-text">
+Gnoin Pvt. Ltd. is a global web and mobile app development company. We partner with customers of all sizes to build highly innovative solutions,
+customizations and products across technology platforms by leveraging cutting edge technologies.
+
+</p>
+
+<p>
+We provide high end technology solutions to help businesses realize their maximum potential.
+</p>
 
                     <a href="about.php" class="card-link">Read More<img src="gnoinv1/images/icon/arrowicon.png" alt=""
                         class="img-fluid m-2 "></a>
