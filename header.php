@@ -31,10 +31,7 @@
     <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
     <link rel="stylesheet" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/button.css"> -->
-
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-TFrNmFBpzPfDvDX8m4i7KdjsoNxzK2E62aG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="gnoinv1/cssv1/index.css">
     <link rel="stylesheet" href="gnoinv1/assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="gnoinv1/assets/owlcarousel/assets/owl.theme.default.min.css">
@@ -42,8 +39,10 @@
     <script src="gnoinv1/assets/owlcarousel/owl.carousel.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <head>
+  
+
 
 
 
@@ -54,7 +53,6 @@
 <body class="home-one">
      
 <?php include("config.php"); ?>
-    <!-- <div class="preloader"><span></span></div> -->
     <div class="page-wrapper">
 
         <header class="site-header site-header__header-two ">

@@ -14,10 +14,7 @@
                             </div>
                             <div class="card-body  mt-2">
                                 <h4 class="text-tilte">Fixed Cost Based Model</h4>
-                                <p class=" text-start">
-                                 Weather you or your business have a individual set of software development requirements or ideas for creating new solutions,
-                                 the fixed cost model will be the best suitable for you.
-                                </p>
+                                <p class=" text-start">Weather you or your business have a individual set of software development requirements or ideas for creating new solutions, the fixed cost model will be the best suitable for you.</p>
 
                             </div>
                         </div>
@@ -26,13 +23,11 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100 align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us-1.png" alt="...">
+                                <img src="./images/EnterpriseBranding/T-M-Model.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte"> Hourly Based Model</h4>
-                                <p class=" text-start">
-                                                Weather you or your company needs to develop software that demands regular change and the adoption of flexibility, then the hourly model will best suit you.
-                                </p>
+                                <p class=" text-start">Weather you or your company needs to develop software that demands regular change and the adoption of flexibility, then the hourly model will best suit you.</p>
 
                             </div>
                         </div>
@@ -41,14 +36,11 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/T-M-Model.png" alt="...">
+                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">T & M Based Model</h4>
-                                <p class=" text-start">
-                                You can hire our dedicated professionals to work on your project only at a given time frame.
-                                Even after being dedicated, they will present the daily timesheet of their work in front of you.
-                                </p>
+                                <p class=" text-start">You can hire our dedicated professionals to work on your project only at a given time frame. Even after being dedicated, they will present the daily timesheet of their work in front of you.</p>
 
                             </div>
                         </div>
@@ -61,10 +53,7 @@
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">Associate With Us</h4>
-                                <p class=" text-start"> 
-                                You can also join us to achieve business diversification and mutual development. 
-                                We will provide you skillful and experienced professionals with good domain knowledge.
-                                </p>
+                                <p class=" text-start">You can also join us to achieve business diversification and mutual development. We will provide you skillful and experienced professionals with good domain knowledge.</p>
 
                             </div>
                         </div>

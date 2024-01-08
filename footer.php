@@ -2,11 +2,11 @@
 
 
       <!-- footer start -->
-        <footer class="site-footer" style="background-color:#0b3155" >
-            <div class="site-footer__upper p-0 pt-5 " >
+        <footer class="site-footer">
+            <div class="site-footer__upper p-0 pt-5 ">
                 <div class="container pt-2 pb-2">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12" style="color:#0b3155;">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="footer-widget">
                                 <div class=" d-flex align-items-center  justify-content-start " style="width: 100%; margin-top: -20px;">
                                     <a class="" href="index.php" previewlistener="true">
@@ -108,9 +108,9 @@
                                                         <img class="p-3" src="https://www.startupindia.gov.in/content/dam/invest-india/newhomepage/Logo1.png" alt="" srcset="">
                                                     </a>
 
-                                                    <!-- <a class="m-0">
-                                                        <img class="p-3" src" alt="" srcset="">
-                                                    </a> -->
+                                                    <a class="m-0">
+                                                        <img class="p-3 img-fluid" src="../gnoinf/gnoinv1/images/logo/isoiec.png" alt="" srcset="">
+                                                    </a>
                                                 </div>
 
                                             </div>
@@ -168,6 +168,7 @@
     <script src="js/index.js"></script>
     <script src="vendor/swiper/swiper-bundle.min.js"></script>
    <script src="./js/form.js"></script>  
+   <script src="gnoinv1/jsv1/animate.js"></script>
 
    
     <style type="text/css">
@@ -309,27 +310,8 @@
       });
     </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <!-- smtp for email -->
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-    <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-<script>
-
-AOS.init();
-// ..............
-gsap.from("#logo-img", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
-gsap.from(".nav-item", {
-    opacity: 0,
-    duration: 1,
-    delay: 1.2,
-    y: 30,
-    stagger: 0.2,
-});
 
 
-</script>
 
 </body>
 
