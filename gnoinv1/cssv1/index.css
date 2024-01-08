@@ -894,6 +894,10 @@
 .swiper_slide_container .mySwiper .slide_cont_hover a {
     position: absolute;
     font-size: 16px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10px;
     width: 90%;
     color: #ffffff !important;
     font-weight: 700;

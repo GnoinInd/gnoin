@@ -217,7 +217,7 @@
             var swiper = new Swiper(".mySwiper", {
                 slidesPerView: 4,
                 spaceBetween: 30,
-                autoplay: true,
+                autoplay: false,
                 breakpoints: {
                     100: {
                         slidesPerView: 1,

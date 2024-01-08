@@ -613,12 +613,12 @@ include("header.php");
         <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front">
+                    <div class="flip-card-front"> 
                         <div class="card-header py-5 ">
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model0.png" alt="...">
                             </div>
                             <div class=" text-center ">Offsite Delivery Model</div>
 
@@ -662,7 +662,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model1.png" alt="...">
                             </div>
                             <div class=" text-center  ">Offshore Delivery Model</div>
 
@@ -697,7 +697,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model2.png" alt="...">
                             </div>
                             <div class=" text-center  ">Hybrid Delivery Model</div>
 
@@ -734,7 +734,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model3.png" alt="...">
                             </div>
                             <div class=" text-center  ">Onsite Delivery Model</div>
 
@@ -770,7 +770,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model4.png" alt="...">
                             </div>
                             <div class=" text-center  ">Software-as-a-Service (SaaS) Model</div>
 
@@ -806,7 +806,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model5.png" alt="...">
                             </div>
                             <div class=" text-center">Offsite/Offshore Delivery Model</div>
 
@@ -841,7 +841,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model6.png" alt="...">
                             </div>
                             <div class=" text-center  ">Universal Delivery Model</div>
 
@@ -878,7 +878,7 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model7.png" alt="...">
                             </div>
                             <div class=" text-center ">Offsite Delivery Model</div>
 
@@ -906,6 +906,7 @@ include("header.php");
                 </div>
             </div>
         </div>
+        
 
 
     </div>

@@ -36,7 +36,7 @@
                         data-wow-delay="0ms">
                         <div class=" card justify-content-center  h-100  align-items-center card-block">
                             <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
+                                <img src="./images/EnterpriseBranding/tmmodel.png" alt="...">
                             </div>
                             <div class="card-body mt-2">
                                 <h4 class="text-tilte">T & M Based Model</h4>
