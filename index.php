@@ -343,7 +343,7 @@ include("header.php");
                         loop: true,
                         nav: false,
                         margin: 20,
-                        autoplay: false,
+                        autoplay: true,
                         autoplayTimeout: 1000,
                         autoplayHoverPause: true,
                         responsive: {
