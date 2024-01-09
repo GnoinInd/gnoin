@@ -5,17 +5,17 @@ include("header.php");
 
 
 
-
+data-ride="carousel"
 <div class="banner-one g-0  banner_section ">
 
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000"
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade"   data-interval="2000"
         data-pause="false">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-            <!-- <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>-->
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -24,18 +24,19 @@ include("header.php");
                     class="img-fluid">
                 <div class="overlay_cover"></div>
                 <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">Software <br> <span
+                    <h5 class="new_banner_title">Software <br> <span
                             class="text-outline-heading">Development</span><br> Services
                     </h5>
-                    <p class="subheading_new banner-one__title banner-one__is-animated new_banner_txtColor ">
+                    <p class="new_banner_txtColor ">
                         Transforming industries with
                         AI-Powered Custom Software Solutions
                     </p>
-
-                </div>
-                <div class="caraousel_btn">
+                    <div class="caraousel_btn">
                     <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                 </div>
+
+                </div>
+               
             </div>
             <div class="carousel-item ">
 
@@ -44,17 +45,19 @@ include("header.php");
                     class="img-fluid">
                 <div class="overlay_cover"></div>
                 <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">We are the makers <br> <span
-                            class="text-outline-heading"> of awesome</span> <br> business process
+                    <h5 class="new_banner_title ">We are the makers <br> <span
+                            class="text-outline-heading"> of awesome</span> <br>  business process
                     </h5>
-                    <p class="subheading_new banner-one__title banner-one__is-animated new_banner_txtColor">Turn your
+                    <p class="new_banner_txtColor">Turn your
                         idea into
                         extraordinary, Web and Mobile Apps with Gnoin.</p>
 
-                </div>
-                <div class="caraousel_btn">
+                        <div class="caraousel_btn">
                     <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                 </div>
+
+                </div>
+               
             </div>
 
             <div class="carousel-item">
@@ -63,23 +66,21 @@ include("header.php");
                     class="img-fluid">
                 <!-- <div class="overlay_cover"></div> -->
                 <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">Building Trust in <br> <span
+                    <h5 class="new_banner_title">Building Trust in <br> <span
                             class="text-outline-heading">Interorganizational </span><br> Collaboration
                     </h5>
 
-                    <p class="subheading_new banner-one__title banner-one__is-animated new_banner_txtColor">Globally
+                    <p class="new_banner_txtColor">Globally
                         available software, Web & app development company technocrat approach to help you carve out
                         better futuristic solutions.</p>
 
-                </div>
-                <div class="caraousel_btn">
+                        <div class="caraousel_btn">
                     <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                 </div>
+
+                </div>
+               
             </div>
-
-
-
-
 
             <div class="carousel-item">
                 <div class="d-md-block carousel_slide_3"></div>
@@ -87,48 +88,47 @@ include("header.php");
                     class="img-fluid">
                 <!-- <div class="overlay_cover"></div> -->
                 <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">Join us to <br> <span
+                    <h5 class="new_banner_title">Join us to <br> <span
                             class="text-outline-heading">transform your </span><br> dreams digitally!
                     </h5>
 
-                    <p class="subheading_new banner-one__title banner-one__is-animated new_banner_txtColor">Our company
+                    <p class="new_banner_txtColor">Our company
                         name reflects our
                         service, our service reflects our identity, this is all about</p>
-
-                </div>
-                <div class="caraousel_btn">
+                        <div class="caraousel_btn">
                     <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                 </div>
+
+                </div>
+               
             </div>
 
             <div class="carousel-item">
                 <div class="d-md-block carousel_slide_3"></div>
                 <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..."
                     class="img-fluid">
-                <!-- <div class="overlay_cover"></div> -->
+
                 <div class="carousel-caption d-md-block">
-                    <h5 class="banner-one__title banner-one__is-animated">We Combine Design and <br> <span
+                    <h5 class="new_banner_title">We Combine Design and <br> <span
                             class="text-outline-heading">Technology To Solve </span><br> Real Customer Problems
                     </h5>
 
-                    <p class="subheading_new banner-one__title banner-one__is-animated new_banner_txtColor">We will help
+                    <p class="new_banner_txtColor">We will help
                         you to improve
                         the quality of your products by helping you overcome any technical challanges to ensure your
                         software's long-term health.
                     </p>
-
-                </div>
-                <div class="caraousel_btn">
+                    <div class="caraousel_btn">
                     <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
                 </div>
+
+                </div>
+               
             </div>
 
 
-
         </div>
-        <div class="caraousel_btn">
-            <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-        </div>
+       
     </div>
 
 

@@ -36,7 +36,7 @@
 
 .carousel .carousel-caption {
     position: absolute;
-    bottom: 30%;
+    top: 26%;
     left: 5%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -1250,9 +1250,11 @@
 
 .banner_section .caraousel_btn {
     position: absolute;
-    left: 5%;
+    left: 0;
     bottom: 23%;
 }
+
+
 
 @media only screen and (max-width: 992px) {
     .our_portfolio_section .swiper_slide_custm_heading {
@@ -1541,9 +1543,7 @@ body{
     opacity: 1;
 } */
 
-.new_banner_txtColor{
-    color: yellow ;
-}
+
 
 
 @media screen and (min-width: 992px) {
@@ -1551,4 +1551,18 @@ body{
         width: 90%;
     }
     
+}
+
+
+.new_banner_txtColor{
+    color: yellow;
+    width: 65%;
+    text-align: left;
+}
+
+.banner_section .new_banner_title{
+    color: #ffffff;
+    font-size: 45px;
+    /* width: 10%; */
+    font-weight: 700;
 }
