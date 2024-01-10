@@ -1259,6 +1259,19 @@
     
      
     }
+
+    .strt_up_section .input-group{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .strt_up_section  .form-control{
+        width: 100%;
+    }
+    .strt_up_section .input-group-text{
+        width: 50%;
+        margin-top: 2%;
+    }
 }
 
 @media screen and (max-width: 400px) {
