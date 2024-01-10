@@ -439,9 +439,9 @@ hr.style-one {
   color: var(--thm-primary-color);
 }
 
-.block-title {
+/* .block-title {
   margin-bottom: 110px;
-}
+} */
 
 .block-title__tag-line {
   color: var(--thm-base-color);
@@ -4597,6 +4597,44 @@ h2{
   .vacant_positions .box_icon img {
       margin-left: 50px;
   }
+}
+
+.cta-four .inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: var(--thm-black-color);
+  background-image: url(../images/background/cta-4-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin-top: -125px;
+  margin-bottom: -125px;
+  position: relative;
+  z-index: 10;
+}
+
+
+.thm-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153;
+    /* font-family: "Montserrat", sans-serif; */
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: none;
 }
 
 /*------------------------------------------------ career page css--------------------------------------------- */
