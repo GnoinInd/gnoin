@@ -108,7 +108,7 @@
                                                         <img class="p-3" src="https://www.startupindia.gov.in/content/dam/invest-india/newhomepage/Logo1.png" alt="" srcset="">
                                                     </a>
 
-                                                    <a class="m-0">
+                                                    <a class="m-0 isoiecimg">
                                                         <img class="p-3 img-fluid" src="../gnoinf/gnoinv1/images/logo/isoiec.png" alt="" srcset="">
                                                     </a>
                                                 </div>

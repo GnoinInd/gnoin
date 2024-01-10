@@ -31,7 +31,6 @@
     <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
     <link rel="stylesheet" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="gnoinv1/cssv1/index.css">
     <link rel="stylesheet" href="gnoinv1/assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="gnoinv1/assets/owlcarousel/assets/owl.theme.default.min.css">
@@ -39,6 +38,8 @@
     <script src="gnoinv1/assets/owlcarousel/owl.carousel.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="career00.css">
+    <link rel="stylesheet" href="./css/ondemand.css">
     
     <head>
   
@@ -107,7 +108,7 @@
                     <button class="navbar-toggler  menu-bar  justify-content-end px-0" id="menuBar" type="button"
                         data-mdb-toggle="collapse" data-mdb-target="#navbarExampleOnHover"
                         aria-controls="navbarExampleOnHover" aria-expanded="false" aria-label="Toggle navigation">
-                        <i  class="fa fa-bars"></i>
+                        <i class="fa fa-bars"></i>
                     </button>
 
                     <!-- Collapsible wrapper -->
@@ -121,7 +122,7 @@
                             <li class="nav-item dropdown  dropdown-hover position-static">
                                 <a class="nav-link  " id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
                                     aria-expanded="false">
-                                    Core Services
+                                    Core Service
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <!-- Dropdown menu -->
@@ -131,23 +132,18 @@
 
                                     <div class="container">
                                         <div class="row ">
-                                            <!-- <div class="col-md-6 col-lg-3  mb-lg-0">
-                                              <div class="menuGroup-List">
-                                                  <img src="./images//blog//blog-1-3.jpg" />
-                                              </div>
-                                          </div> -->
                                             <div class="col-md-6 col-lg-3  mb-lg-0">
                                                 <div class="list-group list-group-flush">
                                                     <a href="Custom-Software-Development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         Software Development
-                                                        <small>Development of software</small>
+                                                        <small>Development of software’s</small>
                                                     </a>
                                                     <a href="custom-app-development.php"
                                                         class="list-group-item list-group-item-action">Custom
                                                         App
                                                         Development
-                                                        <small>Development of Application</small></a>
+                                                        <small>Development of Applications</small></a>
                                                     <a href="web-app-development.php"
                                                         class="list-group-item list-group-item-action">Web App
                                                         Development
@@ -167,20 +163,21 @@
                                                         Platform App Development
                                                         <small>Development of Hybrid mobile apps</small>
                                                     </a>
-                                                    <a href="mac-app-development.php"
+                                                    <a href="Mac-App-Development.php"
                                                         class="list-group-item list-group-item-action">Mac App
                                                         Development
                                                         <small>Custom Mac OS solutions</small>
                                                     </a>
-                                                    <a href="support-and-maintenace.php"
-                                                        class="list-group-item list-group-item-action">Support &
-                                                        Maintenance
-                                                        <small>Customer centric services</small>
+                                                    <a href="IT-consulting-and-Strategy.php"
+                                                        class="list-group-item list-group-item-action">IT
+                                                        Consulting & Strategy
+                                                        <small>Doing the right IT</small>
                                                     </a>
+
                                                     <a href="crm-development.php"
                                                         class="list-group-item list-group-item-action">CRM
                                                         Development
-                                                        <small>End to End CRM Application</small>
+                                                        <small>End to End CRM Applications</small>
                                                     </a>
 
                                                 </div>
@@ -222,12 +219,12 @@
                                                         class="list-group-item list-group-item-action">Testing
                                                         &
                                                         QA
-                                                        <small>Application Testing and QA ServicesI</small>
+                                                        <small>Application Testing and QA Services</small>
                                                     </a>
-                                                    <a href="IT-consulting-and-Strategy.php"
-                                                        class="list-group-item list-group-item-action">IT
-                                                        Consulting & Strategy
-                                                        <small>Doing the right IT</small>
+                                                    <a href="support-and-maintenace.php"
+                                                        class="list-group-item list-group-item-action">Support &
+                                                        Maintenance
+                                                        <small>Customer centric services</small>
                                                     </a>
                                                     <a href="Request-A-Quote.php"
                                                         class="list-group-item list-group-item-action">Request a
@@ -242,8 +239,8 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown dropdown-hover  position-static">
-                                <a class="nav-link " id="navbarDropdown" role="button"
-                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link " id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
                                     Business Branding
                                     <i class="fa fa-angle-down"></i>
                                 </a>
@@ -260,7 +257,7 @@
                                                     <a href="seo-service.php"
                                                         class="list-group-item list-group-item-action">SEO
                                                         Services <small>Build your online presence</small></a>
-                                                    <a href="sem-services.php"
+                                                    <a href="smm-services.php"
                                                         class="list-group-item list-group-item-action">SEM
                                                         Services <small>Paid marketing /Lead
                                                             generation</small></a>
@@ -318,8 +315,8 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown dropdown-hover position-static">
-                                <a class="nav-link " id="navbarDropdown" role="button"
-                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link " id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
                                     Technology
                                     <i class="fa fa-angle-down"></i>
                                 </a>
@@ -335,7 +332,7 @@
                                                 <div class="list-group list-group-flush">
                                                     <a href="asp-net.php"
                                                         class="list-group-item list-group-item-action">.NET
-                                                        <small>ASP.NET Developmen</small>
+                                                        <small>ASP.NET Development</small>
                                                     </a>
                                                     <a href="php.php"
                                                         class="list-group-item list-group-item-action">PHP
@@ -385,8 +382,7 @@
                                                             Web development services</small></a>
                                                     <a href="java.php"
                                                         class="list-group-item list-group-item-action">Java
-                                                        <small>Java
-                                                            Exchange Development</small></a>
+                                                        <small>Java software development</small></a>
                                                     <a href="web-app-development.php"
                                                         class="list-group-item list-group-item-action">Web
                                                         <small>Web apps
@@ -398,8 +394,8 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown dropdown-hover position-static">
-                                <a class="nav-link " id="navbarDropdown" role="button"
-                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link " id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
                                     Industries
                                     <i class="fa fa-angle-down"></i>
                                 </a>
@@ -425,9 +421,10 @@
                                                         eCommerce <small>Solutions for Retail
                                                             ecommerce</small></a>
                                                     <a href="politicalCompaigns.php"
-                                                        class="list-group-item list-group-item-action">Political Campaigns
-                                                        <small>Political
-                                                            Campaigns</small></a>
+                                                        class="list-group-item list-group-item-action">Political
+                                                        Campaigns
+                                                        <small>political campaigns
+                                                            solution software</small></a>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-4  mb-md-0">
@@ -444,23 +441,29 @@
                                                         class="list-group-item list-group-item-action">Manufacturing
                                                         &
                                                         Business <small>End to End Solutions</small></a>
+                                                    <a href="Banking.php"
+                                                        class="list-group-item list-group-item-action">Banking
+                                                        <small>End to End Solutions</small></a>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-lg-4 mb-lg-0">
                                                 <div class="list-group list-group-flush">
-                                                    <a href="textiles.php"
-                                                        class="list-group-item list-group-item-action">Textiles
-                                                        |
-                                                        clothing | leather | footwear <small>Complete softweare
+                                                    <a href="Food-Beverage.php"
+                                                        class="list-group-item list-group-item-action">Food & Beverage
+                                                        <small>Complete softweare
                                                             solutions</small></a>
 
-                                                    <a href="Banking.php"
-                                                        class="list-group-item list-group-item-action">Banking <small>End to End Solution
-                                                            </small></a>
+                                                    <a href="Telecommunication.php"
+                                                        class="list-group-item list-group-item-action">Telecommunication
+                                                        <small>Telecommunication
+                                                            professional application</small></a>
                                                     <a href="media-Enternment.php"
                                                         class="list-group-item list-group-item-action">Media and
-                                                        culture <small>Application and software</small></a>
+                                                        Enternment <small>Application and software</small></a>
 
+                                                    <a href="Non-Profit.php"
+                                                        class="list-group-item list-group-item-action">Non - Profit
+                                                        <small>Application and software</small></a>
 
                                                 </div>
                                             </div>
@@ -469,24 +472,16 @@
                                     </div>
                                 </div>
                             </li>
-                            <!--<li class="nav-item  dropdown-hover position-static">
-                                <a class="nav-link " href="on-demand-developer" id="navbarDropdown"
-                                    role="button" aria-expanded="false">
-                                    On Demand Developers
-                                </a>
 
-
-                            </li>-->
                             <!-- Navbar dropdown -->
                             <li class="nav-item   dropdown dropdown-hover position-static">
-                                <a class="nav-link " id="navbarDropdown" role="button"
-                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link " id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
                                     Company
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <!-- Dropdown menu -->
-                                <div class="dropdown-menu costum-list   mt-0" aria-labelledby="navbarDropdown"
-                                    style="border-top-left-radius: 0;
+                                <div class="dropdown-menu costum-list   mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
                                         border-top-right-radius: 0;
                                       ">
 
@@ -503,13 +498,17 @@
                                                     <a href="blog.php"
                                                         class="list-group-item list-group-item-action">Blog
                                                         <small>Our Knowledge & resource center</small></a>
-                                                    <a href="team.php"
+                                                    <a class="list-group-item list-group-item-action "
+                                                        href="on-demand-developer.php" id="navbarDropdown"
+                                                        role="button" aria-expanded="false">
+                                                        OnDemand Developers
+                                                        <small>On Demand Developers</small>
+                                                    </a>
+
+                                                    <!-- <a href="/team.php"
                                                         class="list-group-item list-group-item-action">Our Team
                                                         <small>Our
-                                                            Team Details</small></a>
-                                                                                                                <a href="on-demand-developer.php"
-                                                        class="list-group-item list-group-item-action">onDemand developers
-                                                        <small>On demand developers</small></a>
+                                                            Team Details</small></a> -->
                                                 </div>
                                             </div>
 
@@ -519,8 +518,8 @@
                                 </div>
                             </li>
                             <li class="nav-item contact dropdown-hover position-static">
-                                <a class="ContactUs " id="ContactUs" href="contact.php" id="navbarDropdown" role="button"
-                                    aria-expanded="false">
+                                <a class="ContactUs " id="ContactUs" href="contact.php" id="navbarDropdown"
+                                    role="button" aria-expanded="false">
                                     Contact Us
                                 </a>
                                 <!-- Dropdown menu -->
@@ -530,7 +529,7 @@
                         <!-- Left links -->
                     </div>
                     <!-- Collapsible wrapper -->
-                   
+
                 </div>
                 <!-- Container wrapper -->
             </nav>

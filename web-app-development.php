@@ -1,42 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/logo.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <title>Gnoin Pvt Ltd </title>
-    <link href="../css?family=Open+Sans:400,400i,600,600i,700,700i%7CWork+Sans:400,500,600,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/hover-min.css">
-    <link rel="stylesheet" href="css/vegas.min.css">
-    <link rel="stylesheet" href="plugins/inchtech-icons/style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/enterprise_branding_all.css">
-
-
-    <link rel="stylesheet" href="./css/custom.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-
-
-</head>
-
-<body class="home-one">
-
-    <div class="page-wrapper">
        <?php
 
 include("header.php");
@@ -272,7 +234,7 @@ include("header.php");
 
                             <div class="implation-img-box">
 
-                                <img src="images/imagesIndex/webAppDevInHouseImg.png" alt="" class="">
+                                <img src="images/imagesIndex/webAppDevInHouseImg.png" alt="" class="img-fluid">
                             </div>
 
 
@@ -560,85 +522,10 @@ include("header.php");
         <!-- ___________Engagement practice start_________________ -->
 
 
-        <section class="zzz">
-            <div class="container text-center justify-content-around pt-4">
-                <div class="row1">
-                    <h1> Engagement Exercise Model</h1>
-                    <h5>That meet every business need</h5>
-                    <p></p>
-                </div>
-                <div id="Engagement" class="row   pading  text-center">
-                    <div class="col-md-6 col-lg-3 card-container wow fadeInUp" data-wow-duration="1500ms"
-                        data-wow-delay="0ms">
-                        <div class=" card justify-content-center h-100  align-items-center card-block">
-                            <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Fixed-Cost-Model.png" alt="...">
-                            </div>
-                            <div class="card-body  mt-2">
-                                <h4 class="text-tilte">Fixed Cost Based Model</h4>
-                                <p class=" text-start">Weather you or your business have a individual set of software
-                                    development requirements
-                                    or ideas for creating new solutions,the fixed cost model will be the best suitable
-                                    for
-                                    you..</p>
+        <?php
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-2 card-container wow fadeInUp" data-wow-duration="1500ms"
-                        data-wow-delay="0ms">
-                        <div class=" card justify-content-center  h-100 align-items-center card-block">
-                            <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/T-M-Model.png" alt="...">
-                            </div>
-                            <div class="card-body mt-2">
-                                <h4 class="text-tilte"> T &amp; M Model</h4>
-                                <p class=" text-start">Weather you or your company needs to develop
-                                    software that demands regular change and the adoption of flexibility, then the
-                                    hourly
-                                    model will best suit you.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-2 card-container wow fadeInUp" data-wow-duration="1500ms"
-                        data-wow-delay="0ms">
-                        <div class=" card justify-content-center  h-100  align-items-center card-block">
-                            <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/Partner-With-Us.png" alt="...">
-                            </div>
-                            <div class="card-body mt-2">
-                                <h4 class="text-tilte">Associate With Us</h4>
-                                <p class=" text-start">Weather you or your company needs to develop
-                                    software that demands regular change and the adoption of flexibility, then the
-                                    hourly
-                                    model will best suit you.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-2 card-container wow fadeInUp" data-wow-duration="1500ms"
-                        data-wow-delay="0ms">
-                        <div class=" card justify-content-center h-100  align-items-center card-block">
-                            <div class="card-img-top mt-4">
-                                <img src="./images/EnterpriseBranding/hourly_based_model.png" alt="...">
-                            </div>
-                            <div class="card-body mt-2">
-                                <h4 class="text-tilte">Hourly Based Model</h4>
-                                <p class=" text-start">Weather you or your company needs to develop software that
-                                    demands regular change and the
-                                    adoption of flexibility, then the hourly model will best suit you.</p>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-
-        </section>
+include("engagementmodel.php");
+?>
 
 
 
@@ -668,44 +555,18 @@ include("header.php");
 
 
         <!-- foter section   -->
-    <?php
-
-include("footer.php");
-?>
+   
 
 
 
 
 
     </div><!-- /.page-wrapper -->
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
         <?php
 
 include("footer.php");
 ?>
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/bootstrap-select.min.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/vegas.min.js"></script>
-    <script src="js/theme.js"></script>
-    <script src="js/index.js"></script>
-
-
-
-
-    </script>
-
-
-
-</body>
-
-</html>
+   
