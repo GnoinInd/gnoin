@@ -4249,11 +4249,7 @@ position: absolute;
   right: 0;
 }
 
-@media (max-width: 768px) {
-  .features .phone-wrap {
-    position: relative;
-  }
-}
+
 
 .features .phone-wrap img {
   width: 340px;
@@ -4268,6 +4264,9 @@ position: absolute;
 @media (max-width: 768px) {
   .features .phone-wrap img {
     display: none;
+  }
+  .features .phone-wrap {
+    position: relative;
   }
   .features .details {
     margin-top: 0px !important;
@@ -4310,6 +4309,13 @@ h2{
   display: inline-block;
 }
 
+
+.busenns-wraper_2 {
+  position: relative !important;
+  height: 550px;
+  width: 100%;
+  background: #215771;
+}
 
 
 

@@ -454,7 +454,7 @@ include("header.php");
 </div>
 
 <div class="container-fluid g-0 p-0">
-    <div class="busenns-wraper position-relative">
+    <div class="busenns-wraper .busenns-wraper_2 position-relative">
         <div class="section_image w-75 h-100">
             <img src="gnoinv1/images/technologyleverage.png" alt="" class="img-fluid h-100 rounded-0 w-100">
             <!-- <div class="col-9 pe-0">
