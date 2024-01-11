@@ -283,7 +283,7 @@ include("header.php");
                     </div>
                     <div class="col-lg-5 col-md-4 position-relative" data-aos="fade-up" data-aos-delay="200">
                         <div class="phone-wrap">
-                            <img src="/images/new/iphone.png" alt="Image" class="img-fluid">
+                            <img src="./images/new/iphone.png" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>

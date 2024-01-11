@@ -96,10 +96,7 @@ include("header.php");
 
         <!-- footer start -->
         <!-------------------------- Footer Page Include ----------------- -->
-            <?php
-
-include("footer.php");
-?>
+   
 
         <!-- footer end -->
 
@@ -107,33 +104,7 @@ include("footer.php");
 
 
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/bootstrap-select.min.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/vegas.min.js"></script>
-    <script src="js/theme.js"></script>
-    <script src="js/index.js"></script>
+    <?php
 
-
-    <script>
-
-
-
-
-
-    </script>
-
-
-
-</body>
-
-</html>
+include("footer.php");
+?>
