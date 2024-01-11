@@ -858,14 +858,14 @@ include("header.php");
                     </div><!-- /.team-two__images -->
                     <div class="team-two__content">
                         <h3 class="team-two__name"><a href="#">Ashutosh Kumar Sharma</a></h3><!-- /.team-two__name -->
-                        <p class="team-two__designation">managing director</p><!-- /.team-two__designation -->
+                        <p class="team-two__designation">CEO/MD/Founder</p><!-- /.team-two__designation -->
                     </div><!-- /.team-two__content -->
                 </div><!-- /.team-two__single -->
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-3">
                 <div class="team-two__single">
                     <div class="team-two__images">
-                        <img src="images/new/person-avatar-.avif" alt="">
+                        <img src="images/aboutimages/pratimamamnew.jpg" alt="">
                         <div class="team-two__social">
                             <a href="#"><i class="fa fa-facebook-f"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -875,7 +875,7 @@ include("header.php");
                     </div><!-- /.team-two__images -->
                     <div class="team-two__content">
                         <h3 class="team-two__name"><a href="#">Partima Kumari</a></h3><!-- /.team-two__name -->
-                        <p class="team-two__designation">CEO</p><!-- /.team-two__designation -->
+                        <p class="team-two__designation">CTO/Co-Founder</p><!-- /.team-two__designation -->
                     </div><!-- /.team-two__content -->
                 </div><!-- /.team-two__single -->
             </div><!-- /.col-lg-4 -->
@@ -912,7 +912,119 @@ include("header.php");
                         <p class="team-two__designation">HR Head</p><!-- /.team-two__designation -->
                     </div><!-- /.team-two__content -->
                 </div><!-- /.team-two__single -->
-            </div><!-- /.col-lg-4 -->
+            </div>
+            
+            <div class="col-lg-3">
+                <div class="team-two__single">
+                    <div class="team-two__images">
+                        <img src="images/aboutimages/Kuldeepmishra.jpeg" alt="">
+                        <div class="team-two__social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.team-two__social -->
+                    </div><!-- /.team-two__images -->
+                    <div class="team-two__content">
+                        <h3 class="team-two__name"><a href="#">Kuldeep Mishra</a></h3><!-- /.team-two__name -->
+                        <p class="team-two__designation">Chief Marketing Officer</p><!-- /.team-two__designation -->
+                    </div><!-- /.team-two__content -->
+                </div><!-- /.team-two__single -->
+            </div>
+
+            <div class="col-lg-3">
+                <div class="team-two__single">
+                    <div class="team-two__images">
+                        <img src="images/aboutimages/KailashChandraShukla.jpeg" alt="">
+                        <div class="team-two__social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.team-two__social -->
+                    </div><!-- /.team-two__images -->
+                    <div class="team-two__content">
+                        <h3 class="team-two__name"><a href="#">Kailash Chandra Shukla</a></h3><!-- /.team-two__name -->
+                        <p class="team-two__designation">Chief Legal Advisor</p><!-- /.team-two__designation -->
+                    </div><!-- /.team-two__content -->
+                </div><!-- /.team-two__single -->
+            </div>
+
+
+            <div class="col-lg-3">
+                <div class="team-two__single">
+                    <div class="team-two__images">
+                        <img src="images/aboutimages/SagarPandey.jpeg" alt="">
+                        <div class="team-two__social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.team-two__social -->
+                    </div><!-- /.team-two__images -->
+                    <div class="team-two__content">
+                        <h3 class="team-two__name"><a href="#">Sagar Pandey</a></h3><!-- /.team-two__name -->
+                        <p class="team-two__designation">Accountant</p><!-- /.team-two__designation -->
+                    </div><!-- /.team-two__content -->
+                </div><!-- /.team-two__single -->
+            </div>
+
+            <div class="col-lg-3">
+                <div class="team-two__single">
+                    <div class="team-two__images">
+                        <img src="images/aboutimages/SonuKumarNeww.jpg" alt="">
+                        <div class="team-two__social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.team-two__social -->
+                    </div><!-- /.team-two__images -->
+                    <div class="team-two__content">
+                        <h3 class="team-two__name"><a href="#">Sonu Kumar</a></h3><!-- /.team-two__name -->
+                        <p class="team-two__designation">Full-Stack Developer</p><!-- /.team-two__designation -->
+                    </div><!-- /.team-two__content -->
+                </div><!-- /.team-two__single -->
+            </div>
+
+            <div class="col-lg-3">
+                <div class="team-two__single">
+                    <div class="team-two__images">
+                        <img src="images/aboutimages/Subhankar.jpeg" alt="">
+                        <div class="team-two__social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.team-two__social -->
+                    </div><!-- /.team-two__images -->
+                    <div class="team-two__content">
+                        <h3 class="team-two__name"><a href="#">Subhankar Dutta</a></h3><!-- /.team-two__name -->
+                        <p class="team-two__designation">Marketing Officer</p><!-- /.team-two__designation -->
+                    </div><!-- /.team-two__content -->
+                </div><!-- /.team-two__single -->
+            </div>
+
+            <div class="col-lg-3">
+                <div class="team-two__single">
+                    <div class="team-two__images">
+                        <img src="images/aboutimages/RishiKumar.jpeg" alt="">
+                        <div class="team-two__social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.team-two__social -->
+                    </div><!-- /.team-two__images -->
+                    <div class="team-two__content">
+                        <h3 class="team-two__name"><a href="#">Rishi Kumar</a></h3><!-- /.team-two__name -->
+                        <p class="team-two__designation">Frontend Developer</p><!-- /.team-two__designation -->
+                    </div><!-- /.team-two__content -->
+                </div><!-- /.team-two__single -->
+            </div>
+            
+            
+           <!-- /.col-lg-4 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.team-two -->
