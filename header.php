@@ -40,6 +40,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="career00.css">
     <link rel="stylesheet" href="./css/ondemand.css">
+    <link rel="stylesheet" href="./css/blog.css">
+
     
     <head>
   

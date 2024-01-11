@@ -26,10 +26,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/enterprise_branding_all.css">
-   
-
-    <!-- <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="./css/ondemand.css"> -->
     <link rel="stylesheet" href="./css/custom.css">
     <style>
         .service_web_section {

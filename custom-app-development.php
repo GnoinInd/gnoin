@@ -13,8 +13,8 @@ include("header.php");
                     <p>Let's create custom solutions to help your organization become more efficient, with improved
                         operational efficiencies .</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Page</a></li>
                     </ul>
                 </div>
             </div>

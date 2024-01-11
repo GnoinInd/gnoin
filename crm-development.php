@@ -525,7 +525,7 @@ include("engagementmodel.php");
 
 
                         </div>
-                        <a href="contact.html" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
+                        <a href="contact.php" class="thm-btn cta-four__btn-two"><span>Contact us</span></a>
 
                     </div>
                 </div>

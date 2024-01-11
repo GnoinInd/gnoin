@@ -86,7 +86,7 @@ include("header.php");
 
             <div class="carousel-item">
                 <div class="d-md-block carousel_slide_3"></div>
-                <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..."
+                <img src="gnoinv1/images/banner/banner5.jpg" class="d-block w-100 rounded-0" alt="..."
                     class="img-fluid">
                 <!-- <div class="overlay_cover"></div> -->
                 <div class="carousel-caption d-md-block">
@@ -107,7 +107,7 @@ include("header.php");
 
             <div class="carousel-item">
                 <div class="d-md-block carousel_slide_3"></div>
-                <img src="gnoinv1/images/banner/banner3.jpeg" class="d-block w-100 rounded-0" alt="..."
+                <img src="gnoinv1/images/banner/banner4.jpg" class="d-block w-100 rounded-0" alt="..."
                     class="img-fluid">
 
                 <div class="carousel-caption d-md-block">
@@ -160,8 +160,8 @@ include("header.php");
 
                     <p class="card-text">Gnoin Pvt. Ltd. is a global web and mobile app development company. We partner
                         with customers of all sizes to build highly innovative solutions, customizations and products
-                        across technology platforms by leveraging cutting edge technologies. <br>
-                        We provide high end technology solutions to help businesses realize their maximum potential.</p>
+                        across technology platforms by leveraging cutting edge technologies.</p>
+                        <p class="card-text"> We provide high end technology solutions to help businesses realize their maximum potential.</p>
 
                     <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png"
                         alt="" class="img-fluid m-2 ">
@@ -527,21 +527,18 @@ include("header.php");
                                 <img class="logo-nav" src="gnoinv1/images/icon/mongodb.png">
                             </div>
                         </div>
-                        <div class="item_1" title="Angular">
+                        <div class="item_1" title="Node">
                             <div class="group-5">
-                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
+                                <img class="logo-nav" src="gnoinv1/images/icon/node.png">
+                            </div>
+
+                        </div>
+                        <div class="item_1" title="Php">
+                            <div class="group-5">
+                                <img class="logo-nav" src="gnoinv1/images/icon/php.png">
                             </div>
                         </div>
-                        <div class="item_1" title="Angular">
-                            <div class="group-5">
-                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                            </div>
-                        </div>
-                        <div class="item_1" title="Angular">
-                            <div class="group-5">
-                                <img class="logo-nav" src="gnoinv1/images/icon/angular.png">
-                            </div>
-                        </div>
+                       
 
 
 
@@ -612,46 +609,39 @@ include("header.php");
                 traditional and modern methods with unique ways of developing outstanding solutions. We work with a
                 vision to leave a lasting impression with services that stand out.</p>
         </div>
+
         <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front"> 
+                    <div class="flip-card-front">
                         <div class="card-header py-5 ">
 
 
                             <div class="rounded px-1 ">
                                 <img src="gnoinv1/images/icon/Fixed-Cost-Model0.png" alt="...">
                             </div>
-                            <div class=" text-center ">Offsite Delivery Model</div>
+                            <div class=" text-center  ">Offsite Delivery Model</div>
 
                         </div>
                         <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                     </div>
-                    <div class="flip-card-back our_deliver_model_1 position-relative">
-                        <div class="text-center">Offsite Delivery Model</div>
+                    <div class="flip-card-back our_deliver_model_2">
                         <div class="card-header card_header_back ">
 
-
+                            <div class="text-center">Offsite Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
                                 <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
                             </div>
 
                         </div>
-
-
-                        <div class="overlay">
-                            <div class="card-body mt-2 p-2">
-                                <p class=" text-center text-white">Enable customers to take advantage of dedicated or
+                        <div class="card-body mt-2 p-2">
+                            <p class=" text-center text-white">Enable customers to take advantage of dedicated or
                                     on-demand
                                     skilled resources.</p>
-                                <a href="#" class="btn btn-flipcard">Read More</a>
-                            </div>
+                            <a href="#" class="btn btn-flipcard">Read More</a>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>

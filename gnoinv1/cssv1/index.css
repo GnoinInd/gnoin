@@ -819,7 +819,7 @@
 
 .our_portfolio_subsection .image_wrapper {
     position: relative;
-    opacity: 0.1;
+    opacity: 30%;
 }
 
 .our_portfolio_subsection img {
@@ -1426,7 +1426,7 @@ text-align: center;
 
 @media screen and (max-width: 767px) {
     .banner_section .carousel-item{
-        height: 60vh;
+        height: 50vh;
     }
 
     .banner_section .carousel-item .rounded-0{

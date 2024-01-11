@@ -15,8 +15,8 @@ include("header.php");
                     </h2>
                     <p>Raise the standard for your customers with an online experience that exceeds their expectations and increases your ROI.</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="contact.html">Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="contact.php">Page</a></li>
                     </ul>
                 </div>
             </div>

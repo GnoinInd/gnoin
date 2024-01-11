@@ -17,8 +17,8 @@ include("header.php");
                     <h2 class="text-light">eCommerce Catalog Management Services In India</h2>
                     <p>Our services are strategically implemented to Increased Business Revenue online</p>
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="./on-demand-developer.html"> Page</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="./on-demand-developer.php"> Page</a></li>
                     </ul>
                 </div>
             </div>

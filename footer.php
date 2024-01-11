@@ -214,7 +214,7 @@
     <!-- Initialize Swiper -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var swiper = new Swiper(".mySwiper", {
+            var mySwiper = new Swiper(".mySwiper", {
                 slidesPerView: 4,
                 spaceBetween: 30,
                 autoplay: true,
@@ -289,7 +289,7 @@
     </script>
 
     <script>
-        var swip = new Swiper(".mySwip", {
+        var mySwip = new Swiper(".mySwip", {
             autoplay: true,
             pagination: {
                 el: ".swiper-pagination",
@@ -301,6 +301,22 @@
             },
         });
     </script>
+
+<script>
+        var mySwipe = new Swiper(".mySwipe", {
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+
 
 <script>
       var swiper = new Swiper(".mSwiper", {

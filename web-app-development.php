@@ -1,8 +1,4 @@
 
-       <?php
-
-include("header.php");
-?>
 
         <!-- --------------------header Includ  -------------->
         <?php
