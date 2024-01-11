@@ -4637,4 +4637,16 @@ h2{
     border: none;
 }
 
+.team-two__single .team-two__images img{
+  filter: grayscale(100%);
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.team-two__single:hover .team-two__images img{
+  filter: grayscale(0%);
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
 /*------------------------------------------------ career page css--------------------------------------------- */
