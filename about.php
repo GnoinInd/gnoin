@@ -1022,6 +1022,24 @@ include("header.php");
                     </div><!-- /.team-two__content -->
                 </div><!-- /.team-two__single -->
             </div>
+
+            <div class="col-lg-3">
+                <div class="team-two__single">
+                    <div class="team-two__images">
+                        <img src="images/aboutimages/GolamGous.jpeg" alt="">
+                        <div class="team-two__social">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-vimeo"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div><!-- /.team-two__social -->
+                    </div><!-- /.team-two__images -->
+                    <div class="team-two__content">
+                        <h3 class="team-two__name"><a href="#">Golam Gous</a></h3><!-- /.team-two__name -->
+                        <p class="team-two__designation">PHP/Laravel Developer</p><!-- /.team-two__designation -->
+                    </div><!-- /.team-two__content -->
+                </div><!-- /.team-two__single -->
+            </div>
             
             
            <!-- /.col-lg-4 -->
