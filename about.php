@@ -214,7 +214,7 @@ include("header.php");
 <!-- Our Software Technology Consulting Process-->
 <section class="zzz">
 
-    <div class="container text-center justify-content-around pt-4">
+    <div class="container text-center justify-content-around pt-4 wecreate_section">
         <div class="row1">
             <h1>We Create, Enhance And Deliver More Than Expected - That's Gnoin</h1>
             <h5></h5>
@@ -361,7 +361,7 @@ include("header.php");
 
                 <div class="about-wrpper-box h-100 ">
                     <div class="team-two__images h-100">
-                        <img src="images/blog/blog-1-3.jpg" alt="" class="">
+                        <img src="images/blog/blog-1-3.jpg" alt="" class="img-fluid h-100">
                         <h3 class="about-title-front text-light">Testing & Delivery</h3>
                         <div class="text-box">
                             <h3 class="text-light">Testing & Delivery</h3>
@@ -840,7 +840,7 @@ include("header.php");
 
     <div class="container justify-content-center align-items-center">
         <div class="row1 padding">
-            <h1 class="text-center text-primary">Leadership and Team</h1>
+            <h1 class="text-center text-primary">Our Leadership and Team</h1>
             <h5></h5>
             <p></p>
         </div>
@@ -899,7 +899,7 @@ include("header.php");
             <div class="col-lg-3">
                 <div class="team-two__single">
                     <div class="team-two__images">
-                        <img src="images/aboutimages/hr.jpg" alt="">
+                        <img src="images/aboutimages/hr.jpeg" alt="">
                         <div class="team-two__social">
                             <a href="#"><i class="fa fa-facebook-f"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -926,7 +926,7 @@ include("header.php");
                         </div><!-- /.team-two__social -->
                     </div><!-- /.team-two__images -->
                     <div class="team-two__content">
-                        <h3 class="team-two__name"><a href="#">Kuldeep Mishra</a></h3><!-- /.team-two__name -->
+                        <h3 class="team-two__name"><a href="#">Dhananjay Mishra</a></h3><!-- /.team-two__name -->
                         <p class="team-two__designation">Chief Marketing Officer</p><!-- /.team-two__designation -->
                     </div><!-- /.team-two__content -->
                 </div><!-- /.team-two__single -->

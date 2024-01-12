@@ -34,12 +34,12 @@
                                 <div class="col-12 ">
                                     <div class="row align-items-center">
                                         <div class=" col-12 col-sm-6  text-center">
-                                            <h4 class="">SIGN UP FOR NEWSLETTER !</h4>
+                                            <h4 class="text-white">SIGN UP FOR NEWSLETTER !</h4>
                                         </div>
                                         <div class=" col-12 col-sm-6">
-                                            <div class="d-flex justify-content-center align-items-center">
-                                                <input class="py-1 px-2 rounded-0" type="email" name="email" placeholder="Your Email">
-                                                <span><button class="btn  h-100 rounded-0">submit</button></span>
+                                            <div class="d-flex justify-content-end align-items-center">
+                                                <input class="p-2 w-100 rounded" type="email" name="email" placeholder="Your Email">
+                                                <span ><button class="btn  h-100 rounded-0  p-2 py-2">Submit</button></span>
                                             </div>
                                         </div>
                                     </div>
@@ -251,12 +251,9 @@
             });
 
             function updateActiveSlide() {
-                var activeIndex = swiper.activeIndex;
+                var activeIndex = mySwiper.activeIndex;
                 var imageWrappers = document.querySelectorAll('.image_wrapper');
                 var overlayTexts = document.querySelectorAll('.overlay_2');
-
-
-             
                 imageWrappers.forEach(function (wrapper, index) {
                     var images = wrapper.querySelectorAll('img');
                     images.forEach(function (image, imageIndex) {
@@ -289,7 +286,7 @@
     </script>
 
     <script>
-        var mySwip = new Swiper(".mySwip", {
+        var testimonialslides = new Swiper(".testimonialslides", {
             autoplay: true,
             pagination: {
                 el: ".swiper-pagination",
@@ -303,16 +300,13 @@
     </script>
 
 <script>
-        var mySwipe = new Swiper(".mySwipe", {
+        var Whychooseusslide = new Swiper(".Whychooseusslide", {
             autoplay: true,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
             },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
+          
         });
     </script>
 

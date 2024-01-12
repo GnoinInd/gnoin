@@ -122,7 +122,7 @@
 
                         <ul class="navbar-nav me-auto ps-lg-0">
                             <li class="nav-item dropdown  dropdown-hover position-static">
-                                <a class="nav-link  " id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+                                <a class="nav-link" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
                                     aria-expanded="false">
                                     Core Service
                                     <i class="fa fa-angle-down"></i>

@@ -10,7 +10,7 @@ include("header.php");
 
 <div class="banner-one g-0  banner_section ">
 
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel"   data-interval="2000"
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000"
         data-pause="false">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -26,19 +26,19 @@ include("header.php");
                     class="img-fluid">
                 <div class="overlay_cover"></div>
                 <div class="carousel-caption d-md-block">
-                    <h5 class="new_banner_title">Software <br> <span
-                            class="text-outline-heading">Development</span><br> Services
+                    <h5 class="new_banner_title">Software <br> <span class="text-outline-heading">Development</span><br>
+                        Services
                     </h5>
                     <p class="new_banner_txtColor mt-3 mb-3 ">
                         Transforming industries with
                         AI-Powered Custom Software Solutions
                     </p>
                     <div class="caraousel_btn mt-4">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-                </div>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
 
                 </div>
-               
+
             </div>
             <div class="carousel-item ">
 
@@ -47,19 +47,19 @@ include("header.php");
                     class="img-fluid">
                 <div class="overlay_cover"></div>
                 <div class="carousel-caption d-md-block">
-                    <h5 class="new_banner_title ">We are the makers <br> <span
-                            class="text-outline-heading"> of awesome</span> <br>  business process
+                    <h5 class="new_banner_title ">We are the makers <br> <span class="text-outline-heading"> of
+                            awesome</span> <br> business process
                     </h5>
                     <p class="new_banner_txtColor mt-3 mb-3">Turn your
                         idea into
                         extraordinary, Web and Mobile Apps with Gnoin.</p>
 
-                        <div class="caraousel_btn mt-4">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-                </div>
+                    <div class="caraousel_btn mt-4">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
 
                 </div>
-               
+
             </div>
 
             <div class="carousel-item">
@@ -76,12 +76,12 @@ include("header.php");
                         available software, Web & app development company technocrat approach to help you carve out
                         better futuristic solutions.</p>
 
-                        <div class="caraousel_btn mt-4">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-                </div>
+                    <div class="caraousel_btn mt-4">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
 
                 </div>
-               
+
             </div>
 
             <div class="carousel-item">
@@ -90,19 +90,19 @@ include("header.php");
                     class="img-fluid">
                 <!-- <div class="overlay_cover"></div> -->
                 <div class="carousel-caption d-md-block">
-                    <h5 class="new_banner_title">Join us to <br> <span
-                            class="text-outline-heading">transform your </span><br> dreams digitally!
+                    <h5 class="new_banner_title">Join us to <br> <span class="text-outline-heading">transform your
+                        </span><br> dreams digitally!
                     </h5>
 
                     <p class="new_banner_txtColor mt-3 mb-3">Our company
                         name reflects our
                         service, our service reflects our identity, this is all about</p>
-                        <div class="caraousel_btn mt-4">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-                </div>
+                    <div class="caraousel_btn mt-4">
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
 
                 </div>
-               
+
             </div>
 
             <div class="carousel-item">
@@ -121,16 +121,16 @@ include("header.php");
                         software's long-term health.
                     </p>
                     <div class="caraousel_btn mt-4">
-                    <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
-                </div>
+                        <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
+                    </div>
 
                 </div>
-               
+
             </div>
 
 
         </div>
-       
+
     </div>
 
 
@@ -151,7 +151,7 @@ include("header.php");
             </div>
 
             <div class="card custom_card_design ">
-                <div class="card-body">
+                <div class="card-body ">
                     <h5 class="card-title">Grow your business</h5>
                     <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary">Software Development & IT
                         Consulting Company In India</h6>
@@ -161,10 +161,23 @@ include("header.php");
                     <p class="card-text">Gnoin Pvt. Ltd. is a global web and mobile app development company. We partner
                         with customers of all sizes to build highly innovative solutions, customizations and products
                         across technology platforms by leveraging cutting edge technologies.</p>
-                        <p class="card-text"> We provide high end technology solutions to help businesses realize their maximum potential.</p>
+                    <p class="card-text"> We provide high end technology solutions to help businesses realize their
+                        maximum potential.</p>
 
-                    <a href="career.php" class="card-link">Read More</a><img src="gnoinv1/images/icon/arrowicon.png"
-                        alt="" class="img-fluid m-2 ">
+                    <div class="cardbtn d-flex justify-content-start align-items-center">
+                        <p class="hover-underline-animation"><a href="about.php" class="card-link">Read More</a></p>
+
+
+                        <div class="btnarrowimg d-flex justify-content-center align-items-center">
+                            <img src="gnoinv1/images/icon/arrowicon.png" alt="" class="img-fluid m-2 ">
+                        </div>
+
+
+                    </div>
+
+                    <!-- <span class="arrow-right"></span> -->
+
+
 
                 </div>
             </div>
@@ -326,7 +339,7 @@ include("header.php");
                                     enriching the experience of our clients.
                                 </p>
 
-                                <a class="text-white" href="#">Read more</a>
+                                <a class="text-white" href="about.php">Read more</a>
                             </div>
 
                         </div>
@@ -401,8 +414,16 @@ include("header.php");
                 <P class="dirc_second_paraheading">Gnoin Pvt. Ltd: Navigate challenges with integrated tech
                     solutions. Harnessing cutting-edge technology, we drive customer growth through data-driven
                     solutions across various sectors.</P>
-                <a href="#" class="card-link">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                    class="img-fluid m-2 ">
+                <div class="cardbtn d-flex justify-content-start align-items-center">
+                    <p class="hover-underline-animation m-0"><a href="about.php" class="card-link">Read More</a></p>
+
+
+                    <div class="btnarrowimg d-flex justify-content-center align-items-center">
+                        <img src="gnoinv1/images/icon/arrowicon.png" alt="" class="img-fluid m-2 ">
+                    </div>
+
+
+                </div>
             </div>
             <div class="col-md-7 col-sm-12 d-none d-sm-none d-lg-block d-xl-block">
                 <div class="position-relative">
@@ -454,7 +475,7 @@ include("header.php");
 </div>
 
 <div class="container-fluid g-0 p-0">
-    <div class="busenns-wraper .busenns-wraper_2 position-relative">
+    <div class="busenns-wraper_2 position-relative">
         <div class="section_image w-75 h-100">
             <img src="gnoinv1/images/technologyleverage.png" alt="" class="img-fluid h-100 rounded-0 w-100">
             <!-- <div class="col-9 pe-0">
@@ -479,7 +500,17 @@ include("header.php");
                     <p class="card-text">We work on wide range of tools and technologies to meet client business
                         requirement for existing project or new application.</p>
 
-                    <a href="#" class="card-link text-white">Read More</a>
+                    <div class="cardbtn d-flex justify-content-start align-items-center">
+                        <p class="hover-underline-animation m-0"><a href="about.php" class="card-link text-white">Read
+                                More</a></p>
+
+
+                        <div class="btnarrowimg d-flex justify-content-center align-items-center">
+                            <img src="gnoinv1/images/icon/arrowicon.png" alt="" class="img-fluid m-2 ">
+                        </div>
+
+
+                    </div>
                     <div class="owl-carousel  owl-carousel-2 owl-theme ">
                         <div class="item_1" title="Angular">
                             <div class="group-5">
@@ -538,7 +569,7 @@ include("header.php");
                                 <img class="logo-nav" src="gnoinv1/images/icon/php.png">
                             </div>
                         </div>
-                       
+
 
 
 
@@ -637,8 +668,8 @@ include("header.php");
                         </div>
                         <div class="card-body mt-2 p-2">
                             <p class=" text-center text-white">Enable customers to take advantage of dedicated or
-                                    on-demand
-                                    skilled resources.</p>
+                                on-demand
+                                skilled resources.</p>
                             <a href="#" class="btn btn-flipcard">Read More</a>
                         </div>
                     </div>
@@ -898,7 +929,7 @@ include("header.php");
                 </div>
             </div>
         </div>
-        
+
 
 
     </div>
@@ -1229,10 +1260,10 @@ include("header.php");
             <div class="col-xl-5 col-md-6 img-bg">
                 <img src="gnoinv1/images/whychooseus.png" class="img-fluid">
             </div>
-            <div class="col-xl-7 col-md-6 slides  position-relative">
+            <div class="col-xl-7 col-md-6   position-relative">
 
-                <div class="slides-1 swiper mySwipe">
-                    <div class="swiper-wrapper">
+                <div class=" swiper Whychooseusslide">
+                    <div class="swiper-wrapper mb-5">
 
                         <div class="swiper-slide">
                             <div class="item">
@@ -1476,7 +1507,7 @@ include("header.php");
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="swiper mySwip">
+                <div class="swiper testimonialslides">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="container">
@@ -1795,6 +1826,77 @@ include("header.php");
 
 
 
+</div>
+
+<div class="container-fluid countersection">
+    <div class="container">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-12 text-center">
+            <p class="conterheading font-weight-bold mb-5">Global Solutions, Local Services<p>
+            </div>
+                    <div class="col-xs-12 about-us-map-us ">
+                        <div class="row">
+                        <div class="col-xs-12 col-sm-4  margin-bottom-30 counter-align" id="counter1-container">
+                    <div class="info-sec-counter">
+                        <div class="display-inline counter-2" id="counter1" data-count="14">0</div>
+                    </div>
+                    <div class="informative-sec  display-inline margin-top-45">Strategic Locations</div>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align" id="counter2-container">
+                    <div class="info-sec-counter">
+                        <div class="display-inline counter-2" id="counter2" data-count="2800">0</div>
+                        <div class="display-inline font-weight-bold ">+</div>
+                    </div>
+                    <div class="informative-sec font-bold display-inline margin-top-45">Dedicated Developers</div>
+                </div>
+
+                
+
+                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                        <div class="info-sec-counter">
+                            <div class="display-inline counter-2" id="counter3" data-count="20000">0</div>
+                            <div class="display-inline">+</div>
+                        </div>
+                        <div class="informative-sec font-bold display-inline margin-top-45">Custom Apps </div>
+                    </div>
+
+                    <div class="clearfix margin-bottom-50"></div>
+                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                        <div class="info-sec-counter">
+                            <div class="display-inline counter-2" id="counter4" data-count-slow="40">0</div>
+                            <div class="display-inline">+</div>
+                        </div>
+                        <div class="informative-sec font-bold display-inline margin-top-45">Specialized Industries</div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                        <div class="info-sec-counter">
+                            <div class="display-inline counter-2" id="counter5" data-count="7000">0</div>
+                            <div class="display-inline">+</div>
+                        </div>
+                        <div class="informative-sec font-bold display-inline margin-top-45">Global Customers </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                        <div class="info-sec-counter">
+                            <div class="display-inline counter-2" id="counter6" data-count="150">0</div>
+                            <div class="display-inline">+</div>
+                        </div>
+                        <div class="informative-sec font-bold display-inline margin-top-45">Development Awards </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <!-- <div class="col-xs-12 text-center">
+                        <a href="#" class="site-button home-site-btn text-uppercase font-size-16"
+                            previewlistener="true">Like
+                            numbers?<br class="hidden-md hidden-lg"> you will love our rates</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 

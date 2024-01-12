@@ -198,7 +198,7 @@ a:focus {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: yellow;
+  color: yellow !important;
 
 }
 
@@ -1989,19 +1989,8 @@ hr.style-one {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .site-footer {
-  background-color: #100a27;
+  background-color: #2d5973;
 }
 
 .site-footer__upper {
@@ -2052,7 +2041,7 @@ hr.style-one {
 }
 
 .site-footer__links a:hover {
-  color: var(--thm-base-color);
+  color: yellow;
 }
 
 .site-footer__links li+li::before {
@@ -2095,7 +2084,7 @@ hr.style-one {
 }
 
 .footer-widget__text a:hover {
-  color: var(--thm-base-color);
+  color: yellow !important;
 }
 
 .footer-widget__text+.footer-widget__text {
@@ -2180,7 +2169,7 @@ hr.style-one {
 }
 
 .footer-widget__links a:hover {
-  color: var(--thm-base-color);
+  color: yellow !important;;
   -webkit-transform: translateX(20px);
   transform: translateX(20px);
 }
@@ -4646,6 +4635,10 @@ h2{
   filter: grayscale(0%);
   transition: 0.5s all;
   cursor: pointer;
+}
+
+.wecreate_section .nav-pills .nav-link.active {
+ color: #ffffff !important;
 }
 
 /*------------------------------------------------ career page css--------------------------------------------- */
