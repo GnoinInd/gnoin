@@ -1,0 +1,257 @@
+.about_textcont p {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+
+}
+
+.businessch_second_subheading {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.businessch_second_paraheading {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+.our_history_container {
+    background-image: url(../../images/aboutimages/ourhistorybg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_history_container .custom_card_design3 {
+    width: 614px;
+    height: 314px;
+    min-width: 200px;
+    position: absolute;
+    /* left: 50%; */
+    /* top: 50%; */
+    transform: translate(-50%, -50%);
+    transition: ease-in-out .3s;
+}
+
+.our_history_container .custom_card_design3 .techno_leverage {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #142D55;
+}
+
+.our_history_container .custom_card_design3 .card-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #131313;
+}
+
+.our_history_container .custom_card_design3 .cardbtn .card-link {
+    padding: 9px 42px 9px 42px;
+    border-radius: 5px;
+    gap: 10px;
+    background: #4B92FF;
+    text-align: center;
+
+
+}
+
+
+@media screen and (max-width:992px) {
+    .our_history_container .custom_card_design3 {
+        width: 100vw;
+        height: auto;
+        min-width: 200px;
+        position: absolute;
+        /* left: 50%; */
+        /* top: 50%; */
+        transform: translate(-50%, -50%);
+        transition: ease-in-out .3s;
+    }
+
+}
+
+@media screen and (max-width:280px) {
+    .our_history_container {
+        height: 73vh;
+    }
+
+}
+
+.ethical_value_container {
+    height: 823px;
+    background: #B7E3FF;
+
+
+}
+
+.ethical_value_container .card-body .card-title{
+    font-family: Barlow;
+font-size: 64px;
+font-weight: 800;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+color: #215771;
+text-align: center;
+
+}
+.ethical_value_container .card-body p{
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #215771;
+
+}
+.ethical_value_container .card-body .card_text_2{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: #2D5973;
+
+
+}
+
+.ethical_card_bg{
+    background-color: #2D5973;
+}
+.wecreate_card_bg{
+    background-color: #2D5973;
+    transition: all .3s ease-in-out;
+}
+.ethical_card_bg .card-title{
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+}
+
+.ethical_card_bg .card-body .card-text{
+    font-family: Barlow;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+
+}
+.wecreate_section h1{
+    font-family: Barlow;
+font-size: 36px !important;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff !important;
+}
+
+.ethical_card_bg .prosess-list p{
+    line-height: 20px;
+}
+
+
+.ethical_card_bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.ethical_card_bg:hover img {
+    transform: translateX(15%) scale(1.2);   
+}
+.ethical_card_bg:hover {
+    background-color: darkblue;
+    transition: all .5s ease-in-out;
+}
+
+.ethical_card_bg .card-img-top {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* .our_working_process_card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 5s ease; 
+}
+
+.overlay_working_process {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s, top 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_working_process_card:hover .overlay_working_process {
+    height: 100%;
+    opacity: 1;
+}
+
+.our_working_process_card:hover img {
+    filter: blur(1px); 
+}
+
+.our_working_process_card:hover .overlay-text {
+    opacity: 1;
+}
+.our_working_process_card:hover .over_text_visible{
+    opacity: 0;
+}
+
+.over_text_visible{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4B92FF;
+    color: #000000;
+    transition: .6s ease;
+
+} */
+
+

@@ -2197,28 +2197,28 @@ hr.style-one {
 */
 .inner-banner {
   background-color: var(--thm-black-color);
-  background-image: url(../images/imagesIndex/crossPlatFormHeaderImg.png);
-  background-position: center center;
+  background-image: url(../images/imagesIndex/crossPlatFormHeaderImg.jpg);
+  /* background-position: center center; */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   text-align: center;
   position: relative;
   display: flex;
   align-items:end;
   justify-content: center;
-  height: 70vh;
+  height: 65vh;
 }
 
 .inner-banner::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--thm-black-color);
-  opacity: 0.5;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #2D5973;
+      opacity: 0.5; /* 50% opacity */
 }
 
 .inner-banner .container {
@@ -2237,12 +2237,31 @@ hr.style-one {
         background-repeat: no-repeat;
 }
 .inner-banner__content-wrap {
-  background-color: rgba(var(--thm-primary-color-rgb), 0.9);
+  /* background-color: rgba(var(--thm-primary-color-rgb), 0.9); */
   /* display: inline-block; */
   padding: 20.5px 89px;
     box-sizing: border-box;
     border-radius: 4px;
   margin-bottom: 70px;
+
+}
+.inner-banner__content-wrap h2{
+font-size: 64px;
+font-weight: 800;
+line-height: 81px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff;
+}
+
+.inner-banner__content-wrap p{
+  font-family: Barlow;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color:  #FFCD1D;
 
 }
 
@@ -2700,7 +2719,7 @@ text-align: center;
   transform: perspective(70px) scale(1, 0) translateZ(0px);
 }
 .about-Us .about-title-front {
-  background-color: rgba(9, 3, 95, 0.678);
+  background-color: #4B92FF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

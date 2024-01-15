@@ -980,9 +980,9 @@ text-align: justify;
     list-style: none;
 }
 
-.inner-banner__content-wrap p{
+/* .inner-banner__content-wrap p{
     color: #fff;
-}
+} */
 h5,strong{
     color: #000;
 }

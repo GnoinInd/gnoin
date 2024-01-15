@@ -491,7 +491,7 @@ include("header.php");
             </div> -->
             <!-- d-none d-sm-none d-lg-block d-xl-block -->
 
-            <div class="card custom_card_design custom_card_design2 ">
+            <div class="card custom_card_design2 ">
                 <div class="card-body">
                     <h5 class="card-title techno_leverage">Technologies Leverage</h5>
                     <h6 class="card-subtitle card-subtitle_initial mb-2 text-body-secondary techno_leverage_subheading">
@@ -1236,6 +1236,47 @@ include("header.php");
     </div>
 </div>
 
+<section class="container-fluid g-0 mt-5 whychooseusslides">
+<div class="container">
+  <div class="row d-flex justify-content-between">
+    <div class="col-4">
+      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">01 Discovery & Planning</a>
+        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">02 Wireframing & Prototyping</a>
+        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">03 Design and Development</a>
+        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">04 Testing and Quality Assurance</a>
+        <a class="nav-link" id="v-pills-more-tab" data-toggle="pill" href="#v-pills-more" role="tab" aria-controls="v-pills-more" aria-selected="false">05 Launch & Maintenance</a>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <img src="gnoinv1/images/whychooseus_slide1.jpg" alt="" class="img-fluid">
+            <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+        <img src="gnoinv1/images/whychooseus_slide2.jpg" alt="" class="img-fluid">
+         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        <img src="gnoinv1/images/whychooseus_slide3.jpg" alt="" class="img-fluid">
+         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <img src="gnoinv1/images/whychooseus_slide4.jpg" alt="" class="img-fluid">
+         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
+        </div>
+
+        <div class="tab-pane fade" id="v-pills-more" role="tabpanel" aria-labelledby="v-pills-more-tab">
+        <img src="gnoinv1/images/whychooseus_slide5.jpg" alt="" class="img-fluid">
+         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
 
 <section class="container-fluid g-0 mt-5 why_choose_us_section">
     <div class="container text-center justify-content-around pt-4" data-aos="fade-up">
@@ -1497,6 +1538,14 @@ include("header.php");
     </div>
 
 </div>
+
+<!-- <section class="container-fluid  g-0 p-0 mt-5">
+    <div class="joinus_wrapper_3">
+        <div class="section_image w-75 h-100">
+
+        </div>
+    </div>
+</section> -->
 
 <?php
 
@@ -1839,6 +1888,7 @@ include("header.php");
                         <div class="col-xs-12 col-sm-4  margin-bottom-30 counter-align" id="counter1-container">
                     <div class="info-sec-counter">
                         <div class="display-inline counter-2" id="counter1" data-count="14">0</div>
+                        <div class="display-inline font-weight-bold ">+</div>
                     </div>
                     <div class="informative-sec  display-inline margin-top-45">Strategic Locations</div>
                 </div>
@@ -1888,11 +1938,10 @@ include("header.php");
                     </div>
 
                     <div class="clearfix"></div>
-                    <!-- <div class="col-xs-12 text-center">
-                        <a href="#" class="site-button home-site-btn text-uppercase font-size-16"
-                            previewlistener="true">Like
-                            numbers?<br class="hidden-md hidden-lg"> you will love our rates</a>
-                    </div> -->
+                    <div class="col-12 text-center home-site-btn">
+                        <a href="#" class="btn btn_counter text-uppercase font-size-16 ">Like
+                            numbers? you will love our rates</a>
+                    </div>
                 </div>
             </div>
         </div>

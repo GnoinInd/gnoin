@@ -320,6 +320,20 @@
       });
     </script>
 
+    <script>
+  $(document).ready(function(){
+    setInterval(function() {
+      var activeTab = $('.whychooseusslides .nav-pills .nav-link.active');
+      activeTab.removeClass('active');
+      var nextTab = activeTab.next('.whychooseusslides a.nav-link');
+      if (nextTab.length === 0) {
+        nextTab = $('.whychooseusslides .nav-pills .nav-link:first');
+      }
+      nextTab.tab('show');
+    }, 3000); 
+  });
+</script>
+
 
 
 
