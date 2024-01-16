@@ -35,7 +35,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,77 +111,82 @@
 
 }
 
-.ethical_value_container .card-body .card-title{
+.ethical_value_container .card-body .card-title {
     font-family: Barlow;
-font-size: 64px;
-font-weight: 800;
-line-height: 77px;
-letter-spacing: 0em;
-text-align: left;
-color: #215771;
-text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #215771;
+    text-align: center;
 
 }
-.ethical_value_container .card-body p{
+
+.ethical_value_container .card-body p {
     font-family: Barlow;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-color: #215771;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #215771;
 
 }
-.ethical_value_container .card-body .card_text_2{
+
+.ethical_value_container .card-body .card_text_2 {
     font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: center;
-color: #2D5973;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2D5973;
 
 
 }
 
-.ethical_card_bg{
+.ethical_card_bg {
     background-color: #2D5973;
 }
-.wecreate_card_bg{
+
+.wecreate_card_bg {
     background-color: #2D5973;
     transition: all .3s ease-in-out;
 }
-.ethical_card_bg .card-title{
+
+.ethical_card_bg .card-title {
     font-family: Barlow;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
 }
 
-.ethical_card_bg .card-body .card-text{
+.ethical_card_bg .card-body .card-text {
     font-family: Barlow;
-font-size: 12px;
-font-weight: 500;
-line-height: 14px;
-letter-spacing: 0em;
-text-align: left;
-color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
 
 }
-.wecreate_section h1{
+
+.wecreate_section h1 {
     font-family: Barlow;
-font-size: 36px !important;
-font-weight: 700;
-line-height: 43px;
-letter-spacing: 0em;
-text-align: center;
-color: #ffffff !important;
+    font-size: 36px !important;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff !important;
 }
 
-.ethical_card_bg .prosess-list p{
+.ethical_card_bg .prosess-list p {
     line-height: 20px;
 }
 
@@ -192,8 +197,9 @@ color: #ffffff !important;
 }
 
 .ethical_card_bg:hover img {
-    transform: translateX(15%) scale(1.2);   
+    transform: translateX(15%) scale(1.2);
 }
+
 .ethical_card_bg:hover {
     background-color: darkblue;
     transition: all .5s ease-in-out;
@@ -254,4 +260,394 @@ color: #ffffff !important;
 
 } */
 
+.fadeInUp {
+    animation: fadeInUp 1s ease backwards;
+}
 
+@keyframes fadeInUp {
+    0% {
+        transform: translate(0px, 100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px, 0);
+        opacity: 1;
+    }
+}
+
+.choose_us_wrapper {
+    height: 550px;
+    width: 100%;
+    background: #215771;
+}
+
+.whychoose_uscontent .whychooseus_heading {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+.whychoose_uscontent .whychooseus_subheading {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+.whychoose_uscontent p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+.custom_card_design4 {
+    transform: translate(-80%, -50%);
+}
+
+@media screen and (max-width: 992px) {
+    .custom_card_design4 {
+        transform: translate(-22%, -50%);
+    }
+
+}
+
+.custom_card_design4 a {
+    padding: 9px 42px 9px 42px;
+    border-radius: 5px;
+    gap: 10px;
+    background: #4B92FF;
+    text-align: center;
+    opacity: .9;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom_card_design4 a:hover {
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .custom_card_design5 label{
+    margin: 10px;
+} */
+
+
+
+.has-float-label {
+    display: block;
+    position: relative
+}
+
+.has-float-label label,
+.has-float-label>span {
+    position: absolute;
+    cursor: text;
+    font-size: 75%;
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    top: -.5em;
+    left: .75rem;
+    z-index: 3;
+    line-height: 1;
+    padding: 0 1px
+}
+
+.has-float-label label::after,
+.has-float-label>span::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    top: 50%;
+    left: -.2em;
+    right: -.2em;
+    z-index: -1
+}
+
+.has-float-label .form-control::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.has-float-label .form-control::-moz-placeholder {
+    opacity: 1;
+    transition: all .2s
+}
+
+.has-float-label .form-control:-ms-input-placeholder {
+    opacity: 1;
+    transition: all .2s
+}
+
+.has-float-label .form-control::placeholder {
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+    opacity: 0
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)::-moz-placeholder {
+    opacity: 0
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus):-ms-input-placeholder {
+    opacity: 0
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)::placeholder {
+    opacity: 0
+}
+
+.has-float-label .form-control:placeholder-shown:not(:focus)+* {
+    font-size: 12px;
+    top: 1em
+}
+
+.custom_card_design5 .form-control:focus{
+    box-shadow: none !important;
+} 
+.custom_card_design5 h1{
+    font-family: Barlow;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: #2D5973;
+
+}
+.custom_card_design5 p{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: #4D4D4D;
+
+}
+
+.input-group .has-float-label {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.input-group .has-float-label .form-control {
+    width: 100%;
+    border-radius: .25rem
+}
+
+.input-group .has-float-label:not(:last-child),
+.input-group .has-float-label:not(:last-child) .form-control {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0
+}
+
+.input-group .has-float-label:not(:first-child),
+.input-group .has-float-label:not(:first-child) .form-control {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+
+.assurance_beliefs_section h1{
+    font-family: Nexa;
+font-size: 64px;
+font-weight: 900;
+line-height: 97px;
+letter-spacing: 0em;
+text-align: left;
+color:  #2D5973;
+
+}
+
+.assurance_beliefs_section .assurancepara{
+    font-family: Nexa;
+font-size: 24px;
+font-weight: 900;
+line-height: 36px;
+letter-spacing: 0.01em;
+text-align: left;
+color:  #2D5973;
+
+}
+
+.assurance_beliefs_section ul li{
+    font-family: Jua;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color:  #2D5973;
+
+
+}
+.assurance_beliefs_section{
+    height: 403px;
+    background: #F7F9FC;
+    
+}
+.custom_card_design5 .card{
+    border-radius: 9px !important;
+}
+
+.indsutry_we_serve_section h1{
+    font-family: Nexa;
+font-size: 48px;
+font-weight: 900;
+line-height: 73px;
+letter-spacing: 0em;
+text-align: center;
+color: #2D5973;
+
+}
+.indsutry_we_serve_section ul li{
+    list-style-type: none;
+}
+.our_strength_wrapper h1{
+    font-family: Sora;
+font-size: 48px !important;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+color: #215771;
+
+}
+.our_strength_wrapper p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #215771;
+border-left: 3px solid #21577180;
+padding-left: 10px;
+}
+
+.about_textcont h4{
+    font-family: Barlow;
+font-size: 36px;
+font-weight: 800;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: center;
+color:  #2D5973;
+}
+.about_textcont h6{
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color:  #2D5973;
+
+}
+.content_container p{
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+
+}
+
+.about-Us h1{
+    font-family: Inter;
+font-size: 48px !important;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color: #2D5973;
+
+}
+.about-Us h5{
+    font-family: Inter;
+font-size: 20px !important;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #2D5973;
+}
+
+.about-Us p{
+    font-family: Inter;
+font-size: 14px !important;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #131313;
+
+}
+.our_strength_container{
+    height: 630px;
+}
+
+@media screen and (max-width: 992px) {
+    .ethical_value_container{
+        height: auto;
+    }    
+    .our_strength_container{
+        height: auto;
+    }
+    .ineterested_inworking_wrapper img{
+        height: 140vh;
+    }
+    .assurance_beliefs_section{
+        height: auto;
+    }
+    .inner-banner__content-wrap h2 {
+        line-height: 20px;
+    }
+    .inner-banner {
+        background-size: cover;
+    }
+    .inner-banner__content-wrap p {
+        line-height: normal;
+    }
+}

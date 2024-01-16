@@ -26,27 +26,32 @@ include("header.php");
 <section class="container-fluid g-0 mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <div class="content_container row ">
-                    <div class="col-md-3 col-sm-12 d-flex justify-content-lg-end justify-content-center">
+                    <div class="col-md-2 col-sm-12 d-flex justify-content-lg-center justify-content-center">
                         <div class="about_icons">
                             <img src="images/aboutimages/abouticon1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
 
-                    <div class="about_textcont col-md-9 col-sm-12">
+                    <div class="about_textcont col-md-10 col-sm-12 mb-3">
                         <h4>About Gnoin - A Leading Brand In IT Products & IT Services</h4>
                         <h6>Creating beautiful digital products designed to accelerate the growth of the world's leading
                             brands.</h6>
                     </div>
+
+                    <div class="col-12">
+                        <p>We are a premium software development company providing truly outstanding solutions to our
+                            clients.
+                            We provide top-notch web and mobile app development services by using and improving on the
+                            latest
+                            technologies. Everything that comes out of GNOIN is of the highest quality and second to
+                            none. </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-12">
-                <p>We are a premium software development company providing truly outstanding solutions to our clients.
-                    We provide top-notch web and mobile app development services by using and improving on the latest
-                    technologies. Everything that comes out of GNOIN is of the highest quality and second to none. </p>
-            </div>
+
 
             <div class="content_container row ">
                 <div class="col-md-8 col-sm-12">
@@ -498,22 +503,24 @@ include("header.php");
 
 <section class="zzz about-Us">
     <div class="container text-center justify-content-around pt-4">
-        <div class="row1">
-            <h1>Our Working Process</h1>
+        <div class="row mb-4">
+           <div class="col-12">
+           <h1>Our Working Process</h1>
             <h5>Gnoin believes in embracing changes that are deeply rooted in its principles.</h5>
             <p>We adapt to different customer and market requirements and technology advancements. We acknowledge the
                 ever-evolving nature of the world and drive ourselves to continually improve and modernize.
             </p>
+           </div>
         </div>
-        <div class="row high-gutters">
+        <div class="row high-gutters mt-3">
             <div class="col-lg-3 mb-2">
 
                 <div class="about-wrpper-box h-100 ">
                     <div class="team-two__images h-100">
-                        <img src="images/blog/blog-1-3.jpg" alt="" class="img-fluid h-100">
-                        <h3 class="about-title-front text-light">Testing & Delivery</h3>
+                        <img src="images/aboutimages/ourworkingprocess1.jpg" alt="" class="img-fluid h-100">
+                        <h3 class="about-title-front text-light ">Testing & Delivery</h3>
                         <div class="text-box">
-                            <h3 class="text-light mr-auto">Testing & Delivery</h3>
+                            <h3 class="text-light mr-auto fadeInUp ">Testing & Delivery</h3>
                             <p class="text-light">Compatibility is the first and foremost word in the tech-world. Hence
                                 once we have engineered and developed technology, our team of experts thoroughly test it
                                 to deliver flawless results in your hands.</p>
@@ -522,54 +529,372 @@ include("header.php");
                 </div>
             </div>
             <div class="col-lg-3 mb-2 " id="our-culter">
-                        <div class="about-wrpper-box h-100 ">
-                            <div class="team-two__images h-100">
-                                <img src="images/blog/blog-2-4.jpg" alt="" class="">
-                                <h3 class="about-title-front text-light">Approval</h3>
+                <div class="about-wrpper-box h-100 ">
+                    <div class="team-two__images h-100">
+                        <img src="images/aboutimages/ourworkingprocess2.jpg" alt="" class="">
+                        <h3 class="about-title-front text-light">Approval</h3>
 
-                                <div class="text-box">
-                                    <h3 class="text-light mr-auto">Approval</h3>
-                                    <p class="text-light">From the wide range of ideas you can choose the most suitable
-                                        one matching your demands and requirements. So that work can be started at the
-                                        same time.</p>
-                                </div>
-                            </div>
+                        <div class="text-box">
+                            <h3 class="text-light mr-auto">Approval</h3>
+                            <p class="text-light">From the wide range of ideas you can choose the most suitable
+                                one matching your demands and requirements. So that work can be started at the
+                                same time.</p>
                         </div>
+                    </div>
+                </div>
 
-                    </div>
-                    <div class="col-lg-3 mb-2" id="">
-                        <div class="about-wrpper-box h-100 ">
-                            <div class="team-two__images h-100">
-                                <img src="images/blog/blog-2-6.jpg" alt="" class="">
-                                <h3 class="about-title-front text-light">How About a Meeting</h3>
-                                <div class="text-box">
-                                    <h3 class="text-light mr-auto">How About a Meeting</h3>
-                                    <p class="text-light">Once contact has been made let's set up a meeting to discuss
-                                        your requirements.</p>
-                                </div>
-                            </div>
+            </div>
+            <div class="col-lg-3 mb-2" id="">
+                <div class="about-wrpper-box h-100 ">
+                    <div class="team-two__images h-100">
+                        <img src="images/aboutimages/ourworkingprocess3.jpg" alt="" class="">
+                        <h3 class="about-title-front text-light">How About a Meeting</h3>
+                        <div class="text-box">
+                            <h3 class="text-light mr-auto">How About a Meeting</h3>
+                            <p class="text-light">Once contact has been made let's set up a meeting to discuss
+                                your requirements.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 mb-2">
-                        <div class="about-wrpper-box h-100 ">
-                            <div class="team-two__images h-100">
-                                <img src="images/blog/blog-2-4.jpg" alt="" class="">
-                                <h3 class="about-title-front text-light">Idea</h3>
-                                <div class="text-box">
-                                    <h3 class="text-light mr-auto">Idea</h3>
-                                    <p class="text-light">The next step is always brain storming. Either brainstorm
-                                        together or our team will come up with suitable ideas as per your requirements.
-                                    </p>
-                                </div>
-                            </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-2">
+                <div class="about-wrpper-box h-100 ">
+                    <div class="team-two__images h-100">
+                        <img src="images/aboutimages/ourworkingprocess4.jpg" alt="" class="">
+                        <h3 class="about-title-front text-light">Idea</h3>
+                        <div class="text-box">
+                            <h3 class="text-light mr-auto">Idea</h3>
+                            <p class="text-light">The next step is always brain storming. Either brainstorm
+                                together or our team will come up with suitable ideas as per your requirements.
+                            </p>
                         </div>
                     </div>
+                </div>
+            </div>
 
 
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section>
 
+
+<section class="container-fluid g-0 p-0 mt-5">
+    <div class="choose_us_wrapper position-relative d-flex">
+        <div class="section_image w-25 h-100">
+            <img src="images/aboutimages/Why Choose Us_section.jpg" alt="" class="img-fluid h-100 rounded-0 w-100">
+
+
+
+
+        </div>
+
+        <div class="whychoose_uscontent w-75 h-100 p-5">
+            <h1 class="whychooseus_heading">Why choose us?</h1>
+            <p class="whychooseus_subheading">We Have Been Ranked As A Top Mobile & Web Development Company.</p>
+            <p>We are a premium software development company providing truly outstanding solutions to our clients. We
+                provide top-notch web and mobile app development services by using and improving on the latest
+                technologies.</p>
+            <p>We are a premium software development company providing truly outstanding solutions to our clients. We
+                provide top-notch web and mobile app development services by using and improving on the latest
+                technologies. Everything that comes out of GNOIN is of the highest quality and second to none.</p>
+            <p>We are a premium software development company providing truly outstanding solutions to our clients. We
+                provide top-notch web and mobile app development services by using and improving on the latest
+                technologies.</p>
+            <p>We are a premium software development company providing truly outstanding solutions to our clients. We
+                provide top-notch web and mobile app development services by using and improving on the latest
+                technologies. Everything that comes out of GNOIN is of the highest quality and second to none.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container-fluid g-0 our_strength_container d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="row our_strength_wrapper d-flex justify-content-around align-items-center ">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1>Our Strength</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 position-relative">
+                        <p class="m-auto">We Impress With Our Vast Knowledge Base To Provide Solutions That Meet The
+                            Expectations Of The Clients Request, Business And Budget!</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+                <div class="card ethical_card_bg  py-4">
+                    <img src="images/aboutimages/ethical1.png" class="card-img-top px-2" alt="...">
+
+                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <div class="card-body p-0 px-2">
+                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
+                            chosen technologies can be improved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+                <div class="card ethical_card_bg py-4">
+                    <img src="images/aboutimages/ethical2.png" class="card-img-top px-2" alt="...">
+
+                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <div class="card-body p-0 px-2">
+                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
+                            chosen technologies can be improved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+                <div class="card ethical_card_bg py-4">
+                    <img src="images/aboutimages/ethical3.png" class="card-img-top px-2" alt="...">
+
+                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <div class="card-body p-0 px-2">
+                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
+                            chosen technologies can be improved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+                <div class="card ethical_card_bg py-4">
+                    <img src="images/aboutimages/ethical4.png" class="card-img-top px-2" alt="...">
+
+                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <div class="card-body p-0 px-2">
+                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
+                            chosen technologies can be improved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+                <div class="card ethical_card_bg py-4">
+                    <img src="images/aboutimages/ethical5.png" class="card-img-top px-2" alt="...">
+
+                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <div class="card-body p-0 px-2">
+                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
+                            chosen technologies can be improved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+                <div class="card ethical_card_bg py-4">
+                    <img src="images/aboutimages/ethical6.png" class="card-img-top px-2" alt="...">
+
+                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <div class="card-body p-0 px-2">
+                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
+                            chosen technologies can be improved.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="container-fluid g-0 p-0 position-relative">
+    <div class="choose_us_wrapper position-relative">
+
+
+
+        <div class="section_image w-50 h-100 float-right">
+            <img src="images/aboutimages/ourpurpose.jpg" alt="" class="img-fluid h-100 rounded-0 w-100">
+        </div>
+
+
+    </div>
+
+
+
+    <div class="card custom_card_design custom_card_design4 ">
+        <div class="card-body ">
+            <h5 class="card-title">Our Purpose</h5>
+
+
+            <p class="card-text">Our purpose to build applications and plan digital transformation journeys for
+                enterprises on a global front.</p>
+            <p class="card-text"> Our values are demonstrated by the successful implementation of dynamic business
+                solutions. We are proud to be recognized as a digital enabler.</p>
+
+            <div class="cardbtn d-flex justify-content-center align-items-center mt-5 mb-4">
+                <p class=" m-0"><a href="about.php" class="card-link text-white">let's start talk</a></p>
+            </div>
+
+            <!-- <span class="arrow-right"></span> -->
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<div class="container-fluid g-0 p-0 indsutry_we_serve_section">
+    <div class="row">
+        <div class="col">
+            <div class="industry_we_serveimg">
+                <img src="images/aboutimages/idustry_we_serve_img1.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h1>Industries we serve</h1>
+                    <p>We Deploy The Latest Development Technologies And Frameworks</p>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>EDUCATION</li>
+                        <li>ENTERTAINMENT</li>
+                        <li>TRAVEL</li>
+                        <li>REAL ESTATE</li>
+                        <li>DATING</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>HEALTHCARE</li>
+                        <li>BANKING</li>
+                        <li>TRANSPORT</li>
+                        <li>FOOD</li>
+                        <li>SPORTS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="industry_we_serveimg">
+                <img src="images/aboutimages/idustry_we_serve_img2.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid g-0 p-0 assurance_beliefs_section">
+    <div class="container">
+        <div class="row d-flex justify-content-around align-items-center">
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                <div class="row mt-5">
+                    <div class="col-12 d-flex align-items-center">
+                        <h1>Gnoin</h1>
+                        <p class="assurancepara m-0 mt-2">-Assurances & Beliefs!</p>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Easy to approach</li>
+                            <li>Thinking out of the box</li>
+                            <li>Working fair</li>
+                            <li>No hidden charges</li>
+                            <li>Security and privacy</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Efficiency and Productivity</li>
+                            <li>24X7 customer support</li>
+                            <li>100% customer satisfaction</li>
+                            <li>Innovative designs and latest technology</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="assurance_beliefs_section_img">
+                    <img src="images/aboutimages/assurance_beliefs_section_img.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid g-0 p-0 position-relative">
+    <div class="ineterested_inworking_wrapper">
+        <img src="images/aboutimages/interested_in_working.jpg" alt="" class="img-fluid">
+    </div>
+
+
+    <div class="card custom_card_design  custom_card_design5 pt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1>Interested in working with us?</h1>
+                <p>Fill out the form and let’s talk about how we can grow your business</p>
+            </div>
+        </div>
+
+        <div class="card-body ">
+            <div class="form-group input-group">
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <label class="has-float-label">
+                            <input class="form-control" type="text" placeholder="" />
+                            <span>Full Name</span>
+                        </label>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <label class="has-float-label">
+                            <input class="form-control" type="text" placeholder="" />
+                            <span>Email Id</span>
+                        </label>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <label class="has-float-label">
+                            <input class="form-control" type="text" placeholder="" />
+                            <span>Phone No</span>
+                        </label>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <label class="has-float-label">
+                            <input class="form-control" type="text" placeholder="" />
+                            <span>Skype ID</span>
+                        </label>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <label class="has-float-label">
+                            <input class="form-control" type="text" placeholder="" />
+                            <span>Your Budget</span>
+                        </label>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-4">
+
+                        <label class="has-float-label">
+                            <input class="form-control" type="text" placeholder="" />
+                            <span>WHat Are You Looking For?</span>
+                        </label>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-4">
+                        <label class="has-float-label">
+                            <input class="form-control" type="text" placeholder="" />
+                            <span>How Can We Help</span>
+                        </label>
+                    </div>
+
+
+                </div>
+
+                <button class="btn m-auto">SUBMIT</button>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
 
 
 
