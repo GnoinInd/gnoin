@@ -191,7 +191,7 @@ include("header.php");
                     <p class="card-text">Our values are demonstrated by the successful implementation of dynamic
                         business solutions. We are proud to be recognized as a digital enabler. </p>
 
-                    <div class="cardbtn d-flex justify-content-center align-items-center">
+                    <div class="cardbtn d-flex justify-content-center align-items-center mt-5">
                         <p class="hover-underline-animation m-0"><a href="about.php" class="card-link text-white">Read
                                 More</a></p>
                     </div>
@@ -758,18 +758,18 @@ include("header.php");
 
 <div class="container-fluid g-0 p-0 indsutry_we_serve_section">
     <div class="row">
-        <div class="col">
+        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-sm-center">
             <div class="industry_we_serveimg">
                 <img src="images/aboutimages/idustry_we_serve_img1.jpg" alt="" class="img-fluid">
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
             <div class="row mt-5">
-                <div class="col-12">
+                <div class="col-12 ">
                     <h1>Industries we serve</h1>
-                    <p>We Deploy The Latest Development Technologies And Frameworks</p>
+                    <p class="text-center">We Deploy The Latest Development Technologies And Frameworks</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-sm-center">
                     <ul>
                         <li>EDUCATION</li>
                         <li>ENTERTAINMENT</li>
@@ -778,7 +778,7 @@ include("header.php");
                         <li>DATING</li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-sm-center">
                     <ul>
                         <li>HEALTHCARE</li>
                         <li>BANKING</li>
@@ -789,7 +789,7 @@ include("header.php");
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-sm-center">
             <div class="industry_we_serveimg">
                 <img src="images/aboutimages/idustry_we_serve_img2.jpg" alt="" class="img-fluid">
             </div>
