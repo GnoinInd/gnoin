@@ -147,7 +147,12 @@
 }
 
 .ethical_card_bg {
+    position: relative;
+    overflow: hidden;
     background-color: #2D5973;
+    height: 241px;
+    width: 100%;
+    padding: 10px;
 }
 
 .wecreate_card_bg {
@@ -191,10 +196,6 @@
 }
 
 
-.ethical_card_bg {
-    position: relative;
-    overflow: hidden;
-}
 
 .ethical_card_bg:hover img {
     transform: translateX(15%) scale(1.2);
@@ -626,6 +627,7 @@ color: #131313;
 }
 .our_strength_container{
     height: 630px;
+    padding: 10%;
 }
 
 @media screen and (max-width: 992px) {
@@ -649,5 +651,9 @@ color: #131313;
     }
     .inner-banner__content-wrap p {
         line-height: normal;
+    }
+    .ethical_card_bg{
+        width: auto;
+        height: auto;
     }
 }

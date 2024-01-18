@@ -227,8 +227,8 @@ include("header.php");
 
 
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg  py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg 4">
                     <img src="images/aboutimages/ethical1.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -238,8 +238,8 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical2.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -249,8 +249,8 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical3.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -260,8 +260,8 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical4.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -271,8 +271,8 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical5.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -282,8 +282,8 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical6.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -293,8 +293,8 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical7.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -304,8 +304,8 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 py-3">
-                <div class="card ethical_card_bg py-4">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical8.png" class="card-img-top px-2" alt="...">
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
@@ -504,13 +504,14 @@ include("header.php");
 <section class="zzz about-Us">
     <div class="container text-center justify-content-around pt-4">
         <div class="row mb-4">
-           <div class="col-12">
-           <h1>Our Working Process</h1>
-            <h5>Gnoin believes in embracing changes that are deeply rooted in its principles.</h5>
-            <p>We adapt to different customer and market requirements and technology advancements. We acknowledge the
-                ever-evolving nature of the world and drive ourselves to continually improve and modernize.
-            </p>
-           </div>
+            <div class="col-12">
+                <h1>Our Working Process</h1>
+                <h5>Gnoin believes in embracing changes that are deeply rooted in its principles.</h5>
+                <p>We adapt to different customer and market requirements and technology advancements. We acknowledge
+                    the
+                    ever-evolving nature of the world and drive ourselves to continually improve and modernize.
+                </p>
+            </div>
         </div>
         <div class="row high-gutters mt-3">
             <div class="col-lg-3 mb-2">
@@ -528,7 +529,23 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 mb-2 " id="our-culter">
+
+            <div class="col-lg-3 mb-2">
+
+                <div class="about-wrpper-box h-100 ">
+                    <div class="team-two__images h-100">
+                        <img src="images/aboutimages/ourworkingprocess2.jpg" alt="" class="img-fluid h-100">
+                        <h3 class="about-title-front text-light ">Approval</h3>
+                        <div class="text-box">
+                            <h3 class="text-light mr-auto fadeInUp ">Approval</h3>
+                            <p class="text-light">From the wide range of ideas you can choose the most suitable
+                                one matching your demands and requirements. So that work can be started at the
+                                same time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-3 mb-2 " id="our-culter">
                 <div class="about-wrpper-box h-100 ">
                     <div class="team-two__images h-100">
                         <img src="images/aboutimages/ourworkingprocess2.jpg" alt="" class="">
@@ -543,7 +560,7 @@ include("header.php");
                     </div>
                 </div>
 
-            </div>
+            </div> -->
             <div class="col-lg-3 mb-2" id="">
                 <div class="about-wrpper-box h-100 ">
                     <div class="team-two__images h-100">
@@ -627,7 +644,7 @@ include("header.php");
                 </div>
 
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 p-2 d-flex justify-content-center">
                 <div class="card ethical_card_bg  py-4">
                     <img src="images/aboutimages/ethical1.png" class="card-img-top px-2" alt="...">
 
@@ -638,7 +655,7 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 p-2 d-flex justify-content-center">
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical2.png" class="card-img-top px-2" alt="...">
 
@@ -649,7 +666,7 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 p-2 d-flex justify-content-center">
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical3.png" class="card-img-top px-2" alt="...">
 
@@ -660,7 +677,7 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 p-2 d-flex justify-content-center">
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical4.png" class="card-img-top px-2" alt="...">
 
@@ -671,7 +688,7 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 p-2 d-flex justify-content-center">
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical5.png" class="card-img-top px-2" alt="...">
 
@@ -682,7 +699,7 @@ include("header.php");
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 py-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 p-2 d-flex justify-content-center">
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical6.png" class="card-img-top px-2" alt="...">
 

@@ -1806,7 +1806,7 @@ body {
 }
 
 
-.about-us-map-us .info-sec-counter::before {
+/* .about-us-map-us .info-sec-counter::before {
     content: '';
     position: absolute;
     width: 75%;
@@ -1814,7 +1814,7 @@ body {
     top: 48px;
     left: 12px;
     background: #2d5973;
-}
+} */
 
 .about-us-map-us .info-sec-counter .display-inline {
     font-size: 35px;
@@ -1837,10 +1837,7 @@ body {
 
 }
 
-.countersection {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+
 
 .info-sec-counter {
     display: flex;
@@ -1853,7 +1850,11 @@ body {
 }
 
 .margin-top-45 {
-    margin-top: 45px !important;
+    margin-top: 10px !important;
+}
+.countersection{
+    background: #F8F8F8;
+
 }
 
 .home-site-btn {

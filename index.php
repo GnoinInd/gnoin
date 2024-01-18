@@ -474,6 +474,105 @@ include("header.php");
     </div>
 </div>
 
+<div class="container-fluid countersection py-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-12 text-center">
+                <p class="conterheading font-weight-bold mb-5">Global Solutions, Local Services
+                <p>
+            </div>
+            <div class="col-12 about-us-map-us ">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12">
+                        <div class="row">
+                        <div class="col-xs-12 col-sm-4  margin-bottom-30 counter-align" id="counter1-container">
+                            <div class="info-sec-counter">
+                                <img src="gnoinv1/images/icon/globalsolutions1.png" alt="" class="img-fluid">
+                                <div class="display-inline counter-2" id="counter1" data-count="14">0</div>
+                                <div class="display-inline font-weight-bold ">+</div>
+                            </div>
+                            <div class="informative-sec  display-inline margin-top-45">Strategic Locations</div>
+                        </div>
+
+
+                        <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align" id="counter2-container">
+                            <div class="info-sec-counter">
+                                <img src="gnoinv1/images/icon/globalsolutions2.png" alt="jjjjjjj" class="img-fluid">
+                                <div class="display-inline counter-2" id="counter2" data-count="2800">0</div>
+                                <div class="display-inline font-weight-bold ">+</div>
+                            </div>
+                            <div class="informative-sec font-bold display-inline margin-top-45">Dedicated Developers
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                            <div class="info-sec-counter">
+                                <img src="gnoinv1/images/icon/globalsolutions3.png" alt="jjjjjjj" class="img-fluid">
+                                <div class="display-inline counter-2" id="counter3" data-count="20000">0</div>
+                                <div class="display-inline">+</div>
+                            </div>
+                            <div class="informative-sec font-bold display-inline margin-top-45">Custom Apps </div>
+                        </div>
+
+                        <div class="clearfix margin-bottom-50"></div>
+                        <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                            <div class="info-sec-counter">
+                                <img src="gnoinv1/images/icon/globalsolutions4.png" alt="jjjjjjj" class="img-fluid">
+                                <div class="display-inline counter-2" id="counter4" data-count-slow="40">0</div>
+                                <div class="display-inline">+</div>
+                            </div>
+                            <div class="informative-sec font-bold display-inline margin-top-45">Specialized Industries
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                            <div class="info-sec-counter">
+                                <img src="gnoinv1/images/icon/globalsolutions5.png" alt="jjjjjjj" class="img-fluid">
+                                <div class="display-inline counter-2" id="counter5" data-count="7000">0</div>
+                                <div class="display-inline">+</div>
+                            </div>
+                            <div class="informative-sec font-bold display-inline margin-top-45">Global Customers </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
+                            <div class="info-sec-counter">
+                                <img src="gnoinv1/images/icon/globalsolutions6.png" alt="jjjjjjj" class="img-fluid">
+                                <div class="display-inline counter-2" id="counter6" data-count="150">0</div>
+                                <div class="display-inline">+</div>
+                            </div>
+                            <div class="informative-sec font-bold display-inline margin-top-45">Development Awards
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <div class="cardbtn d-flex justify-content-start align-items-center">
+                    <p class="hover-underline-animation m-0"><a href="about.php" class="card-link">Read More</a></p>
+
+
+                    <div class="btnarrowimg d-flex justify-content-center align-items-center">
+                        <img src="gnoinv1/images/icon/arrowicon.png" alt="" class="img-fluid m-2 ">
+                    </div>
+
+
+                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12">
+                    <div class="countersection_img">
+                    <img src="gnoinv1/images/globalsolutions.png" alt="" class="img-fluid">
+                </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid g-0 p-0">
     <div class="busenns-wraper_2 position-relative">
         <div class="section_image w-75 h-100">
@@ -1237,44 +1336,58 @@ include("header.php");
 </div>
 
 <section class="container-fluid g-0 mt-5 whychooseusslides">
-<div class="container">
-  <div class="row d-flex justify-content-between">
-    <div class="col-4">
-      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">01 Discovery & Planning</a>
-        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">02 Wireframing & Prototyping</a>
-        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">03 Design and Development</a>
-        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">04 Testing and Quality Assurance</a>
-        <a class="nav-link" id="v-pills-more-tab" data-toggle="pill" href="#v-pills-more" role="tab" aria-controls="v-pills-more" aria-selected="false">05 Launch & Maintenance</a>
-      </div>
-    </div>
-    <div class="col-8">
-      <div class="tab-content" id="v-pills-tabContent">
-        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-            <img src="gnoinv1/images/whychooseus_slide1.jpg" alt="" class="img-fluid">
-            <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
-        </div>
-        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-        <img src="gnoinv1/images/whychooseus_slide2.jpg" alt="" class="img-fluid">
-         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
-        </div>
-        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-        <img src="gnoinv1/images/whychooseus_slide3.jpg" alt="" class="img-fluid">
-         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
-        </div>
-        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-        <img src="gnoinv1/images/whychooseus_slide4.jpg" alt="" class="img-fluid">
-         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
-        </div>
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-4">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true">01 Discovery & Planning</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">02 Wireframing & Prototyping</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                        aria-controls="v-pills-messages" aria-selected="false">03 Design and Development</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">04 Testing and Quality Assurance</a>
+                    <a class="nav-link" id="v-pills-more-tab" data-toggle="pill" href="#v-pills-more" role="tab"
+                        aria-controls="v-pills-more" aria-selected="false">05 Launch & Maintenance</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <img src="gnoinv1/images/whychooseus_slide1.jpg" alt="" class="img-fluid">
+                        <p>We start by understanding your business, target audience, and marketing goals. This helps us
+                            to create a website that meets your specific needs.</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <img src="gnoinv1/images/whychooseus_slide2.jpg" alt="" class="img-fluid">
+                        <p>We start by understanding your business, target audience, and marketing goals. This helps us
+                            to create a website that meets your specific needs.</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        <img src="gnoinv1/images/whychooseus_slide3.jpg" alt="" class="img-fluid">
+                        <p>We start by understanding your business, target audience, and marketing goals. This helps us
+                            to create a website that meets your specific needs.</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        <img src="gnoinv1/images/whychooseus_slide4.jpg" alt="" class="img-fluid">
+                        <p>We start by understanding your business, target audience, and marketing goals. This helps us
+                            to create a website that meets your specific needs.</p>
+                    </div>
 
-        <div class="tab-pane fade" id="v-pills-more" role="tabpanel" aria-labelledby="v-pills-more-tab">
-        <img src="gnoinv1/images/whychooseus_slide5.jpg" alt="" class="img-fluid">
-         <p>We start by understanding your business, target audience, and marketing goals. This helps us to create a website that meets your specific needs.</p>
+                    <div class="tab-pane fade" id="v-pills-more" role="tabpanel" aria-labelledby="v-pills-more-tab">
+                        <img src="gnoinv1/images/whychooseus_slide5.jpg" alt="" class="img-fluid">
+                        <p>We start by understanding your business, target audience, and marketing goals. This helps us
+                            to create a website that meets your specific needs.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</div>
 </section>
 
 
@@ -1877,76 +1990,7 @@ include("header.php");
 
 </div>
 
-<div class="container-fluid countersection">
-    <div class="container">
-        <div class="row d-flex justify-content-center ">
-            <div class="col-12 text-center">
-            <p class="conterheading font-weight-bold mb-5">Global Solutions, Local Services<p>
-            </div>
-                    <div class="col-xs-12 about-us-map-us ">
-                        <div class="row">
-                        <div class="col-xs-12 col-sm-4  margin-bottom-30 counter-align" id="counter1-container">
-                    <div class="info-sec-counter">
-                        <div class="display-inline counter-2" id="counter1" data-count="14">0</div>
-                        <div class="display-inline font-weight-bold ">+</div>
-                    </div>
-                    <div class="informative-sec  display-inline margin-top-45">Strategic Locations</div>
-                </div>
 
-
-                <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align" id="counter2-container">
-                    <div class="info-sec-counter">
-                        <div class="display-inline counter-2" id="counter2" data-count="2800">0</div>
-                        <div class="display-inline font-weight-bold ">+</div>
-                    </div>
-                    <div class="informative-sec font-bold display-inline margin-top-45">Dedicated Developers</div>
-                </div>
-
-                
-
-                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
-                        <div class="info-sec-counter">
-                            <div class="display-inline counter-2" id="counter3" data-count="20000">0</div>
-                            <div class="display-inline">+</div>
-                        </div>
-                        <div class="informative-sec font-bold display-inline margin-top-45">Custom Apps </div>
-                    </div>
-
-                    <div class="clearfix margin-bottom-50"></div>
-                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
-                        <div class="info-sec-counter">
-                            <div class="display-inline counter-2" id="counter4" data-count-slow="40">0</div>
-                            <div class="display-inline">+</div>
-                        </div>
-                        <div class="informative-sec font-bold display-inline margin-top-45">Specialized Industries</div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
-                        <div class="info-sec-counter">
-                            <div class="display-inline counter-2" id="counter5" data-count="7000">0</div>
-                            <div class="display-inline">+</div>
-                        </div>
-                        <div class="informative-sec font-bold display-inline margin-top-45">Global Customers </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-4 margin-bottom-30 counter-align wow zoomIn">
-                        <div class="info-sec-counter">
-                            <div class="display-inline counter-2" id="counter6" data-count="150">0</div>
-                            <div class="display-inline">+</div>
-                        </div>
-                        <div class="informative-sec font-bold display-inline margin-top-45">Development Awards </div>
-                    </div>
-
-                    <div class="clearfix"></div>
-                    <div class="col-12 text-center home-site-btn">
-                        <a href="#" class="btn btn_counter text-uppercase font-size-16 ">Like
-                            numbers? you will love our rates</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
