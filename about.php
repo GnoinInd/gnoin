@@ -55,7 +55,7 @@ include("header.php");
 
             <div class="content_container row ">
                 <div class="col-md-8 col-sm-12">
-                    <div class="row">
+                    <div class="row d-flex justify-content-center align-items-center">
                         <div class="col-md-3 col-sm-12 d-flex justify-content-lg-end justify-content-center">
                             <div class="about_icons">
                                 <img src="images/aboutimages/abouticon2.png" alt="" class="img-fluid">
