@@ -119,16 +119,16 @@ $(document).ready(function () {
   // pdf render 
        $('#termsOfService').on('click', function(event) {
             event.preventDefault();  
-            window.open('../images/pdf/Terms and Conditions.pdf', '_blank');
+            window.open('../images/new/Terms and Conditions.pdf', '_blank');
         });
 
         $('#privacyPolicy').on('click', function(event) {
             event.preventDefault();  
-            window.open('../images/pdf/Privacy Policies.pdf', '_blank');
+            window.open('../images/new/Privacy Policies.pdf', '_blank');
         });
         $('#RefundCancellationPolicy').on('click', function(event) {
           event.preventDefault();  
-          window.open('../images/pdf/Refund and Cancellation Policy.pdf', '_blank');
+          window.open('../images/new/Refund and Cancellation Policy.pdf', '_blank');
       });
 });
 
