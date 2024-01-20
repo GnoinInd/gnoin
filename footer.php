@@ -56,7 +56,7 @@
                                     <li><a href="./on-demand-developer.php" previewlistener="true">On Demand developers </a></li>
                                     <li><a href="./about.php" previewlistener="true">Blog</a></li>
                                     <li><a href="./contact.php" previewlistener="true">Careers</a></li>
-                                    <li><a href="./privacy-policy.php" previewlistener="true">Privacy Policy</a></li>
+                                    <li><a id="privacyPolicy" previewlistener="true">Privacy Policy</a></li>
                                     </ul>
                                     <!-- /.footer-widget__links -->
                                     </div>
@@ -129,8 +129,8 @@
                             Reserved
                         </div>
                         <ul class="list-unstyled site-footer__links">
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                           <li><a  id="termsOfService">Terms of Service</a></li>
+                            <li><a  id="privacyPolicy">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
