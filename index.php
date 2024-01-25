@@ -473,6 +473,8 @@ include("header.php");
         </div>
     </div>
 </div>
+<!--Global Solutions, Local Services-->
+<!--
 
 <div class="container-fluid countersection py-5">
     <div class="container">
@@ -572,24 +574,12 @@ include("header.php");
         </div>
     </div>
 </div>
-
+-->
+<!-- end Global Solutions, Local Services-->
 <div class="container-fluid g-0 p-0">
     <div class="busenns-wraper_2 position-relative">
         <div class="section_image w-75 h-100">
             <img src="gnoinv1/images/technologyleverage.png" alt="" class="img-fluid h-100 rounded-0 w-100">
-            <!-- <div class="col-9 pe-0">
-                <div class="section_image">
-                    <img src="gnoinv1/images/technologyleverage.png" alt="" class="img-fluid w-100">
-                </div>
-            </div> -->
-
-            <!-- <div class="col-3 ps-0">
-                <div class="section_bg_colr">
-
-                </div>
-            </div> -->
-            <!-- d-none d-sm-none d-lg-block d-xl-block -->
-
             <div class="card custom_card_design2 ">
                 <div class="card-body">
                     <h5 class="card-title techno_leverage">Technologies Leverage</h5>
@@ -753,43 +743,6 @@ include("header.php");
                             <div class=" text-center  ">Offsite Delivery Model</div>
 
                         </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-                    </div>
-                    <div class="flip-card-back our_deliver_model_2">
-                        <div class="card-header card_header_back ">
-
-                            <div class="text-center">Offsite Delivery Model</div>
-                            <div class="rounded px-1  float-end ">
-
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
-                            </div>
-
-                        </div>
-                        <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white">Enable customers to take advantage of dedicated or
-                                on-demand
-                                skilled resources.</p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div class="card-header py-5 ">
-
-
-                            <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model1.png" alt="...">
-                            </div>
-                            <div class=" text-center  ">Offshore Delivery Model</div>
-
-                        </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
                     </div>
                     <div class="flip-card-back our_deliver_model_2">
                         <div class="card-header card_header_back ">
@@ -824,7 +777,7 @@ include("header.php");
                             <div class=" text-center  ">Hybrid Delivery Model</div>
 
                         </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        
                     </div>
                     <div class="flip-card-back our_deliver_model_3">
                         <div class="card-header card_header_back ">
@@ -861,7 +814,7 @@ include("header.php");
                             <div class=" text-center  ">Onsite Delivery Model</div>
 
                         </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        
                     </div>
                     <div class="flip-card-back our_deliver_model_4">
                         <div class="card-header card_header_back ">
@@ -897,7 +850,7 @@ include("header.php");
                             <div class=" text-center  ">Software-as-a-Service (SaaS) Model</div>
 
                         </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        
                     </div>
                     <div class="flip-card-back our_deliver_model_5">
                         <div class="card-header card_header_back ">
@@ -933,7 +886,7 @@ include("header.php");
                             <div class=" text-center">Offsite/Offshore Delivery Model</div>
 
                         </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        
                     </div>
                     <div class="flip-card-back our_deliver_model_6">
                         <div class="card-header card_header_back ">
@@ -968,7 +921,7 @@ include("header.php");
                             <div class=" text-center  ">Universal Delivery Model</div>
 
                         </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        
                     </div>
                     <div class="flip-card-back our_deliver_model_7">
                         <div class="card-header card_header_back ">
@@ -1005,7 +958,7 @@ include("header.php");
                             <div class=" text-center ">Offsite Delivery Model</div>
 
                         </div>
-                        <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                        
                     </div>
                     <div class="flip-card-back our_deliver_model_8">
 
@@ -1073,70 +1026,7 @@ include("header.php");
 
                 </ul>
 
-                <!-- <div class="swiper_slide_custm_heading">
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">Our global study finds that cloud and AI are a
-                                priority despite headwinds</p>
-
-                            <a href="#" class="animate__animated animate__fadeInUp">Read More</a><img
-                                src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 animate__animated animate__fadeInUp">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">We’re a leader in ESG/ Sustainability services</p>
-                            <a href="#" class="animate__animated animate__fadeInUp">Read More</a><img
-                                src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 animate__animated animate__fadeInUp">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">Our global study finds that cloud and AI are a
-                                priority despite headwinds</p>
-                            <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 ">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">We’re a leader in ESG/ Sustainability services</p>
-                            <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 ">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">Our global study finds that cloud and AI are a
-                                priority despite headwinds</p>
-
-                            <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 ">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">We’re a leader in ESG/ Sustainability services</p>
-                            <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 ">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">Our global study finds that cloud and AI are a
-                                priority despite headwinds</p>
-                            <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 ">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">We’re a leader in ESG/ Sustainability services</p>
-                            <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 ">
-                        </div>
-
-                        <div class=" overlay_2">
-                            <p class="our_portfolio_subheading">Our global study finds that cloud and AI are a
-                                priority despite headwinds</p>
-                            <a href="#">Read More</a><img src="gnoinv1/images/icon/nexticonn.png" alt=""
-                                class="img-fluid m-2 ">
-                        </div>
-                    </div> -->
+               
             </div>
 
 
@@ -1652,19 +1542,12 @@ include("header.php");
 
 </div>
 
-<!-- <section class="container-fluid  g-0 p-0 mt-5">
-    <div class="joinus_wrapper_3">
-        <div class="section_image w-75 h-100">
-
-        </div>
-    </div>
-</section> -->
 
 <?php
 
      include("engagementmodel.php");
     ?>
-
+<!--
 <div class="container-fluid textimonial_section mt-3">
     <div class="container">
         <div class="row">
@@ -1869,6 +1752,7 @@ include("header.php");
                                 </div>
                             </div>
                         </div>
+                       
                         <div class="swiper-slide">
                             <div class="container">
                                 <div class="row">
@@ -1993,7 +1877,7 @@ include("header.php");
 
 
 
-
+-->
 <div class="container-fluid p-0 strt_up_section_fluid" style="">
     <div class="container strt_up_section ">
         <div class="row  d-flex justify-content-center align-items-center">

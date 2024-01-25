@@ -42,11 +42,25 @@ include("header.php");
 
                     <div class="col-12">
                         <p>We are a premium software development company providing truly outstanding solutions to our
-                            clients.
-                            We provide top-notch web and mobile app development services by using and improving on the
-                            latest
-                            technologies. Everything that comes out of GNOIN is of the highest quality and second to
-                            none. </p>
+                            clients. We provide top-notch web and mobile app development services by using and improving
+                            on the latest technologies. Everything that comes out of GNOIN is of the highest quality and
+                            second to none. We have a handpicked selection of the best web and mobile app developers who
+                            always believe that anything can be done in a smarter way, and any existing system can be
+                            challenged, and ultimately improved Could. 
+                            </p>
+
+                            <p>
+                            Our services have always been client-oriented, we value your happiness and business more
+                            than anything else. It has been so ever since we started as a team of 3 passionate people,
+                            and we hope to continue to be so for years to come.
+                            </p>
+
+                            <p>
+                            Our team consists of like-minded
+                            individuals who believe in treating customers as their priority, this is actually the first
+                            thing when you start working with us, without any intimation from your side things are being
+                            done.
+                            </p>
                     </div>
                 </div>
             </div>
@@ -56,18 +70,18 @@ include("header.php");
             <div class="content_container row ">
                 <div class="col-md-8 col-sm-12">
                     <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-md-3 col-sm-12 d-flex justify-content-lg-end justify-content-center">
-                            <div class="about_icons">
+                       <div class="col-md-3 col-sm-12 d-flex justify-content-lg-end justify-content-center">
+                            <!--<div class="about_icons">
                                 <img src="images/aboutimages/abouticon2.png" alt="" class="img-fluid">
-                            </div>
+                            </div>-->
 
                         </div>
 
                         <div class="about_textcont col-md-9 col-sm-12">
-                            <p class="p-3">We have a handpicked selection of the best web and mobile app developers who
-                                always
-                                believe that anything can be done in a smarter way, and any existing system can be
-                                challenged, and ultimately improved Could. </p>
+                            <!--<p class="p-3">Our team consists of like-minded
+                            individuals who believe in treating customers as their priority, this is actually the first
+                            thing when you start working with us, without any intimation from your side things are being
+                            done.</p>-->
                         </div>
 
                         <div class="col-md-3 col-sm-12 d-flex justify-content-lg-end justify-content-center">
@@ -78,10 +92,9 @@ include("header.php");
                         </div>
 
                         <div class="about_textcont col-md-9 col-sm-12">
-                            <p class="p-3">We have a handpicked selection of the best web and mobile app developers who
-                                always
-                                believe that anything can be done in a smarter way, and any existing system can be
-                                challenged, and ultimately improved Could. </p>
+                            <p class="p-3"> We offer a variety of engagement and hiring models, so we can meet our objectives for a
+                            variety of businesses, from startups that are in the planning stage, to businesses serving
+                            millions of users. </p>
                         </div>
 
                         <div class="col-md-3 col-sm-12 d-flex justify-content-lg-end justify-content-center">
@@ -92,10 +105,10 @@ include("header.php");
                         </div>
 
                         <div class="about_textcont col-md-9 col-sm-12">
-                            <p class="p-3">We have a handpicked selection of the best web and mobile app developers who
-                                always
-                                believe that anything can be done in a smarter way, and any existing system can be
-                                challenged, and ultimately improved Could. </p>
+                            <p class="p-3"> You can check out our portfolio and see how vivid it is in terms of types
+                            of both mobile apps and websites, We help clients start with small steps but improve their
+                            ability to grow rapidly by delivering quick results. With a range of robust service models,
+                            we optimize efficiency and economy for our clients. </p>
                         </div>
 
                         <div class="col-md-3 col-sm-12 d-flex justify-content-lg-end justify-content-center">
@@ -106,10 +119,9 @@ include("header.php");
                         </div>
 
                         <div class="about_textcont col-md-9 col-sm-12">
-                            <p class="p-3">We have a handpicked selection of the best web and mobile app developers who
-                                always
-                                believe that anything can be done in a smarter way, and any existing system can be
-                                challenged, and ultimately improved Could. </p>
+                            <p class="p-3"> Build Gnoin into a leading IT Services company by driving continuous improvement, adopting
+                            cutting edge technologies and focusing on value addition for our customers.
+</p>
                         </div>
                     </div>
                 </div>
@@ -139,17 +151,23 @@ include("header.php");
                 <div class="row">
                     <div class="col-12">
                         <p class="dirc_second_heading">WHO WE ARE?</p>
-                        <p class="businessch_second_subheading">Business Chalenges Solved With Digital Technology.</p>
-                        <p class="businessch_second_paraheading">We are a premium software development company providing
-                            truly outstanding solutions to our clients. We provide top-notch web and mobile app
-                            development services by using and improving on the latest technologies. Everything that
-                            comes out of GNOIN is of the highest quality and second to none.</p>
+                        <p class="businessch_second_subheading">Business chalenges Solved with Digital Technology.</p>
 
-                        <p class="businessch_second_paraheading">We are a premium software development company providing
-                            truly outstanding solutions to our clients. We provide top-notch web and mobile app
-                            development services by using and improving on the latest technologies. Everything that
-                            comes out of GNOIN is of the highest quality and second to none. We are a premium software
-                            development company providing truly outstanding solutions to our clients. </p>
+                        <p class="businessch_second_paraheading">In the current challenging business scenario,
+                                        leveraging technology through integrated solutions is possibly the best option
+                                        to reach tangible and invaluable solutions. </p>
+                                        <p>
+                                        <!--  <ul >
+                                        <li class="text-dark" style={"color:white;"}> ERP solutions</li>
+                                        <li class="text-dark"> Customized software</li>
+                                        <li class="text-dark">Web application and web development</li>
+                                        <li class="text-dark">Mobile application (iOS and Android) development</li>
+                                        <li class="text-dark"> Database support </li>
+                                        <li class="text-dark"> Digital Marketing </li>
+
+
+                                    </ul>-->
+                                        </p>
 
                     </div>
                 </div>
@@ -163,11 +181,11 @@ include("header.php");
                     </div>
 
                     <div class="col-12">
-                        <p class="businessch_second_paraheading">We are a premium software development company providing
-                            truly outstanding solutions to our clients. We provide top-notch web and mobile app
-                            development services by using and improving on the latest technologies. Everything that
-                            comes out of GNOIN is of the highest quality and second to none. We are a premium software
-                            development company providing truly outstanding solutions to our clients. </p>
+                        <p class="businessch_second_paraheading">Gnoin, adept at cutting edge
+                                        technology, harnesses the power of business process knowledge and domain
+                                        expertise to drive customer growth. In our endeavor to help our customers
+                                        innovate and growth and ensure ease in their digital journey, we provide them
+                                        with data driven software solutions that span across multiple verticals. </p>
                     </div>
                 </div>
 
@@ -233,30 +251,21 @@ include("header.php");
 
                     <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">When customers bring in an idea, the first thing we do is see if
+                                        their chosen technologies can be improved.
+.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 p-2">
-                <div class="card ethical_card_bg ">
-                    <img src="images/aboutimages/ethical2.png" class="card-img-top px-2" alt="...">
-
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
-                    <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
-                    </div>
-                </div>
-            </div>
+          
             <div class="col-lg-3 col-md-3 col-sm-12 p-2">
                 <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical3.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Maintain Transparency</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">One of the things our customers love about us is how much we email
+                                        and call them if they choose daily or bi-weekly updates..</p>
                     </div>
                 </div>
             </div>
@@ -264,10 +273,10 @@ include("header.php");
                 <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical4.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Equal Opportunity</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We never discriminate between people while hiring for our company,
+                                            we only look at their skills and qualifications.</p>
                     </div>
                 </div>
             </div>
@@ -275,10 +284,10 @@ include("header.php");
                 <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical5.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Help Start-ups</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">Since we also started as one, we know how much just mentoring can
+                                        help small businesses grow, we do everything we can to make it happen.</p>
                     </div>
                 </div>
             </div>
@@ -286,10 +295,10 @@ include("header.php");
                 <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical6.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Deliver Utmost Value</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We are dedicated to giving our best to our clients, helping them to
+                                            excel in the ever-changing and challenging business world.</p>
                     </div>
                 </div>
             </div>
@@ -308,10 +317,22 @@ include("header.php");
                 <div class="card ethical_card_bg ">
                     <img src="images/aboutimages/ethical8.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Recognize Clients' Needs</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We carefully examine each instance to understand customer wishes and
+                                        goals and provide a reliable and efficient solution. </p>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-12 p-2">
+                <div class="card ethical_card_bg ">
+                    <img src="images/aboutimages/ethical2.png" class="card-img-top px-2" alt="...">
+
+                    <h5 class="card-title techno_leverage px-2">Passion For Excellence</h5>
+                    <div class="card-body p-0 px-2">
+                        <p class="card-text">We strive to contribute our best for our customers while inspiring
+                                        others to do the same.</p>
                     </div>
                 </div>
             </div>
@@ -608,15 +629,8 @@ include("header.php");
         <div class="whychoose_uscontent w-75 h-100 p-5">
             <h1 class="whychooseus_heading">Why choose us?</h1>
             <p class="whychooseus_subheading">We Have Been Ranked As A Top Mobile & Web Development Company.</p>
-            <p>We are a premium software development company providing truly outstanding solutions to our clients. We
-                provide top-notch web and mobile app development services by using and improving on the latest
-                technologies.</p>
-            <p>We are a premium software development company providing truly outstanding solutions to our clients. We
-                provide top-notch web and mobile app development services by using and improving on the latest
-                technologies. Everything that comes out of GNOIN is of the highest quality and second to none.</p>
-            <p>We are a premium software development company providing truly outstanding solutions to our clients. We
-                provide top-notch web and mobile app development services by using and improving on the latest
-                technologies.</p>
+            <p>We practice what we preach. We have created a one-of-a-kind mobile monitoring platform that provides a 360° view of our own software company providing our expert CXOs with cutting-edge data analytics and insights at the touch of a button. 
+            Our expert team saw the project through multiple iterations to the finish line, to ensure the best possible outcome internally and for the clients..</p>
             <p>We are a premium software development company providing truly outstanding solutions to our clients. We
                 provide top-notch web and mobile app development services by using and improving on the latest
                 technologies. Everything that comes out of GNOIN is of the highest quality and second to none.</p>
@@ -638,8 +652,7 @@ include("header.php");
                         <h1>Our Strength</h1>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 position-relative">
-                        <p class="m-auto">We Impress With Our Vast Knowledge Base To Provide Solutions That Meet The
-                            Expectations Of The Clients Request, Business And Budget!</p>
+                        <p class="m-auto">We impress with our vast knowledge base to provide solutions that meet the expectations of the clients request, business and budget!</p>
                     </div>
                 </div>
 
@@ -648,10 +661,9 @@ include("header.php");
                 <div class="card ethical_card_bg  py-4">
                     <img src="images/aboutimages/ethical1.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Honesty</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We do not create customers; We build relationships of ethics and trust.</p>
                     </div>
                 </div>
             </div>
@@ -659,10 +671,9 @@ include("header.php");
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical2.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Respect</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We work in a spirit of cooperation, giving importance to human dignity at all levels.</p>
                     </div>
                 </div>
             </div>
@@ -670,10 +681,9 @@ include("header.php");
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical3.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Client Centricity</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We sincerely collect all the client-requirements and expectations before starting the work.</p>
                     </div>
                 </div>
             </div>
@@ -681,10 +691,9 @@ include("header.php");
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical4.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Quality</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We ensure continuous improvement of our processes in order to maintain the high quality of service we deliver.</p>
                     </div>
                 </div>
             </div>
@@ -692,10 +701,9 @@ include("header.php");
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical5.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Technology</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">We go with the latest technologies and methodologies to match the changing market trends.</p>
                     </div>
                 </div>
             </div>
@@ -703,10 +711,9 @@ include("header.php");
                 <div class="card ethical_card_bg py-4">
                     <img src="images/aboutimages/ethical6.png" class="card-img-top px-2" alt="...">
 
-                    <h5 class="card-title techno_leverage px-2">Innovate Together</h5>
+                    <h5 class="card-title techno_leverage px-2">Diversity</h5>
                     <div class="card-body p-0 px-2">
-                        <p class="card-text">When customers bring in an idea, the first thing we do is see if their
-                            chosen technologies can be improved.</p>
+                        <p class="card-text">Our operational capability and expertise extends to national and international businesses in almost all domains.</p>
                     </div>
                 </div>
             </div>
@@ -925,7 +932,10 @@ include("header.php");
 
 
 
+<?php
 
+     include("engagementmodel.php");
+    ?>
 
 
 <!-- footer start -->
