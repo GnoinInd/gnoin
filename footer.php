@@ -57,6 +57,7 @@
                                     <li><a href="./about.php" previewlistener="true">Blog</a></li>
                                     <li><a href="./contact.php" previewlistener="true">Careers</a></li>
                                     <li><a id="privacyPolicy" previewlistener="true">Privacy Policy</a></li>
+                                    <li><a  class="RefundCancellationPolicy" previewlistener="true">Refund Cancellation Policy</a></li>
                                     </ul>
                                     <!-- /.footer-widget__links -->
                                     </div>
@@ -129,8 +130,10 @@
                             Reserved
                         </div>
                         <ul class="list-unstyled site-footer__links">
-                           <li><a  id="termsOfService">Terms of Service</a></li>
-                            <li><a  id="privacyPolicy">Privacy Policy</a></li>
+                           <li><a  class="termsOfService">Terms of Service</a></li>
+                        
+                            <li><a  class="privacyPolicy">Privacy Policy</a></li>
+                         <li><a  class="RefundCancellationPolicy">Refund Cancellation Policy</a></li>
                         </ul>
                     </div>
                 </div>
