@@ -239,7 +239,7 @@ button:focus {
   border: none !important;
 }
 .menu-bar i {
-  color: var(--thm-base-color);
+  color: #fff;
 }
 
 .list-group .list-group-item {
@@ -1985,9 +1985,76 @@ hr.style-one {
   color: var(--thm-black-color);
 }
 
+/* maintensce page  */
+.maintenance_contain{
+  display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
+/* police pages  */
+.custom-width-75{
+  width: 75%;
+}
+.police-title {
+  display: inline-block;
+  text-align: start;
+  padding: 6px 4px;
+  font-weight: 600;
+  user-select: none; 
+  font-size: 24px;
+}
+.police-list-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  text-align: start;
+  user-select: none; 
+}
+.police-list-wrapper li {
+    text-align: start;
+    padding: 6px 4px;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    user-select: none; 
+    list-style:outside !important;
+}
+.police-list-wrapper .list-with-number{
+  list-style: lower-roman !important;
+}
+.police-list-wrapper .list-with-number ul li {
+  list-style: lower-alpha !important;
+}
+.police-text {
+  display: inline-block;
+  text-align: start;
+  padding: 6px 4px;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  user-select: none; 
+}
 
+.police-text .blink-soft {
+font-size: 12px;
+cursor: pointer;
+}
+.blink-soft {
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+/* fotter  */
 
 .site-footer {
   background-color: #2d5973;
@@ -2200,7 +2267,7 @@ hr.style-one {
   background-image: url(../images/imagesIndex/crossPlatFormHeaderImg.jpg);
   /* background-position: center center; */
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   text-align: center;
   position: relative;
@@ -2242,13 +2309,13 @@ hr.style-one {
   padding: 20.5px 89px;
     box-sizing: border-box;
     border-radius: 4px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 
 }
 .inner-banner__content-wrap h2{
-font-size: 64px;
+font-size: 40px;
 font-weight: 800;
-line-height: 81px;
+line-height: 50px;
 letter-spacing: 0em;
 text-align: center;
 color: #ffffff;
@@ -2256,9 +2323,9 @@ color: #ffffff;
 
 .inner-banner__content-wrap p{
   font-family: Barlow;
-font-size: 40px;
+font-size: 28px;
 font-weight: 600;
-line-height: 48px;
+line-height: 38px;
 letter-spacing: 0em;
 text-align: center;
 color:  #FFCD1D;
@@ -3823,13 +3890,10 @@ button.menu-toggler {
 }
 
 
-
-
-
-
-
 @media (max-width: 992px) {
- 
+  .custom-width-75{
+    width: 100%;
+  }
 
 
   .listing-item {

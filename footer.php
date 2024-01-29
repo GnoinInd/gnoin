@@ -56,8 +56,7 @@
                                     <li><a href="./on-demand-developer.php" previewlistener="true">On Demand developers </a></li>
                                     <li><a href="./about.php" previewlistener="true">Blog</a></li>
                                     <li><a href="./contact.php" previewlistener="true">Careers</a></li>
-                                    <li><a class="privacyPolicy" previewlistener="true">Privacy Policy</a></li>
-                                    <li><a  class="RefundCancellationPolicy" previewlistener="true">Refund Cancellation Policy</a></li>
+                                    <li><a href='./privacy-policy.php' previewlistener="true">Privacy Policy</a></li>
                                     </ul>
                                     <!-- /.footer-widget__links -->
                                     </div>
@@ -130,9 +129,9 @@
                             Reserved
                         </div>
                         <ul class="list-unstyled site-footer__links">
-                           <li><a  class="termsOfService">Terms of Service</a></li>
-                            <li><a  class="privacyPolicy">Privacy Policy</a></li>
-                         <li><a  class="RefundCancellationPolicy">Refund Cancellation Policy</a></li>
+                           <li><a href='./Terms-and-Conditions.php' >Terms of Service</a></li>
+                            <li><a  href='./privacy-policy.php'>Privacy Policy</a></li>
+                         <li><a  href="./Refund-Cancellation-Policy.php">Refund Cancellation Policy</a></li>
                         </ul>
                     </div>
                 </div>

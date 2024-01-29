@@ -772,43 +772,6 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model2.png" alt="...">
-                            </div>
-                            <div class=" text-center  ">Hybrid Delivery Model</div>
-
-                        </div>
-                        
-                    </div>
-                    <div class="flip-card-back our_deliver_model_3">
-                        <div class="card-header card_header_back ">
-
-                            <div class="text-center">Hybrid Delivery Model</div>
-                            <div class="rounded px-1  float-end ">
-
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
-                            </div>
-
-                        </div>
-                        <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white">
-                                Consolidation of onsite and offsite models for optimal
-                                results and performance.
-
-                            </p>
-                            <a href="#" class="btn btn-flipcard">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div class="card-header py-5 ">
-
-
-                            <div class="rounded px-1 ">
                                 <img src="gnoinv1/images/icon/Fixed-Cost-Model3.png" alt="...">
                             </div>
                             <div class=" text-center  ">Onsite Delivery Model</div>
@@ -845,17 +808,18 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model4.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model7.png" alt="...">
                             </div>
-                            <div class=" text-center  ">Software-as-a-Service (SaaS) Model</div>
+                            <div class=" text-center ">Offshore Delivery Model</div>
 
                         </div>
                         
                     </div>
-                    <div class="flip-card-back our_deliver_model_5">
+                    <div class="flip-card-back our_deliver_model_3">
+
                         <div class="card-header card_header_back ">
 
-                            <div class="text-center ">Software-as-a-Service (SaaS) Model</div>
+                            <div class="text-center ">Offshore Delivery Model</div>
                             <div class="rounded px-1  float-end ">
 
                                 <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
@@ -863,10 +827,8 @@ include("header.php");
 
                         </div>
                         <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white ">
-                                We provides a complete software solution which you
-                                purchase/rent on a pay-as-you-go basis from a cloud service provider.
-                                .</p>
+                            <p class=" text-center text-white">Provide advantages to clients in need of an extended team in
+                                        an offshore development center.</p>
                             <a href="#" class="btn btn-flipcard">Read More</a>
                         </div>
                     </div>
@@ -908,6 +870,47 @@ include("header.php");
                 </div>
             </div>
         </div>
+       
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-header py-5 ">
+
+
+                            <div class="rounded px-1 ">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model2.png" alt="...">
+                            </div>
+                            <div class=" text-center  ">Hybrid Delivery Model</div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="flip-card-back our_deliver_model_3">
+                        <div class="card-header card_header_back ">
+
+                            <div class="text-center">Hybrid Delivery Model</div>
+                            <div class="rounded px-1  float-end ">
+
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
+                            </div>
+
+                        </div>
+                        <div class="card-body mt-2 p-2">
+                            <p class=" text-center text-white">
+                                Consolidation of onsite and offsite models for optimal
+                                results and performance.
+
+                            </p>
+                            <a href="#" class="btn btn-flipcard">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+        
         <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="flip-card">
                 <div class="flip-card-inner">
@@ -953,9 +956,9 @@ include("header.php");
 
 
                             <div class="rounded px-1 ">
-                                <img src="gnoinv1/images/icon/Fixed-Cost-Model7.png" alt="...">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model10.png" alt="...">
                             </div>
-                            <div class=" text-center ">Offsite Delivery Model</div>
+                            <div class=" text-center ">Platform as a Service (PaaS) Model</div>
 
                         </div>
                         
@@ -964,7 +967,40 @@ include("header.php");
 
                         <div class="card-header card_header_back ">
 
-                            <div class="text-center ">Offsite Delivery Model</div>
+                            <div class="text-center ">Platform as a Service (PaaS) Model</div>
+                            <div class="rounded px-1  float-end ">
+
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model10.png" alt="..." class="img-fluid">
+                            </div>
+
+                        </div>
+                        <div class="card-body mt-2 p-2">
+                            <p class=" text-center text-white">With PaaS, Gnoin provides all the backend infrastructure, including networking, middleware, servers, storage, virtualization, OS, and runtime environments.</p>
+                            <a href="#" class="btn btn-flipcard">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="card-header py-5 ">
+
+
+                            <div class="rounded px-1 ">
+                                <img src="gnoinv1/images/icon/Fixed-Cost-Model4.png" alt="...">
+                            </div>
+                            <div class=" text-center  ">Software-as-a-Service (SaaS) Model</div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="flip-card-back our_deliver_model_5">
+                        <div class="card-header card_header_back ">
+
+                            <div class="text-center ">Software-as-a-Service (SaaS) Model</div>
                             <div class="rounded px-1  float-end ">
 
                                 <img src="gnoinv1/images/icon/Fixed-Cost-Model 1.png" alt="..." class="img-fluid">
@@ -972,9 +1008,10 @@ include("header.php");
 
                         </div>
                         <div class="card-body mt-2 p-2">
-                            <p class=" text-center text-white">Enable customers to take advantage of dedicated or
-                                on-demand
-                                skilled resources.</p>
+                            <p class=" text-center text-white ">
+                                We provides a complete software solution which you
+                                purchase/rent on a pay-as-you-go basis from a cloud service provider.
+                                .</p>
                             <a href="#" class="btn btn-flipcard">Read More</a>
                         </div>
                     </div>

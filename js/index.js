@@ -116,20 +116,7 @@ $(document).ready(function () {
       prevEl: '.swiper-button-prev',
     }
   });
-  // pdf render 
-       $('.termsOfService').on('click', function(event) {
-            event.preventDefault();  
-            window.open('../images/new/Terms and Conditions.pdf', '_blank');
-        });
-
-        $('.privacyPolicy').on('click', function(event) {
-            event.preventDefault();  
-            window.open('../images/new/Privacy Policies.pdf', '_blank');
-        });
-        $('.RefundCancellationPolicy').on('click', function(event) {
-          event.preventDefault();  
-          window.open('../images/new/Refund and Cancellation Policy.pdf', '_blank');
-      });
+ 
 });
 
 
