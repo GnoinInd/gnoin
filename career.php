@@ -52,7 +52,7 @@ include("header.php");
                             <p class="mb-0 font-md">Hiring Java Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                        <div class="text-right  button_div_career" style="width:4%;"><a href='./career-job-details.php'  class="thm-btn1 box_btn openAppyModal"
                                 style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
@@ -70,7 +70,7 @@ include("header.php");
                             <p class="mb-0 font-md">Hiring React js Developers with 7+ years of experience.</p>
     
                     </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                        <div class="text-right  button_div_career" style="width:4%;"><a href='./career-job-details.php' class="thm-btn1 box_btn openAppyModal"
                                 style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>
@@ -88,7 +88,7 @@ include("header.php");
                             <p class="mb-0 font-md">Hiring PHP Developers with 7+ years of experience.</p>
     
                         </div>
-                        <div class="text-right  button_div_career" style="width:4%;"><a class="thm-btn1 box_btn openAppyModal"
+                        <div class="text-right  button_div_career" style="width:4%;"><a href='./career-job-details.php' class="thm-btn1 box_btn openAppyModal"
                                 style="cursor:pointer;border: 1px solid; "><span>APPLY</span></a> </div>
                         <div class="clearfix"></div>
                     </div>

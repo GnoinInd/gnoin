@@ -11,6 +11,8 @@ $(document).ready(function () {
     if ($(this).scrollTop() > 100) {
       $('nav').css({ "position": "fixed", "color": "#000", "top": "0", "width": "100%", "background": "#FFF" });
       $('.nav-link').css({ "color": "#000" });
+      $('.fa-bars').css({"color":"#000"})
+      $('#wrap').css({'top':"100px"})
       $("#logo").attr("src", scrollSrc);
       $('.ContactUs').css({ "background": "#005d89", "color": "#fff" });
 
@@ -18,8 +20,24 @@ $(document).ready(function () {
       $('nav').css({ "position": "static", "top": "-1000%", "background": "none" });
       $('.ContactUs').css({ "color": "#000 ", "background": "#fff" });
       $('.nav-link').css({ "color": "#fff" });
+      $('.fa-bars').css({"color":"#fff"})
+      $('#wrap').css({'top':"120px"})
       $("#logo").attr("src", initialSrc);
     }
+
+
+  });
+
+  // careeer pae details 
+  $(document).ready(function () {
+    $(".open-call-btn").on("click", function (e) {
+      e.preventDefault();
+      $("#wrap").animate({ width: "toggle" }, 700);
+      $(".open-call").toggleClass("opened closed");
+    });
+    $(".close-call").click(function () {
+      $("#wrap").hide({ width: "toggle" }, 700);
+    });
   });
   //menutoggler------------
 

@@ -210,7 +210,7 @@ include("header.php");
                         business solutions. We are proud to be recognized as a digital enabler. </p>
 
                     <div class="cardbtn d-flex justify-content-center align-items-center mt-5">
-                        <p class="hover-underline-animation m-0"><a href="about.php" class="card-link text-white">Read
+                        <p class="hover-underline-animation m-0"><a href="./our-history.php" class="card-link text-white">Read
                                 More</a></p>
                     </div>
 
