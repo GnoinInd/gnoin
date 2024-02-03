@@ -1,9 +1,60 @@
 <?php
 
-include("header.php");
+
+//server connection
+$conn = mysqli_connect("localhost","root","","gnoin");
+
+
+// Create connection
+//$conn = mysqli_connect("localhost","root","","gnoin");
+
+// Check the connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+// $email = "";
+// $ipAddress = "";
+
+
+
+// Check if the form has been submitted
+if(isset($_POST["submit"]))
+{
+    
+    $ipAddress = $_SERVER["REMOTE_ADDR"];
+    $email = $_POST["Email"];
+    // $query = "INSERT INTO `connect`(`id`, `name`, `email`, `discussion`) VALUES ('','$name','$email','$reason')";
+    // $query = "INSERT INTO subscribe( email, ip) VALUES ('$email','$ipAddress')";
+    // mysqli_query($conn,$query);
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Insert data into the 'subscribe' table
+        $query = "INSERT INTO subscribe (email, ip) VALUES ('$email', '$ipAddress')";
+        $result = mysqli_query($conn, $query);
+
+        if ($result) {
+            echo "Data inserted successfully!";
+        } else {
+            echo "Error: " . $query . "<br>" . mysqli_error($conn);
+        }
+    } else {
+        echo "Invalid email address!";
+    }
+
+// $reload = true;
+}
+
+
+
+
+
+// Close the database connection
+$conn->close();
 ?>
 
-
+<?php 
+include("header.php");
+?>
 
 
 
@@ -1931,17 +1982,47 @@ include("header.php");
             </div>
 
             <div class="col-7 mt-3">
-                <div class="input-group ">
+                <form id="my_form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" class="input-group ">
+                    <input type="text" name="Email" aria-label="email" class="form-control">
+                    <button type="submit" name="submit" class="input-group-text btn btn-primary">SUBSCRIBE</button>
 
-
-                    <input type="text" aria-label="Last name" class="form-control">
-                    <span class="input-group-text btn btn-primary">SUBSCRIBE</span>
-                </div>
+                </form>
             </div>
         </div>
-
     </div>
 </div>
+<script>
+    // Add an event listener to the form's submit event
+    document.getElementById("my_form").addEventListener("submit", function (event) {
+        // Check if the required fields are empty
+        const emailInput = document.querySelector('input[name="Email"]');
+        const emailValue = emailInput.value.trim();
+
+        if (!emailValue) {
+            alert("Please fill in all required fields.");
+            event.preventDefault(); // Prevent form submission
+        } else if (!validateEmail(emailValue)) {
+            alert("Please enter a valid email address.");
+            event.preventDefault(); // Prevent form submission
+        } else {
+            // Display a success message
+            alert("Data submitted successfully.");
+            // You can perform additional actions here if needed
+
+            // Prevent the page from reloading
+            // event.preventDefault(); // This line is not needed here as it's already being prevented in the previous conditions
+        }
+    });
+
+    // Function to validate email using a regular expression
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+</script>
+
+
+
 
 
 

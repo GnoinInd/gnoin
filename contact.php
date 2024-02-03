@@ -1,53 +1,56 @@
-
 <?php
-
-
-//server connection
-$conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
-
-
-// Create connection
-//$conn = mysqli_connect("localhost","root","","gnoin");
+// Server connection
+$conn = mysqli_connect("localhost", "root", "", "gnoin");
 
 // Check the connection
 if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
-
+// Initialize variables
 $name = "";
 $email = "";
 $subject = "";
 $message = "";
 
-
 // Check if the form has been submitted
-if(isset($_POST["submit"]))
-{
-    
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $subject = $_POST["subject"];
-    $message = $_POST["message"];
+if (isset($_POST["submit"])) {
+    // Retrieve and sanitize the input data
+    $name = mysqli_real_escape_string($conn, $_POST["name"]);
+    $email = mysqli_real_escape_string($conn, $_POST["email"]);
+    $subject = mysqli_real_escape_string($conn, $_POST["subject"]);
+    $message = mysqli_real_escape_string($conn, $_POST["message"]);
 
-    // $query = "INSERT INTO `connect`(`id`, `name`, `email`, `discussion`) VALUES ('','$name','$email','$reason')";
-$query = "INSERT INTO contact(id, name, email, subject, message) VALUES ('','$name','$email','$subject','$message')";
-mysqli_query($conn,$query);
+    // Perform server-side validation
+    if (!isString($name) || !validateEmail($email) || !isString($subject) || !isString($message)) {
+        echo "Invalid data submitted.";
+    } else {
+        // Insert data into the 'contact' table
+        $query = "INSERT INTO contact (name, email, subject, message) VALUES ('$name', '$email', '$subject', '$message')";
+        $result = mysqli_query($conn, $query);
 
-// $reload = true;
+        if ($result) {
+            echo "Data inserted successfully!";
+        } else {
+            echo "Error: " . $query . "<br>" . mysqli_error($conn);
+        }
+    }
 }
 
+// Function to check if a string contains only alphabetic characters
+function isString($value)
+{
+    return preg_match('/^[A-Za-z\s]+$/', $value);
+}
 
-
-
+// Function to validate email using a regular expression
+function validateEmail($email)
+{
+    return filter_var($email, FILTER_VALIDATE_EMAIL);
+}
 
 // Close the database connection
 $conn->close();
 ?>
-
-
-
-
-
 
   <?php include "header.php"; ?>
 
@@ -163,7 +166,7 @@ $conn->close();
 
         <!-- form part start -->
         <!-- <form id="my_form" action="<?php echo $baseUrl ?>contactus" method="POST"> -->
-        <form id="my_form" action="" method="POST">
+        <form id="my_form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
            <section class="container mt-5">
              <!--Contact heading-->
               <div class="row">
@@ -207,8 +210,7 @@ $conn->close();
                                 </div>
                             </div>
                             <div class="text-center">
-                                <input type="submit" name="submit" value="submit"
-                                    class="btn btn-primary btn-block rounded-0 py-2">
+                            <button type="submit" name="submit" class="btn btn-primary btn-block rounded-0 py-2">Submit</button>
                             </div>
 
                         </div>
@@ -253,24 +255,34 @@ $conn->close();
 
 
         <script>
-    // Add an event listener to the form's submit event
     document.getElementById("my_form").addEventListener("submit", function (e) {
-        // Check if the required fields are empty
-        if (!document.querySelector('input[name="name"]').value || !document.querySelector('input[name="email"]').value || !document.querySelector('input[name="subject"]').value || !document.querySelector('input[name="message"]').value) {
-            alert("Please fill in all required fields.");
+        const name = document.querySelector('input[name="name"]').value.trim();
+        const email = document.querySelector('input[name="email"]').value.trim();
+        const subject = document.querySelector('input[name="subject"]').value.trim();
+        const message = document.querySelector('input[name="message"]').value.trim();
+
+        if (!isString(name) || !isString(subject) || !isString(message)) {
+            alert("Name, Subject, and Message must be strings.");
+            e.preventDefault(); // Prevent form submission
+        } else if (!validateEmail(email)) {
+            alert("Please enter a valid email address.");
             e.preventDefault(); // Prevent form submission
         } else {
-            // Display a success message
             alert("Data submitted successfully.");
-
-             // Reload the page
-             location.reload();
-
-            // Prevent the page from reloading
-            e.preventDefault();
+            e.preventDefault(); // Prevent the page from reloading
         }
     });
+
+    function isString(value) {
+        return /^[A-Za-z\s]+$/.test(value);
+    }
+
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
 </script>
+
 
 
 

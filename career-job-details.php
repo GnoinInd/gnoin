@@ -472,7 +472,7 @@ include("header.php");
                     <h3 class="card-title career-title-h3">Compensation Structure</h3>
                     <button class=" btn  close-call">Back</button>
                 </div>
-                <div class="card p-4 w-100 them-bg-inherit mb-3 mt-3 border-primary-thm">
+                <form action="InsertJobRequest.php" method="POST" class="card p-4 w-100 them-bg-inherit mb-3 mt-3 border-primary-thm">
                     <div class="card-body p-0">
                         <div class="row  w-100">
                             <div class="col-12 mb-4">
@@ -480,26 +480,26 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <input class="animated-input" type="text" id="FirstName" required />
+                                    <input class="animated-input" name="FirstName" type="text" id="FirstName" required />
                                     <label class="animated-lable" for="FirstName">First Name</label>
                                 </div>
 
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <input class="animated-input" type="text" id="MIddleName" required />
+                                    <input class="animated-input" name="MIddleName" type="text" id="MIddleName" required />
                                     <label class="animated-lable" for="MIddleName">MIddle Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <input class="animated-input" type="text" id="LastName" required />
+                                    <input class="animated-input" name="LastName" type="text" id="LastName" required />
                                     <label class="animated-lable" for="LastName">Last Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <input class="animated-input" type="text" id="CurrentAddress" required />
+                                    <input class="animated-input" name="CurrentAddress" type="text" id="CurrentAddress" required />
                                     <label class="animated-lable" for="CurrentAddress">Current Address</label>
                                 </div>
                             </div>
@@ -526,7 +526,7 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <input class="animated-input" type="text" id="Dob" required />
+                                    <input class="animated-input" name="Dob" type="date" id="Dob" required />
                                     <label class="animated-lable" for="Dob">Dob</label>
                                 </div>
                             </div>
@@ -550,7 +550,7 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <input class="animated-input" type="text" id="Jobtitle" required />
+                                    <input class="animated-input" name="Jobtitle" type="text" id="Jobtitle" required />
                                     <label class="animated-lable" for="Jobtitle">Job Title</label>
                                 </div>
                             </div>
@@ -574,18 +574,32 @@ include("header.php");
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
-                                <div class="animated-input-field">
-                                    <input class=" animated-input" type="file" id="uploadResume" required />
-                                        <label class="animated-lable" for="uploadResume"> </label>
+                                <div class="animated-input-field custom-border">
+                                    <input class=" animated-input file-input" type="file" id="uploadResume" required />
+                                        <label class="animated-lable" for="uploadResume"> Upload Resume</label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3 col-md-4">
+                                <div class="animated-input-field custom-border">
+                                    <input class=" animated-input file-input" type="file" id="uploadPanCard" required />
+                                        <label class="animated-lable" for="uploadPanCard"> Upload Pan Card </label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3 col-md-4">
+                                <div class="animated-input-field custom-border">
+                                    <input class=" animated-input file-input" type="file" id="uploadAadhar" required />
+                                        <label class="animated-lable" for="uploadAadhar"> Upload Aadhar</label>
                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="w-100 d-inline-block">
-                        <a href="" class="btn thm-btn  float-right">Save</a>
+                        <button type="submit" class="btn thm-btn  float-right">Save</button>
                     </div>
-                </div>
+                </form>
 
             </div>
         </div>
