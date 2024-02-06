@@ -306,8 +306,7 @@ include("header.php");
                 <div class="card w-100">
                     <div class="row ">
                         <div class="col-md-5">
-                            <div class="h-100"><img class="h-100" src="./images/career/image/career-image-8.png "
-                                    alt="" /></div>
+                            <div class="h-100"><img class="h-100" src="./images/career/image/career-image-8.png " alt="" /></div>
                         </div>
                         <div class="col-md-7">
                             <ul class=" p-md-4 m-0">
@@ -381,8 +380,7 @@ include("header.php");
                 </div>
                 <div class="pt-4 pb-4 mb-2 w-100 position-relative">
                     <div class="section_image  caree-img-overlay w-50 ">
-                        <img src="./images/career/image/career-completion-6.png" alt=""
-                            class="img-fluid  rounded-0 h-100 w-100">
+                        <img src="./images/career/image/career-completion-6.png" alt="" class="img-fluid  rounded-0 h-100 w-100">
                         <div class="card custom_card_design2 thm-blur-bg">
                             <div class="card-body">
                                 <ul class="text-light p-md-4 p-2">
@@ -418,12 +416,10 @@ include("header.php");
                             <h3 class="career-title-h3 text-center float-md-right">Experience</h3>
                         </div>
                         <div class="p-2 w-100 text-start">
-                            <p class="career-text-para"><span class="mr-2 text-primary-thm"><i
-                                        class="fa fa-hand-o-right text-primary"></i></span>Partnership experience is a
+                            <p class="career-text-para"><span class="mr-2 text-primary-thm"><i class="fa fa-hand-o-right text-primary"></i></span>Partnership experience is a
                                 plus and preferred!
                             </p>
-                            <p class="career-text-para"><span class="mr-2"><i
-                                        class="fa fa-hand-o-right text-primary"></i></span>Sales, Partnership, or
+                            <p class="career-text-para"><span class="mr-2"><i class="fa fa-hand-o-right text-primary"></i></span>Sales, Partnership, or
                                 Relationship Management for 2 years (Required)
                             </p>
                         </div>
@@ -505,19 +501,18 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <select class="animated-input" name="HIghestQualification"
-                                        id="HIghestQualification">
+                                    <select class="animated-input" name="HIghestQualification" id="HIghestQualification" required>
                                         <option value="" selected></option>
                                         <option value="12th">12th</option>
                                         <option value="10th">10th</option>
                                     </select>
-                                    <label class="animated-lable" for="HIghestQualification">HIghest
+                                    <label class="animated-lable" for="HIghestQualification">Highest
                                         Qualification</label>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <select class="animated-input" name="PassingYear" id="PassingYear">
+                                    <select class="animated-input" name="PassingYear" id="PassingYear" required>
                                         <option value="" selected></option>
                                         <option value="2016">2016</option>
                                         <option value="2015">2015</option>
@@ -532,7 +527,7 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <select class="animated-input" name="EmployeIn" id="EmployeIn">
+                                    <select class="animated-input" name="EmployeIn" id="EmployeIn" required>
                                         <option value="" selected></option>
                                         <option value="12">12</option>
                                         <option value="13">13</option>
@@ -541,7 +536,7 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <select class="animated-input" name="Experience" id="Experience">
+                                    <select class="animated-input" name="Experience" id="Experience" required>
                                         <option value="" selected></option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -556,7 +551,7 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <select class="animated-input" name="Language" id="Language">
+                                    <select class="animated-input" name="Language" id="Language" required>
                                         <option value="" selected></option>
                                         <option value="hindi">Hindi</option>
                                         <option value="bengali">English</option>
@@ -565,7 +560,7 @@ include("header.php");
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field">
-                                    <select class="animated-input" name="ImmediateJoiner" id="ImmediateJoiner">
+                                    <select class="animated-input" name="ImmediateJoiner" id="ImmediateJoiner" required>
                                         <option value="" selected></option>
                                         <option value="10">10</option>
                                         <option value="12">12</option>
@@ -576,24 +571,185 @@ include("header.php");
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field custom-border">
                                     <input class=" animated-input file-input" type="file" id="uploadResume" required />
-                                        <label class="animated-lable" for="uploadResume"> Upload Resume</label>
-                                   
+                                    <label class="animated-lable" for="uploadResume"> Upload Resume</label>
+
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field custom-border">
                                     <input class=" animated-input file-input" type="file" id="uploadPanCard" required />
-                                        <label class="animated-lable" for="uploadPanCard"> Upload Pan Card </label>
-                                   
+                                    <label class="animated-lable" for="uploadPanCard"> Upload Pan Card </label>
+
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-3 col-md-4">
                                 <div class="animated-input-field custom-border">
                                     <input class=" animated-input file-input" type="file" id="uploadAadhar" required />
-                                        <label class="animated-lable" for="uploadAadhar"> Upload Aadhar</label>
-                                   
+                                    <label class="animated-lable" for="uploadAadhar"> Upload Aadhar</label>
+
                                 </div>
                             </div>
+                            <!-- <div class="col-sm-6 mb-3 col-md-4">
+                                <div class="animated-input-field custom-border">
+                                    <button class="other animated-input btn btn-thm px-5" id="uploadAadhar" required> open </button>
+
+                                </div>
+                            </div> -->
+                            <div class="col-sm-6 mb-3 col-md-4">
+                                <div class="form-check form-check-inline animated-input-field"> Are you fresher ?</div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios01" value="option01">
+                                    <label class="form-check-label" for="exampleRadios01">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="other form-check-input" type="radio" name="exampleRadios" id="exampleRadios02" value="option02">
+                                    <label class="other form-check-label" for="exampleRadios02">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                            <div id="wrap1" class="bg-light-blue">
+                                <div class="container h-100 w-100">
+                                    <div class="p-4 d-block m-auto w-100">
+                                        <div class="d-flex flex-column align-items-center justify-content-between">
+                                            <div class="mb-2 w-100 d-flex justify-content-between align-items-center">
+                                                <h3 class="card-title career-title-h3">Add Employement</h3>
+                                                <button class=" btn close-call1">Back</button>
+                                            </div>
+                                            <div class="card p-4 w-100 them-bg-inherit mb-3 mt-3 border-primary-thm">
+                                                <div class="card-body p-0">
+                                                    <div class="row  w-100">
+                                                        <div class="col-12 mb-4">
+                                                            <h4 class="career-text-para">Apply for Channel Partner
+                                                                Manager</h4>
+                                                        </div>
+                                                        <div class="col-sm-6 mb-3 col-md-4">
+                                                            <div class="animated-input-field">
+                                                                <input class="animated-input" name="Experience" type="text" id="FirstName" required />
+                                                                <label class="animated-lable" for="Experience">Total
+                                                                    Experience <span for="Experience" style="color:red;">*</span></label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-sm-6 mb-3 col-md-6">
+                                                            <div class="animated-input-field">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                                                    <label class="form-check-label" for="exampleRadios1">
+                                                                        Full Time
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                                    <label class="form-check-label" for="exampleRadios2">
+                                                                        Part Time
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                                                    <label class="form-check-label" for="exampleRadios3">
+                                                                        Internship
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-10">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 mb-3 col-md-4">
+                                                                    <div class="animated-input-field">
+                                                                        <select class="animated-input" name="TotalExperience" id="TotalExperience" required>
+                                                                            <option value="" selected></option>
+                                                                            <option value="1">1 year</option>
+                                                                            <option value="2">2 year</option>
+                                                                            <option value="3">3 year</option>
+                                                                            <option value="4">4 year</option>
+                                                                            <option value="5">5 year</option>
+                                                                        </select>
+                                                                        <label class="animated-lable" for="TotalExperience">Total
+                                                                            Experience</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 mb-3 col-md-4">
+                                                                    <div class="animated-input-field">
+                                                                        <select class="animated-input" name="Month" id="Month" required>
+                                                                            <option value="" selected></option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                        </select>
+                                                                        <label class="animated-lable" for="Month">Months</label>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-sm-6 mb-3 col-md-4">
+                                                                    <div class="animated-input-field">
+                                                                        <input class="animated-input" name="CurrentCompany" type="text" id="CurrentCompany" required />
+                                                                        <label class="animated-lable" for="CurrentCompany">Current Company Name <span for="CurrentCompany" style="color:red;">*</span></label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 mb-3 col-md-4">
+                                                                    <div class="animated-input-field">
+                                                                        <input class="animated-input" name="CurrentDesignation" type="text" id="CurrentDesignation" required />
+                                                                        <label class="animated-lable" for="CurrentDesignation">Current Designation<span for="CurrentDesignation" style="color:red;">*</span></label>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-sm-6 mb-3 col-md-4 d-flex flex-row">
+                                                                    <div class="col-sm-4 col-sm-4">
+                                                                        <div class="animated-input-field">
+                                                                            <select class="animated-input" name="TotalExperience" id="TotalExperience" required>
+                                                                                <option value="Rupee" selected>Rs</option>
+                                                                                <option value="Dollar">$</option>
+                                                                            </select>
+                                                                            <label class="animated-lable" for="TotalExperience">Currency</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-8 col-sm-8 ">
+                                                                        <div class="animated-input-field">
+                                                                            <input class="animated-input" name="Price" type="text" id="Price" required />
+                                                                            <label class="animated-lable" for="Price">
+                                                                                Price<span for="Price" style="color:red;">*</span></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-6 mb-3 col-md-4">
+                                                                    <div class="animated-input-field">
+                                                                        <select class="animated-input" name="NoticePeriod" id="NoticePeriod" required>
+                                                                            <option value="" selected></option>
+                                                                            <option value="1">1 year</option>
+                                                                            <option value="2">2 year</option>
+                                                                            <option value="3">3 year</option>
+                                                                            <option value="4">4 year</option>
+                                                                            <option value="5">5 year</option>
+                                                                        </select>
+                                                                        <label class="animated-lable" for="NoticePeriod">Notice
+                                                                            Period <span for="NoticePeriod" style="color:red;">*</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-100 d-inline-block">
+                                                    <button type="submit" class="btn thm-btn  float-right">Save</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="w-100 d-inline-block">

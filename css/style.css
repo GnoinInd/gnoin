@@ -4920,6 +4920,17 @@ h2 {
   height: 80vh;
   z-index: 2;
 }
+#wrap1 {
+  position: fixed;
+  left: 50px;
+  right: 50px;
+  background: #fff;
+  top: 120px;
+  display: none;
+  overflow-y: scroll;
+  height: 80vh;
+  z-index: 3;
+}
 
 
 .animated-input-field {
