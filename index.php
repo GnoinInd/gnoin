@@ -34,7 +34,7 @@ if(isset($_POST["submit"]))
         $result = mysqli_query($conn, $query);
 
         if ($result) {
-            echo "Data inserted successfully!";
+            // echo "Data inserted successfully!";
         } else {
             echo "Error: " . $query . "<br>" . mysqli_error($conn);
         }
