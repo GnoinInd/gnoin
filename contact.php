@@ -1,6 +1,7 @@
 <?php
 // Server connection
-$conn = mysqli_connect("localhost", "root", "", "gnoin");
+// $conn = mysqli_connect("localhost", "root", "", "gnoin");
+$conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
 
 // Check the connection
 if ($conn->connect_error) {
