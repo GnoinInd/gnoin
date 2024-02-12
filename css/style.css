@@ -4936,7 +4936,7 @@ h2 {
 .animated-input-field {
   position: relative;
   /* width: 250px; */
-  height: 44px;
+  height: 65px;
 }
 
 .animated-lable {
@@ -4949,6 +4949,13 @@ h2 {
   cursor: text;
 }
 
+.custom-label{
+  font-size: 14px;
+  top: -14px;
+  color: green;
+  background: #fff;
+  width: auto;
+}
 .animated-input {
   width: 100%;
   border: 0;
@@ -4965,9 +4972,12 @@ h2 {
   outline: 0;
 }
 
-.animated-input:focus,
+/* .animated-input:focus,
 .animated-input:valid {
   border-color: #dd0000;
+} */
+.animated-input:isvalid{
+  color: green;
 }
 
 .animated-input:focus~.animated-lable,
@@ -4978,14 +4988,19 @@ h2 {
   background: #fff;
   width: auto;
 }
-.file-input{
-  display: none;
+.file-input:focus,
+.file-input:visited{
+  display: block;
   padding: 6px 12px;
   cursor: pointer;
+  color: black !important;;
 }
-.custom-border{
+
+
+
+/* .custom-border{
   border: 1px solid #8dff9e;
-}
+} */
 
 .gap-2 {
   gap: 6px;

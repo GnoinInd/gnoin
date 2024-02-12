@@ -1,12 +1,267 @@
+index.php >>>>>>
+
+
+
+$(document).ready(function () {
+  // navfixed-------------
+
+
+  var initialSrc = "./images/new/gnoiin 1-2.png";
+  var scrollSrc = "./images/new/logo1-3.png";
+
+  $(document).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $('nav').css({ "position": "fixed", "color": "#000", "top": "0", "width": "100%", "background": "#FFF" });
+      $('.nav-link').css({ "color": "#000" });
+      $('.fa-bars').css({"color":"#000"})
+      $('#wrap').css({'top':"100px"})
+      $("#logo").attr("src", scrollSrc);
+      $('.ContactUs').css({ "background": "#005d89", "color": "#fff" });
+
+    } else {
+      $('nav').css({ "position": "static", "top": "-1000%", "background": "none" });
+      $('.ContactUs').css({ "color": "#000 ", "background": "#fff" });
+      $('.nav-link').css({ "color": "#fff" });
+      $('.fa-bars').css({"color":"#fff"})
+      $('#wrap').css({'top':"120px"})
+      $("#logo").attr("src", initialSrc);
+    }
+
+
+  });
+
+  // careeer pae details 
+  $(document).ready(function () {
+    $(".open-call-btn").on("click", function (e) {
+      e.preventDefault();
+      $("#wrap").animate({ width: "toggle" }, 700);
+      $(".open-call").toggleClass("opened closed");
+    });
+    $(".close-call").click(function () {
+      $("#wrap").hide({ width: "toggle" }, 700);
+    });
+  });
+  $(document).ready(function () {
+    $(".other").on("click", function (e) {
+      document.getElementById('FresherChoice2').checked = true;
+      e.preventDefault();
+      $("#wrap1").animate({ width: "toggle" }, 700);
+      $(".open-call").toggleClass("opened closed");
+    });
+    $(".close-call1").click(function (e) {
+      $("#wrap1").hide({ width: "toggle" }, 700);
+      e.stopPropagation();
+    });
+  });
+  //menutoggler------------
+
+  if ($(window).innerWidth() < 992) {
+
+      $("#menuBar").click(function () {
+
+          $(".navbar-collapse").slideToggle("slow");
+      });
+
+
+
+      $(".dropdown").removeClass("dropdown-hover")
+
+      $(".dropdown").click(function (e) {
+          $(this).children('div').slideToggle("slow");
+
+      });
+
+
+
+  }
+
+  if (window.innerWidth < 992) {
+    document.getElementById("menuBar").addEventListener("click", function () {
+      document.querySelector(".navbar-collapse").style.display = "block";
+    });
+
+    var dropdowns = document.querySelectorAll(".dropdown");
+    for (var i = 0; i < dropdowns.length; i++) {
+      dropdowns[i].classList.remove("dropdown-hover");
+      dropdowns[i].addEventListener("click", function (e) {
+        this.children[0].style.display = "block";
+      });
+    }
+  }
+
+
+  (function ($) {
+    "use strict";
+    // Auto-scroll
+    $('#myCarousel').carousel({
+      interval: 3000
+    });
+
+    // Control buttons
+    $('.next').click(function () {
+      $('.carousel').carousel('next');
+      return false;
+    });
+    $('.prev').click(function () {
+      $('.carousel').carousel('prev');
+      return false;
+    });
+
+    // On carousel scroll
+    $("#myCarousel").on("slide.bs.carousel", function (e) {
+      var $e = $(e.relatedTarget);
+      var idx = $e.index();
+      var itemsPerSlide = 3;
+      var totalItems = $(".carousel-item").length;
+      if (idx >= totalItems - (itemsPerSlide - 1)) {
+        var it = itemsPerSlide -
+          (totalItems - idx);
+        for (var i = 0; i < it; i++) {
+          // append slides to end 
+          if (e.direction == "left") {
+            $(
+              ".carousel-item").eq(i).appendTo(".carousel-inner");
+          } else {
+            $(".carousel-item").eq(0).appendTo(".carousel-inner");
+          }
+        }
+      }
+    });
+  })
+    (jQuery);
+  new Swiper('.slides-1', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
+ 
+});
+
+
+
+
+
+// const headings = document.getElementsByClassName('typing-heading');
+
+// Array.from(headings).forEach((heading) => {
+//   const textLines = heading.innerHTML.split('<br>'); // Split text into lines
+
+//   let lineIndex = 0;
+//   let charIndex = 0;
+
+//   function typeText() {
+//     if (lineIndex < textLines.length) {
+//       const currentLine = textLines[lineIndex];
+//       if (charIndex < currentLine.length) {
+//         heading.innerHTML = textLines
+//           .map((line, index) => (index === lineIndex ? line.substr(0, charIndex+1) : line))
+//           .join('<br>');
+//         charIndex++;
+//       } else {
+//         lineIndex++;
+//         charIndex = 0;
+//       }
+//       setTimeout(typeText, Math.random() * 100 + 50); // Decreased delay between each character
+//     }
+//   }
+
+//   typeText();
+// });
+const headings = document.getElementsByClassName('typing-heading');
+
+// Callback function to handle the intersection
+const handleIntersection = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      startTyping(entry.target);
+    } else {
+      pauseTyping(entry.target);
+    }
+  });
+};
+
+// Configure the Intersection Observer
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5 // Adjust this threshold as per your requirement
+};
+
+// Create an observer instance
+const observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+// Iterate through the headings and observe each one
+Array.from(headings).forEach((heading) => {
+  observer.observe(heading);
+});
+
+// Typewriter function
+function startTyping(heading) {
+  const textLines = heading.innerHTML.split('<br>'); // Split text into lines
+
+  let lineIndex = 0;
+  let charIndex = 0;
+  let isPaused = false;
+
+  function typeText() {
+    if (!isPaused && lineIndex < textLines.length) {
+      const currentLine = textLines[lineIndex];
+      if (charIndex < currentLine.length) {
+        heading.innerHTML = textLines
+          .map((line, index) => (index === lineIndex ? line.substr(0, charIndex + 1) : line))
+          .join('<br>');
+        charIndex++;
+      } else {
+        lineIndex++;
+        charIndex = 0;
+      }
+      setTimeout(typeText, Math.random() * 100 + 50); // Decreased delay between each character
+    }
+  }
+
+  function pauseTyping() {
+    isPaused = true;
+  }
+
+  function resumeTyping() {
+    isPaused = false;
+    typeText();
+  }
+
+  typeText();
+
+  // Event listener to pause typing when the user scrolls
+  window.addEventListener('scroll', pauseTyping);
+
+  // Event listener to resume typing when the user scrolls back up
+  window.addEventListener('scroll', resumeTyping);
+}
+
+
+
+
+
+career-job-detailse >>>>>>>>>>
+
+
 <?php
 
 include("header.php");
 ?>
-<style>
-    .hide {
-        display: none;
-    }
-</style>
 <!-- sec-1 inner banner top  -->
 <section class="inner-banner">
     <div class="container">
@@ -528,7 +783,7 @@ include("header.php");
                                 <div class="col-sm-6 mb-3 col-md-4">
                                     <div class="animated-input-field">
                                         <input class="animated-input" name="Dob" type="date" id="Dob" required />
-                                        <label class="animated-lable custom-label" for="Dob">Dob</label>
+                                        <label class="animated-lable" for="Dob">Dob</label>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 mb-3 col-md-4">
@@ -576,22 +831,22 @@ include("header.php");
                                 </div>
                                 <div class="col-sm-6 mb-3 col-md-4">
                                     <div class="animated-input-field custom-border">
-                                        <input class=" animated-input file-input" name="resume" type="file" id="uploadResume" required />
-                                        <label class="animated-lable custom-label" for="uploadResume"> Upload Resume</label>
+                                        <input class=" animated-input file-input file-input1" name="resume" type="file" id="uploadResume" required />
+                                        <label class="animated-lable" for="uploadResume"> Upload Resume</label>
 
                                     </div>
                                 </div>
                                 <div class="col-sm-6 mb-3 col-md-4">
                                     <div class="animated-input-field custom-border">
                                         <input class=" animated-input file-input" name="panCard" type="file" id="uploadPanCard" required />
-                                        <label class="animated-lable custom-label" for="uploadPanCard"> Upload Pan Card </label>
+                                        <label class="animated-lable" for="uploadPanCard"> Upload Pan Card </label>
 
                                     </div>
                                 </div>
                                 <div class="col-sm-6 mb-3 col-md-4">
                                     <div class="animated-input-field custom-border">
                                         <input class=" animated-input file-input" type="file" name="aadhar" id="uploadAadhar" required />
-                                        <label class="animated-lable custom-label" for="uploadAadhar"> Upload Aadhar</label>
+                                        <label class="animated-lable" for="uploadAadhar"> Upload Aadhar</label>
 
                                     </div>
                                 </div>
@@ -599,133 +854,156 @@ include("header.php");
                                     <div class="form-check form-check-inline animated-input-field"> Are you fresher ?</div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="FresherChoice" id="FresherChoice1" value="yes">
-                                        <label class="form-check-label" for="FresherChoice1">
+                                        <label class="form-check-label" for="exampleRadios01">
                                             Yes
                                         </label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="other form-check-input" type="radio" name="FresherChoice" id="FresherChoice2" value="no">
-                                        <label class="other form-check-label" for="FresherChoice2">
+                                        <label class="other form-check-label" for="exampleRadios02">
                                             No
                                         </label>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="NonFresher" class="hide">
-                                <div class="row w-100">
-                                    <div class="col-sm-6 mb-3 col-md-4">
-                                        <div class="animated-input-field">
-                                            <input class="animated-input" name="NonFreshersExperience" type="text" id="NonFreshersExperience" />
-                                            <label class="animated-lable" for="NonFreshersExperience">Total
-                                                Experience <span for="NonFreshersExperience" style="color:red;">*</span></label>
-                                        </div>
-                                    </div>
+                                <div id="wrap1" class="bg-light-blue">
+                                    <div class="container h-100 w-100">
+                                        <div class="p-4 d-block m-auto w-100">
+                                            <div class="d-flex flex-column align-items-center justify-content-between">
+                                                <div class="mb-2 w-100 d-flex justify-content-between align-items-center">
+                                                    <h3 class="card-title career-title-h3">Add Employement</h3>
+                                                    <button class=" btn close-call1">Back</button>
+                                                </div>
+                                                <div class="card p-4 w-100 them-bg-inherit mb-3 mt-3 border-primary-thm">
+                                                    <div class="card-body p-0">
+                                                        <div class="row  w-100">
+                                                            <div class="col-12 mb-4">
+                                                                <h4 class="career-text-para">Apply for Channel Partner
+                                                                    Manager</h4>
+                                                            </div>
+                                                            <div class="col-sm-6 mb-3 col-md-4">
+                                                                <div class="animated-input-field">
+                                                                    <input class="animated-input" name="NonFreshersExperience" type="text" id="NonFreshersExperience" />
+                                                                    <label class="animated-lable" for="NonFreshersExperience">Total
+                                                                        Experience <span for="NonFreshersExperience" style="color:red;">*</span></label>
+                                                                </div>
+                                                            </div>
 
-                                    <div class="col-sm-6 mb-3 col-md-6">
-                                        <div class="animated-input-field">
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="fullTime" checked>
-                                                <label class="form-check-label" for="exampleRadios1">
-                                                    Full Time
-                                                </label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="partTime">
-                                                <label class="form-check-label" for="exampleRadios2">
-                                                    Part Time
-                                                </label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="Internship">
-                                                <label class="form-check-label" for="exampleRadios3">
-                                                    Internship
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row w-100">
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <select class="animated-input" name="TotalExperience" id="TotalExperience">
-                                            <option value="" selected></option>
-                                            <option value="1">1 year</option>
-                                            <option value="2">2 year</option>
-                                            <option value="3">3 year</option>
-                                            <option value="4">4 year</option>
-                                            <option value="5">5 year</option>
-                                        </select>
-                                        <label class="animated-lable" for="TotalExperience">Total
-                                            Experience</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <select class="animated-input" name="Month" id="Month">
-                                            <option value="" selected></option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
-                                            <option value="11">11</option>
-                                            <option value="12">12</option>
-                                        </select>
-                                        <label class="animated-lable" for="Month">Months</label>
-                                    </div>
-                                </div>
+                                                            <div class="col-sm-6 mb-3 col-md-6">
+                                                                <div class="animated-input-field">
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="fullTime" checked>
+                                                                        <label class="form-check-label" for="exampleRadios1">
+                                                                            Full Time
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="partTime">
+                                                                        <label class="form-check-label" for="exampleRadios2">
+                                                                            Part Time
+                                                                        </label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="Internship">
+                                                                        <label class="form-check-label" for="exampleRadios3">
+                                                                            Internship
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-10">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6 mb-3 col-md-4">
+                                                                        <div class="animated-input-field">
+                                                                            <select class="animated-input" name="TotalExperience" id="TotalExperience">
+                                                                                <option value="" selected></option>
+                                                                                <option value="1">1 year</option>
+                                                                                <option value="2">2 year</option>
+                                                                                <option value="3">3 year</option>
+                                                                                <option value="4">4 year</option>
+                                                                                <option value="5">5 year</option>
+                                                                            </select>
+                                                                            <label class="animated-lable" for="TotalExperience">Total
+                                                                                Experience</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6 mb-3 col-md-4">
+                                                                        <div class="animated-input-field">
+                                                                            <select class="animated-input" name="Month" id="Month">
+                                                                                <option value="" selected></option>
+                                                                                <option value="1">1</option>
+                                                                                <option value="2">2</option>
+                                                                                <option value="3">3</option>
+                                                                                <option value="4">4</option>
+                                                                                <option value="5">5</option>
+                                                                                <option value="6">6</option>
+                                                                                <option value="7">7</option>
+                                                                                <option value="8">8</option>
+                                                                                <option value="9">9</option>
+                                                                                <option value="10">10</option>
+                                                                                <option value="11">11</option>
+                                                                                <option value="12">12</option>
+                                                                            </select>
+                                                                            <label class="animated-lable" for="Month">Months</label>
+                                                                        </div>
+                                                                    </div>
 
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <input class="animated-input" name="CurrentCompany" type="text" id="CurrentCompany" />
-                                        <label class="animated-lable" for="CurrentCompany">Current Company Name <span for="CurrentCompany" style="color:red;">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <input class="animated-input" name="CurrentDesignation" type="text" id="CurrentDesignation" />
-                                        <label class="animated-lable" for="CurrentDesignation">Current Designation<span for="CurrentDesignation" style="color:red;">*</span></label>
-                                    </div>
-                                </div>
+                                                                    <div class="col-sm-6 mb-3 col-md-4">
+                                                                        <div class="animated-input-field">
+                                                                            <input class="animated-input" name="CurrentCompany" type="text" id="CurrentCompany" />
+                                                                            <label class="animated-lable" for="CurrentCompany">Current Company Name <span for="CurrentCompany" style="color:red;">*</span></label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6 mb-3 col-md-4">
+                                                                        <div class="animated-input-field">
+                                                                            <input class="animated-input" name="CurrentDesignation" type="text" id="CurrentDesignation" />
+                                                                            <label class="animated-lable" for="CurrentDesignation">Current Designation<span for="CurrentDesignation" style="color:red;">*</span></label>
+                                                                        </div>
+                                                                    </div>
 
-                                <div class="col-sm-6 mb-3 col-md-4 d-flex flex-row">
-                                    <div class="col-sm-4 col-sm-4">
-                                        <div class="animated-input-field">
-                                            <select class="animated-input" name="currency" id="currency">
-                                                <option value="Rupee" selected>Rs</option>
-                                                <option value="Dollar">$</option>
-                                            </select>
-                                            <label class="animated-lable" for="currency">Currency</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-8 col-sm-8 ">
-                                        <div class="animated-input-field">
-                                            <input class="animated-input" name="Price" type="text" id="Price" />
-                                            <label class="animated-lable" for="Price">
-                                                Price<span for="Price" style="color:red;">*</span></label>
+                                                                    <div class="col-sm-6 mb-3 col-md-4 d-flex flex-row">
+                                                                        <div class="col-sm-4 col-sm-4">
+                                                                            <div class="animated-input-field">
+                                                                                <select class="animated-input" name="currency" id="currency">
+                                                                                    <option value="Rupee" selected>Rs</option>
+                                                                                    <option value="Dollar">$</option>
+                                                                                </select>
+                                                                                <label class="animated-lable" for="currency">Currency</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-8 col-sm-8 ">
+                                                                            <div class="animated-input-field">
+                                                                                <input class="animated-input" name="Price" type="text" id="Price" />
+                                                                                <label class="animated-lable" for="Price">
+                                                                                    Price<span for="Price" style="color:red;">*</span></label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6 mb-3 col-md-4">
+                                                                        <div class="animated-input-field">
+                                                                            <select class="animated-input" name="NoticePeriod" id="NoticePeriod">
+                                                                                <option value="" selected></option>
+                                                                                <option value="1">1 year</option>
+                                                                                <option value="2">2 year</option>
+                                                                                <option value="3">3 year</option>
+                                                                                <option value="4">4 year</option>
+                                                                                <option value="5">5 year</option>
+                                                                            </select>
+                                                                            <label class="animated-lable" for="NoticePeriod">Notice
+                                                                                Period <span for="NoticePeriod" style="color:red;">*</span></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="w-100 d-inline-block">
+                                                    <button type="submit" class="btn thm-btn  float-right">Save</button>
+                                                </div> -->
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <select class="animated-input" name="NoticePeriod" id="NoticePeriod" required>
-                                            <option value="" selected></option>
-                                            <option value="1">1 year</option>
-                                            <option value="2">2 year</option>
-                                            <option value="3">3 year</option>
-                                            <option value="4">4 year</option>
-                                            <option value="5">5 year</option>
-                                        </select>
-                                        <label class="animated-lable" for="NoticePeriod">Notice
-                                            Period <span for="NoticePeriod" style="color:red;">*</span></label>
-                                    </div>
-                                </div>
-                            </div>
                             </div>
                         </div>
                     </fieldset>
@@ -738,17 +1016,120 @@ include("header.php");
         </div>
     </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const successParam = urlParams.get('success');
-
-      if (successParam === 'SUCCESS') {
-        alert('Form submitted successfully!');
-      }
-    });
-  </script>
 <!-- form end -->
 <?php
 include("footer.php");
 ?>
+
+form.js >>>>>>>>>
+
+ 
+
+$(function() {
+
+function send(form){
+   $.post($(form).attr('action'),
+          $("form#my_form").serialize(),
+          function(json){              
+            $("input[type=text],input[type=email], textarea").val("");
+            $("#exampleModal").modal();
+              /*your success code*/
+          }, "json");   
+}
+
+  // Setup form validation on the #register-form element
+  // $("#my_form").validate({
+
+  //     // Specify the validation rules
+  //     rules: {
+  //         name: "required",
+  //         message: "required",
+  //         phone: "required",
+  //         budget: "required",
+          
+  //         subject:{
+  //             required: true,
+              
+  //         },  
+  //         email: {
+  //             required: true,
+  //             email: true
+  //         },
+  //         project_brief: {
+  //             required: true,
+  //             minlength: 5
+  //         },
+  //         subject: "required"
+  //     },
+
+  //     // Specify the validation error messages
+  //     messages: {
+  //         firstname: "Please enter your first name",
+  //         lastname: "Please enter your last name",
+
+  //         project_brief: {
+  //             required: "Please provide a project_brief",
+  //             minlength: "Your password must be at least 5 characters long"
+  //         },
+  //         email: "Please enter a valid email address",
+  //         agree: "Please accept our policy"
+  //     },
+
+  //     submitHandler: function(form) {
+  //       //  form.submit();
+  //       send(form)
+  //     }
+  // });
+
+  $("#JobForm").validate({
+      rules: {
+          FirstName: "required",
+          MIddleName: "required",
+          LastName: "required",
+          CurrentAddress: "required",
+          HIghestQualification: "required",
+          PassingYear: "required",
+          Dob: "required",
+          EmployeeIn: "required",
+          Experience: "required",
+          JobTitle: "required",
+          Language: "required",
+          ImmediateJoiner: "required",
+          uploadResume: "required",
+          uploadPanCard: "required",
+          uploadAadhar: "required",
+          NonFreshersExperience:{
+              required: "#FresherChoice2:checked",
+          },
+          exampleRadios:{
+              required: "#FresherChoice2:checked",
+          },
+          TotalExperience:{
+              required: "#FresherChoice2:checked",
+          },
+          CurrentCompany:{
+              required: "#FresherChoice2:checked",
+          },
+          CurrentDesignation:{
+              required: "#FresherChoice2:checked",
+          },
+          currency:{
+              required: "#FresherChoice2:checked",
+          },
+          Price:{
+              required: "#FresherChoice2:checked",
+          },
+          NoticePeriod:{
+              required: "#FresherChoice2:checked",
+          },
+      }
+
+
+  });
+
+
+
+});
+
+
+

@@ -39,17 +39,6 @@ $(document).ready(function () {
       $("#wrap").hide({ width: "toggle" }, 700);
     });
   });
-  $(document).ready(function () {
-    $(".other").on("click", function (e) {
-      e.preventDefault();
-      $("#wrap1").animate({ width: "toggle" }, 700);
-      $(".open-call").toggleClass("opened closed");
-    });
-    $(".close-call1").click(function () {
-      $("#wrap1").hide({ width: "toggle" }, 700);
-    });
-  });
-  //menutoggler------------
 
   if ($(window).innerWidth() < 992) {
 

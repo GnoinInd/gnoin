@@ -170,9 +170,11 @@
     <script src="vendor/swiper/swiper-bundle.min.js"></script>
    <script src="./js/form.js"></script>  
    <script src="gnoinv1/jsv1/animate.js"></script>
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
    
-    <style type="text/css">
+    <!-- <style type="text/css"> -->
+    <style>
 .error{
     color: red;
 
