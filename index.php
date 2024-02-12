@@ -2,8 +2,8 @@
 
 
 //server connection
-$conn = mysqli_connect("localhost","root","","gnoin");
-// $conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
+// $conn = mysqli_connect("localhost","root","","gnoin");
+$conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
 
 
 // Create connection
