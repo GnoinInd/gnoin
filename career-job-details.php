@@ -489,7 +489,7 @@ include("header.php");
                                 </div>
                                 <div class="col-sm-6 mb-3 col-md-4">
                                     <div class="animated-input-field">
-                                        <input class="animated-input" id="MIddleName" name="MIddleName" type="text" id="MIddleName" required />
+                                        <input class="animated-input" id="MIddleName" name="MIddleName" type="text" id="MIddleName" />
                                         <label class="animated-lable" for="MIddleName">MIddle Name</label>
                                     </div>
                                 </div>
@@ -624,7 +624,7 @@ include("header.php");
                                     <div class="col-sm-6 mb-3 col-md-6">
                                         <div class="animated-input-field">
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="fullTime" checked>
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="fullTime">
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Full Time
                                                 </label>
@@ -636,7 +636,7 @@ include("header.php");
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="Internship">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="Internship" checked>
                                                 <label class="form-check-label" for="exampleRadios3">
                                                     Internship
                                                 </label>

@@ -30,7 +30,11 @@ if (isset($_POST["submit"])) {
         $result = mysqli_query($conn, $query);
 
         if ($result) {
-            echo "Data inserted successfully!";
+            ?>
+            <script>
+                alert("Data submitted successfully.");
+            </script>
+            <?php
         } else {
             echo "Error: " . $query . "<br>" . mysqli_error($conn);
         }
@@ -76,7 +80,6 @@ $conn->close();
         </section>
 
         <!-- bannaer end -->
-
         <section class="container mt-5">
             <!--Contact heading-->
             <div class="row">
@@ -256,7 +259,7 @@ $conn->close();
 
 
         <script>
-    document.getElementById("my_form").addEventListener("submit", function (e) {
+    var form = document.getElementById("my_form").addEventListener("submit", function (e) {
         const name = document.querySelector('input[name="name"]').value.trim();
         const email = document.querySelector('input[name="email"]').value.trim();
         const subject = document.querySelector('input[name="subject"]').value.trim();
@@ -269,14 +272,14 @@ $conn->close();
             alert("Please enter a valid email address.");
             e.preventDefault(); // Prevent form submission
         } else {
-            alert("Data submitted successfully.");
-            e.preventDefault(); // Prevent the page from reloading
+            // alert("Data submitted successfully.");
+            // e.preventDefault(); // Prevent the page from reloading
         }
     });
 
     function isString(value) {
-        return /^[A-Za-z\s]+$/.test(value);
-    }
+    return /^[A-Za-z\s\d\p{P}]*$/.test(value);
+}
 
     function validateEmail(email) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
