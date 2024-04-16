@@ -1,7 +1,7 @@
 <?php
 // Assuming you have a database connection established
-// $conn = mysqli_connect("localhost", "root", "", "gnoin");
-$conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
+$conn = mysqli_connect("localhost", "root", "", "gnoin");
+// $conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
 
 // Check the connection
 if ($conn->connect_error) {
@@ -61,9 +61,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES['resume']) && isset($_
     // Execute the prepared statement
     if ($stmt->execute()) {
         // Move uploaded files to a permanent location with unique names
-        move_uploaded_file($resumeTemp_name, "upload-document/" . $resumeUniqueName);
-        move_uploaded_file($panCardTemp_name, "upload-document/" . $panCardUniqueName);
-        move_uploaded_file($aadharTemp_name, "upload-document/" . $aadharUniqueName);
+        move_uploaded_file($resumeTemp_name, "../gnoin-admin/Documents/" . $resumeUniqueName);
+        move_uploaded_file($panCardTemp_name, "../gnoin-admin/Documents/" . $panCardUniqueName);
+        move_uploaded_file($aadharTemp_name,  "../gnoin-admin/Documents/" . $aadharUniqueName);
 
         echo "Record inserted successfully";
     } else {

@@ -1,24 +1,9 @@
+
 <?php
-
-
-//server connection
-// $conn = mysqli_connect("localhost","root","","gnoin");
-$conn = mysqli_connect("localhost","gnoin","Gnoin2023","gnoin");
-
-
-// Create connection
-//$conn = mysqli_connect("localhost","root","","gnoin");
-
-// Check the connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+include('databaseControl/connect.php');
 
 // $email = "";
 // $ipAddress = "";
-
-
-
 // Check if the form has been submitted
 if(isset($_POST["submit"]))
 {

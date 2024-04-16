@@ -1,6 +1,9 @@
+<?php require "./databaseControl/retrieveJobs.php";
+// var_dump($jobDetails);
+?>
 <?php
-
 include("header.php");
+$session['salaryStatus'] = 0;
 ?>
 <style>
     .hide {
@@ -30,21 +33,29 @@ include("header.php");
     <div class="container h-100 w-100">
         <div class="row">
             <div class="col-md-6 ">
-                <h1 class="pt-2 pb-2 mt-3 font_size_heding ">Channel Partner Manager</h1>
+                <h1 class="pt-2 pb-2 mt-3 font_size_heding "><?php echo $jobDetails['job_title']; ?></h1>
                 <div class="d-flex flex-column">
                     <div class="card mb-3">
                         <div class="card-body d-flex flex-column gap-2">
-                            <h5 class="career-text-para">1500 Concord Ter, Sunrise, FL 33323</h5>
+                            <!-- <h5 class="career-text-para">1500 Concord Ter, Sunrise, FL 33323</h5> -->
+                            <h5 class="career-text-para"><?php echo $jobDetails['job_subtitle']; ?></h5>
                             <div class="d-flex align-items-center justify-content-start">
                                 <img src="./images/career/icon/circle-icone.png" alt="" />
                                 <small class=" ml-2">Fair pay, according to null% of employee reviews</small>
                             </div>
-                            <div class="ctc-tect">
-                                <h5><span class="mr-2">$50,000</span> - <span class="ml-2 mr-2">$60,000</span>a year
-                                </h5>
-                            </div>
+                            <?php
+                            if ($jobDetails['salaryVisibility'] == 0) {
+                            ?>
+                                <div class="ctc-tect">
+                                    <!-- <h5><span class="mr-2">$50,000</span> - <span class="ml-2 mr-2">$60,000</span>a year -->
+                                    <span class="mr-2">₹<?php echo $jobDetails['min_salary']; ?></span> - <span class="ml-2 mr-2">₹<?php echo $jobDetails['max_salary']; ?></span>a year
+                                    </h5>
+                                </div>
+                            <?php
+                            }
+                            ?>
                             <div class="job-type">
-                                <small><strong>-Full-Time</strong></small>
+                                <small><strong>-<?php echo $jobDetails['working_mode']; ?></strong></small>
                             </div>
                             <div class="d-flex">
                                 <a class="btn btn-thm px-5 open-call-btn">Apply</a>
@@ -56,22 +67,29 @@ include("header.php");
                     <div class="card mb-3">
                         <div class="card-body d-flex flex-column gap-2">
                             <h4 class="text-strong ">Job details</h4>
-                            <div class="row flex-nowrap align-items-center  justify-content-center">
-                                <div class="col-4">
-                                    <div class="d-flex align-items-center gap-3 justify-content-start">
-                                        <img src="./images/career/icon/icon-5.png" alt="" />
-                                        <h6 class="text-strong m-0">Pay</h6>
+                            <?php
+                            if ($jobDetails['salaryVisibility'] == 0) {
+                            ?>
+                                <div class="row flex-nowrap align-items-center  justify-content-center">
+                                    <div class="col-4">
+                                        <div class="d-flex align-items-center gap-3 justify-content-start">
+                                            <img src="./images/career/icon/icon-5.png" alt="" />
+                                            <h6 class="text-strong m-0">Pay</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <p class="text-strong text-center m-0">:</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p class="m-0 bg-light d-inline-block px-2">
+                                            <!-- <span class="mr-2">$50,000</span> - <span class="ml-2 mr-2">$60,000</span>a year -->
+                                            <span class="mr-2">₹<?php echo $jobDetails['min_salary']; ?></span> - <span class="ml-2 mr-2">₹<?php echo $jobDetails['max_salary']; ?></span>a year
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="col-1">
-                                    <p class="text-strong text-center m-0">:</p>
-                                </div>
-                                <div class="col-7">
-                                    <p class="m-0 bg-light d-inline-block px-2">
-                                        <span class="mr-2">$50,000</span> - <span class="ml-2 mr-2">$60,000</span>a year
-                                    </p>
-                                </div>
-                            </div>
+                            <?php
+                            }
+                            ?>
                             <div class="row flex-nowrap align-items-center  justify-content-center">
                                 <div class="col-4">
                                     <div class="d-flex align-items-center gap-3 justify-content-start">
@@ -84,7 +102,7 @@ include("header.php");
                                 </div>
                                 <div class="col-7">
                                     <p class="m-0 bg-light d-inline-block px-2">
-                                        Full time
+                                        <?php echo $jobDetails['working_mode']; ?>
                                     </p>
                                 </div>
                             </div>
@@ -92,7 +110,7 @@ include("header.php");
                                 <div class="col-4">
                                     <div class="d-flex align-items-center gap-3 justify-content-start">
                                         <img src="./images/career/icon/icon-3.png" alt="" />
-                                        <h6 class="text-strong m-0">Shift & Schedule</h6>
+                                        <h6 class="text-strong m-0">Shift</h6>
                                     </div>
                                 </div>
                                 <div class="col-1">
@@ -100,8 +118,23 @@ include("header.php");
                                 </div>
                                 <div class="col-7">
                                     <p class="m-0">
-                                        <span class="bg-light d-inline-block px-2">10 hours shift</span>
-                                        <span class="bg-light d-inline-block px-2 ml-2 ">Monday to Saturday</span>
+                                        <span class="bg-light d-inline-block px-2"><?php echo $jobDetails['time_shift']; ?></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row flex-nowrap align-items-center  justify-content-center">
+                                <div class="col-4">
+                                    <div class="d-flex align-items-center gap-3 justify-content-start">
+                                        <img src="./images/career/icon/icon-3.png" alt="" />
+                                        <h6 class="text-strong m-0">Schedule</h6>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <p class="text-strong text-center m-0">:</p>
+                                </div>
+                                <div class="col-7">
+                                    <p class="m-0">
+                                        <span class="bg-light d-inline-block px-2">Monday to Saturday</span>
                                     </p>
                                 </div>
                             </div>
@@ -117,9 +150,7 @@ include("header.php");
                                 </div>
                                 <div class="col-7">
                                     <p class="m-0 bg-light text-start d-inline-block px-2">
-                                        Astra Towers, ASO 432, 4th Floor, South Block,
-                                        Action Area 2C,New Town, Rajarhat, Kolkata,
-                                        West Bengal - 700161
+                                        <?php echo $jobDetails['location']; ?>
                                     </p>
                                 </div>
                             </div>
@@ -127,7 +158,7 @@ include("header.php");
 
                         </div>
                     </div>
-                    <div class="card mb-3">
+                    <!-- <div class="card mb-3">
                         <div class="card-body d-flex flex-column gap-2">
                             <div class="d-flex flex-column align-items-start justify-content-center">
                                 <h4 class="text-strong m-0">Benefits</h4>
@@ -145,7 +176,7 @@ include("header.php");
                                 <a class="btn career-benffit-tag">Pay</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -192,7 +223,7 @@ include("header.php");
                     </div>
                     <div class="col-md-7">
                         <div class="d-flex p-1 p-md-4 flex-column justify-content-center align-items-start">
-                            <p class="career-text-para">Gnoin is looking for a full-time, Channel Partner Manager
+                            <!-- <p class="career-text-para">Gnoin is looking for a full-time, Channel Partner Manager
                                 focused on generating and expanding partnership opportunities. This individual will be
                                 responsible for partner engagement, pursuing additional opportunities with existing
                                 partners, and creating strategic alliances to create new partners. Partners and their
@@ -200,6 +231,8 @@ include("header.php");
                                 will ultimately be accountable for growth via our partnership channels. This position
                                 requires a motivated, self-starter with sales knowledge, plus strong analytical and
                                 interpersonal skills.
+                            </p> -->
+                            <p class="career-text-para"><?php echo $jobDetails['description']; ?>
                             </p>
                         </div>
                     </div>
@@ -314,29 +347,16 @@ include("header.php");
                             <div class="h-100"><img class="h-100" src="./images/career/image/career-image-8.png " alt="" /></div>
                         </div>
                         <div class="col-md-7">
-                            <ul class=" p-md-4 m-0">
-                                <li class="career-list-wrapper">Strong background in building trusted relationships with
-                                    external entities.</li>
-                                <li class="career-list-wrapper">Excellent written and verbal communication skills.</li>
-                                <li class="career-list-wrapper">Strong background in building trusted relationships with
-                                    external entities.</li>
-                                <li class="career-list-wrapper">Excellent project management, organization, time
-                                    management and problem-solving skills.</li>
-                                <li class="career-list-wrapper">Strong background in building trusted relationships with
-                                    external entities.</li>
-                                <li class="career-list-wrapper">Strong background in building trusted relationships with
-                                    external entities.</li>
-                                <li class="career-list-wrapper">Excellent project management, organization, time
-                                    management and problem-solving skills.</li>
-                                <li class="career-list-wrapper">Strong background in building trusted relationships with
-                                    external entities.</li>
-                                <li class="career-list-wrapper">Strong background in building trusted relationships with
-                                    external entities.</li>
+                            <ul class=" p-md-4 m-0"><?php
+                                                    $skillsArray = explode(',', $jobDetails['skills']);
+                                                    foreach ($skillsArray as $skill) {
+                                                        echo '<li class="career-list-wrapper">' . $skill . '</li>';
+                                                    }
+                                                    ?>
                             </ul>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -353,12 +373,18 @@ include("header.php");
                     <div class="row  px-md-4 m-0">
                         <div class="col-sm-9">
                             <ul class="p-md-4 p-2">
-                                <li class="career-list-wrapper">Bachelor’s Degree Required</li>
+                                <!-- <li class="career-list-wrapper">Bachelor’s Degree Required</li>
                                 <li class="career-list-wrapper">Two (2) years of experience at a minimum in Sales,
                                     Relationship Management, or Partnerships</li>
                                 <li class="career-list-wrapper">Willing and able to travel (5%) attending Partner
                                     Conferences, Summits, and Partner Trade Shows.
-                                </li>
+                                </li> -->
+                                <?php
+                                $QualificationArray = explode(',', $jobDetails['qualification']);
+                                foreach ($QualificationArray as $qualification) {
+                                    echo '<li class="career-list-wrapper">' . $qualification . '</li>';
+                                }
+                                ?>
                             </ul>
                         </div>
                         <div class="col-sm-3">
@@ -645,87 +671,87 @@ include("header.php");
                                     </div>
                                 </div>
                                 <div class="row w-100">
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <select class="animated-input" name="TotalExperience" id="TotalExperience">
-                                            <option value="" selected></option>
-                                            <option value="1">1 year</option>
-                                            <option value="2">2 year</option>
-                                            <option value="3">3 year</option>
-                                            <option value="4">4 year</option>
-                                            <option value="5">5 year</option>
-                                        </select>
-                                        <label class="animated-lable" for="TotalExperience">Total
-                                            Experience</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <select class="animated-input" name="Month" id="Month">
-                                            <option value="" selected></option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
-                                            <option value="11">11</option>
-                                            <option value="12">12</option>
-                                        </select>
-                                        <label class="animated-lable" for="Month">Months</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <input class="animated-input" name="CurrentCompany" type="text" id="CurrentCompany" />
-                                        <label class="animated-lable" for="CurrentCompany">Current Company Name <span for="CurrentCompany" style="color:red;">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <input class="animated-input" name="CurrentDesignation" type="text" id="CurrentDesignation" />
-                                        <label class="animated-lable" for="CurrentDesignation">Current Designation<span for="CurrentDesignation" style="color:red;">*</span></label>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6 mb-3 col-md-4 d-flex flex-row">
-                                    <div class="col-sm-4 col-sm-4">
+                                    <div class="col-sm-6 mb-3 col-md-4">
                                         <div class="animated-input-field">
-                                            <select class="animated-input" name="currency" id="currency">
-                                                <option value="Rupee" selected>Rs</option>
-                                                <option value="Dollar">$</option>
+                                            <select class="animated-input" name="TotalExperience" id="TotalExperience">
+                                                <option value="" selected></option>
+                                                <option value="1">1 year</option>
+                                                <option value="2">2 year</option>
+                                                <option value="3">3 year</option>
+                                                <option value="4">4 year</option>
+                                                <option value="5">5 year</option>
                                             </select>
-                                            <label class="animated-lable" for="currency">Currency</label>
+                                            <label class="animated-lable" for="TotalExperience">Total
+                                                Experience</label>
                                         </div>
                                     </div>
-                                    <div class="col-sm-8 col-sm-8 ">
+                                    <div class="col-sm-6 mb-3 col-md-4">
                                         <div class="animated-input-field">
-                                            <input class="animated-input" name="Price" type="text" id="Price" />
-                                            <label class="animated-lable" for="Price">
-                                                Price<span for="Price" style="color:red;">*</span></label>
+                                            <select class="animated-input" name="Month" id="Month">
+                                                <option value="" selected></option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                            <label class="animated-lable" for="Month">Months</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 mb-3 col-md-4">
+                                        <div class="animated-input-field">
+                                            <input class="animated-input" name="CurrentCompany" type="text" id="CurrentCompany" />
+                                            <label class="animated-lable" for="CurrentCompany">Current Company Name <span for="CurrentCompany" style="color:red;">*</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mb-3 col-md-4">
+                                        <div class="animated-input-field">
+                                            <input class="animated-input" name="CurrentDesignation" type="text" id="CurrentDesignation" />
+                                            <label class="animated-lable" for="CurrentDesignation">Current Designation<span for="CurrentDesignation" style="color:red;">*</span></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 mb-3 col-md-4 d-flex flex-row">
+                                        <div class="col-sm-4 col-sm-4">
+                                            <div class="animated-input-field">
+                                                <select class="animated-input" name="currency" id="currency">
+                                                    <option value="Rupee" selected>Rs</option>
+                                                    <option value="Dollar">$</option>
+                                                </select>
+                                                <label class="animated-lable" for="currency">Currency</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-8 col-sm-8 ">
+                                            <div class="animated-input-field">
+                                                <input class="animated-input" name="Price" type="text" id="Price" />
+                                                <label class="animated-lable" for="Price">
+                                                    Price<span for="Price" style="color:red;">*</span></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mb-3 col-md-4">
+                                        <div class="animated-input-field">
+                                            <select class="animated-input" name="NoticePeriod" id="NoticePeriod" required>
+                                                <option value="" selected></option>
+                                                <option value="1">1 year</option>
+                                                <option value="2">2 year</option>
+                                                <option value="3">3 year</option>
+                                                <option value="4">4 year</option>
+                                                <option value="5">5 year</option>
+                                            </select>
+                                            <label class="animated-lable" for="NoticePeriod">Notice
+                                                Period <span for="NoticePeriod" style="color:red;">*</span></label>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6 mb-3 col-md-4">
-                                    <div class="animated-input-field">
-                                        <select class="animated-input" name="NoticePeriod" id="NoticePeriod" required>
-                                            <option value="" selected></option>
-                                            <option value="1">1 year</option>
-                                            <option value="2">2 year</option>
-                                            <option value="3">3 year</option>
-                                            <option value="4">4 year</option>
-                                            <option value="5">5 year</option>
-                                        </select>
-                                        <label class="animated-lable" for="NoticePeriod">Notice
-                                            Period <span for="NoticePeriod" style="color:red;">*</span></label>
-                                    </div>
-                                </div>
-                            </div>
                             </div>
                         </div>
                     </fieldset>
@@ -740,14 +766,14 @@ include("header.php");
 </div>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const successParam = urlParams.get('success');
+        const urlParams = new URLSearchParams(window.location.search);
+        const successParam = urlParams.get('success');
 
-      if (successParam === 'SUCCESS') {
-        alert('Form submitted successfully!');
-      }
+        if (successParam === 'SUCCESS') {
+            alert('Form submitted successfully!');
+        }
     });
-  </script>
+</script>
 <!-- form end -->
 <?php
 include("footer.php");
