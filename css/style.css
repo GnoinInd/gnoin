@@ -204,7 +204,7 @@ a:focus {
 .navbar-light .navbar-nav .nav-link::after {
   content: "";
   position: absolute;
-  background-color: yellow;
+  background-color: White;
   height: 3px;
   width: 0;
   left: 0;
@@ -214,7 +214,7 @@ a:focus {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: yellow !important;
+  color: White !important;
 
 }
 
@@ -2143,7 +2143,7 @@ hr.style-one {
 }
 
 .site-footer__links a:hover {
-  color: yellow;
+  color: White;
 }
 
 .site-footer__links li+li::before {
@@ -2186,7 +2186,7 @@ hr.style-one {
 }
 
 .footer-widget__text a:hover {
-  color: yellow !important;
+  color: White !important;
 }
 
 .footer-widget__text+.footer-widget__text {
@@ -2271,7 +2271,7 @@ hr.style-one {
 }
 
 .footer-widget__links a:hover {
-  color: yellow !important;
+  color: White !important;
   ;
   -webkit-transform: translateX(20px);
   transform: translateX(20px);
@@ -2310,7 +2310,7 @@ hr.style-one {
   display: flex;
   align-items: end;
   justify-content: center;
-  height: 65vh;
+  height: 50vh;
 }
 
 .inner-banner::before {
@@ -2361,12 +2361,12 @@ hr.style-one {
 
 .inner-banner__content-wrap p {
   font-family: Barlow;
-  font-size: 28px;
-  font-weight: 600;
-  line-height: 38px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 35px;
   letter-spacing: 0em;
   text-align: center;
-  color: #FFCD1D;
+  color: white;
 
 }
 

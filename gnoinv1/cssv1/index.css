@@ -554,6 +554,7 @@
 
 .custom_card_design2 .card-text {
     color: #ffffff !important;
+    font-size:12px;
 }
 
 
@@ -1370,7 +1371,7 @@
     }
 
     .new_banner_txtColor {
-        color: yellow;
+        color: white;
         width: 100%;
         text-align: left;
     }
@@ -1617,7 +1618,7 @@ body {
 
 
 .new_banner_txtColor {
-    color: yellow;
+    color: white;
     width: 65%;
     text-align: left;
 }
@@ -1726,7 +1727,7 @@ body {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: yellow;
+    background-color: White;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -1752,7 +1753,7 @@ body {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: yellow;
+    background-color: White;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }

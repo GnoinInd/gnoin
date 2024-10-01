@@ -67,14 +67,7 @@
                             <span class="me-3 px-1"><i class="fa fa-phone me-1 text-primary"></i> <strong> +91- (33)
                                     48040710</strong></span>
                             <span class=" p-1 d-none p-1 d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><i class="fa fa-mobile  text-primary me-1 "></i> <strong>+91-9888337791</strong></span>
-                            <span class="d-none px-2 d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><a href="#"><i class="fa fa-facebook-f text-primary me-1"></i></a></span>
-                            <span class="d-none px-2 d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><a href="#"><i class="fa fa-twitter text-primary me-1"></i></a></span>
-                            <span class="d-none px-2 d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><a href="#"><i class="fa fa-instagram text-primary me-1"></i></a></span>
-                            <span class="d-none px-2 d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><a href="#"><i class="fa fa-linkedin text-primary me-1"></i></a></span>
-                            <select class="me-3 px-1 border-0 bg-light">
-                                <option value="en-us">EN-IN</option>
-                            </select>
-
+                            
                         </div>
 
 

@@ -69,6 +69,7 @@ include("header.php");
                     <p class="new_banner_txtColor mt-3 mb-3 ">
                         Transforming industries with
                         AI-Powered Custom Software Solutions
+
                     </p>
                     <div class="caraousel_btn mt-4">
                         <a href="contact.php" class="btn-custom ">Let's Start Talk</a>
@@ -195,10 +196,10 @@ include("header.php");
                     <h6 class="card-subtitle card-secondary mb-2 text-body-secondary">Industry Experience To Address
                         Your Challenges.</h6>
 
-                    <p class="card-text">Gnoin Pvt. Ltd. is a global web and mobile app development company. We partner
+                    <p class="card-text" style="font-size:16px">Gnoin Pvt. Ltd. is a global web and mobile app development company. We partner
                         with customers of all sizes to build highly innovative solutions, customizations and products
                         across technology platforms by leveraging cutting edge technologies.</p>
-                    <p class="card-text"> We provide high end technology solutions to help businesses realize their
+                    <p class="card-text" style="font-size:16px; font-weight:bold"> We provide high end technology solutions to help businesses realize their
                         maximum potential.</p>
 
                     <div class="cardbtn d-flex justify-content-start align-items-center">
